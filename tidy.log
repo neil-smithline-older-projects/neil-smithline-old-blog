@@ -548,6 +548,10 @@ Warning: adjacent hyphens within comment
 line 194 column 17 - Warning: missing </div>
 line 191 column 9 - Warning: missing </div>
 line 40 column 1 - Warning: missing </div>
+line 186 column 286 - Warning: <a> escaping malformed URI reference
+line 186 column 366 - Warning: <a> escaping malformed URI reference
+line 186 column 443 - Warning: <a> escaping malformed URI reference
+line 186 column 523 - Warning: <a> escaping malformed URI reference
 line 364 column 128 - Warning: <a> escaping malformed URI reference
 line 545 column 1 - Warning: <table> lacks "summary" attribute
 line 567 column 1 - Warning: <table> lacks "summary" attribute
@@ -562,7 +566,7 @@ line 568 column 1 - Warning: trimming empty <caption>
 line 1013 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-29 warnings, 0 errors were found!
+33 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
