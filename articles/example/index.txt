@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.3.6), see www.w3.org" />
+<meta http-equiv="Content-Type" content=
+"text/html; charset=utf-8" />
+<meta name="generator" content="NanoBlogger 3.5-RC1" />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="31 days" />
+<title>Example Article | My Geekdom</title>
+<link rel="stylesheet" href="../../styles/nb_default.css" type=
+"text/css" media="all" />
+<link rel="stylesheet" href="../../styles/print.css" type=
+"text/css" media="print" />
+<link rel="shortcut icon" href="../../images/favicon.ico" />
+<link rel="alternate" type="application/atom+xml" title="Atom 1.0"
+href="../../atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0"
+href="../../rss.xml" />
+</head>
+<body>
+<div id="banner">
+<h1><a href="../../index.txt" accesskey="1">My Geekdom</a></h1>
+<span class="description">Ramblings about my nerdy
+pursuits.</span></div>
+<!-- /banner div -->
+<div id="container">
+<div class="archives"><a id="top"></a>
+<h2>Example Article</h2>
+<div id="menu"><a href="../../index.txt">Main</a></div>
+<div class="blogbody">
+<p>This is an example article created by the default articles
+plugin, which is a plugin that acts like a conduit for adding
+additional content to your weblog. The plugin works by scanning the
+<em>articles</em> directory for files ending with ".txt" that are
+new or have been recently modified and refreshes the articles
+accordingly.</p>
+<p>New articles can easily be created using the <code>add
+article</code> action.</p>
+<pre>
+nb [--title 'Example Article'] add article
+</pre>
+<p>New articles can also be created manually using the <code>draft,
+query</code> and <code>update</code> actions.</p>
+<pre>
+nb draft [blog_dir]articles/example.txt
+nb update main [publish]
+</pre>
+To remove an article simply rename it's suffix to something other
+than ".txt" or remove it from the <em>articles</em> directory ...
+... followed by a quick:
+<pre>
+nb update main [publish]
+</pre>
+<p>View this article's <a href="../example.txt">meta-file</a>.</p>
+</div>
+<div class="menu"><a href="#top">/\</a></div>
+</div>
+<!-- /archives --></div>
+<!-- /container -->
+</body>
+</html>

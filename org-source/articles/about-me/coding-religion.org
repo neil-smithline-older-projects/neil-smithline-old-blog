@@ -1,0 +1,47 @@
+
+This Title Is Ignored
+
+#+BEGIN_HTML
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  My Coding Religion
+DESC:   S
+DATE:   2012-01-23 Mon 23:40:34
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+#+END_HTML
+
+* Technical Religious Beliefs
+Individuals, teams, companies, and even cross-company development projects such as a 3^rd-party implementing a plug-in should be produced in the most efficient, reusable, and maintainable manner. This includes:
+- Reusing or adding parameters to code rather than copying-and-pasting.
+- Applications should strictly enforce boundaries based on layering, packages, objects, etc...
+- The use of appropriate tools, interaction models, programming languages, documentation practices, and other technical choices.
+- Most importantly, business requirements should be made with full knowledge of the technical cost and take precedence over technical best-practices.
+
+#+BEGIN_HTML
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+#+END_HTML
+
+<!-- GNU EMACS METADATA --
+--
+-- This must be near the end of the file for Emacs to find it.
+--
+-- Local Variables:
+-- org-export-nb-id:     "articles/about-me/coding-religion"
+-- org-export-nb-tags:   "misc"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+

@@ -1,0 +1,93 @@
+
+This Title Is Ignored
+
+#+BEGIN_HTML
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  Track Your Nerdiness With Google
+DESC:   An unusual interpretation of Google's search statistics.
+DATE:   2012-01-21 Sat 19:50:17
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+#+END_HTML
+As you've likely heard, [[http://google.com][Google]] keeps a fair amount of stats about its users. You can see some of these statistics at https://www.google.com/history/trends. I have most of the stat tracking disabled but Google still tracks my searches.
+
+While not perfect, my usage of Google roughly correlates with my computer usage. This is Google's record of what time of day I use Google:
+[[/uploads/images/GoogleTrends.png]]
+
+I like to think of this pattern of usage as the unemployed nerd, single-parent usage model. My most sustained computer use is 9 or 10pm until 3am. That's the time after my kids go to bed and before I go to sleep.
+
+I assume you can guess my sleep hours from the table. If you're wondering how I get by on such little sleep, the answer is I like to take a 20-60 minute nap. Typically, this works best for me between 2 and 5pm. 
+
+Being I tend to have a late breakfast, I lunch mid-afternoon and dinner late evening. That is seen by the 2pm and 8pm dips in usage as those are my meal times. While my Google searches drop at these times, I frequently am online, reading articles that I've queued up for reading later (ie: when I'm using my hands to eat and not type).
+
+As I try to spend the evenings with my kids, there's a dip in the 7-9pm range.
+
+My personal favorite is the 7am block with only a single Google search. Either I'm asleep at 7am or up for a special activity. Please note that /special/ doesn't necessarily mean I'm enjoying the activity, just that it is atypical.
+
+To go along with my nerdy computer usage hours, Google also lists the top 10 sites I've accessed:
+  # http://en.wikipedia.org
+  # http://help.ubuntu.com
+  # http://www.google.com
+  # http://forum.xda-developers.com
+  # http://www.emacswiki.org
+  # http://code.google.com
+  # http://ubuntuforums.org
+  # http://www.apple.com
+  # http://stackoverflow.com
+  # http://www.amazon.com
+
+If you exclude the [[http://en.wikipedia.org][Wikipedia]], [[http://google.com][Google]], and [[http://amazon.com][Amazon]] as general utility sites, then the remaining 7 sites are pretty hard-core nerd. One could argue that [[http://apple.com][Apple]] is not a nerd site, but the parts of it that I frequented were.
+
+  # [[http://google.com/search?q=disable unity][disable unity]]
+  # [[http://google.com/search?q=ext4 macosx][ext4 macosx]]
+  # [[http://google.com/search?q=dumpkeys][dumpkeys]]
+  # [[http://google.com/search?q=partition magic][partition magic]]
+  # [[http://google.com/search?q=macosx usb filesystems][macosx usb filesystems]]
+  # [[http://google.com/search?q=gpt mbr macosx rescue][gpt mbr macosx rescue]]
+  # [[https://help.ubuntu.com/search.html?cof=FORID%3A9&cx=003883529982892832976%3Ae2vwumte3fq&ie=UTF-8&q=iso-scan&sa=Search][https://help.ubuntu.com/11.04/index.html "iso-scan"]] (this is a [[http://www.google.com/cse/][Google Custom Search]] for the [[http://ubuntu.com][Ubuntu 11.04]] documentation)
+  # [[http://google.com/search?q=cocoadialog][cocoadialog]]
+  # [[http://google.com/search?q=nih rickets][nih rickets]]
+  # [[http://google.com/search?q=mythbuntu backend-setup h][mythbuntu backend-setup hangs]]
+
+Here a full nine out of ten are nerd searches. The only exception is number 9 and that goes to the single-parent portion of the profile. These searches were due to me having a very ill son and, like a true nerd-parent, me extensively researching what was making him ill.
+
+Lastly, it gives the 10 pages I've accessed from Google searches:
+  # [[https://help.ubuntu.com/community/MactelSupportTeam/AppleIntelInstallation][MactelSupportTeam/AppleIntelInstallation - Community Ubuntu Documentation]]
+  # [[http://www.ubuntu.com/download/ubuntu/download&amp][Download | Ubuntu]]
+  # [[https://wiki.ubuntu.com/Grub2&amp;ei=jWwbT9HiOYXqwgXb-enNAw][Grub2 - Ubuntu Wiki]]
+  # <a title="Google Custom Search - Site search and more" href="/history/url?url=http://www.google.com/cse/&amp;ei=jWwbT9HiOYXqwgXb-enNAw&amp;sig2=265R1Z4F4L-wfqpY_23N7Q&amp;ct=top_c"><nobr>Google Custom Search - Site search and more</nobr></a>
+  # [[http://xquartz.macosforge.org/][XQuartz]]
+  # [[http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001384/][Rickets - PubMed Health]]
+  # <a title="Rickets: MedlinePlus Medical Encyclopedia" href="/history/url?url=http://www.nlm.nih.gov/medlineplus/ency/article/000344.htm&amp;ei=jWwbT9HiOYXqwgXb-enNAw&amp;sig2=ArMJGjGwUmGrR-ZdM-T8qA&amp;ct=top_c"><nobr>Rickets: MedlinePlus Medical Encyclopedia</nobr></a>
+  # <a title="ext4 - Wikipedia, the free encyclopedia" href="/history/url?url=http://en.wikipedia.org/wiki/Ext4&amp;ei=jWwbT9HiOYXqwgXb-enNAw&amp;sig2=7kQPY0HE_adcoOZtK-_gbA&amp;ct=top_c"><nobr>ext4 - Wikipedia, the free encyclopedia</nobr></a>
+  # <a title="Blacktree" href="/history/url?url=http://www.blacktree.com/&amp;ei=jWwbT9HiOYXqwgXb-enNAw&amp;sig2=WcOoVuJODnqVpnOv9pujkQ&amp;ct=top_c"><nobr>Blacktree</nobr></a>
+  # <a title="rEFIt - An EFI Boot Menu and Toolkit" href="/history/url?url=http://refit.sourceforge.net/&amp;ei=jWwbT9HiOYXqwgXb-enNAw&amp;sig2=Y8sxjIVpHFWuz0KBE1ouTg&amp;ct=top_c"><nobr>rEFIt - An EFI Boot Menu and 
+
+#+BEGIN_HTML
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+#+END_HTML
+
+<!-- GNU EMACS METADATA --
+--
+-- This must be near the end of the file for Emacs to find it.
+--
+-- Local Variables:
+-- org-export-nb-id:     "2012-01-21T19_50_17"
+-- org-export-nb-tags:   "misc"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+

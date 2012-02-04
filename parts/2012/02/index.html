@@ -1,0 +1,54 @@
+<div class="item"> <!-- FILE: month_entry.htm -->
+	<a id="e2012-02-01T20_40_51.txt"></a>
+	<h2 class="date">2012-02-01 Wed 20:40:51</h2>
+	<div class="blogbody">
+		<h3 class="title">Nastiest Hack I've Seen In Awhile</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+I was reading about <a href="http://code.google.com/p/android-scripting">SL4A</a>, also known as <a href="http://android.com">Android</a> <a href="http://en.wikipedia.org/wiki/Scripting_language">Scripting Languages</a>. They are a set of <a href="http://en.wikipedia.org/wiki/Quick_and_dirty">quick-and-dirty</a> ports of programming languages to the Android that interact with the Android <a href="http://en.wikipedia.org/wiki/Operating_system">OS</a>. I just stumbled upon this "<a href="http://code.google.com/p/android-scripting/issues/detail?id=184">issue page</a>" (it's more like a <a href="http://en.wikipedia.org/wiki/Internet_forum">forum</a> than a bug report). 
+</p>
+<p>
+The developer is trying to run something on his Android, which is basically <a href="http://en.wikipedia.org/wiki/Linux">Linux</a>, that requires <a href="http://en.wikipedia.org/wiki/Superuser">superuser</a> permissions. As the responses started to build upon each other, one user suggested starting his shell script with the following lines (the actual posting was in Android's flavor of <a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> but I've converted it to <a href="http://linux.die.net/man/1/su">bash(1)</a> to make it more accessible):
+</p>
+
+
+
+<pre class="example">#!/bin/sh
+if [ "$USER" != "root" ]; then
+    exec sudo $SHELL -c "`cat /proc/$$/cmdline | tr '\000' ' '`" root
+fi
+</pre>
+
+
+<p>
+I simply couldn't help being entertained at how revolting yet simply brilliant that code is. I hate when I run a command and it behaves stupidly because I didn't run it as the correct user. For example, this is the output of running <a href="http://linux.die.net/man/8/apt-get">apt-get(8)</a> without proper permission:
+</p>
+
+
+
+<pre class="example">$ apt-get install foobar
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+</pre>
+
+
+<p>
+So I have to rerun the command with <a href="http://linux.die.net/man/8/sudo">sudo(8)</a>? I guess that makes sense in some situations but it grates on my nerves. Including the above lines in your shell scripts will automatically run commands as root when you need root privileges. It will also do this without bypassing the security of sudo. That is, if you don't have permission to run a command with sudo, then this won't help.
+</p>
+<p>
+Despite the plain hackery of the above code, I expanded upon it, making it a full shell script utility. You can look the code or grab a copy at my <a href="https://github.com">GitHub</a> <a href="https://github.com/Neil-Smithline">page</a> in the <a href="https://github.com/Neil-Smithline/rerunasroot">rerunasroot</a> repository.
+</p>
+		</div>
+	</div>
+
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="../../../archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html">Permanent link</a>
+| File under: <!-- coding --><a href="../../../archives/coding/index.html">coding</a>
+<!-- <br /><a href="../../../archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html#comments">Comments</a> -->
+	</div>
+</div>

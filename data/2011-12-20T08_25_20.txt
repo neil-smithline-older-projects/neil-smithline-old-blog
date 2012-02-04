@@ -1,0 +1,47 @@
+
+
+
+
+TITLE:      Unix Reference: Add User To A Group 
+AUTHOR:     Neil Smithline
+DATE:       Tue Dec 20 08:27:38 EST 2011
+DESC:       Add an existing user to one or more existing groups
+FORMAT:     raw
+-----
+BODY:
+
+
+<p>
+<a href="http://linux.die.net/man/8/usermod">usermod</a> -a -G GID1,GID2,&hellip;GIDn USERNAME
+</p>
+<ul>
+<li>
+USERNAME must already exist
+</li>
+<li>
+The one or more GIDs must already exist
+</li>
+<li>
+Omitting the <i>-a</i> will first remove the user from all groups except their login group and then add them to groups GIDs.
+
+
+
+
+
+<!-- For GNU Emacs
+--
+-- Local Variables:
+-- org-export-nb-id:      "2011-12-20T08_25_20"
+-- org-export-nb-tags:  "unix-reference,reference"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+
+END-----
+
+
+</li>
+</ul>

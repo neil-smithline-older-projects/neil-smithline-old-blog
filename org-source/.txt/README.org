@@ -1,0 +1,8 @@
+README
+
+* WTF Is This File?
+This is the README file for the /.txt/ or /.html/ directory. Duh! :-)
+
+* WTF Is This Directory?
+Better question. Emacs' NanoBlogger org mode exports /.html/ files as /.txt/ files. If things go wrong, sometimes the files are exported with the incorrect name of just /.txt/, or even /.html/, rather than /myfile.txt/. Being you cannot overwrite a directory with a file, this directory will cause Emacs' NanoBlogger code to produce an error rather than generate a file named /.txt/ or /.html/.
+

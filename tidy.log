@@ -1,0 +1,580 @@
+
+tidy validating /Volumes/HOME/neil/www-nb/atom.xml:
+
+line 191 column 8 - Error: unexpected </em> in <p>
+line 352 column 1 - Error: unexpected </content> in <div>
+line 354 column 1 - Error: unexpected </entry> in <div>
+Warning: adjacent hyphens within comment
+line 506 column 1 - Error: unexpected </div> in <li>
+line 507 column 1 - Error: unexpected </content> in <li>
+line 509 column 1 - Error: unexpected </entry> in <li>
+3 warnings, 7 errors were found! Not all warnings/errors were shown.
+
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/rss.xml:
+
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/articles/example/index.html:
+
+line 64 column 1 - Warning: inserting implicit <p>
+line 64 column 1 - Warning: trimming empty <p>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+2 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/sync-software/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/software/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/nanoblogger/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/reference/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/unix-reference/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/online-freedom/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/misc/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/litigious-trio/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/coding/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/index.html:
+
+line 220 column 1 - Warning: missing </em> before <p>
+line 221 column 1 - Warning: inserting implicit <em>
+line 221 column 1 - Warning: missing </em> before <p>
+line 222 column 1 - Warning: inserting implicit <em>
+line 222 column 1 - Warning: missing </em> before <p>
+line 223 column 8 - Warning: discarding unexpected </em>
+line 226 column 1 - Warning: inserting implicit <p>
+line 105 column 17 - Warning: missing </div>
+line 103 column 9 - Warning: missing </div>
+line 33 column 1 - Warning: missing </div>
+line 173 column 128 - Warning: <a> escaping malformed URI reference
+line 344 column 1 - Warning: <table> lacks "summary" attribute
+line 366 column 1 - Warning: <table> lacks "summary" attribute
+line 220 column 1 - Warning: trimming empty <em>
+line 221 column 1 - Warning: trimming empty <em>
+line 220 column 7 - Warning: trimming empty <p>
+line 223 column 1 - Warning: trimming empty <p>
+line 226 column 1 - Warning: trimming empty <p>
+line 345 column 1 - Warning: trimming empty <caption>
+line 367 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+20 warnings, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/index.html:
+
+Warning: adjacent hyphens within comment
+line 232 column 1 - Warning: missing </ul> before </div>
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+line 504 column 6 - Warning: <table> lacks "summary" attribute
+line 505 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Strict
+9 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/man_vs_beast/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html:
+
+line 84 column 128 - Warning: <a> escaping malformed URI reference
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+1 warning, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/09/cool_animation/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/05/stop_ptsd_support_the_wikipedia/index.html:
+
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 65 column 1 - Warning: missing </em> before <p>
+line 66 column 1 - Warning: inserting implicit <em>
+line 66 column 1 - Warning: missing </em> before <p>
+line 67 column 1 - Warning: inserting implicit <em>
+line 67 column 1 - Warning: missing </em> before <p>
+line 68 column 8 - Warning: discarding unexpected </em>
+line 71 column 1 - Warning: inserting implicit <p>
+line 57 column 1 - Warning: missing </div>
+line 36 column 9 - Warning: missing </div>
+line 34 column 1 - Warning: missing </div>
+line 6 column 1 - Warning: <meta> proprietary attribute "just"
+line 6 column 1 - Warning: <meta> proprietary attribute "campaign"
+line 6 column 1 - Warning: <meta> proprietary attribute "to"
+line 6 column 1 - Warning: <meta> proprietary attribute "encourage"
+line 6 column 1 - Warning: <meta> proprietary attribute "people"
+line 6 column 1 - Warning: <meta> proprietary attribute "to"
+line 6 column 1 - Warning: <meta> proprietary attribute "sponsor"
+line 6 column 1 - Warning: <meta> proprietary attribute "the"
+line 189 column 1 - Warning: <table> lacks "summary" attribute
+line 211 column 1 - Warning: <table> lacks "summary" attribute
+line 65 column 1 - Warning: trimming empty <em>
+line 66 column 1 - Warning: trimming empty <em>
+line 65 column 7 - Warning: trimming empty <p>
+line 68 column 1 - Warning: trimming empty <p>
+line 71 column 1 - Warning: trimming empty <p>
+line 190 column 1 - Warning: trimming empty <caption>
+line 212 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+29 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/28/the_litigious_trio/index.html:
+
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 6 column 1 - Warning: <meta> unexpected or duplicate quote mark
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 6 column 1 - Warning: <meta> proprietary attribute "rather"
+line 6 column 1 - Warning: <meta> proprietary attribute "than"
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+5 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/20/unix_reference_add_user_to_a_group/index.html:
+
+Warning: adjacent hyphens within comment
+line 65 column 1 - Warning: missing </ul> before </div>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+2 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/15/sparkleshare_maybe_an_open_privately_hosted_dropbox_alternative/index.html:
+
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/11/sopa_the_end_of_free_speech/index.html:
+
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/got_tags_working_manually/index.html:
+
+Warning: adjacent hyphens within comment
+line 70 column 6 - Warning: <table> lacks "summary" attribute
+line 71 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+3 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/seems_it_really_works/index.html:
+
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/my_new_blogging_technology/index.html:
+
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index.html:
+
+line 381 column 1 - Warning: missing </em> before <p>
+line 382 column 1 - Warning: inserting implicit <em>
+line 382 column 1 - Warning: missing </em> before <p>
+line 383 column 1 - Warning: inserting implicit <em>
+line 383 column 1 - Warning: missing </em> before <p>
+line 384 column 8 - Warning: discarding unexpected </em>
+line 387 column 1 - Warning: inserting implicit <p>
+Warning: adjacent hyphens within comment
+line 685 column 1 - Warning: missing </ul> before </div>
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+line 203 column 17 - Warning: missing </div>
+line 200 column 9 - Warning: missing </div>
+line 40 column 1 - Warning: missing </div>
+line 324 column 128 - Warning: <a> escaping malformed URI reference
+line 505 column 1 - Warning: <table> lacks "summary" attribute
+line 527 column 1 - Warning: <table> lacks "summary" attribute
+line 972 column 6 - Warning: <table> lacks "summary" attribute
+line 381 column 1 - Warning: trimming empty <em>
+line 382 column 1 - Warning: trimming empty <em>
+line 381 column 7 - Warning: trimming empty <p>
+line 384 column 1 - Warning: trimming empty <p>
+line 387 column 1 - Warning: trimming empty <p>
+line 506 column 1 - Warning: trimming empty <caption>
+line 528 column 1 - Warning: trimming empty <caption>
+line 973 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+29 warnings, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium

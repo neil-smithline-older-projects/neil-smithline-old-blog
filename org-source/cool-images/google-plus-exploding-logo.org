@@ -1,0 +1,44 @@
+
+This Title Is Ignored
+
+#+BEGIN_HTML
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  Cool Animation
+DESC:   Just a cool animation showing an exploding and self-correcting Google+ icon.
+DATE:   2012-01-09 Mon 12:33:50
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+#+END_HTML
+
+Google Plus Logo Animation by [[https://plus.google.com/115358085054420116311][ℑ. ℜ. Gellett]]
+[[https://lh4.googleusercontent.com/-POK887siH3w/Twq0UoK7YgI/AAAAAAAAAOg/dWGOAZzgcWQ/w300/Google-Plus-Logo-Animation-Small-JRGellett.GIF]]
+
+#+BEGIN_HTML
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+#+END_HTML
+
+<!-- GNU EMACS METADATA --
+--
+-- This must be near the end of the file for Emacs to find it.
+--
+-- Local Variables:
+-- org-export-nb-id:     "2012-01-09T12_33_50"
+-- org-export-nb-tags:   "cool-images"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+
+

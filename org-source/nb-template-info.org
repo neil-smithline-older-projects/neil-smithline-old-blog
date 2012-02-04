@@ -1,0 +1,68 @@
+NanoBlogger Template Cheat Sheet
+
+* The Different Templates And Their Uses
+|---------+----------------------+--------------------------------------------------------------------------|
+| Default | Templates            | Description                                                              |
+|---------+----------------------+--------------------------------------------------------------------------|
+| Yes     | category_archive.htm | Controls structure of the category pages.                                |
+| Yes     | day_archive.htm      | Controls structure of the day archive pages.                             |
+| Yes     | main_index.htm       | Controls structure of the weblog's main page.                            |
+| Yes     | main_links.htm*      | Contains user defined links.                                             |
+| Yes     | makepage.htm         | Default template used by make-page action.                               |
+| Yes     | month_archive.htm    | Controls structure of the month archive pages.                           |
+| Yes     | permalink.htm        | Controls structure of the entries' archive pages.                        |
+| Yes     | entry.htm            | Controls structure of the entry's content for most archives.             |
+| Yes     | permalink_entry.htm  | Controls structure of the entry's content for individual entry archives. |
+| Yes     | weblog_status.htm    | Controls structure of weblog status.                                     |
+| Yes     | year_archive.htm     | Controls structure of year archive pages.                                |
+| Yes     | entry.metadata       | Controls the format of the entry's meta-file.                            |
+| Yes     | file.metadata        | Controls the format of a meta-file.                                      |
+|---------+----------------------+--------------------------------------------------------------------------|
+| No      | category_entry.htm   | Controls structure and content of the category entries.                  |
+| No      | month_entry.htm      | Controls the structure and content of the month entries.                 |
+| No      | day_entry.htm        | Controls the structure and content of the day entries.                   |
+|---------+----------------------+--------------------------------------------------------------------------|
+
+* The Different Plugin Types
+|------------------+--------------------------+--------------------------------------------------------------------------|
+| Type             | Directory                | Initialization Time [fn:2]                                               |
+|------------------+--------------------------+--------------------------------------------------------------------------|
+| Regular          | plugins                  | After each request.                                                      |
+| Archive          | plugins/archive          | Before archives are updated.                                             |
+| Category Archive | plugins/archive/category | For each category archive that is to be updated.                         |
+| Day Archive      | plugins/archive/day      | For each day archive that is to be updated.                              |
+| Month Archive    | plugins/archive/month    | For each month archive that is to be updated.                            |
+| Year Archive     | plugins/archive/year     | For each year archive that is to be updated.                             |
+| Entry            | plugins/entry            | For each entry that is to be updated.                                    |
+| Entry Modify     | plugins/entry/mod        | For each entry that is modified.                                         |
+| Entry Formatting | plugins/entry/format     | Before updating each entry with a matching FORMAT meta-tag field. [fn:1] |
+| Page             | plugins/page             | Before each page is updated.                                             |
+| Page Formatting  | plugins/page/format      | Before updating each page with a matching FORMAT meta-tag field. [fn:1]  |
+| Make Page        | plugins/makepage         | After each page is updated.                                              |
+| Post             | plugins/post             | After all blog-related tasks.                                            |
+|------------------+--------------------------+--------------------------------------------------------------------------|
+
+** Footnotes
+[fn:1] Multiple space or comma separated formats are allowed and their
+plugins are processed in the order the formats are specified.
+
+[fn:2] Once initialized, each plugin will use internal login to determine what, if any, actions it should take.
+
+* Layout Of The Distribution And Blog Directories
+|--------------------+---------------------------------------------------------------------|
+| Name [fn:3] [fn:4] | Description                                                         |
+|--------------------+---------------------------------------------------------------------|
+| D/nb.conf          | Filenames for the different templates and other global config info. |
+|                    |                                                                     |
+|--------------------+---------------------------------------------------------------------|
+
+
+** Footnotes
+[fn:3] File paths relative to the blog root begin with "B/". For
+example, "B/blog.conf". File paths relative to the dist root begin
+with "D/". File paths that exist in both directories begin "BOTH/".
+Any exceptions to this format will be noted.
+
+[fn:4] All directories end with a trailing "/". For example, the
+"data" directory in the blog directory would be "B/data/" while the
+"blog.conf" /file/ would not have the trailing "/" ("B/blog.conf").

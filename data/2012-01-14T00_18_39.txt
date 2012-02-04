@@ -1,0 +1,66 @@
+
+<p>This Title Is Ignored
+</p>
+
+
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  SOPA DOA? Not Quite But Getting There
+DESC:   In response to massive public outcries, SOPA looks like it will die or end up a bill with no teeth.
+DATE:   2012-01-14 Sat 00:18:39
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+<p>
+While not dead, SOPA is losing its teeth. Despite having had its major backer remove one of the more totalitarian portions from the bill (the ability to block non-US DNS addresses), SOPA appears unable to make progress in Congress. 
+</p>
+<p>
+In a <a href="http://cnet.co/ArcHPH">CNET</a> article (via <a href="http://bit.ly/zMTg3h">Slashdot</a>), the <a href="http://en.wikipedia.org/wiki/RIAA">RIAA</a> whines:
+</p><blockquote>
+
+<p>Instead of helping to come up with mechanisms to deny access to
+the U.S. market by foreign criminals," the RIAA wrote, "the
+opposition just keeps saying no. It is incumbent upon them to help
+develop language that will ensure that criminals can't access our
+market, while at the same time protecting our need for national
+cybersecurity.
+</p>
+</blockquote>
+
+
+<p>
+As <a href="#SOPA-the-end-of-free-speech.org">discussed previously</a>, SOPA claims to support American businesses while it really supports the very large media companies and stifles smaller companies and individuals rights to publish.
+</p>
+<p>
+As I've stated in my previous <a href="#SOPA-the-end-of-free-speech.org">posting about SOPA</a>, I am strongly opposed to <a href="http://en.wikipedia.org/wiki/Piracy of software">piracy</a> as I am a software engineer (ie: software pays my rent). But I also believe that piracy can be dealt with without destroying <a href="http://en.wikipedia.org/wiki/Freedom_of_speech">free speech</a>. My viewpoints are similar to those of the <a href="http://en.wikipedia.org/wiki/Electronic_Frontier_Foundation">EFF</a> and differ from the <a href="http://en.wikipedia.org/wiki/Free_Software_Foundation">FSF</a>'s viewpoint which opposes proprietary software altogether.
+</p>
+
+
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+
+<p>
+&lt;!&ndash; GNU EMACS METADATA --
+--
+&ndash; This must be near the end of the file for Emacs to find it.
+--
+&ndash; Local Variables:
+&ndash; org-export-nb-id:     "2012-01-14T00<sub>18</sub><sub>39</sub>"
+&ndash; org-export-nb-tags:   "online-freedom"
+&ndash; End: 
+--
+
+</p>
+<hr/>
+<p>
+--
+&ndash; LocalWords: nb
+&ndash;&gt;
+</p>

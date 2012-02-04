@@ -1,0 +1,501 @@
+    <item>
+DATE:          Mon, 10 Oct 2011 23:34:00 -0700</pubDate>
+TITLE:         Interesting Idea: A Programmer's Keyboard Designed For C/C++/Java/etc... Languages
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry"><div class='p_embed p_image_embed'>
+<a href="http://getfile9.posterous.com/getfile/files.posterous.com/neilsmithline/idEHCbtbmliljmJwycuarkkqCJjiEoavxlFCbmClBbAlEDJnDdofewxaCClf/media_httpwwwkaufmann_IkAqy.png.scaled1000.png"><img alt="Media_httpwwwkaufmann_ikaqy" height="160" src="http://getfile8.posterous.com/getfile/files.posterous.com/neilsmithline/idEHCbtbmliljmJwycuarkkqCJjiEoavxlFCbmClBbAlEDJnDdofewxaCClf/media_httpwwwkaufmann_IkAqy.png.scaled500.png" width="500" /></a>
+</div>
+
+<div class="posterous_quote_citation">via <a href="http://www.kaufmann.no/roland/dvorak/">kaufmann.no</a></div>
+<p>The article I found is about a Programmer's Dvor&aacute;k Keyboard but the only changes are in the punctuation Dvor&aacute;k punctuation keys so the idea should work on  changes would work for QWERTY and other keyboards as well. All those nasty braces and operator characters have been moved around and are now unshifted characters. And, if it caught on, perhaps it would discourage all those variables named "x1", "x2", etc... Though I suspect that it would just encourage variables named "xx", "yy", etc...</p>
+</div>
+	
+</p>
+
+</p>]]>
+      </description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+      <media:content type="image/png" height="336" width="1053" url="http://getfile9.posterous.com/getfile/files.posterous.com/neilsmithline/idEHCbtbmliljmJwycuarkkqCJjiEoavxlFCbmClBbAlEDJnDdofewxaCClf/media_httpwwwkaufmann_IkAqy.png">
+        <media:thumbnail height="160" width="500" url="http://getfile8.posterous.com/getfile/files.posterous.com/neilsmithline/idEHCbtbmliljmJwycuarkkqCJjiEoavxlFCbmClBbAlEDJnDdofewxaCClf/media_httpwwwkaufmann_IkAqy.png.scaled500.png"/>
+      </media:content>
+
+    </item>
+    <item>
+DATE:          Mon, 12 Sep 2011 21:09:00 -0700</pubDate>
+TITLE:         George Lucas Buys flickr?
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+
+        <![CDATA[<p>
+	<p>I clicked on a Google images link that pointed to <a href="http://www.flickr.com/photos/dinocho/7552461/" target="_blank">http://www.flickr.com/photos/dinocho/7552461/</a> and got the following page.&nbsp;</p>
+<p>If you're scratching your head or checking out Reuters for the news item, see this Urban Dictionary <a href="http://bit.ly/ngwZgM" target="_blank">entry</a> first.&nbsp;</p>
+<p><div class='p_embed p_image_embed'>
+<a href="http://getfile0.posterous.com/getfile/files.posterous.com/temp-2011-09-12/zBqznDCvCmBhtvAjAdwrtxbhejarAdcemboifdBunphftumBqyAuJDCGoocA/Screen_shot_2011-09-12_at_23.47.41_.png.scaled1000.png"><img alt="Screen_shot_2011-09-12_at_23" height="218" src="http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-09-12/zBqznDCvCmBhtvAjAdwrtxbhejarAdcemboifdBunphftumBqyAuJDCGoocA/Screen_shot_2011-09-12_at_23.47.41_.png.scaled500.png" width="500" /></a>
+</div>
+</p>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+      <media:content type="image/png" height="359" width="825" url="http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-09-12/zBqznDCvCmBhtvAjAdwrtxbhejarAdcemboifdBunphftumBqyAuJDCGoocA/Screen_shot_2011-09-12_at_23.47.41_.png">
+        <media:thumbnail height="218" width="500" url="http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-09-12/zBqznDCvCmBhtvAjAdwrtxbhejarAdcemboifdBunphftumBqyAuJDCGoocA/Screen_shot_2011-09-12_at_23.47.41_.png.scaled500.png"/>
+      </media:content>
+    </item>
+    <item>
+
+DATE:          Fri, 09 Sep 2011 00:17:00 -0700</pubDate>
+TITLE:         Firefox's Memory Leaks Have Driven Me To The Brink, And Then Some
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="gmail_quote">For those of you aren't aware of it, Firefox has been having some serious problems with memory leaks. They were in bad in FF 3.3.6 (see&nbsp;<a href="http://bit.ly/mQsER8" target="_blank">http://bit.ly/mQsER8</a>). They got worse in FF 4.0 (see&nbsp;<a href="http://bit.ly/pMA5xT" target="_blank">http://bit.ly/pMA5xT</a> and&nbsp;<a href="http://bit.ly/nzEkek" target="_blank">http://bit.ly/nzEkek</a>). And this <a href="http://bit.ly/nzEkek" target="_blank">forum post</a> regarding FF 5.0 has 500 people agreeing with it.&nbsp;
+<p />
+<div>In addition to its runaway memory usage, it is eating up your computer's CPU. Rather than list individual posts, just see&nbsp;<a href="http://bit.ly/nVGceH" target="_blank">http://bit.ly/nVGceH</a>.&nbsp;</div>
+<p />
+<div>I have done everything I could think of&nbsp;to avoid the actions I took today&nbsp;(I'll try to post about those actions another time). But, today I did the unthinkable.</div>
+<p />
+<div><strong><span style="font-size: medium;">Chrome Options</span></strong></div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="http://i.imgur.com/MBDgE.png" alt="" /></div>
+<strong><span style="font-size: medium;">Firefox Options</span></strong></div>
+<div class="gmail_quote"><span style="font-size: medium;"><strong>&nbsp; &nbsp; &nbsp; &nbsp;</strong></span><div class='p_embed p_image_embed'>
+<a href="http://getfile6.posterous.com/getfile/files.posterous.com/neilsmithline/4Om6Bmh3xpg9jPaLuZTk5LUFYgHzIosYtwUGhB1yCZ3So9m22WONyTAyOpjD/Screen_shot_2011-09-09_at_02.4.png"><img alt="Screen_shot_2011-09-09_at_02" height="103" src="http://getfile7.posterous.com/getfile/files.posterous.com/neilsmithline/TNJuafgcPpgswo84Snszo2SpMFithGqlKWsCeQioekkdSeVDPvXNtSpiJLnY/Screen_shot_2011-09-09_at_02.4.png.scaled.500.jpg" width="500" /></a>
+</div>
+</div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+      <media:content type="image/png" height="112" width="546" url="http://getfile6.posterous.com/getfile/files.posterous.com/neilsmithline/4Om6Bmh3xpg9jPaLuZTk5LUFYgHzIosYtwUGhB1yCZ3So9m22WONyTAyOpjD/Screen_shot_2011-09-09_at_02.4.png">
+        <media:thumbnail height="103" width="500" url="http://getfile7.posterous.com/getfile/files.posterous.com/neilsmithline/TNJuafgcPpgswo84Snszo2SpMFithGqlKWsCeQioekkdSeVDPvXNtSpiJLnY/Screen_shot_2011-09-09_at_02.4.png.scaled.500.jpg"/>
+      </media:content>
+    </item>
+    <item>
+DATE:          Fri, 09 Sep 2011 00:12:04 -0700</pubDate>
+
+TITLE:         Firefox's Memory Leaks Have Driven Me To The Brink, And Then Some
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	For those of you aren&#39;t aware of it, Firefox has been having some serious problems with memory leaks. They were in bad in FF 3.3.6 (see <a href="http://bit.ly/mQsER8">http://bit.ly/mQsER8</a>). They got worse in FF 4.0 (see <a href="http://bit.ly/pMA5xT">http://bit.ly/pMA5xT</a> and <a href="http://bit.ly/nzEkek">http://bit.ly/nzEkek</a>). And this <a href="http://bit.ly/nzEkek">forum post</a> regarding FF 5.0 has 500 people agreeing with it. <p /><div>In addition to its runaway memory usage, it is eating up your computer&#39;s CPU. Rather than list individual posts, just see <a href="http://bit.ly/nVGceH">http://bit.ly/nVGceH</a>. </div><p /><div> I have done everything I could think of to avoid the actions I took today (I&#39;ll try to post about those actions another time). But, today I did the unthinkable.</div><p /><div><b>Chrome Options</b></div> <p /><blockquote class="webkit-indent-blockquote" style="margin: 0 0 0 40px; border: none; padding: 0px;"><blockquote class="webkit-indent-blockquote" style="margin: 0 0 0 40px; border: none; padding: 0px;"> <div><img src="http://i.imgur.com/MBDgE.png" /></div></blockquote></blockquote><b>Firefox Options</b><div><br /><div><blockquote class="webkit-indent-blockquote" style="margin: 0 0 0 40px; border: none; padding: 0px;"> <div><div><div class='p_embed p_image_embed'>
+<a href="http://getfile7.posterous.com/getfile/files.posterous.com/neil-xvafu/Kt5f8Ym4vYrcySw0rHE1AbXNW3dLBw4MRNBBlyCSgEtlLOyRPbET3PaII28n/Screen_shot_2011-09-09_at_02.4.png"><img alt="Screen_shot_2011-09-09_at_02" height="103" src="http://getfile8.posterous.com/getfile/files.posterous.com/neil-xvafu/cIRmsAMqqNzvGG5bGp0eUp15V1K9xX7xH9GHR9NYJlbdIZCARySE5xpXNkrg/Screen_shot_2011-09-09_at_02.4.png.scaled.500.jpg" width="500" /></a>
+</div>
+</div></div></blockquote></div></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+
+      </posterous:author>
+      <media:content type="image/png" height="112" width="546" url="http://getfile7.posterous.com/getfile/files.posterous.com/neil-xvafu/Kt5f8Ym4vYrcySw0rHE1AbXNW3dLBw4MRNBBlyCSgEtlLOyRPbET3PaII28n/Screen_shot_2011-09-09_at_02.4.png">
+        <media:thumbnail height="103" width="500" url="http://getfile8.posterous.com/getfile/files.posterous.com/neil-xvafu/cIRmsAMqqNzvGG5bGp0eUp15V1K9xX7xH9GHR9NYJlbdIZCARySE5xpXNkrg/Screen_shot_2011-09-09_at_02.4.png.scaled.500.jpg"/>
+      </media:content>
+    </item>
+    <item>
+DATE:          Mon, 05 Sep 2011 17:17:00 -0700</pubDate>
+TITLE:         My Accursed Son
+
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+      <div class='p_embed p_image_embed'>
+<a href="http://getfile6.posterous.com/getfile/files.posterous.com/neilsmithline/HjcxaoJFnawsjtvDvimosEqnDHhzjIqbFokHCcotieapyuvfFJaCgfiGfsJh/media_httpimagesapple_IplCh.png.scaled1000.png"><img alt="Media_httpimagesapple_iplch" height="230" src="http://getfile9.posterous.com/getfile/files.posterous.com/neilsmithline/HjcxaoJFnawsjtvDvimosEqnDHhzjIqbFokHCcotieapyuvfFJaCgfiGfsJh/media_httpimagesapple_IplCh.png.scaled500.png" width="500" /></a>
+</div>
+
+
+<div class="posterous_quote_citation">via <a href="http://www.apple.com/macbookair/">apple.com</a></div>
+    <p>Just a day after posting about my wicked-cool phone (<a href="http://bit.ly/rnPh7q)">http://bit.ly/rnPh7q)</a>, I ended up buying my son something even cooler. I'm glad he's going back to school tomorrow. At least then I can pretend that I still have cooler gadgets.</p></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+
+      <media:content type="image/png" height="565" width="1227" url="http://getfile3.posterous.com/getfile/files.posterous.com/neilsmithline/HjcxaoJFnawsjtvDvimosEqnDHhzjIqbFokHCcotieapyuvfFJaCgfiGfsJh/media_httpimagesapple_IplCh.png">
+        <media:thumbnail height="230" width="500" url="http://getfile9.posterous.com/getfile/files.posterous.com/neilsmithline/HjcxaoJFnawsjtvDvimosEqnDHhzjIqbFokHCcotieapyuvfFJaCgfiGfsJh/media_httpimagesapple_IplCh.png.scaled500.png"/>
+      </media:content>
+    </item>
+    <item>
+DATE:          Mon, 05 Sep 2011 17:00:00 -0700</pubDate>
+TITLE:         And I've Been Blaming My Kids All These Years
+
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+<h3>help</h3>
+<p>A mythical being that will magically appear and render assistance. No one knows what help looks like as no one has ever seen it. I think it isn't fair to blame help for promises that other people make, and help can't keep.&lt;br/&gt;</p>
+<p>via <a href="http://www.urbandictionary.com/define.php?term=help&amp;defid=2918195">urbandictionary.com</a></p>
+</div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+    </item>
+    <item>
+
+DATE:          Sun, 04 Sep 2011 21:21:00 -0700</pubDate>
+TITLE:         10 Androids That Outmuscle the iPhone - TheStreet
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+      <div class='p_embed p_image_embed'>
+<a href="http://getfile1.posterous.com/getfile/files.posterous.com/neilsmithline/HxcGlqBzrjEbqdnvoGwqFvphIrhCIrIlgyetbgevhrgnHmJottnokawFGGDl/media_httpwwwthestree_EEgqo.jpg.scaled1000.jpg"><img alt="Media_httpwwwthestree_eegqo" height="331" src="http://getfile8.posterous.com/getfile/files.posterous.com/neilsmithline/HxcGlqBzrjEbqdnvoGwqFvphIrhCIrIlgyetbgevhrgnHmJottnokawFGGDl/media_httpwwwthestree_EEgqo.jpg.scaled500.jpg" width="500" /></a>
+</div>
+<div class="posterous_quote_citation">via <a href="http://www.thestreet.com/story/10996024/9/5-android-phones-that-out-muscle-the-iphone.html">thestreet.com</a></div>
+    <p>My super-sexy new phone. It is wicked fast (should be as it has an NVIDIA graphics card in it). Can output 1080P HDMI (albeit through a funky cable connector that I'll certainly lose). 
+</p><p>I just keep throwing more apps on it and it simply doesn't seem to get any slower. The only problem I have with the phone is that I need a longer thumb. That top corner is pretty far away. Which may be a good thing as I often blame my poor game playing on my short thumb.
+</p><p>I'll tell you a secret (promise not to tell anyone), I'm not using the OS that shipped with the phone. The phone was downright sluggish. But thanks to GTG's Infused Rom (<a href="http://bit.ly/gtg465x)">http://bit.ly/gtg465x)</a>, it now runs like the faster and with more features.
+</p><p>Thank you Samsung, Google, ATT, and <a href="http://bit.ly/gtg465x.</p">http://bit.ly/gtg465x.</p</a>></p></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+      <media:content type="image/jpeg" height="390" width="590" url="http://getfile3.posterous.com/getfile/files.posterous.com/neilsmithline/HxcGlqBzrjEbqdnvoGwqFvphIrhCIrIlgyetbgevhrgnHmJottnokawFGGDl/media_httpwwwthestree_EEgqo.jpg">
+        <media:thumbnail height="331" width="500" url="http://getfile8.posterous.com/getfile/files.posterous.com/neilsmithline/HxcGlqBzrjEbqdnvoGwqFvphIrhCIrIlgyetbgevhrgnHmJottnokawFGGDl/media_httpwwwthestree_EEgqo.jpg.scaled500.jpg"/>
+      </media:content>
+    </item>
+    <item>
+DATE:          Sun, 04 Sep 2011 15:56:05 -0700</pubDate>
+
+TITLE:         And I've Been Blaming My Kids All These Years
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<p><a href="http://help.urbanup.com/2918195">http://help.urbanup.com/2918195</a></p>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+
+      </posterous:author>
+    </item>
+    <item>
+DATE:          Sat, 03 Sep 2011 20:18:00 -0700</pubDate>
+TITLE:         Ain't That The Truth!
+
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+      <blockquote class="posterous_long_quote"><dt class="headline">Why don't you offer support for Internet Explorer?</dt>
+	<dd>
+    <p>
+			To be honest, supporting Internet Explorer is a pain in the ass and we can't afford the extra-work involved at the moment. Focusing on modern browsers, like Chrome, Firefox, Opera or Safari helps us to move 
+			forward more quickly. Internet Explorer 9 is a good browser though, and we might support that at a later point – no promises.</p></dd></blockquote>
+
+<div class="posterous_quote_citation">via <a href="http://zootool.com/support/faq">zootool.com</a></div>
+    <p>Couldn't pass this up. For those of you who aren't web developers, I'll tell you that practically every website has special code to deal with IE. Pick a website and view its HTML source. Just search for uppercase IE.
+</p><p>On my homepage, <a href="http://neilsmithline.com">http://neilsmithline.com</a>, the start of the page is littered with snippets like
+<br />       [if lte IE 8]>
+<br />Don't feel bad if you don't know what that is. It is not actually HTML. It is MS gobbledy-gook saying that the following HTML should only be executed if the browser is IE with a version number less-than-or-equal (that's the "lte") version 8.
+</p><p>Not only does every site have special code for IE, virtually no site has special code for other web browsers. Chrome, Firefox, Opera, Safari, mobile browsers, etc... all can be used without writing custom code for them. I'm not counting reformatting for mobile browsers as "custom code" as it is the same for every mobile browser. Well, every mobile browser that isn't IE :-)
+</p><p>Google is under the impression that IE sucking so much is a business opportunity. A few days ago Google announced the Chrome Frame (<a href="http://bit.ly/pUfgiD)">http://bit.ly/pUfgiD)</a>. It allows office workers who don't have admin privileges to install Google Chrome at their office to run Chrome within IE.</p></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+    </item>
+    <item>
+DATE:          Sat, 03 Sep 2011 15:13:00 -0700</pubDate>
+
+TITLE:         Amazon Is Only Launching A 7&#8243; Tablet? Genius. (Plus A Mockup!) | TechCrunch
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+      <div class='p_embed p_image_embed'>
+<a href="http://getfile1.posterous.com/getfile/files.posterous.com/neilsmithline/kyjBuiuCjzsFzbGlcwbxvtzGrHEotAsmeuckIGpfzlabexJbixjialjuczkn/media_httptctechcrunc_fFkDy.png.scaled1000.png"><img alt="Media_httptctechcrunc_ffkdy" height="359" src="http://getfile8.posterous.com/getfile/files.posterous.com/neilsmithline/kyjBuiuCjzsFzbGlcwbxvtzGrHEotAsmeuckIGpfzlabexJbixjialjuczkn/media_httptctechcrunc_fFkDy.png.scaled500.png" width="500" /></a>
+</div>
+
+
+<div class="posterous_quote_citation">via <a href="http://techcrunch.com/2011/09/02/amazon-kindle-tablet-photo/">techcrunch.com</a></div>
+    <p>It seems the much rumored "Amazon Android Tablet" is going to hit a new market niche. Android tablets aren't quite iPads, but it is catching up. And who can beat a  $250 color tablet? Oh. And is lightweight? And will be sold by one of the biggest retailers in the world?  Seems tought
+</p><p>PS: I forgot to mention that will also be an upgrade from the best selling tablet on the planet. I've not seen any grandmas in a doctors waiting room reading from an iPod but I've seen plenty reading a Kindle that just slips into their purse when they get up.</p></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+
+      </posterous:author>
+      <media:content type="image/png" height="786" width="1095" url="http://getfile6.posterous.com/getfile/files.posterous.com/neilsmithline/kyjBuiuCjzsFzbGlcwbxvtzGrHEotAsmeuckIGpfzlabexJbixjialjuczkn/media_httptctechcrunc_fFkDy.png">
+        <media:thumbnail height="359" width="500" url="http://getfile8.posterous.com/getfile/files.posterous.com/neilsmithline/kyjBuiuCjzsFzbGlcwbxvtzGrHEotAsmeuckIGpfzlabexJbixjialjuczkn/media_httptctechcrunc_fFkDy.png.scaled500.png"/>
+      </media:content>
+    </item>
+    <item>
+DATE:          Sat, 03 Sep 2011 14:16:00 -0700</pubDate>
+TITLE:         The Say &quot;Cool Digital Watches&quot; But They Lie
+
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+      <div class='p_embed p_image_embed'>
+<img alt="Media_httpwwwphosphor_tanbx" height="318" src="http://getfile6.posterous.com/getfile/files.posterous.com/neilsmithline/CohbGyJobbwrbAoiurHyCyqqrcdIrhwjJrDdhkfqrepHcJbtehdHjqhpJFaj/media_httpwwwphosphor_tanbx.gif" width="200" />
+</div>
+<div class="posterous_quote_citation">via <a href="http://www.phosphorwatches.com/Phosphor-MANN-BUZZIN-Appear-Black-Matte-Black-Band-p/736211816580.htm">phosphorwatches.com</a></div>
+    <p>They are "Wicked Cool Digital Watches". While it s not my style, the technology (<a href="http://bit.ly/ojsOzB)">http://bit.ly/ojsOzB)</a> is definitely "Wicked Cool".</p></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+
+      <media:content type="image/gif" height="318" width="200" url="http://getfile6.posterous.com/getfile/files.posterous.com/neilsmithline/CohbGyJobbwrbAoiurHyCyqqrcdIrhwjJrDdhkfqrepHcJbtehdHjqhpJFaj/media_httpwwwphosphor_tanbx.gif">
+        <media:thumbnail height="318" width="200" url="http://getfile6.posterous.com/getfile/files.posterous.com/neilsmithline/CohbGyJobbwrbAoiurHyCyqqrcdIrhwjJrDdhkfqrepHcJbtehdHjqhpJFaj/media_httpwwwphosphor_tanbx.gif"/>
+      </media:content>
+    </item>
+    <item>
+DATE:          Sun, 28 Aug 2011 14:44:00 -0700</pubDate>
+TITLE:         Rob &#8216;CmdrTaco&#8217; Malda Resigns From Slashdot
+
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+      <blockquote class="posterous_long_quote"><a href="http://meta.slashdot.org/firehose.pl?op=view&amp;type=story&amp;sid=11/08/25/1245200">Rob ‘CmdrTaco’ Malda Resigns From&nbsp;Slashdot</a>&nbsp;<a href="http://daringfireball.net/linked/2011/08/26/cmdrtaco" class="permalink" title="Permanent link to ‘Rob ‘CmdrTaco’ Malda Resigns From Slashdot’.">★</a></blockquote><div class="posterous_quote_citation">via <a href="http://daringfireball.net/linked/">daringfireball.net</a></div>
+    <p>Through the years I've, loved, hated, been repulsed by, and marveled at Slashdot.org.
+</p><p>Crud! That's not right. 
+</p><p>Sorry but English just doesn't cut it here. I'm switching to modified regexps using Posix Brakcket Classes per <a href="http://www.regular-expressions.info/refext.html">http://www.regular-expressions.info/refext.html</a> along with the addition of a new character class. Sorry if you find it confusing but if you can't decipher it then you probably don't appreciate Slashdot the same way I do.
+</p><p>How about:
+</p><p>Through the years I have 
+<br />   ([:set-of-appropriate-past-tense-verbs:], ){2,} and 
+<br />   ([:set-of-appropriate-past-tense-verbs:]) Slashdot.org.
+</p><p>Most importantly, Slashdot has provided me with a sense of community in difficult times (eg: Columbine Shootings).
+</p><p>I do home that CmdrTaco has been able to teach others how to make Slashdot's secret source. 
+</p><p>I am relatively hopeful. Somehow Slashdot went from an independent site to being owned by a major media outlet, hopefully making CmdrTaco and company rich, and it survived that.</p></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+    </item>
+    <item>
+
+DATE:          Mon, 22 Aug 2011 20:37:00 -0700</pubDate>
+TITLE:         Chrome overtakes Firefox in the UK browser battle | Crave | CNET UK
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<div class="posterous_bookmarklet_entry">
+      <div class='p_embed p_image_embed'>
+<a href="http://getfile5.posterous.com/getfile/files.posterous.com/neilsmithline/hFDhiJEgHyBioxcDllBsaAJfAJIJlmxpryFIgxmqnzfzyqvtbnuGfAlnwqsE/media_httpwwwcnetcouk_halmq.jpg.scaled1000.jpg"><img alt="Media_httpwwwcnetcouk_halmq" height="355" src="http://getfile3.posterous.com/getfile/files.posterous.com/neilsmithline/hFDhiJEgHyBioxcDllBsaAJfAJIJlmxpryFIgxmqnzfzyqvtbnuGfAlnwqsE/media_httpwwwcnetcouk_halmq.jpg.scaled500.jpg" width="500" /></a>
+</div>
+<div class="posterous_quote_citation">via <a href="http://crave.cnet.co.uk/software/chrome-overtakes-firefox-in-the-uk-browser-battle-50004602/">crave.cnet.co.uk</a></div>
+    <p>I wish I could say I'm surprised by these stats. I am a die-hard fan of Firefox (formerly named various combinations of Netscape, Mozilla, Navigator, Mosaic, andNCSA). But even I'm finding it harder and harder to tolerate FF's memory leaks (goes from 300M to 3G in about a minute), poor performance, what has become expected behavior only available with extensions, and their new release model it -- well it sucks. 
+</p><p>And their mobile platform is, well is a topic for another posting.</p></div>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/1374047/geekman_standing2-400-400.png</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/users/hckIYdXzzExQu</posterous:profileUrl>
+        <posterous:firstName>Neil</posterous:firstName>
+        <posterous:lastName>Smithline</posterous:lastName>
+        <posterous:nickName>Neil</posterous:nickName>
+
+        <posterous:displayName>Neil Smithline</posterous:displayName>
+      </posterous:author>
+      <media:content type="image/jpeg" height="440" width="620" url="http://getfile9.posterous.com/getfile/files.posterous.com/neilsmithline/hFDhiJEgHyBioxcDllBsaAJfAJIJlmxpryFIgxmqnzfzyqvtbnuGfAlnwqsE/media_httpwwwcnetcouk_halmq.jpg">
+        <media:thumbnail height="355" width="500" url="http://getfile3.posterous.com/getfile/files.posterous.com/neilsmithline/hFDhiJEgHyBioxcDllBsaAJfAJIJlmxpryFIgxmqnzfzyqvtbnuGfAlnwqsE/media_httpwwwcnetcouk_halmq.jpg.scaled500.jpg"/>
+      </media:content>
+    </item>
+    <item>
+DATE:          Sun, 21 Aug 2011 20:11:00 -0700</pubDate>
+
+TITLE:         So Now I Know What My Profession Is
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<blockquote class="posterous_short_quote">
+<p>Too funny: &ldquo;Research is what I&rsquo;m doing when I don&rsquo;t know what I&rsquo;m doing.&rdquo;</p>
+<p>I guess I&rsquo;m a very good researcher.</p>
+</blockquote>
+<p><a href="http://www.brainyquote.com/quotes/authors/w/wernher_von_braun.html">Wernher von Braun</a> via<a href="http://www.brainyquote.com"> BrainyQuote.com</a> via <a href="http://mail.google.com/support/bin/answer.py?answer=18219">Gmail Web Clips</a>.</p>
+	
+</p>
+
+
+
+</p>]]>
+      </description>
+    </item>
+
+    <item>
+DATE:          Wed, 17 Aug 2011 03:19:00 -0700</pubDate>
+TITLE:         Why You Should Add &quot;AndroidAndMe.com&quot; to your Google Blocked Sites List
+AUTHOR:        Neil Smithline
+DESC:        
+FORMAT:        raw
+        <![CDATA[<p>
+	<a href="http://androidandme.com/2011/08/news/android-vs-ios-stereotypes-and-lifestyles/">http://androidandme.com/2011/08/news/android-vs-ios-stereotypes-and-lifestyles/</a> <p></p><p><em>This is a reposting of a comment I made at <a href="http://androidandme.com/2011/08/news/android-vs-ios-stereotypes-and-lifestyles/" title="Original Article" target="_blank"></a><a href="http://androidandme.com/2011/08/news/android-vs-ios-stereotypes-and-lifestyles/">http://androidandme.com/2011/08/news/android-vs-ios-stereotypes-and-lifestyles/</a>.</em></p>
+<p>While Hunch.com provides a service that many may value, its users are far from a random sampling of Android and iPhone users. It is not even clear that it is a random sampling of the users of Hunch.com. Unless I was intentionally pushing a personal agenda, I simply can&rsquo;t imagine why I would bother to answer a survey.<p />While I understand that Hunch&rsquo;s business model is to encourage user interaction and that this sort of &ldquo;playful&rdquo; survey fit well with their business model, I view AndroidAndMe.com as a source of reasonable quality news.<p />Reposting the survey results is fine, provided that you point out the obvious lack of relevancey to anyone with the possible exception of Hunch users. You have also posted it as &ldquo;News&rdquo; and stated that &ldquo;the results are quite interesting.&rdquo; Both of these actions seem to give even more credence to the survey.<p />The most shocking part of your article is that it seems to have been written and posted as News by someone who only looked at the pretty pictures but didn&rsquo;t actually read Hunch&rsquo;s article about the infograph.<p />The article begins by stating that this is another posting in the &ldquo;Teach Hunch About You (THAY)&rdquo; series, clearly limiting the scope of the survey to a Hunch users rather than, as you have,&nbsp; generalized the results.<p />The conclusion of the Hunch posting continues to be playful. For example, it discusses the use of a smartphone and Google Maps to navigate a supermarket and asks if this is &ldquo;Pathetic or enthusiastic? you decide.&rdquo;<p />And, in keeping with their playful, interactive, non-news style, Hunch completes the posting with &ldquo;Do the findings in the infographic above ring true for you? Are you in sync with thousands of Hunch users with your mobile operating system? Let your voice be heard in the comments.&rdquo;<p />What I find most revolting is your use of the &ldquo;Via CNET&rdquo; label, somehow implying that you are posting the same thing that CNET posted. But, if anyone had bothered to read the CNET, or even look at the very large banner at the top of the article, they would see that it is not published as &ldquo;News&rdquo;. Rather, it is published as &ldquo;Technically Incorrect&rdquo;. <p />Every news source posts weak or even incorrect articles at times. But I doubt there are many news sources that could foul up an article as spectacularly as you have done here. <p />While one of the problems of the information age and its plethora of news sources is that it is difficult to know how reliable any given source is. But one of the advantages of so many news sources is that I don&rsquo;t need to waste my time determining any one site&rsquo;s value as there&rsquo;s simply so many others to turn to.<p />I do think that Google&rsquo;s &ldquo;Blocked Sites&rdquo; list, accessible via <a href="http://www.google.com/reviews/t,">http://www.google.com/reviews/t,</a> was invented just for sites like yours.</p>
+	
+</p>
+
+
+
+</p>]]>
+
+      </description>
+    </item>
+  </channel>
+</rss>

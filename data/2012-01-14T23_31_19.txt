@@ -1,0 +1,56 @@
+
+<p>This Title Is Ignored
+</p>
+
+
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  Man vs Beast
+DESC:   
+DATE:   2012-01-14 Sat 23:31:19
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+I stumbled upon <a href="http://bit.ly/Ad2VZd">this article</a> in the Wikipedia about an annual 22-mile cross-country race where the participants are people running and people riding horses. After 25-years the first runner won the race. In the subsequent half-dozen years there have been several more human winners. 
+</p>
+<p>
+I feel bad for any runner that is drafting a horse when the horse's tail goes up&hellip;
+</p>
+
+
+
+
+
+
+
+
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+
+<p>
+&lt;!&ndash; GNU EMACS METADATA --
+--
+&ndash; This must be near the end of the file for Emacs to find it.
+--
+&ndash; Local Variables:
+&ndash; org-export-nb-id:     "2012-01-14T23<sub>31</sub><sub>19</sub>"
+&ndash; org-export-nb-tags:   "strange-but-true"
+&ndash; End: 
+--
+
+</p>
+<hr/>
+<p>
+--
+&ndash; LocalWords: nb
+&ndash;&gt;
+</p>

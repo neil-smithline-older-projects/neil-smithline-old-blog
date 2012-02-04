@@ -1,0 +1,988 @@
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2012-02-01T20_40_51.txt"></a>
+	<h2 class="date">2012-02-01 Wed 20:40:51</h2>
+	<div class="blogbody">
+		<h3 class="title">Nastiest Hack I've Seen In Awhile</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+I was reading about <a href="http://code.google.com/p/android-scripting">SL4A</a>, also known as <a href="http://android.com">Android</a> <a href="http://en.wikipedia.org/wiki/Scripting_language">Scripting Languages</a>. They are a set of <a href="http://en.wikipedia.org/wiki/Quick_and_dirty">quick-and-dirty</a> ports of programming languages to the Android that interact with the Android <a href="http://en.wikipedia.org/wiki/Operating_system">OS</a>. I just stumbled upon this "<a href="http://code.google.com/p/android-scripting/issues/detail?id=184">issue page</a>" (it's more like a <a href="http://en.wikipedia.org/wiki/Internet_forum">forum</a> than a bug report). 
+</p>
+<p>
+The developer is trying to run something on his Android, which is basically <a href="http://en.wikipedia.org/wiki/Linux">Linux</a>, that requires <a href="http://en.wikipedia.org/wiki/Superuser">superuser</a> permissions. As the responses started to build upon each other, one user suggested starting his shell script with the following lines (the actual posting was in Android's flavor of <a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> but I've converted it to <a href="http://linux.die.net/man/1/su">bash(1)</a> to make it more accessible):
+</p>
+
+
+
+<pre class="example">#!/bin/sh
+if [ "$USER" != "root" ]; then
+    exec sudo $SHELL -c "`cat /proc/$$/cmdline | tr '\000' ' '`" root
+fi
+</pre>
+
+
+<p>
+I simply couldn't help being entertained at how revolting yet simply brilliant that code is. I hate when I run a command and it behaves stupidly because I didn't run it as the correct user. For example, this is the output of running <a href="http://linux.die.net/man/8/apt-get">apt-get(8)</a> without proper permission:
+</p>
+
+
+
+<pre class="example">$ apt-get install foobar
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+</pre>
+
+
+<p>
+So I have to rerun the command with <a href="http://linux.die.net/man/8/sudo">sudo(8)</a>? I guess that makes sense in some situations but it grates on my nerves. Including the above lines in your shell scripts will automatically run commands as root when you need root privileges. It will also do this without bypassing the security of sudo. That is, if you don't have permission to run a command with sudo, then this won't help.
+</p>
+<p>
+Despite the plain hackery of the above code, I expanded upon it, making it a full shell script utility. You can look the code or grab a copy at my <a href="https://github.com">GitHub</a> <a href="https://github.com/Neil-Smithline">page</a> in the <a href="https://github.com/Neil-Smithline/rerunasroot">rerunasroot</a> repository.
+</p>
+		</div>
+	</div>
+
+<a class="link" href="./archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html">Permanent link</a> 
+| File under: <!-- coding --><a href="./archives/coding/index.html">coding</a>
+<!-- <br /><a href="./archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2012-01-14T23_31_19.txt"></a>
+	<h2 class="date">2012-01-14 Sat 23:31:19</h2>
+	<div class="blogbody">
+		<h3 class="title">Man vs Beast</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+I stumbled upon <a href="http://bit.ly/Ad2VZd">this article</a> in the Wikipedia about an annual 22-mile cross-country race where the participants are people running and people riding horses. After 25-years the first runner won the race. In the subsequent half-dozen years there have been several more human winners. 
+</p>
+<p>
+I feel bad for any runner that is drafting a horse when the horse's tail goes up&hellip;
+</p>
+		</div>
+	</div>
+
+<a class="link" href="./archives/2012/01/14/man_vs_beast/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2012/01/14/man_vs_beast/index.html">Permanent link</a> 
+| File under: <!-- misc --><a href="./archives/misc/index.html">misc</a>
+<!-- <br /><a href="./archives/2012/01/14/man_vs_beast/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2012-01-14T00_18_39.txt"></a>
+	<h2 class="date">2012-01-14 Sat 00:18:39</h2>
+	<div class="blogbody">
+		<h3 class="title">SOPA DOA? Not Quite But Getting There</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+<p>
+While not dead, SOPA is losing its teeth. Despite having had its major backer remove one of the more totalitarian portions from the bill (the ability to block non-US DNS addresses), SOPA appears unable to make progress in Congress. 
+</p>
+<p>
+In a <a href="http://cnet.co/ArcHPH">CNET</a> article (via <a href="http://bit.ly/zMTg3h">Slashdot</a>), the <a href="http://en.wikipedia.org/wiki/RIAA">RIAA</a> whines:
+</p><blockquote>
+
+<p>Instead of helping to come up with mechanisms to deny access to
+the U.S. market by foreign criminals," the RIAA wrote, "the
+opposition just keeps saying no. It is incumbent upon them to help
+develop language that will ensure that criminals can't access our
+market, while at the same time protecting our need for national
+cybersecurity.
+</p>
+</blockquote>
+
+
+<p>
+As <a href="#SOPA-the-end-of-free-speech.org">discussed previously</a>, SOPA claims to support American businesses while it really supports the very large media companies and stifles smaller companies and individuals rights to publish.
+</p>
+<p>
+As I've stated in my previous <a href="#SOPA-the-end-of-free-speech.org">posting about SOPA</a>, I am strongly opposed to <a href="http://en.wikipedia.org/wiki/Piracy of software">piracy</a> as I am a software engineer (ie: software pays my rent). But I also believe that piracy can be dealt with without destroying <a href="http://en.wikipedia.org/wiki/Freedom_of_speech">free speech</a>. My viewpoints are similar to those of the <a href="http://en.wikipedia.org/wiki/Electronic_Frontier_Foundation">EFF</a> and differ from the <a href="http://en.wikipedia.org/wiki/Free_Software_Foundation">FSF</a>'s viewpoint which opposes proprietary software altogether.
+</p>
+		</div>
+	</div>
+
+<a class="link" href="./archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html">Permanent link</a> 
+| File under: <!-- online-freedom --><a href="./archives/online-freedom/index.html">online-freedom</a>
+<!-- <br /><a href="./archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2012-01-09T12_33_50.txt"></a>
+	<h2 class="date">2012-01-09 Mon 12:33:50</h2>
+	<div class="blogbody">
+		<h3 class="title">Cool Animation</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+Google Plus Logo Animation by <a href="https://plus.google.com/115358085054420116311">ℑ. ℜ. Gellett</a>
+<img src="https://lh4.googleusercontent.com/-POK887siH3w/Twq0UoK7YgI/AAAAAAAAAOg/dWGOAZzgcWQ/w300/Google-Plus-Logo-Animation-Small-JRGellett.GIF"  alt="https://lh4.googleusercontent.com/-POK887siH3w/Twq0UoK7YgI/AAAAAAAAAOg/dWGOAZzgcWQ/w300/Google-Plus-Logo-Animation-Small-JRGellett.GIF" />
+</p>
+		</div>
+	</div>
+
+<a class="link" href="./archives/2012/01/09/cool_animation/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2012/01/09/cool_animation/index.html">Permanent link</a> 
+| File under: <!-- online-freedom --><a href="./archives/online-freedom/index.html">online-freedom</a>
+<!-- <br /><a href="./archives/2012/01/09/cool_animation/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2012-01-05T16_02_44.txt"></a>
+	<h2 class="date">2012-01-05 Thu 16:02:44</h2>
+	<div class="blogbody">
+		<h3 class="title">Stop PTSD, Support The Wikipedia</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+
+<em><p>
+<p>
+This posting is an updated version of my <a href="http://wikipedia.org/">Wikipedia</a> <a href="http://en.wikipedia.org/wiki/User:Neil_Smithline">user page</a> originally posted on 6 Dec 2011.
+<p/></em>
+
+A few months ago I experienced what is known as a <a href="http://en.wikipedia.org/wiki/Traumatic_event_(psychological)">traumatic event</a>.
+</p>
+<p>
+It was a day like many other days. I was talking to my two sons and we had a disagreement about some fact. (I have no recollection what the fact being discussed was.) So, we did what we always do. We each reached for one of the nearby smartphones, tablets, netbooks, and laptops that populate our lives and went right to the <a href="http://wikipedia.org/">Wikipedia</a> to resolve the argument.
+</p>
+<p>
+Then it happened. The Wikipedia was down. For a second or two, none of us knew what to do. Then we <a href="http://en.wikipedia.org/wiki/Googled">Googled</a> to find the answer to our question (I still can't remember the subject but I'm sure I was right :-).
+</p>
+<p>
+But I started thinking, what would happen if the Wikipedia were to go away? It is not that I think the Wikipedia is perfect. In fact, I think it is chock full of problems. But, what makes the Wikipedia special is that the Wikipedia's problems are ours, the users', problems. They aren't owned by <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">big government</a>, <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">big business</a>, <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">lobbyists</a>, the <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">PRC</a>, or anyone else.
+</p>
+<p>
+If there's a problem, you can edit the page and fix it. If you're uncertain what to do, you can add a comment about the problem on the discussion page with the hope that someone else will fix it or help you out.  Or you can simply ignore it. But, in all cases, <b>you</b> are making the decision.
+</p>
+<p>
+So I donated $5 to the Wikipedia. That's about the same amount I tip the driver who delivers my groceries. 
+</p>
+<p>
+Shortly after this traumatic event, the Wikipedia started posting these banner requests for donations. Personally, I find them increasingly annoying with every visit. But they are not nearly as annoying as the 10 minutes or so the Wikipedia was down. That downright spooked me.
+</p>
+<p>
+Being they've continued to post the banner requests, I'm assuming they continue to need more money. So I decided to start what I'm calling The Wikipedia: Just Give campaign.
+</p>
+<p>
+I'm not sure what the campaign will consist of, but I want to encourage everyone to give to the Wikipedia. I, who am totally untalented in the graphic arts, even made a few icons to help people join my campaign.
+</p>
+<p>
+So I ask each of you to just give. If you don't have a lot, don't give a lot. But more importantly, encourage everyone you know to just give.
+</p>
+<p>
+<b>Update 14 January 2012:</b> Just got this
+</p><blockquote>
+
+<p>  Sorry, the servers are overloaded at the moment.                            
+</p>
+<p>                                                                             
+  Too many users are trying to view this page. Please wait a while before you access this page again.
+</p>
+<ul>
+<li>Timeout waiting for the lock                                            
+</li>
+</ul>
+
+
+
+</blockquote>
+
+
+
+
+<p class="verse">
+Neil Smithline, 6 December 2011<br/>
+<i>A proud sponsor of the Wikipedia and its free information.</i><br/>
+</p>
+
+
+
+<div id="outline-container-1" class="outline-3">
+<h3 id="sec-1">Resources</h3>
+<div class="outline-text-3" id="text-1">
+
+<p><i>Any artistic help on the badges would be deeply appreciated.</i>
+</p>
+
+</div>
+
+<div id="outline-container-1-1" class="outline-4">
+<h4 id="sec-1-1">HTML Code For Your Website</h4>
+<div class="outline-text-4" id="text-1-1">
+
+<p>Assuming I've gotten all my angle brackets matched and tags closed, depending on the system you use, you can add a graphic to your website or email signature by copy-and-pasting this:
+</p>
+
+
+<center>
+<a 
+  href="http://wikimediafoundation.org/w/index.php?title=WMFJA085/en/US" 
+  target="_blank" title="Wikimedia donation page">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia_Just_Give-_Blue_Gray_Antipixel.png"
+    alt="Blue and gray 'Just Give' icon"/>
+</a>
+<br/>
+<span style="font-size: 75%;">
+  (<a href="http://bit.ly/just-give" 
+      target="_blank" 
+      title="'Just Give' Campaign">what's this?</a>)
+</span>
+</center>
+
+<p>
+or this HTML:
+</p>
+
+
+<pre class="example">&lt;a 
+  href="http://wikimediafoundation.org/w/index.php?title=WMFJA085/en/US" 
+  target="_blank" title="Wikimedia donation page"&gt;
+  &lt;img src="http://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia_Just_Give-_Blue_Gray_Antipixel.png"
+    alt="Blue and gray 'Just Give' icon"/&gt;
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;span style="font-size: 75%;"&gt;
+  (&lt;a href="http://bit.ly/just-give" 
+      target="_blank" 
+      title="'Just Give' Campaign"&gt;what's this?&lt;/a&gt;)
+&lt;/span&gt;
+</pre>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-1-2" class="outline-4">
+<h4 id="sec-1-2">Standard Badges (<a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">antipixel</a> style, 80x15px)</h4>
+<div class="outline-text-4" id="text-1-2">
+
+
+<br/><br/>
+<table style='border: 2px solid black !important; border-collapse: separate;' cellspacing="0" cellpadding="6" rules="all" frame="2">
+<caption></caption>
+<colgroup><col class="left" /><col class="left" />
+</colgroup>
+<tbody>
+<tr><td class="left">Blue and gray "Just Give"</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-gray-antipixel.png"  alt="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-gray-antipixel.png" /></td></tr>
+<tr><td class="left">Blue and white "Just Give"</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-white-antipixel.png"  alt="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-white-antipixel.png" /></td></tr>
+<tr><td class="left">Gray and blue "Just Give"</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wiki-just-give-gray-blue-antipixel.png"  alt="http://neilsmithline.com/images/just-give/Wiki-just-give-gray-blue-antipixel.png" /></td></tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-1-3" class="outline-4">
+<h4 id="sec-1-3">Other Badges</h4>
+<div class="outline-text-4" id="text-1-3">
+
+
+<br/><br/>
+<table style='border: 2px solid black !important; border-collapse: separate;' cellspacing="0" cellpadding="6" rules="all" frame="2">
+<caption></caption>
+<colgroup><col class="left" /><col class="left" />
+</colgroup>
+<tbody>
+<tr><td class="left">Blue "Just Give", 172x66px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-172x66.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-172x66.png" /></td></tr>
+<tr><td class="left">Yellow "Vote", 203x78px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-203x78.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-203x78.png" /></td></tr>
+<tr><td class="left">Blue "Just Give, 229x88px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-229x88.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-229x88.png" /></td></tr>
+<tr><td class="left">Blue "Just Give", 305x117px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-305x117.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-305x117.png" /></td></tr>
+<tr><td class="left">Blue "Just Give, 406x156px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-406x156.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-406x156.png" /></td></tr>
+</tbody>
+</table>
+
+
+
+
+<br/>
+		</div>
+	</div>
+
+<a class="link" href="./archives/2012/01/05/stop_ptsd_support_the_wikipedia/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2012/01/05/stop_ptsd_support_the_wikipedia/index.html">Permanent link</a> 
+| File under: <!-- online-freedom --><a href="./archives/online-freedom/index.html">online-freedom</a>
+<!-- <br /><a href="./archives/2012/01/05/stop_ptsd_support_the_wikipedia/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-30T12_26_33.txt"></a>
+	<h2 class="date">2011-12-30 Fri 12:26:33</h2>
+	<div class="blogbody">
+		<h3 class="title">Florida Appeals Court More Liberal Than SOPA!</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+Earlier this week, the Florida appeals court made a ruling that even the poster of a defamatory posting on a public website could not force a website to remove the posting. While most sites allow you to remove your own postings, <a href="http://www.ripoffreport.com/">RipoffReport.com</a>, the site involved in this ruling, states that as an advocate of free speech, it never removes reports. This is clearly stated at the top of their home page and documented extensively on their <a href="http://en.wikipedia.org/wiki/Ripoff_Report#Non-removal_Policy">Wikipedia page</a>. 
+</p>
+<p>
+While not allowing the poster to remove or have removed a posting seems extreme, the site claims that it wishes to remain unbiased. As such, it makes no judgment calls about its content. Everything that is appropriate for the site will stay on the site, forever. RipoffReport.com is afraid that posters may be pressured by 3<sup>rd</sup>-parties to remove articles. As such, They are simply not allowed to.
+</p>
+<p>
+While postings are never removed, the site allows anyone to post a <a href="http://en.wikipedia.org/wiki/Rebuttal">rebuttal</a> to any posting. A poster can use this mechanism to retract their initial statement. 
+</p>
+<p>
+The court ruled that RipoffReport.com could neither be held liable for the defamatory posting nor be forced to remove it. The bottom line of all of this is that
+</p>
+
+<div style="text-align: center">
+<p>The supreme court of Florida, a <a href="http://www.gallup.com/poll/125066/State-States.aspx">middle-of-the-road state</a>, was willing to make a controversial ruling favored many aspects of freedom of speech. If SOPA is passed, cases like this won't even make it to courts as SOPA make it clear that if a ruling is defamatory, it is illegal.
+</p>
+</div>
+
+<p>
+While Congress has delayed voting on SOPA for another month, it is still on the docket. It is unclear what the fate of SOPA will be. 
+</p>
+<p>
+One can hope that Congress pays attention to protests such as the statement]] consumers sent to <a href="http://www.godaddy.com">GoDaddy</a> after it announced its support of SOPA. GoDaddy announced that on a Saturday (see <a href="http://news.slashdot.org/story/11/12/29/2053252/wikipedia-to-dump-godaddy-over-sopa">more complete chronology</a>) and then lost <a href="http://tech.slashdot.org/story/11/12/25/1452251/go-daddy-loses-over-21000-domains-in-one-daylosing">21K domains</a> on the next day. More recently, the <a href="http://news.slashdot.org/story/11/12/29/2053252/wikipedia-to-dump-godaddy-over-sopa">Wikipedia announced it would discontinue all use of GoDaddy</a>. 
+</p>
+<p>
+Let's continue to hope that advocates of free speech, including you (see <a href="SOPA-the-end-of-free-speech.html#ID-06BB29E4-D6B3-430E-B5A3-FDC6716A0ED3">SOPA: The End Of Free Speech</a> for instructions as to how to help), continue to pressure our government into sane activit
+</p>
+<p>
+Copied directly from the <a href="http://www.slashdot.org">Slashdot</a> <a href="http://bit.ly/vVVDLC">article</a>:
+</p><blockquote>
+
+<p><a href="http://www.ripoffreport.com/">RipoffReport.com</a> contained an admittedly defamatory posting, by one of its users, about a person who operated a Florida corporation providing addiction treatment services. Although the site was asked by the poster herself to remove the post, it refused. A Florida appeals court has ruled that the site is absolutely immune from suit (<a href="http://recordingindustryvspeople.blogspot.com/2011/12/florida-appeals-court-rules.html">pdf</a>), and cannot even be directed to remove the offending post, since under the [[http://www.law.cornell.edu/uscode/html/uscode47/usc<sub>sec</sub><sub>47</sub><sub>00000230</sub>-&mdash;000-.html][Communications Decency Act (47 USC 230)] 'no cause of action may be brought' against a provider of an "interactive computer service" based upon information provided by a 3rd party.
+</p>
+</blockquote>
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html">Permanent link</a> 
+| File under: <!-- online-freedom --><a href="./archives/online-freedom/index.html">online-freedom</a>
+<!-- <br /><a href="./archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-28T12_04_20.txt"></a>
+	<h2 class="date">2011-12-28 Wed 12:04:20</h2>
+	<div class="blogbody">
+		<h3 class="title">The Litigious Trio</h3>
+		<div class="item-description">
+			<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+This posting is best viewed as part of the series of postings about <a href="http://neilsmithline.com/archives/litigious-trio/index.html">The Litigious Trio</a> and, in a larger context, <a href="http://neilsmithline.com/archives/online-freedom/index.html">Online Freedom</a>.
+</p>
+<p>
+To be clear, <i>The Litigious Trio</i> are, in alphabetical order, <a href="http://apple.com">Apple</a>, <a href="http://google.com">Google</a> and <a href="http://microsoft.com">Microsoft</a>. While they are three wonderful technology companies, over time, each has turned to an increasingly large amount of litigation to enforce their current market status.
+</p>
+<p>
+While I do not believe that the three companies actively collaborate with each other to hinder the success of smaller companies, I believe that selfish<sup><a class="footref" name="fnr.1" href="#fn.1">1</a></sup> business practices by the trio have had the affect of having created a three company monopoly<sup><a class="footref" name="fnr.2" href="#fn.2">2</a></sup>. While the three companies are locked in a near-endless stream of litigation against each other, this is rather typical amongst large corporate competitors. I can't say that I'm in favor of such litigation but I the three companies can spend their money that way if they want to. They have more than enough of it.
+</p>
+<p>
+But when <i>The Litigious Trio</i>, behaving in a pseudo-monopolistic manner, use litigation to block competition from smaller companies, they end up stifling innovation. 
+</p>
+<p>
+Furthermore, <i>The Litigious Trio</i> are not necessarily the most user-friendly companies. They, along with <a href="http://en.wikipedia.org/wiki/Facebook">Facebook</a>, are some of the leaders in gathering information about its users. Consider the following:
+</p><ul>
+<li>Nearly all of Google's revenue comes from advertising. Their advertising is so valuable, and profitable, because they are able to sell well targeted ads. That is, they know so much about each user that they can sell ad space for that specific user for more than other advertising vendors. The article, <a href="http://www.globalreports.com/?article=12">We Are Google's Products</a>, provides a good summary of this concept. 
+</li>
+<li>Google has a near-monopoly on internet advertising. The US Senate <a href="http://tech.slashdot.org/story/11/12/21/1356246/senators-recommend-ftc-perform-antitrust-investigation-of-google">has recently requested</a> the <a href="http://en.wikipedia.org/wiki/Federal_Trade_Commission">FTC</a> to investigate this.
+</li>
+<li>Microsoft's <a href="https://www.google.com/search?q=microsoft+antitrust&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:unofficial&amp;client=firefox-a">monopolistic practices</a> have been discussed and challenged by courts around the world for years.
+</li>
+<li>Apple is currently under investigation for <a href="http://www.huffingtonpost.com/2011/12/07/us-justice-department-apple-ebooks_n_1134983.html">price fixing on its eBooks</a>, has just been fined for <a href="http://www.pluggedin.co.uk/article/apple-fined-over-misleading-customers-italy">charging customers in Italy</a> for providing federally mandated, free support, and has tried to <a href="http://apple.slashdot.org/story/11/08/09/1832254/sale-of-samsung-galaxy-tab-blocked-in-the-eu">destroy Samsung's mobile market</a> by presenting <a href="http://yro.slashdot.org/story/11/08/15/1758224/flawed-evidence-in-eu-apple-vs-samsung-case">falsified evidence</a> to courts around the world. While this last claim seems hard to believe, an <a href="http://www.pcworld.com/article/238047/apple_offers_flawed_evidence_in_lawsuit_against_samsung.html">easily accessible description and images</a> demonstrate that Apple is either incompetent or dishonest.
+</li>
+</ul>
+
+
+
+<p>
+The only question seems to be whether the public is motivated to address this problem and what the public can do to address it. The reason monopolies are illegal is because fighting them is difficult.
+</p>
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/28/the_litigious_trio/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2011/12/28/the_litigious_trio/index.html">Permanent link</a> 
+| File under: <!-- online-freedom --><a href="./archives/online-freedom/index.html">online-freedom</a>,
+<!-- litigious-trio --><a href="./archives/litigious-trio/index.html">litigious-trio</a>
+<!-- <br /><a href="./archives/2011/12/28/the_litigious_trio/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-20T08_25_20.txt"></a>
+	<h2 class="date">Tue Dec 20 08:27:38 EST 2011</h2>
+	<div class="blogbody">
+		<h3 class="title">Unix Reference: Add User To A Group </h3>
+		<div class="item-description">
+			
+
+<p>
+<a href="http://linux.die.net/man/8/usermod">usermod</a> -a -G GID1,GID2,&hellip;GIDn USERNAME
+</p>
+<ul>
+<li>
+USERNAME must already exist
+</li>
+<li>
+The one or more GIDs must already exist
+</li>
+<li>
+Omitting the <i>-a</i> will first remove the user from all groups except their login group and then add them to groups GIDs.
+
+
+
+
+
+<!-- For GNU Emacs
+--
+-- Local Variables:
+-- org-export-nb-id:      "2011-12-20T08_25_20"
+-- org-export-nb-tags:  "unix-reference,reference"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/20/unix_reference_add_user_to_a_group/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2011/12/20/unix_reference_add_user_to_a_group/index.html">Permanent link</a> 
+| File under: <!-- reference --><a href="./archives/reference/index.html">reference</a>,
+<!-- unix-reference --><a href="./archives/unix-reference/index.html">unix-reference</a>
+<!-- <br /><a href="./archives/2011/12/20/unix_reference_add_user_to_a_group/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-15T01_49_25.txt"></a>
+	<h2 class="date">Thu Dec 15 10:04:43 EST 2011</h2>
+	<div class="blogbody">
+		<h3 class="title">Sparkleshare: Maybe An Open, Privately Hosted, Dropbox Alternative</h3>
+		<div class="item-description">
+			
+
+<p> 
+<a href="http://dropbox.com">Dropbox</a> took the internet by storm with its free storage and ease of
+access. But Dropbox comes with a limited amount of data, a level of
+secureness that is hard-to-understand, and rather proprietary.
+</p>
+<p>
+<a href="http://sparkleshare.org">Sparkleshare</a> is an <a href="http://en.wikipedia.org/wiki/Free_and_Open_Source_Software">open source</a> alternative to Dropbox that hit my
+radar screen about 6 months ago. I played with it a bit back then but
+it didn't seem to be quite there. I think I was using an early-alpha,
+pre-release version so I this was to be expected.
+</p>
+<p>
+I gave it another try earlier this week and seem to be pretty happy
+with it. Some of the things I like about it include:
+</p><ol>
+<li>I get to host it on my own server. This means the data is
+     private. I own it. Nobody else has a copy of it. Etc&hellip;
+</li>
+<li>I have been renting a Linux <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a> from <a href="http://rosehosting.com">RoseHosting.com</a> ($20/month)
+     for many years so they provide me with a convenient, managed, and
+     relatively secure place to host Sparkleshare.
+</li>
+<li>It only took me about 5 minutes to install and configure
+     sparkleshare on my Linux VPS. Not because I'm brilliant but
+     because Linux doesn't suck and Sparkleshare requires no special
+     server software. Just a few standard packages such as <a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a> and a
+     copy-and-paste of one command line. The client install (Mac OS X)
+     was equally simple.
+</li>
+<li>Being that it is <a href="http://en.wikipedia.org/wiki/Free_and_Open_Source_Software">FOSS</a>, there is continual scrutiny of the source
+     code to maintain quality and security.
+</li>
+</ol>
+
+
+<p>
+The only real objection I have with it is that Dropbox allows <a href="http://en.wikipedia.org/wiki/Symbolic_link">symbolic links</a> in the Dropbox folder so I don't need to have all of my files in
+one directory. I haven't yet gotten this to work on Sparkleshare.
+Either I just haven't figured it out, someone else will add it
+shortly, or, being it is <a href="http://www.wikipedia.com/Foss">FOSS</a>, I'll add it if I get motivated enough
+(BTW: I'm voting for someone else implementing it).
+</p>
+
+
+
+<!-- For GNU Emacs
+--
+-- Local Variables:
+-- org-export-nb-id:    "2011-12-15T01_49_25"
+-- org-export-nb-tags:  "sync-software,software"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/15/sparkleshare_maybe_an_open_privately_hosted_dropbox_alternative/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2011/12/15/sparkleshare_maybe_an_open_privately_hosted_dropbox_alternative/index.html">Permanent link</a> 
+| File under: <!-- sync-software --><a href="./archives/sync-software/index.html">sync-software</a>,
+<!-- software --><a href="./archives/software/index.html">software</a>
+<!-- <br /><a href="./archives/2011/12/15/sparkleshare_maybe_an_open_privately_hosted_dropbox_alternative/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-11T00_27_30.txt"></a>
+	<h2 class="date">Sun Dec 11 00:31:05 EST 2011</h2>
+	<div class="blogbody">
+		<h3 class="title">SOPA: The End Of Free Speech</h3>
+		<div class="item-description">
+			
+
+<p> 
+<a href="https://wfc2.wiredforchange.com/o/9042/p/dia/action/public/?action_KEY=8173">SOPA</a>, and its sister bill PROTECT-IP, are currently making their way
+through congress. I have pointers to some of the excellent sources of
+information on the bills at the end of this article.
+</p>
+<p>
+While the magnitude of these bills is staggering, this posting focuses
+on how the passage of these bills will dramatically remove the ability
+of individuals to produce and share content on the internet.
+</p>
+<p>
+While I favor reasonable enforcement and punishment of internet-based
+crimes, these bills introduce the concepts of:
+</p><ul>
+<li><b>Guilty until proven innocent</b> 
+</li>
+<li><b>Guilty by association</b> 
+</li>
+<li><b>Whoopsy daisy legal recourse</b> that restricts damages (eg: going bankrupt) due to abuse of SOPA to
+  "s&mdash; happens" response.
+</li>
+</ul>
+
+
+<p>
+into American law. At least to me, those concepts don't seem very
+"American".
+</p>
+<p>
+The problems with this bill can best be demonstrated by a simple
+example. Let us use the consider a fictitious, non-profit website run
+by a couple of friends that is focused on internet freedom. The
+website is called <i>Big Brother, Back-off and Stop-It!</i> with the URL
+BBBandS.org.
+</p>
+<p>
+If this bill is passed, <i>Big Brothers Big Sisters</i> (<a href="http://bbbs.org">http://bbbs.org</a>)
+could simply write a letter to search engines such as Google, content
+distributors such as Facebook, and payment companies such as Paypal,
+claiming that they feel BBBandS.org is infringing on their <i>domain name</i>. Once this is done, <i>each</i> search, content, and payment provider
+must contact BBBandS.org (remember that BBBandS.org is a couple of
+friends working out of their garage).
+</p>
+<p>
+BBBandS.org must reply to each and every provider explaining why they
+do not feel that BBBandS.org is infringing on BBBS.org's <i>domain name</i>. It seems clear that BBBandS.org could not accomplish this task
+in a timely fashion.
+</p>
+<p>
+For each company that BBBandS.org does not manage to provide a
+credible counterclaim to (where <i>credible</i> is determined by the
+search, content, and payment provider companies), a fairly mechanical
+process will begin where federal courts will execute a <i>cease and desist</i> to each search, content, or payment service provider
+informing them that they must stop servicing BBBandS.org.
+</p>
+<p>
+<b>Guilty until proven innocent:</b> Note that the
+simple lack of a timely response to sufficient to, by means of a
+judicial <i>cease and desist</i> order, force search, and payment providers to
+become legally and financially liable if they continue to do business
+with BBBandS.org. 
+</p>
+<p>
+<b>Guilty by association:</b> Whether a service provider agrees or disagrees
+with the order, they can be held accountable if they do not "block
+access to or end financial affiliation" with BBBandS.org.
+</p>
+<p>
+To add insult to injury, the bill goes on to provide "immunity from
+liability for service providers" that follow a <i>cease and desist</i>
+order, causing clear economic harm to BBBandS.org, <b>even</b> if it is
+eventually determined that there was no infringement.
+</p>
+<p>
+<b>Whoopsy daisy legal recourse</b>: Should the <i>cease and desist</i> order
+be determined to be incorrect via a legal process that may take years
+and cost more money than most people will ever have, this bill
+restricts BBBandS.org's legal recourse to accepting the apologies of
+the US judicial system.
+</p>
+<p>
+While I am in favor of what the bill claims to be protecting, this
+bill proposes far too high a price to pay for that protection.
+</p>
+<p>
+If you care about the rights of small organizations (eg: people like you), please:
+</p><ul>
+<li>Read an excellent summary of SOPA in this <a href="https://wfc2.wiredforchange.com/o/9042/p/dia/action/public/?action_KEY=8173">article</a>. Keep in mind
+    that the reason that the article seems ludicrous, insane, and
+    unbelievable is because it is accurately reflecting the proposed
+    legislation.
+</li>
+<li>Google <i>SOPA</i> or <i>PROTECT-IP</i>.
+</li>
+<li>Take action via Mozilla's page <a href="http://bit.ly/tvIpE3">focused on this issue</a>.
+</li>
+<li>Take action via the <a href="https://wfc2.wiredforchange.com/o/9042/p/dia/action/public/?action_KEY=8173">EFF</a>.
+</li>
+<li>Contact your legislator using <a href="http://bit.ly/s0I5me">this</a> <a href="#OpenCongress.org">OpenCongress.org</a> page (takes
+    only a minute or so).
+</li>
+<li>Discuss this issue with everyone you know.
+</li>
+<li>Discuss this issue with people you don't know. I recommend "So what do you think
+    about SOPA?" as a pick-up line though I encourage creativity and
+    individualism as to the exact wording.
+</li>
+<li>Post a copy or a link to one or more articles on SOPA everywhere
+    you can.
+</li>
+</ul>
+
+
+
+
+
+<!-- For GNU Emacs
+--
+-- Local Variables:
+-- org-export-nb-id:        "2011-12-11T00_27_30"
+-- org-export-nb-tags:      "online-freedom"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb Whoopsy
+-->
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/11/sopa_the_end_of_free_speech/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2011/12/11/sopa_the_end_of_free_speech/index.html">Permanent link</a> 
+| File under: <!-- online-freedom --><a href="./archives/online-freedom/index.html">online-freedom</a>
+<!-- <br /><a href="./archives/2011/12/11/sopa_the_end_of_free_speech/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-10T20_08_34.txt"></a>
+	<h2 class="date">Sat Dec 10 20:09:57 EST 2011</h2>
+	<div class="blogbody">
+		<h3 class="title">Got Tags Working Manually</h3>
+		<div class="item-description">
+			
+
+<p> 
+<a href="http://nanoblogger.sourceforge.net">NanoBlogger</a> supports <a href="http://en.wikipedia.org/wiki/Tag_(metadata)">tags</a>. While they came working out of the box,
+their UI is a bit awkward. I now have it so that I can easily tag
+entries with just a single command line. For example, I'll tag this
+posting by typing: 
+nbeta about-this-blogs-tech 1
+<code>nbeta</code> is my shell script to add tags to an entry. It seems a bit
+hard to remember but:
+</p><table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption></caption>
+<colgroup><col class="left" /><col class="left" /><col class="left" />
+</colgroup>
+<thead>
+<tr><th scope="col" class="left">Letters</th><th scope="col" class="left">Word</th><th scope="col" class="left">Meaning</th></tr>
+</thead>
+<tbody>
+<tr><td class="left">nb</td><td class="left">NanoBlogger</td><td class="left">This is a NanoBlogger command</td></tr>
+<tr><td class="left">e</td><td class="left">Entry</td><td class="left">This command will affect one or more entries</td></tr>
+<tr><td class="left">t</td><td class="left">Tags</td><td class="left">Affects the tags, in this case, of entries</td></tr>
+<tr><td class="left">a</td><td class="left">Add</td><td class="left">We'll be adding tags</td></tr>
+</tbody>
+</table>
+
+
+<p>
+<code>about-this-blogs-tech</code> is the tag name. <code>1</code> is the entry ID number.
+I'd like it to be the entry name but that isn't done yet and seems of
+lower priority as the newest entry is always entry #1.
+</p>
+
+
+
+<!-- For GNU Emacs
+--
+-- Local Variables:
+-- org-export-nb-id:    "2011-12-10T20_08_34"
+-- org-export-nb-tags:  "about-this-blogs-tech"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/10/got_tags_working_manually/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2011/12/10/got_tags_working_manually/index.html">Permanent link</a> 
+| File under: <!-- software --><a href="./archives/software/index.html">software</a>,
+<!-- nanoblogger --><a href="./archives/nanoblogger/index.html">nanoblogger</a>
+<!-- <br /><a href="./archives/2011/12/10/got_tags_working_manually/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-10T01_25_16.txt"></a>
+	<h2 class="date">Sat Dec 10 01:27:23 2011</h2>
+	<div class="blogbody">
+		<h3 class="title">Seems It Really Works</h3>
+		<div class="item-description">
+			
+
+<p> 
+Well, it appears this actually does work. I seem to be having a few
+issues integrating with <a href="http://nanoblogger.sourceforge.net">NanoBlogger</a> but I'm sure I'll work those out.
+The problems that I've seen are:
+</p><ol>
+<li>It seems that adding or even updating a new entry is as costly
+       as rebuilding the entire blog from scratch. Right now, that's
+       OK. But what am I going to do when I have 10, or 100 postings?
+       I hope NanoBlogger can handle this.
+</li>
+<li>NB seems to assume that its input files are hand-written in
+       some legacy text editor called <a href="http://www.vim.org">Vim</a> or something :-). While my
+       strategy of using <a href="http://www.gnu.org/s/emacs/">GNU Emacs</a>' <a href="http://orgmode.org">Org Mode</a> keeps the flavor of NB in
+       that it is written in a simple markup language, it doesn't seem
+       to fit the NB model perfectly. There is nothing wrong with NB's
+       markup, it is just that Org Mode's markup can easily be
+       exported to virtually every other markup on the planet. So I
+       just need to learn Org Mode markup, write my content in Org
+       Mode, and then publish that data into whatever format I choose.
+       Seems a better solution but NB isn't quite prepared for it.
+</li>
+<li>I would still like better integration with Org Mode and NB. The
+       steps I've used to produce this entry are:
+<ul>
+<li>Ran a little shell script I wrote to create a new NB
+             entry. All I do is give the shell script the title of the
+             Org Mode file I want to store the new entry in and it
+             does its magic, leaving me with an Org Mode skeleton for
+             NB.
+</li>
+<li>Edit the Org Mode file just created.
+</li>
+<li>Use Org Mode to publish the entry. This just stores it in
+            my local NB folder.
+</li>
+<li>Run <code>nb update</code> to have my changes put into the local
+            copy of the blog.
+</li>
+<li>Run <code>nb preview</code> to view the changes before publishing.
+</li>
+<li>Run <code>nb publish</code> to update my blog.
+</li>
+</ul>
+
+</li>
+</ol>
+
+
+<p>
+So, while they're are still some problems,  I have to say I love it.
+The advantages of using Org Mode and the simple NB blogging engine on
+both my local and production server is way cool.
+</p>
+<p>
+<a href="http://orgmode.org">Org Mode</a> is actually way cool. I've only started using it in the past
+year and will likely spend years learning it as it supports so many
+features. But, like all well-designed pieces of software, you don't
+need to learn it all at once. I'll yabber about Org Mode another day.
+In any case, I'm real happy with my blog and the ease with which I can
+add postings to it.
+</p>
+
+
+
+<!-- For GNU Emacs
+--
+-- Local Variables:
+-- org-export-nb-id: "2011-12-10T01_25_16"
+-- org-export-nb-tags: "about-this-blogs-tech"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/10/seems_it_really_works/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline</span>
+| <a class="link" href="./archives/2011/12/10/seems_it_really_works/index.html">Permanent link</a> 
+| File under: <!-- software --><a href="./archives/software/index.html">software</a>,
+<!-- nanoblogger --><a href="./archives/nanoblogger/index.html">nanoblogger</a>
+<!-- <br /><a href="./archives/2011/12/10/seems_it_really_works/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->
+<div class="item"> <!-- FILE: entry.htm -->
+	<a id="e2011-12-10T01_07_49.txt"></a>
+	<h2 class="date">2011-12-07</h2>
+	<div class="blogbody">
+		<h3 class="title">My New Blogging Technology </h3>
+		<div class="item-description">
+			
+
+<p> 
+My hope is that I can write this entry in <a href="http://www.gnu.org/s/emacs/">GNU Emacs</a>' <a href="http://orgmode.org">Org Mode</a> and have it auto-published into this <a href="http://www.neilsmithline.com">blog</a>. If you are reading this, then I have succeeded.
+</p>
+<p>
+This is a <a href="http://en.wikipedia.org/wiki/Website#Static_website">static blog</a>. That is, the server side is all <a href="http://en.wikipedia.org/wiki/HTML">HTML</a>. It can be served by virtually any web server. This makes it incredibly convenient for testing and deploying. When I am writing blog entries, I'm just typing in Emacs. I then save the entries and use Org Mode plus some personalized tweaks to <a href="http://orgmode.org/org.html#Publishing">publish</a> them to a local directory as something close to HTML.
+</p>
+<p>
+These HTMLish files are then fed into <a href="http://nanoblogger.sourceforge.net">NanoBlogger</a>. NanoBlogger is the magic tool that turns a few HTMLish files into a fully functional website. NanoBlogger accepts HTML for the text af entries but wants some simply formatted <a href="http://en.wikipedia.org/wiki/Metadata">metadata</a> added to the file.
+</p>
+<p>
+The Metadata is needed to help NanoBlogger out because, as its name implies, is a teeny-tiny blog engine. As a comparison, my installation of NanoBlogger is 768K (yes, that's "K"). I also have installations of Drupal at (14M) and Joomla (107M). 
+</p>
+<p>
+The <a href="http://en.wikipedia.org/wiki/.txt">.txt</a> source for each NanoBlogger posting is a file with the body of the entry in HTML embedded but all the cruft that tends to come before and after the body of a web page is simply not there. The easiest way to get an understanding of it is to view the <a href="http://nanoblogger.sourceforge.net/articles/example.txt">metadata source</a> for this <a href="http://nanoblogger.sourceforge.net/articles/example/">sample posting</a>.
+</p>
+<p>
+So you're saying "Big deal." or "Who needs yet another file format?" But it is a big deal. What most <a href="http://en.wikipedia.org/wiki/Younglings#Ranks_of_Jedi">younglings</a> have never learned is that <a href="http://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> is a distraction from actual content production. Content production is not the same as formatting and editing and, at least in my experience, uses very different parts of the brain. So the less formatting you do while producing content, the better your content will be (at least if you have my brain :-).
+</p>
+<p>
+While it has largely been lost with the popularization of the <a href="http://wikipedia.org">Wikipedia</a>, initially, <a href="http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet">Wiki markup</a> was intended to simplify editing but also served to separate the content production from formatting. While NanoBlogger expects these HTMLish files as input, it is designed to generate them from any number of simpler input formats.
+</p>
+<p>
+These simpler input formats are quite unlike HTML as they are, well they're simpler. The default input format is the rather famous <a href="http://daringfireball.net/projects/markdown/">Markdown</a> though many other formats are supported by NanoBlogger or the community. This <a href="http://www.lifehack.org/articles/productivity/use-markdown-for-easy-web-writing.html">article</a> seems to do a good job explaining the benefits of simple languages such as Markdown.
+</p>
+<p>
+It took me but a few hours to create a converter for <a href="http://www.gnu.org/s/emacs/">GNU Emacs</a>' <a href="http://orgmode.org">Org Mode</a> to NanoBlogger.
+</p>
+<p>
+While not nearly as <a href="http://en.wikipedia.org/wiki/Cool_(aesthetic)">cool</a> as what I've discussed above NanoBlogger has yet another advantage: it produces a static site. On my local machine (<a href="http://support.apple.com/kb/SP546">17" MacBook Pro</a>), I can view the entire site without running a <a href="http://en.wikipedia.org/wiki/Web_server">web server</a>. I simply go to <a href="http://en.wikipedia.org/wiki/Web_server">Firefox</a> (actually <a href="http://www.mozilla.org/en-US/firefox/aurora/">Firefox Aurora</a>) and visit the <a href="http://en.wikipedia.org/wiki/URL">URL</a>, specifically, the <a href="http://en.wikipedia.org/wiki/File_url">file URL</a> of my blog. For me, I visit <code>file://Users/neil/www-nb</code>, and then I can see my entire blog through the magic of a static websites, <a href="http://en.wikipedia.org/wiki/File_url">file URLs</a>, and <a href="http://en.wikipedia.org/wiki/Relative_URL#Absolute_and_relative_URLs">relative URLs</a>. 
+</p>
+
+
+
+
+
+<!-- For GNU Emacs
+--
+-- Local Variables:
+-- org-export-nb-id:    "2011-12-10T01_07_49"
+-- org-export-nb-tags:  "about-this-blogs-tech"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+		</div>
+	</div>
+
+<a class="link" href="./archives/2011/12/10/my_new_blogging_technology/index.html">View or Add Comments</a> about this entry. 
+	<div class="posted">
+		<br />Posted by <span class="item-creator">Neil Smithline </span>
+| <a class="link" href="./archives/2011/12/10/my_new_blogging_technology/index.html">Permanent link</a> 
+| File under: <!-- software --><a href="./archives/software/index.html">software</a>,
+<!-- nanoblogger --><a href="./archives/nanoblogger/index.html">nanoblogger</a>
+<!-- <br /><a href="./archives/2011/12/10/my_new_blogging_technology/index.html#comments">Comments</a> -->
+	</div>
+
+</div>
+
+<!--  LocalWords:  EntryPermalink
+ -->

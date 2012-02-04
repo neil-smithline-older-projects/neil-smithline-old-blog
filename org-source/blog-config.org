@@ -1,0 +1,130 @@
+#+BEGIN_COMMENT
+
+A file that contains default export/publishing properties for
+HTML/export options for blog entries.
+
+This is loaded with a '# +SETUPFILE: filename' directive.
+
+#+END_COMMENT
+
+
+#+STARTUP: org-startup-folded:                  showall
+#+STARTUP: org-startup-indented:                indent
+#+STARTUP: org-startup-align-all-tables:        align
+#+STARTUP: org-startup-with-inline-images:      inlineimages
+#+STARTUP: org-startup-align-all-tables:        align
+#+STARTUP: org-startup-align-all-tables:        align
+#+STARTUP: org-hide-leading-starts:             showstars
+#+STARTUP: org-odd-levels-only:                 oddeven
+#+STARTUP: org-put-time-stamp-overlays:         t
+#+STARTUP: org-unit-system:                     constSI
+#+STARTUP: org-footnote-define-inline:          fnlocal
+#+STARTUP: org-footnote-auto-label:             fnplain
+#+STARTUP: org-footnote-auto-adjust:            fnadjust
+#+STARTUP: org-hide-block-startup:              nohideblocks
+
+
+#+OPTIONS:      H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:      TeX:nil LaTeX:nil skip:t d:nil todo:t pri:t tags:nil
+
+#+BEGIN_HTML
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  
+DESC:   
+DATE:   2011-12-24 Sat 08:39:08
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+<!-- Your text follows END_HTML directive -->
+
+#+END_HTML
+
+
+
+
+
+
+
+
+
+
+#+BEGIN_HTML
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+#+END_HTML
+
+#+BEGIN_COMMENT
+
+<!-- ORG-MODE REFERENCE --
+
+#+BEGIN_VERSE
+This is like an HTML pre tag
+Newlines are respected
+     As is leading whitespace#+END_VERSE
+
+
+
+#+BEGIN_QUOTE
+Extra margin is added on
+both the left and right sides.
+Whitespace and newlines are not handled specially#+END_VERSE
+
+
+#+BEGIN_CENTER
+Centered Text#+END_CENTER
+
+
+#+BEGIN_EXAMPLE
+Monospaced with
+    leading whitespace.
+#+END_EXAMPLE
+
+
+  : One line example
+
+
+#+BEGIN_SRC
+Like example but with source highlighting.
+See [[info:org#Literal%20examples][info]] for details.
+#+END_SRC
+
+
+#+CAPTION: This is the caption for the next figure link (or table)
+#+LABEL:   fig:SED-HR4049
+[[./img/a.jpg]]   
+
+
+Make words *bold*, /italic/, _underlined_, `=code=' and
+`~verbatim~', and, if you must, `+strike-through+'.  Text in the code
+and verbatim string is not processed for Org-mode specific syntax; it
+is exported verbatim.
+
+
+ A line of five or more dashes is treated as an <hr/>
+
+#+ATTR_HTML: title="The Org-mode homepage" style="color:red;"
+[[http://orgmode.org]]
+
+<!-- GNU EMACS METADATA --
+--
+-- This must be near the end of the file for Emacs to find it.
+--
+-- Local Variables:
+-- org-export-nb-id: "2011-12-24T08_39_08"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: eval
+
+
+#+END_COMMENT
+-->
+
