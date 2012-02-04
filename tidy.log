@@ -1,14 +1,14 @@
 
 tidy validating /Volumes/HOME/neil/www-nb/atom.xml:
 
-line 191 column 8 - Error: unexpected </em> in <p>
-line 352 column 1 - Error: unexpected </content> in <div>
-line 354 column 1 - Error: unexpected </entry> in <div>
+line 236 column 8 - Error: unexpected </em> in <p>
+line 397 column 1 - Error: unexpected </content> in <div>
+line 399 column 1 - Error: unexpected </entry> in <div>
 Warning: adjacent hyphens within comment
-line 506 column 1 - Error: unexpected </div> in <li>
-line 507 column 1 - Error: unexpected </content> in <li>
-line 509 column 1 - Error: unexpected </entry> in <li>
-3 warnings, 7 errors were found! Not all warnings/errors were shown.
+line 551 column 1 - Error: unexpected </div> in <li>
+line 552 column 1 - Error: unexpected </content> in <li>
+line 554 column 1 - Error: unexpected </entry> in <li>
+2 warnings, 7 errors were found! Not all warnings/errors were shown.
 
 This document has errors that must be fixed before
 using HTML Tidy to generate a tidied up version.
@@ -126,7 +126,7 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
-tidy validating /Volumes/HOME/neil/www-nb/archives/misc/index.html:
+tidy validating /Volumes/HOME/neil/www-nb/archives/blog/index.html:
 
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
@@ -278,6 +278,18 @@ For further advice on how to make your pages accessible
 see http://www.w3.org/WAI/GL. You may also want to try
 "http://www.cast.org/bobby/" which is a free Web-based
 service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -519,35 +531,35 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index.html:
 
-line 381 column 1 - Warning: missing </em> before <p>
-line 382 column 1 - Warning: inserting implicit <em>
-line 382 column 1 - Warning: missing </em> before <p>
-line 383 column 1 - Warning: inserting implicit <em>
-line 383 column 1 - Warning: missing </em> before <p>
-line 384 column 8 - Warning: discarding unexpected </em>
-line 387 column 1 - Warning: inserting implicit <p>
+line 421 column 1 - Warning: missing </em> before <p>
+line 422 column 1 - Warning: inserting implicit <em>
+line 422 column 1 - Warning: missing </em> before <p>
+line 423 column 1 - Warning: inserting implicit <em>
+line 423 column 1 - Warning: missing </em> before <p>
+line 424 column 8 - Warning: discarding unexpected </em>
+line 427 column 1 - Warning: inserting implicit <p>
 Warning: adjacent hyphens within comment
-line 685 column 1 - Warning: missing </ul> before </div>
-Warning: adjacent hyphens within comment
-Warning: adjacent hyphens within comment
+line 725 column 1 - Warning: missing </ul> before </div>
 Warning: adjacent hyphens within comment
 Warning: adjacent hyphens within comment
 Warning: adjacent hyphens within comment
-line 203 column 17 - Warning: missing </div>
-line 200 column 9 - Warning: missing </div>
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+line 194 column 17 - Warning: missing </div>
+line 191 column 9 - Warning: missing </div>
 line 40 column 1 - Warning: missing </div>
-line 324 column 128 - Warning: <a> escaping malformed URI reference
-line 505 column 1 - Warning: <table> lacks "summary" attribute
-line 527 column 1 - Warning: <table> lacks "summary" attribute
-line 972 column 6 - Warning: <table> lacks "summary" attribute
-line 381 column 1 - Warning: trimming empty <em>
-line 382 column 1 - Warning: trimming empty <em>
-line 381 column 7 - Warning: trimming empty <p>
-line 384 column 1 - Warning: trimming empty <p>
-line 387 column 1 - Warning: trimming empty <p>
-line 506 column 1 - Warning: trimming empty <caption>
-line 528 column 1 - Warning: trimming empty <caption>
-line 973 column 1 - Warning: trimming empty <caption>
+line 364 column 128 - Warning: <a> escaping malformed URI reference
+line 545 column 1 - Warning: <table> lacks "summary" attribute
+line 567 column 1 - Warning: <table> lacks "summary" attribute
+line 1012 column 6 - Warning: <table> lacks "summary" attribute
+line 421 column 1 - Warning: trimming empty <em>
+line 422 column 1 - Warning: trimming empty <em>
+line 421 column 7 - Warning: trimming empty <p>
+line 424 column 1 - Warning: trimming empty <p>
+line 427 column 1 - Warning: trimming empty <p>
+line 546 column 1 - Warning: trimming empty <caption>
+line 568 column 1 - Warning: trimming empty <caption>
+line 1013 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 29 warnings, 0 errors were found!

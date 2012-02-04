@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.3.6), see www.w3.org" />
+<meta http-equiv="Content-Type" content=
+"text/html; charset=utf-8" />
+<meta name="generator" content="NanoBlogger 3.5-RC1" />
+<meta name="description" content=
+"How I managed to both have my cake and eat it too." />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="31 days" />
+<title>This Blog Is Now Hosted For Free (and it's slashdot proof
+too) | My Geekdom</title>
+<link rel="stylesheet" href="../../../../../styles/nb_default.css"
+type="text/css" media="all" />
+<link rel="stylesheet" href="../../../../../styles/print.css" type=
+"text/css" media="print" />
+<link rel="shortcut icon" href=
+"../../../../../images/S-favicon.ico" />
+<link rel="alternate" type="application/atom+xml" title="Atom 1.0"
+href="../../../../../atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0"
+href="../../../../../rss.xml" />
+</head>
+<body>
+<!-- FILE: templates/permalink.htm -->
+<div id="banner">
+<h1><a href="../../../../../index.html" accesskey="1">My
+Geekdom</a></h1>
+<span class="description">Ramblings about my nerdy
+pursuits</span></div>
+<!-- /banner div -->
+<div id="container">
+<div class="archives"><a id="top"></a>
+<div id="menu"><a href="../../../../../index.html">Main</a> &gt;
+<a href="../../../../../archives/index.html">Archives</a> &gt;
+<a href="../../../../../archives/2012/index.html">2012</a> &gt; 
+<!-- comment out next line when month archives are disabled -->
+ <a href="../../../../../archives/2012/02/index.html">02</a> &gt; 
+<!-- uncomment next line when day archives are enabled -->
+ 
+<!-- <a href="../../../../../archives/2012/02/03/index.html">03</a> &#62; -->
+<br />
+<a href=
+"../../../../../archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html">
+&lt;</a> 
+<!-- uncomment next line when month or day archives are disabled -->
+ <!-- 02/03 -->
+ 21:49:09</div>
+<h2 class="date"><!-- FILE: permalink_entry.htm -->
+ 2012-02-03 Fri 21:49:09</h2>
+<div class="blogbody"><a id="e2012-02-03T21_49_09.txt"></a>
+<h3 class="title">This Blog Is Now Hosted For Free (and it's
+slashdot proof too)</h3>
+<!-- NANOBLOGGER METADATA - END -->
+<!-- The posting body follows this END_HTML directive -->
+<p>While there are many free or nearly free blog hosting sites
+available, most of them come with a long list of restrictions.
+Either they restrict you to using their blogging software, throw
+ads on your pages, give you the "unlimited bandwidth" plan that
+they'll cut off if your site gets too much traffic, limit you to
+only the ugly themes, etc…</p>
+<p>But <a href="http://neilsmithline.com">neilsmithline.com</a> is
+now hosted on a site that charges me nothing, doesn't put ads on my
+pages, couldn't care less about the theme I use, and, should I ever
+be lucky enough, survive <a href=
+"http://en.wikipedia.org/wiki/Slashdotting">slashdotting</a>. The
+only restriction is that my blog has to be static. Being that I
+already had a static blog (see <a href=
+"#about-this-blogs-tech.org">previous posting</a>), this was no
+problem for me at all. I've used lots of dynamic blogs (<a href=
+"http://en.wikipedia.org/wiki/Drupal">Drupal</a>, <a href=
+"http://en.wikipedia.org/wiki/Wordpress">WordPress</a>, <a href=
+"http://en.wikipedia.org/wiki/Joomla">Joomla</a>, <a href=
+"http://en.wikipedia.org/wiki/Blogger_(service)">Blogger</a>,
+<a href="http://en.wikipedia.org/wiki/Movable_Type">Movable
+Type</a>, etc…) and just found that "dynamic" is a short way of
+saying that the blogging system is going to do what it wants and
+not what I want.</p>
+<p>Along with the free hosting I get automatic version control,
+well-managed collaboration (not that I have any collaborators),
+data redundancy, eternal archiving (I probably won't need it that
+long but it's nice to know that nothing will get lost), and the
+ability to get a copy of my data onto my local machine whenever I
+want it.</p>
+<p>My choice of blogging technology was largely influenced by these
+two blog postings, <a href=
+"http://decafbad.com/blog/2011/06/08/further-jekyll-notes">1</a>
+and <a href=
+"http://decafbad.com/blog/2011/06/08/moved-to-jekyll">2</a>, and
+email conversations I had with their author, <a href=
+"https://plus.google.com/114487965928288927815/about">Les
+Orchard</a>. While Les went with <a href=
+"https://github.com/mojombo/jekyll">Jekyll</a>, I preferred the
+simpler <a href=
+"http://nanoblogger.sourceforge.net/">NanoBlogger</a>. Les uses
+<a href="http://github.com">Github.com</a> for versioning his blog
+but hosts his blog on his own site as he wants full control of what
+is published. I simply couldn't agree with him more.</p>
+<p>When I moved to my new blogging framework, I quickly got my blog
+up and running using NanoBlogger for site generation and sftp to
+publish it to my VPS. Today I investigated replacing sftp with
+Github and its notification framework. This would essentially
+mirror Les's blog system except that I am running NanoBlogger
+locally while he runs Jekyll.</p>
+<p>As I was investigating using Github for transportation and
+archiving of my blog, I decided to take another look at <a href=
+"http://pages.github.com/">Github Pages</a>. And then, like a
+lightning bolt, it occurred to me. When I publish my blog by
+pushing it to Github, if the repository has the magic name of
+<i>neil-smithline.github.com</i>, then Github would publish my blog
+at <a href=
+"http://neil-smithline.github.com/">http://neil-smithline.github.com/</a>
+automatically. There simply was no benefit to serve my blog from my
+VPS as Github would do it far better than I could on my VPS.</p>
+<p>The only problem I foresee is that I run more than just my blog
+on <a href="http://nelismithline.com">nelismithline.com</a>. But
+the other applications I run are only for my private use so I can
+just map them to another sub-domain such as
+<i>whatever.neilsmithline.com</i>. For example, I've been playing
+with a cloud-based bookmarking system, <a href=
+"http://www.phoboslab.org/projects/asaph">Asaph</a>, that allows
+you to host the bookmarks. You can see it at <a href=
+"http://www2.neilsmithline.com/asaph/">http://www2.neilsmithline.com/asaph/</a>
+if you have an interest in seeing the service in action.</p>
+<p>All-in-all, it's like a nerd's dream come true :-D</p>
+</div>
+<div class="posted"><br />
+Posted by Neil Smithline | <a class="link" href=
+"../../../../../archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html">
+Permanent link</a> | File under: <!-- blog --><a href=
+"../../../../../archives/blog/index.html">blog</a> 
+<!-- <br /><a href="../../../../../archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html#comments">Comments</a> -->
+ <!-- Disqus Code-->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+//<![CDATA[
+       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+       var disqus_shortname = 'mygeekdom'; // required: replace example with your forum shortname
+       var disqus_identifier ='2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html'; // required
+       var disqus_url =  'http://www.neilsmithline.com/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html'; // required
+       
+       /* * * DON'T EDIT BELOW THIS LINE * * */
+       (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+//]]>
+</script> <noscript>Please enable JavaScript to view the <a href=
+"http://disqus.com/?ref_noscript">comments powered by
+Disqus.</a></noscript> <a href="http://disqus.com" class=
+"dsq-brlink">blog comments powered by <span class=
+"logo-disqus">Disqus</span></a> <!-- End Of Disqus Code--></div>
+<div class="menu"><a href="#top">/\</a></div>
+</div>
+<!-- /archives div --></div>
+<!-- /container div -->
+</body>
+</html>
