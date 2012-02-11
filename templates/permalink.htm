@@ -21,8 +21,16 @@ $NB_RSSAltLink
 <body> <!-- FILE: templates/permalink.htm -->
 
 <div id="banner">
-	<h1><a href="${BASE_URL}$NB_INDEX" accesskey="1">$BLOG_TITLE</a></h1>
-	<span class="description">$BLOG_DESCRIPTION</span>
+  <a href="${BASE_URL}$NB_INDEX" accesskey="1">
+    <!-- <img id="bannerimage" src="images/Transparent-1x1.png" alt=""/> -->
+    <img id="bannerimage" src="images/NS-Keycaps.png" alt=""/>
+  </a>
+  <div id="bannername">
+    <h1>
+      <a href="${BASE_URL}$NB_INDEX" accesskey="1">$BLOG_TITLE</a>
+    </h1>
+    <span class="description">$BLOG_DESCRIPTION</span>
+  </div> <!-- /bannername div -->
 </div><!-- /banner div -->
 
 <div id="container">

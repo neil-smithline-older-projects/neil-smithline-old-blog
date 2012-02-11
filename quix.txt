@@ -1,5 +1,5 @@
-> This is a Quix Command File
->
+> This is a Quix Command File -*- javascript -*-
+> 
 > For the syntax of this file, please refer to http://quixapp.com/syntax/
 >
 

@@ -1,0 +1,98 @@
+A List Of My Frequently Used Abbreviations
+
+* Wikipedia Links
+  qlw: Wikipedia Page for
+ |------------+----------------------+----------------------+--------------------------------+-----|
+ | Keyword    | Description          | Text                 | URL                            | ARG |
+ |------------+----------------------+----------------------+--------------------------------+-----|
+ | younglings | younglings           | younglings           | http://en.wikipedia.org/wiki/Younglings |     |
+ | freepress  | Freedom Of The Press | freedom of the press | http://en.wikipedia.org/wiki/Freedom_of_the_press |     |
+ | macosx     | Mac OS X             | Mac OS X             | http://en.wikipedia.org/wiki/MacOSX |     |
+ | forum      | Forum                | forum                | http://en.wikipedia.org/wiki/Internet_forum |     |
+ | linux      | Linux                | Linux                | http://en.wikipedia.org/wiki/Linux |     |
+ | os         | Operating System     | OS                   | http://en.wikipedia.org/wiki/Operating_system |     |
+ | cygwin     | Cygwin               | Cygwin               | http://en.wikipedia.org/wiki/Cygwin |     |
+ | cli        | Command-Line Interface | CLI                  | http://en.wikipedia.org/wiki/Command-line_interface |     |
+ | bcompat    | Backwards Compatibility | backwards compatibility | http://en.wikipedia.org/wiki/Backwards_compatibility |     |
+ | elisp      | Elisp                | elisp                | http://en.wikipedia.org/wiki/Elisp |     |
+ | emacs      | Emacs                | Emacs                | http://en.wikipedia.org/wiki/Emacs |     |
+ | txt        | TXT Files            | .TXT files           | http://en.wikipedia.org/wiki/Text_file |     |
+ | cloud      | Cloud Computing      | cloud computing      | http://en.wikipedia.org/wiki/Cloud_computing |     |
+ |            | <20>                 | <20>                 | <30>                           |     |
+ |------------+----------------------+----------------------+--------------------------------+-----|
+
+* Linux Man Page Links
+  qlm: Online Linux Man Page for
+  |---------+-------------+------------+--------------------------------+-----|
+  | Keyword | Description | Text       | URL                            | ARG |
+  |---------+-------------+------------+--------------------------------+-----|
+  | usermod | usermod(8)  | usermod(8) | http://linux.die.net/man/8/usermod |     |
+  | su      | su(1)       | su(1)      | http://linux.die.net/man/1/su  |     |
+  | bash    | bash(1)     | bash(1)    | http://linux.die.net/man/1/bash |     |
+  | cat     | cat(1)      | cat(1)     | http://linux.die.net/man/1/cat |     |
+  | grep    | grep(1)     | grep(1)    | http://linux.die.net/man/1/grep |     |
+  | vim     | vim(1)      | vim(1)     | http://linux.die.net/man/1/vim |     |
+  | sed     | sed(1)      | sed(1)     | http://linux.die.net/man/1/sed |     |
+  | proc    | proc(5)     | /proc      | http://linux.die.net/man/5/proc |     |
+  | sudo    | sudo(8)     | sudo(8)    | http://linux.die.net/man/8/sudo |     |
+  |         |             |            | <30>                           |     |
+  |---------+-------------+------------+--------------------------------+-----|
+
+* Misc Links
+  qll: Link for
+  |---------+----------------------+-------------+--------------------------------+-----|
+  | Keyword | Description          | Text        | URL                            | ARG |
+  |---------+----------------------+-------------+--------------------------------+-----|
+  | ghhome  | GitHub Home Page     | GitHub      | https://github.com             |     |
+  | ghrepo  | My GitHub Repository | repository  | https://github.com/Neil-Smithline |     |
+  | ghroot  | ReRunAsRoot Script   | rerunasroot | https://github.com/Neil-Smithline/rerunasroot |     |
+  | nb      | NanoBlogger Homepage | NanoBlogger | http://nanoblogger.sourceforge.net/ |     |
+  | blog    | My Blog              | my blog     | http://www.neilsmithline.com   |     |
+  | web     | My Homepage          | my homepage | http://www.neilsmithline.com   |     |
+  | org     | Org Mode             | Org Mode    | http://orgmode.org/            |     |
+  | emacs   | Emacs Homepage       | Emacs       | http://www.gnu.org/software/emacs/ |     |
+  |         |                      |             | <30>                           |     |
+  |---------+----------------------+-------------+--------------------------------+-----|
+
+* Identity Quicktext
+  qid: Identity Information -
+  |---------+------------------------------+--------------------------------+-----+-----|
+  | Keyword | Description                  | Text                           | URL | ARG |
+  |---------+------------------------------+--------------------------------+-----+-----|
+  | b       | Name, Both                   | Neil Smithline                 |     |     |
+  | f       | Name, First                  | Neil                           |     |     |
+  | l       | Name, Last                   | Smithline                      |     |     |
+  | p       | Phone, Main                  | 1-781-754-7628                 |     |     |
+  | x       | Phone, Fax                   | 1-206-666-5090                 |     |     |
+  | hs      | Home Street Address          | 1600 Washington St.            |     |     |
+  | ha      | Home Apartment               | Apt #314                       |     |     |
+  | hb      | Home Street and Apartment    | 1600 Washington St., Apt #314  |     |     |
+  | hc      | Home City                    | West Newton                    |     |     |
+  | hz      | Home Zip                     | 02465                          |     |     |
+  | bs      | Billing Street Address       | 831 Beacon St.                 |     |     |
+  | ba      | Billing Apartment            | Apt #255                       |     |     |
+  | bb      | Billing Street and Apartment | 831 Beacon St., Apt #255       |     |     |
+  | bc      | Billing City                 | Newton Centre                  |     |     |
+  | bz      | Billing Zip                  | 02459                          |     |     |
+  | web     | Web Homepage                 | http://www.neilsmithline.com   |     |     |
+  |         |                              | <30>                           |     |     |
+  |---------+------------------------------+--------------------------------+-----+-----|
+
+* Quote Shortcuts
+  qq: Coding Shortcut - 
+  |---------+--------------------------------+------+--------------------------------+-------|
+  | Keyword | Description                    | Text | URL                            | ARG   |
+  |---------+--------------------------------+------+--------------------------------+-------|
+  | e       | Elisp-style quote for previous s-expression. | `'   |                                | (3 2) |
+  | s       | Single-quote previous s-expression | ''   |                                | (3 2) |
+  | d       | Double-quote previous s-expression | ""   |                                | (1 2) |
+  | b       | Double-quote previous s-expression | ""   |                                | (1 2) |
+  |         | <30>                           |      | <30>                           |       |
+  |---------+--------------------------------+------+--------------------------------+-------|
+
+  
+# LocalWords: qlw qlm qid hs ha hb hc hz bs ba bb bc bz wh macosx Quicktext usermod freepress
+
+# Lcoal Variables:
+# exec: (org-abbrevs-parse)
+# End:
