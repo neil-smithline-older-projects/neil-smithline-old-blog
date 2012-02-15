@@ -1,0 +1,121 @@
+<h2 class="date"> <!-- FILE: permalink_entry.htm -->
+       2012-02-14 Tue 13:13:34
+</h2>
+<div class="blogbody">
+	<a id="e2012-02-14T13_13_34.txt"></a>
+	<h3 class="title">New NanoBlogger Command-Line</h3>
+	<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+
+<p>
+As I've discussed in previous <a href="http://www.neilsmithline.com/archives/blog">postings about this blog's technology</a>, this is a static blog written with NanoBlogger. NanoBlogger is a <a href="http://en.wikipedia.org/wiki/Command-line_interface">CLI</a> driven blogging system. Alas, I have found the <a href="http://nanoblogger.sourceforge.net/docs/nanoblogger.html">NanoBlogger manual</a> to be difficult to follow and the syntax of the CLI to be non-intuitive. On the upside, NanoBlogger is a CLI system which makes it easy to modify. 
+</p>
+<p>
+I started out with a few small helper scripts, eventually merging them into a single helper script. As I was using that script and learning more about NanoBlogger, I found myself writing smaller helper scripts for my big helper script. Eventually, I was never calling my original, large helper script directly.
+</p>
+<p>
+At this point it became clear that some refactoring was needed. So I refactored. I came up with a single shell script call <i>nbc.sh</i> that does all the work and a series of shell scripts that simply call nbc.sh.
+</p>
+<p>
+The key idea behind nbc.sh, or simply <i>nbc</i>, is that the scripts that call it are trivial. By "trivial" I mean that each script is only a few lines long, all the side scripts have identical content, and, if not for the semantics of <a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a>, would simply be multiple symbolic links to the same program.
+</p>
+<p>
+As you can see below, the code for the side scripts simply stores the command name, <i>$0</i>, of the side script that was called and then calls the <i>nbc.sh</i> script that is in the same directory as the side script. 
+</p>
+
+
+<pre class="example">#!/bin/sh
+
+# Code to load include file.
+ORIG_ARG_0="$0"
+NBDIR=${0%/*}
+. ${NBDIR}/nbc.sh
+</pre>
+
+<p>
+This means that as I continue to add functionality to nbc, all I need to do is copy one of the side scripts to the filename of the new command I added. 
+</p>
+<p>
+While I won't discuss the exact naming scheme used for these side scripts in detail in this posting, I will say that I have tried to systematic in how the scripts are named. Once you learn a few abbreviations (eg: "e" for "Entry" or "Entries", "u" for "Update") and the rules for combining those abbreviations (standard <a href="http://en.wikipedia.org/wiki/Reverse_Polish_Notation">RPN</a>), you will know the names of all the commands, what each command does, and the type and order of arguments each command takes.
+</p>
+<p>
+I still need to write richer documentation for nbc and its side scripts, but I can finish this posting off with some concrete examples.
+</p>
+<p>
+NB supports an "update" command that essentially tells NB to rebuild the blog from scratch. The syntax of this command is:
+</p>
+
+
+<pre class="example">nb update
+</pre>
+
+<p>
+My nbc version of this command is:
+</p>
+
+
+<pre class="example">nbu
+</pre>
+
+<p>
+All of the commands for nbc start with the letters "nb". The letter "U" is the abbreviation for "Update". So "nbu" tells nb to run the update command. As I said, the code for nbu and the other side scripts are trivial and given above. As far as examples go, nbu is not very exciting. But the nbc's CLI for creating tags is a bit more exciting.
+</p>
+<p>
+NB's syntax for creating tags, as documented in its manual, is:
+</p>
+
+
+<pre class="example">nb --title &lt;tag-name&gt; add tag
+</pre>
+
+<p>
+Gosh! That's both tough to remember and tough to type. In nbc, the command for adding a tag is <i>nbga</i>. All commands start with "nb". After that, the "g" means that we are talking about "taGs". The "a" stands for "Add". The syntax for the command is 
+</p>
+
+
+<pre class="example">nbga &lt;tag list&gt;
+</pre>
+
+
+<p>
+Besides being much easier to type and remember, it allows a tag list as compared to a single tag name. That is, you can create multiple tags in a single command rather than needing to call nb once for each new tag.
+</p>
+<p>
+In NBC, a tag list is a comma-separated list of one or more tag names. So "tag1" is a tag list and "tag1,tag2,tag3" is also a tag list. If you prefer you can space-separate the tag list but you need to ensure that you pass the entire tag list as the first argument to nbga. 
+</p>
+<p>
+As the operations become more complex, NBC's simplifications become greater and more obvious. My next posting about NBC will discuss some of these simplifications.
+</p>
+<p>
+If you wish to use NBC, look at the source code, or tell me why NBC sucks, you can get the scripts at <a href="https://github.com/Neil-Smithline/nbc">https://github.com/Neil-Smithline/nbc</a>.
+</p>
+</div>
+
+<div class="posted">
+	<br />Posted by Neil Smithline
+| <a class="link" href="../../../../../archives/2012/02/14/new_nanoblogger_command-line/index.html">Permanent link</a>
+| File under: <!-- my-software --><a href="../../../../../archives/my-software/index.html">my-software</a>,
+<!-- blog --><a href="../../../../../archives/blog/index.html">blog</a>
+<!-- <br /><a href="../../../../../archives/2012/02/14/new_nanoblogger_command-line/index.html#comments">Comments</a> -->
+
+     <!-- Disqus Code-->
+     <div id="disqus_thread"></div>
+     <script type="text/javascript">
+       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+       var disqus_shortname = 'mygeekdom'; // required: replace example with your forum shortname
+       var disqus_identifier ='2012/02/14/new_nanoblogger_command-line/index.html'; // required
+       var disqus_url =  'http://www.neilsmithline.com/archives/2012/02/14/new_nanoblogger_command-line/index.html'; // required
+       
+       /* * * DON'T EDIT BELOW THIS LINE * * */
+       (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        <!-- End Of Disqus Code-->
+
+</div>

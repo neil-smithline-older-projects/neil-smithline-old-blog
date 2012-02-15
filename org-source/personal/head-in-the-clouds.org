@@ -1,0 +1,50 @@
+
+This Title Is Ignored
+* And so is this heading
+#+BEGIN_HTML
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  Learning About Cloud Computing
+DESC:   Figuring out whatever "cloud computing" really is can be quite educational.
+DATE:   2012-02-06 Mon 21:22:31
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+#+END_HTML
+
+Sometime around January 2011 I decided to spend some of my free time trying to understand what the heck [[http://en.wikipedia.org/wiki/Cloud_computing][cloud computing]] is, how much of it actually works, and what its pros and cons are. Being that doing is the best way of learning, I decided to move into the /the cloud/. 
+
+Once I decided that I would move my computing into the cloud, I immediately ran into a problem: /What does "moving into the cloud" mean?/ Being 
+
+
+
+
+
+
+
+#+BEGIN_HTML
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+#+END_HTML
+
+<!-- GNU EMACS METADATA --
+--
+-- This must be near the end of the file for Emacs to find it.
+--
+-- Local Variables:
+-- org-export-nb-id:     "2012-02-06T21_22_31"
+-- org-export-nb-tags:   "coding, cloud-computing"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+
