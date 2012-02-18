@@ -30,7 +30,8 @@ wa		http://www.wolframalpha.com/input/?i=%s								Wolfram Alpha Search
 @These commands are for dealing with social networks and social sites.
 pb		http://pinboard.in/add?next=same&url=%re&description=%s&title=%t	Bookmark current page with PinBoard
 db	    http://delicious.com/save?url=%r&title=%t&v=5&jump=yes&notes=%s   	Bookmark the current page in Delicious
-di          javascript:var%20e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','//bitly.com/bookmarklet/load.js');document.body.appendChild(e);void(0); Bit.ly the current page.
+bi          javascript:var%20e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','//bitly.com/bookmarklet/load.js');document.body.appendChild(e);void(0); Bit.ly the current page.
+di          javascript:(function(){s=document.createElement("script");s.type="text/javascript";s.src="http://www.diigo.com/javascripts/webtoolbar/diigolet_b_h_b.js";document.body.appendChild(s);})(); Diigolet Bookmarklet
 fb		http://www.facebook.com/share.php?u=%r&t=%t							Share the current page on Facebook
 gb		http://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=%r&title=%t&annotation=%s	Bookmark with Google Bookmarks
 li		javascript:(function(){d=document,l=d.location,f='http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title='+encodeURIComponent(d.title)+'&url='+encodeURIComponent(l.href),a=function(){if(!window.open(f,'News','width=520,height=570,toolbar=0,location=0,status=0,scrollbars=yes')){l.href=f;}};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0);}else{a();}})()				Share the current page on LinkedIn
