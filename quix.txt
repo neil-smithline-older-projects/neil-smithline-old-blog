@@ -30,6 +30,7 @@ wa		http://www.wolframalpha.com/input/?i=%s								Wolfram Alpha Search
 @These commands are for dealing with social networks and social sites.
 pb		http://pinboard.in/add?next=same&url=%re&description=%s&title=%t	Bookmark current page with PinBoard
 db	    http://delicious.com/save?url=%r&title=%t&v=5&jump=yes&notes=%s   	Bookmark the current page in Delicious
+di          javascript:var%20e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','//bitly.com/bookmarklet/load.js');document.body.appendChild(e);void(0); Bit.ly the current page.
 fb		http://www.facebook.com/share.php?u=%r&t=%t							Share the current page on Facebook
 gb		http://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=%r&title=%t&annotation=%s	Bookmark with Google Bookmarks
 li		javascript:(function(){d=document,l=d.location,f='http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title='+encodeURIComponent(d.title)+'&url='+encodeURIComponent(l.href),a=function(){if(!window.open(f,'News','width=520,height=570,toolbar=0,location=0,status=0,scrollbars=yes')){l.href=f;}};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0);}else{a();}})()				Share the current page on LinkedIn
@@ -45,12 +46,12 @@ buf		script:http://bufferapp.com/js/bookmarklet.v1.js					Buffer to tweet the cu
 
 @WordPress
 @Quix was of course created by <a href="http://yoast.com">Yoast</a>, a WordPress addict, and as such, some WordPress functions are of course needed!
-codex		http://www.google.com/search?q=site:codex.wordpress.org%20%s	Search the WordPress codex
-plugin		http://www.google.com/cse?cx=006835583451239722573%3A15duy8wtjos&ie=UTF-8&q=%s&sa=Search&siteurl=www.google.com%2Fcse%2Fhome%3Fcx%3D006835583451239722573%3A15duy8wtjos								WordPress plugin search
-wp      	http://xref.yoast.com/fsearch.php?s=%s&version=trunk			WordPress function search
-wpmu    	http://xref.yoast.com/fsearch.php?s=%s&version=mutrunk			WordPress MU function search
-wpseek		http://wpseek.com/%s/											WordPress function lookup with wpseek.com
-pluginsvn	javascript:r="%r";document.location=r.replace("http://wordpress.org/extend/plugins/","http://svn.wp-plugins.org/");	Take me to the current plugin's SVN
+@codex		http://www.google.com/search?q=site:codex.wordpress.org%20%s	Search the WordPress codex
+@plugin		http://www.google.com/cse?cx=006835583451239722573%3A15duy8wtjos&ie=UTF-8&q=%s&sa=Search&siteurl=www.google.com%2Fcse%2Fhome%3Fcx%3D006835583451239722573%3A15duy8wtjos								WordPress plugin search
+@wp      	http://xref.yoast.com/fsearch.php?s=%s&version=trunk			WordPress function search
+@wpmu    	http://xref.yoast.com/fsearch.php?s=%s&version=mutrunk			WordPress MU function search
+@wpseek		http://wpseek.com/%s/											WordPress function lookup with wpseek.com
+@pluginsvn	javascript:r="%r";document.location=r.replace("http://wordpress.org/extend/plugins/","http://svn.wp-plugins.org/");	Take me to the current plugin's SVN
 wptool		script:http://wptoolbar.iamnotagoodartist.com/wptoolbar.js		Open a <a href="http://iamnotagoodartist.com/other/wordpress-admin-toolbar-bookmarklet/">WordPress Toolbar</a>.
 install javascript:l=window.location.toString();window.location='http://coveredwebservices.com/wp-plugin-install/?plugin='+l.replace(/.*?wordpress\.org\/extend\/plugins\/([^\/]+)\/.*/,%20'$1');  Type 'install' in Quix from a plugin page, and this command will help you quickly install the plugin on your own site!
 
