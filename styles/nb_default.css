@@ -156,6 +156,7 @@ img#bannerimage {
 .archives {
 	margin:0;
 	padding:0;
+	margin-left:215px;
 	font-family: verdana, arial, sans-serif;
 	color:#333;
 	font-size:small;

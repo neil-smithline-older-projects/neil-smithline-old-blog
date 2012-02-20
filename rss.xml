@@ -8,11 +8,11 @@
 <description>Ramblings about my nerdy pursuits</description>
 <dc:language>en-us</dc:language>
 <dc:creator>Neil Smithline</dc:creator>
-<dc:date>2012-02-15T00:01:21-05:00</dc:date>
+<dc:date>2012-02-20T12:24:18-05:00</dc:date>
 <admin:generatorAgent rdf:resource="http://nanoblogger.sourceforge.net" />
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/02/14/new_nanoblogger_command-line/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/14/new_nanoblogger_command-line/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2012/02/14/new_nanoblogger_command-line/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/14/new_nanoblogger_command-line/</guid>
 <title>New NanoBlogger Command-Line</title>
 <dc:date>2012-02-14T13:13:34-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -23,7 +23,7 @@
 <!-- The posting body follows this END_HTML directive -->
 
 <p>
-As I've discussed in previous <a href="http://www.neilsmithline.com/archives/blog">postings about this blog's technology</a>, this is a static blog written with NanoBlogger. NanoBlogger is a <a href="http://en.wikipedia.org/wiki/Command-line_interface">CLI</a> driven blogging system. Alas, I have found the <a href="http://nanoblogger.sourceforge.net/docs/nanoblogger.html">NanoBlogger manual</a> to be difficult to follow and the syntax of the CLI to be non-intuitive. On the upside, NanoBlogger is a CLI system which makes it easy to modify. 
+As I've discussed in previous <a href="http://www.neilsmithline.com/archives/blog">postings about this blog's technology</a>, this is a static blog written with NanoBlogger. NanoBlogger is a <a href="http://en.wikipedia.org/wiki/Command-line_interface">CLI</a> driven blogging system. Alas, I have found the <a href="http://nanoblogger.sourceforge.net/docs/nanoblogger.html">NanoBlogger manual</a> to be difficult to follow and the syntax of the CLI to be non-intuitive. (See the footnote <a href="https://github.com/Neil-Smithline/nbc">here</a> regarding the existing CLI.) On the upside, NanoBlogger is a CLI system which makes it easy to modify. 
 </p>
 <p>
 I started out with a few small helper scripts, eventually merging them into a single helper script. As I was using that script and learning more about NanoBlogger, I found myself writing smaller helper scripts for my big helper script. Eventually, I was never calling my original, large helper script directly.
@@ -107,8 +107,8 @@ If you wish to use NBC, look at the source code, or tell me why NBC sucks, you c
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/</guid>
 <title>This Blog Is Now Hosted For Free (and it's slashdot proof too)</title>
 <dc:date>2012-02-03T21:49:09-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -150,8 +150,8 @@ There seems to be another problem with hosting my blog on Github. While practica
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/</guid>
 <title>Nastiest Hack I've Seen In Awhile</title>
 <dc:date>2012-02-01T20:40:51-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -198,8 +198,8 @@ Despite the plain hackery of the above code, I expanded upon it, making it a ful
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/01/14/man_vs_beast/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/14/man_vs_beast/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2012/01/14/man_vs_beast/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/14/man_vs_beast/</guid>
 <title>Man vs Beast</title>
 <dc:date>2012-01-14T23:31:19-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -217,8 +217,8 @@ I feel bad for any runner that is drafting a horse when the horse's tail goes up
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/</guid>
 <title>SOPA DOA? Not Quite But Getting There</title>
 <dc:date>2012-01-14T00:18:39-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -253,8 +253,8 @@ As I've stated in my previous <a href="#SOPA-the-end-of-free-speech.org">posting
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/01/09/cool_animation/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/09/cool_animation/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2012/01/09/cool_animation/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/09/cool_animation/</guid>
 <title>Cool Animation</title>
 <dc:date>2012-01-09T12:33:50-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -271,8 +271,8 @@ Google Plus Logo Animation by <a href="https://plus.google.com/11535808505442011
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/01/05/stop_ptsd_support_the_wikipedia/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/05/stop_ptsd_support_the_wikipedia/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2012/01/05/stop_ptsd_support_the_wikipedia/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/01/05/stop_ptsd_support_the_wikipedia/</guid>
 <title>Stop PTSD, Support The Wikipedia</title>
 <dc:date>2012-01-05T16:02:44-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -449,8 +449,8 @@ or this HTML:
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/</guid>
 <title>Florida Appeals Court More Liberal Than SOPA!</title>
 <dc:date>2011-12-30T12:26:33-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -497,8 +497,8 @@ Copied directly from the <a href="http://www.slashdot.org">Slashdot</a> <a href=
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2011/12/28/the_litigious_trio/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2011/12/28/the_litigious_trio/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2011/12/28/the_litigious_trio/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2011/12/28/the_litigious_trio/</guid>
 <title>The Litigious Trio</title>
 <dc:date>2011-12-28T12:04:20-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
@@ -541,8 +541,8 @@ The only question seems to be whether the public is motivated to address this pr
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2011/12/20/unix_reference_add_user_to_a_group/index.html</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2011/12/20/unix_reference_add_user_to_a_group/index.html</guid>
+<link>http://www.neilsmithline.com/feed/archives/2011/12/20/unix_reference_add_user_to_a_group/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2011/12/20/unix_reference_add_user_to_a_group/</guid>
 <title>Unix Reference: Add User To A Group</title>
 <dc:date>2011-12-20T08:25:20-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>

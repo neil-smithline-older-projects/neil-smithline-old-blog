@@ -2,6 +2,7 @@ A List Of My Frequently Used Abbreviations
 
 * Wikipedia Links
   qlw: Wikipedia Page for
+  
  |            | <20>                 | <20>                 | <30>                           |     |
  | Keyword    | Description          | Text                 | URL                            | ARG |
  |------------+----------------------+----------------------+--------------------------------+-----|
@@ -18,6 +19,7 @@ A List Of My Frequently Used Abbreviations
  | emacs      | Emacs                | Emacs                | http://en.wikipedia.org/wiki/Emacs |     |
  | txt        | TXT Files            | .TXT files           | http://en.wikipedia.org/wiki/Text_file |     |
  | fud        | Fear, Uncertainty, and Doubt | FUD                  | http://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt |     |
+ | blog       | blog                 | blog                 | http://en.wikipedia.org/wiki/Blog |     |
 
 
 * Linux Man Page Links
@@ -35,8 +37,6 @@ A List Of My Frequently Used Abbreviations
  | sed     | sed(1)               | sed(1)               | http://linux.die.net/man/1/sed |     |
  | proc    | proc(5)              | /proc                | http://linux.die.net/man/5/proc |     |
  | sudo    | sudo(8)              | sudo(8)              | http://linux.die.net/man/8/sudo |     |
- |         |                      |                      | <30>                           |     |
- |---------+----------------------+----------------------+--------------------------------+-----|
 
 * Misc Links
   qll: Link for
@@ -62,7 +62,8 @@ A List Of My Frequently Used Abbreviations
  | b       | Name, Both           | Neil Smithline       |                                |     |
  | f       | Name, First          | Neil                 |                                |     |
  | l       | Name, Last           | Smithline            |                                |     |
- | p       | Phone, Main          | 1-781-754-7628       |                                |     |
+ | pn      | Phone New            | 1-408-634-5764       |                                |     |
+ | po      | Phone Old            | 1-781-754-7628       |                                |     |
  | x       | Phone, Fax           | 1-206-666-5090       |                                |     |
  | hs      | Home Street Address  | 1600 Washington St.  |                                |     |
  | ha      | Home Apartment       | Apt #314             |                                |     |

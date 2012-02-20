@@ -30,11 +30,12 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/articles/example/index.html:
 
-line 64 column 1 - Warning: inserting implicit <p>
-line 64 column 1 - Warning: trimming empty <p>
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 222 column 1 - Warning: inserting implicit <p>
+line 222 column 1 - Warning: trimming empty <p>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-2 warnings, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+3 warnings, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -44,9 +45,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/index.html:
 
+line 37 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -56,9 +58,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/sync-software/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -68,9 +71,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/newtag/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -80,9 +84,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/my-software/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -92,9 +97,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/software/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -104,9 +110,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/nanoblogger/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -116,9 +123,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/reference/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -128,9 +136,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/unix-reference/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -140,9 +149,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/online-freedom/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -152,9 +162,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/blog/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -164,9 +175,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/litigious-trio/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -176,9 +188,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/coding/index.html:
 
+line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -310,9 +323,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/14/new_nanoblogger_command-line/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -322,9 +336,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -334,9 +349,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -346,9 +362,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/man_vs_beast/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -358,10 +375,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html:
 
-line 92 column 128 - Warning: <a> escaping malformed URI reference
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 249 column 128 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-1 warning, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -380,9 +398,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/09/cool_animation/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -394,16 +413,17 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/05/stop_ptsd_support_
 
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
-line 73 column 1 - Warning: missing </em> before <p>
-line 74 column 1 - Warning: inserting implicit <em>
-line 74 column 1 - Warning: missing </em> before <p>
-line 75 column 1 - Warning: inserting implicit <em>
-line 75 column 1 - Warning: missing </em> before <p>
-line 76 column 8 - Warning: discarding unexpected </em>
-line 79 column 1 - Warning: inserting implicit <p>
-line 65 column 1 - Warning: missing </div>
-line 44 column 9 - Warning: missing </div>
-line 42 column 1 - Warning: missing </div>
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 230 column 1 - Warning: missing </em> before <p>
+line 231 column 1 - Warning: inserting implicit <em>
+line 231 column 1 - Warning: missing </em> before <p>
+line 232 column 1 - Warning: inserting implicit <em>
+line 232 column 1 - Warning: missing </em> before <p>
+line 233 column 8 - Warning: discarding unexpected </em>
+line 236 column 1 - Warning: inserting implicit <p>
+line 222 column 1 - Warning: missing </div>
+line 201 column 9 - Warning: missing </div>
+line 43 column 1 - Warning: missing </div>
 line 6 column 1 - Warning: <meta> proprietary attribute "just"
 line 6 column 1 - Warning: <meta> proprietary attribute "campaign"
 line 6 column 1 - Warning: <meta> proprietary attribute "to"
@@ -412,18 +432,18 @@ line 6 column 1 - Warning: <meta> proprietary attribute "people"
 line 6 column 1 - Warning: <meta> proprietary attribute "to"
 line 6 column 1 - Warning: <meta> proprietary attribute "sponsor"
 line 6 column 1 - Warning: <meta> proprietary attribute "the"
-line 197 column 1 - Warning: <table> lacks "summary" attribute
-line 219 column 1 - Warning: <table> lacks "summary" attribute
-line 73 column 1 - Warning: trimming empty <em>
-line 74 column 1 - Warning: trimming empty <em>
-line 73 column 7 - Warning: trimming empty <p>
-line 76 column 1 - Warning: trimming empty <p>
-line 79 column 1 - Warning: trimming empty <p>
-line 198 column 1 - Warning: trimming empty <caption>
-line 220 column 1 - Warning: trimming empty <caption>
+line 354 column 1 - Warning: <table> lacks "summary" attribute
+line 376 column 1 - Warning: <table> lacks "summary" attribute
+line 230 column 1 - Warning: trimming empty <em>
+line 231 column 1 - Warning: trimming empty <em>
+line 230 column 7 - Warning: trimming empty <p>
+line 233 column 1 - Warning: trimming empty <p>
+line 236 column 1 - Warning: trimming empty <p>
+line 355 column 1 - Warning: trimming empty <caption>
+line 377 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-29 warnings, 0 errors were found!
+30 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
@@ -445,9 +465,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -460,11 +481,12 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/28/the_litigious_trio
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 6 column 1 - Warning: <meta> unexpected or duplicate quote mark
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 40 column 49 - Warning: <img> element not empty or not closed
 line 6 column 1 - Warning: <meta> proprietary attribute "rather"
 line 6 column 1 - Warning: <meta> proprietary attribute "than"
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-5 warnings, 0 errors were found!
+6 warnings, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -474,11 +496,12 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/20/unix_reference_add_user_to_a_group/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
-line 73 column 1 - Warning: missing </ul> before </div>
+line 230 column 1 - Warning: missing </ul> before </div>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-2 warnings, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+3 warnings, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -488,10 +511,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/15/sparkleshare_maybe_an_open_privately_hosted_dropbox_alternative/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-1 warning, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -501,10 +525,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/11/sopa_the_end_of_free_speech/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-1 warning, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -514,12 +539,13 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/got_tags_working_manually/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
-line 78 column 6 - Warning: <table> lacks "summary" attribute
-line 79 column 1 - Warning: trimming empty <caption>
+line 235 column 6 - Warning: <table> lacks "summary" attribute
+line 236 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-3 warnings, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
@@ -541,10 +567,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/seems_it_really_works/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-1 warning, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -554,10 +581,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/my_new_blogging_technology/index.html:
 
+line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.1
-1 warning, 0 errors were found!
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
