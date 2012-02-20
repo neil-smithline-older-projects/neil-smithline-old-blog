@@ -1,0 +1,50 @@
+
+This Title Is Ignored
+* So is this heading.
+
+#+BEGIN_HTML
+
+<!-- NANOBLOGGER METADATA - BEGIN -->
+
+TITLE:  Blog In A Box (actually, a repo)
+DESC:   A description of how I will, hopefully, evolve my blogging technology into an easily distributable single Git repository.
+DATE:   2012-02-15 Wed 22:54:25
+AUTHOR: Neil Smithline
+FORMAT: raw
+-----
+BODY:
+<!-- NANOBLOGGER METADATA - END -->
+
+<!-- The posting body follows this END_HTML directive -->
+#+END_HTML
+
+As I have been developing my blog technology, I have been surprised at the lack of a pre-packaged [[http://en.wikipedia.org/wiki/Blog][blogging]] solution for [[http://www.gnu.org/software/emacs/][Emacs]]' [[http://orgmode.org/][Org Mode]].
+
+
+
+
+
+
+
+
+#+BEGIN_HTML
+
+END-----
+<!-- The end of the NanoBlogger posting -->
+
+#+END_HTML
+
+<!-- GNU EMACS METADATA --
+--
+-- This must be near the end of the file for Emacs to find it.
+--
+-- Local Variables:
+-- org-export-nb-id:     "2012-02-15T22_54_25"
+-- org-export-nb-tags:   "blog"
+-- End: 
+--
+------------------------------------------------
+--
+-- LocalWords: nb
+-->
+

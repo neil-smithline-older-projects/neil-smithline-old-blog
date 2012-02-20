@@ -1,0 +1,58 @@
+#+TITLE:                My Title
+#+PROPERTY:             
+#+AUTHOR:               Neil Smithline
+#+DESCRIPTION:          My description
+#+DATE:                 2012-02-19 Sun 10:44:16
+#+KEYWORDS:             misc
+#+EXPORT_SELECT_TAGS:   PUBLISH
+#+EXPORT_EXCLUDE_TAGS:   NO-PUBLISH
+#+EXPORT_RANDOM_CRAP:           My Crap
+
+#+OPTIONS:              ^:{}
+
+* Notes :NO-PUBLISH:
+  :PROPERTIES:
+  :Output-File:         ~/www-nb/data/2012-02-19T10_44_16.txt
+  :Description:         My other description
+  :Keywords:            other-keyword
+(org-nb-up-directory "/Volumes/HOME/neil/")
+(expand-file-name "/Volumes/HOME/neil//..")
+
+(org-nb-blog-root)
+(file-exists-p "/Volumes/HOME/neil/www-nb/org-source/blog.conf")q
+
+(org-infile-export-plist)
+(:title "My Title" :author "Neil Smithline" :description "My description" :date "2012-02-19 Sun 10:44:16" :keywords "misc" :select-tags ("PUBLISH") :exclude-tags ("NO-PUBLISH") :text nil :sub-superscript {} :macro-date "(eval (format-time-string \"$1\"))" :macro-time "(eval (format-time-string \"$1\"))" :macro-property "(eval (org-entry-get nil \"$1\" 'selective))" :macro-modification-time "(eval (format-time-string \"$1\" '(20289 20441)))" :macro-input-file "blog-config-test.org")
+
+(org-entry-properties)
+(("FILE" . "/Volumes/HOME/neil/www-nb/org-source/blog-config-test.org") ("BLOCKED" . "") ("CATEGORY" . "blog-config-test"))
+
+(plist-get (org-infile-export-plist) :keywords)
+
+org-special-properties
+
+
+("TODO" "TAGS" "ALLTAGS" "DEADLINE" "SCHEDULED" "CLOCK" "CLOSED" "PRIORITY" "TIMESTAMP" "TIMESTAMP_IA" "BLOCKED" "FILE" "CLOCKSUM")
+
+org-global-properties
+nil
+
+
+org-tag-alist
+org-properties-postprocess-alist
+nil
+
+
+
+org-export-opt-plist
+(:latex-image-options nil :exclude-tags ("NO-PUBLISH") :select-tags ("PUBLISH") :publishing-directory nil :timestamp nil :expand-quoted-html t :html-table-tag "<table style='border: 2px solid black !important; border-collapse: separate;' cellspacing=\"0\" cellpadding=\"6\" rules=\"all\" frame=\"2\">" :xml-declaration (("html" . "<?xml version=\"1.0\" encoding=\"%s\"?>") ("php" . "<?php echo \"<?xml version=\\\"1.0\\\" encoding=\\\"%s\\\" ?>\"; ?>")) :html-postamble nil :html-preamble t :html-extension "html" :inline-images t :convert-org-links t :agenda-style "" :style-extra "" :style "" :style-include-scripts t :style-include-default t :table-auto-headline t :tables t :time-stamp-file t :creator-info t :email-info nil :author-info t :email "neil@mac-is-back.smitty" :author "Neil Smithline" :timestamps t :fixed-width t :skip-before-1st-heading nil :latex-listings nil :LaTeX-fragments t :TeX-macros t :priority nil :tasks t :todo-keywords t :tags not-in-toc :drawers nil :footnotes t :special-strings t :sub-superscript {} :emphasize t :archived-trees headline :preserve-breaks nil :table-of-contents t :section-number-format ((("1" ".")) . "") :section-numbers t :headline-levels 3 :customtime nil :description "My description" :keywords "misc" :language "en" :link-home "" :link-up "" :title "My Title" :date "2012-02-19 Sun 10:44:16" :text nil :macro-date "(eval (format-time-string \"$1\"))" :macro-time "(eval (format-time-string \"$1\"))" :macro-property "(eval (org-entry-get nil \"$1\" 'selective))" :macro-modification-time "(eval (format-time-string \"$1\" '(20289 17438)))" :macro-input-file "blog-config-test.org")
+
+
+
+* Real Shit
+Here is the real shit.
+
+# GNU EMACS SETTINGS
+# LocalWords: nb
+#
+
