@@ -581,27 +581,6 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/index.html:
 
 line 38 column 49 - Warning: <img> element not empty or not closed
-line 208 column 17 - Warning: missing </a> before <h3>
-line 208 column 120 - Warning: inserting implicit <a>
-line 208 column 156 - Warning: discarding unexpected </a>
-line 316 column 17 - Warning: missing </a> before <h3>
-line 316 column 151 - Warning: inserting implicit <a>
-line 316 column 221 - Warning: discarding unexpected </a>
-line 370 column 17 - Warning: missing </a> before <h3>
-line 370 column 124 - Warning: inserting implicit <a>
-line 370 column 165 - Warning: discarding unexpected </a>
-line 430 column 17 - Warning: missing </a> before <h3>
-line 430 column 104 - Warning: inserting implicit <a>
-line 430 column 124 - Warning: discarding unexpected </a>
-line 461 column 17 - Warning: missing </a> before <h3>
-line 461 column 128 - Warning: inserting implicit <a>
-line 461 column 173 - Warning: discarding unexpected </a>
-line 509 column 17 - Warning: missing </a> before <h3>
-line 509 column 106 - Warning: inserting implicit <a>
-line 509 column 128 - Warning: discarding unexpected </a>
-line 538 column 17 - Warning: missing </a> before <h3>
-line 538 column 123 - Warning: inserting implicit <a>
-line 538 column 163 - Warning: discarding unexpected </a>
 line 545 column 1 - Warning: missing </em> before <p>
 line 546 column 1 - Warning: inserting implicit <em>
 line 546 column 1 - Warning: missing </em> before <p>
@@ -609,36 +588,12 @@ line 547 column 1 - Warning: inserting implicit <em>
 line 547 column 1 - Warning: missing </em> before <p>
 line 548 column 8 - Warning: discarding unexpected </em>
 line 551 column 1 - Warning: inserting implicit <p>
-line 727 column 17 - Warning: missing </a> before <h3>
-line 727 column 136 - Warning: inserting implicit <a>
-line 727 column 189 - Warning: discarding unexpected </a>
-line 786 column 17 - Warning: missing </a> before <h3>
-line 786 column 110 - Warning: inserting implicit <a>
-line 786 column 136 - Warning: discarding unexpected </a>
-line 842 column 17 - Warning: missing </a> before <h3>
-line 842 column 126 - Warning: inserting implicit <a>
-line 842 column 170 - Warning: inserting implicit <a>
 Warning: adjacent hyphens within comment
 line 849 column 1 - Warning: missing </ul> before </div>
-line 894 column 17 - Warning: missing </a> before <h3>
-line 894 column 155 - Warning: inserting implicit <a>
-line 894 column 229 - Warning: discarding unexpected </a>
 Warning: adjacent hyphens within comment
-line 974 column 17 - Warning: missing </a> before <h3>
-line 974 column 119 - Warning: inserting implicit <a>
-line 974 column 155 - Warning: discarding unexpected </a>
 Warning: adjacent hyphens within comment
-line 1124 column 17 - Warning: missing </a> before <h3>
-line 1124 column 117 - Warning: inserting implicit <a>
-line 1124 column 150 - Warning: discarding unexpected </a>
 Warning: adjacent hyphens within comment
-line 1192 column 17 - Warning: missing </a> before <h3>
-line 1192 column 113 - Warning: inserting implicit <a>
-line 1192 column 142 - Warning: discarding unexpected </a>
 Warning: adjacent hyphens within comment
-line 1292 column 17 - Warning: missing </a> before <h3>
-line 1292 column 118 - Warning: inserting implicit <a>
-line 1292 column 153 - Warning: inserting implicit <a>
 Warning: adjacent hyphens within comment
 line 203 column 17 - Warning: missing </div>
 line 200 column 9 - Warning: missing </div>
@@ -657,7 +612,7 @@ line 692 column 1 - Warning: trimming empty <caption>
 line 1137 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-75 warnings, 0 errors were found!
+30 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
