@@ -2,13 +2,17 @@
 	<a id="$NB_EntryID"></a>
 	<h2 class="date">$NB_EntryDate</h2>
 	<div class="blogbody">
-		<h3 class="title"> $NB_EntryTitle</h3>
+          <h3 class="title"
+              $([ "$SHOW_PERMALINKS" = "1" ] && echo '<a class="title" href="'${ARCHIVES_PATH}${NB_EntryPermalink#*.}'">')
+                  $NB_EntryTitle
+              $([ "$SHOW_PERMALINKS" = "1" ] && echo '</a>')
+	  </h3>
 		<div class="item-description">
 			$NB_EntryBody
 		</div>
 	</div>
 
-$([ "$SHOW_PERMALINKS" = "1" ] && echo '<a class="link" href="'${ARCHIVES_PATH}$NB_EntryPermalink'">View or Add Comments</a> about this entry.') 
+$([ "$SHOW_PERMALINKS" = "1" ] && echo '<a class="link" href="'${ARCHIVES_PATH}$NB_EntryPermalink'"><B>View or Add Comments<B></a> about this entry.') 
 	<div class="posted">
 		<br />$template_postedby <span class="item-creator">$NB_EntryAuthor</span>
 $([ "$SHOW_PERMALINKS" = "1" ] && echo '| <a class="link" href="'${ARCHIVES_PATH}$NB_EntryPermalink'">'$template_permlink'</a>') 

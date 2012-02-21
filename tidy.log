@@ -581,38 +581,68 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/index.html:
 
 line 38 column 49 - Warning: <img> element not empty or not closed
-line 545 column 1 - Warning: missing </em> before <p>
-line 546 column 1 - Warning: inserting implicit <em>
-line 546 column 1 - Warning: missing </em> before <p>
-line 547 column 1 - Warning: inserting implicit <em>
-line 547 column 1 - Warning: missing </em> before <p>
-line 548 column 8 - Warning: discarding unexpected </em>
-line 551 column 1 - Warning: inserting implicit <p>
+line 208 column 11 - Warning: <h3> missing '>' for end of tag
+line 303 column 80 - Warning: <b> is probably intended as </b>
+line 320 column 11 - Warning: <h3> missing '>' for end of tag
+line 362 column 111 - Warning: <b> is probably intended as </b>
+line 378 column 11 - Warning: <h3> missing '>' for end of tag
+line 425 column 84 - Warning: <b> is probably intended as </b>
+line 442 column 11 - Warning: <h3> missing '>' for end of tag
+line 461 column 64 - Warning: <b> is probably intended as </b>
+line 477 column 11 - Warning: <h3> missing '>' for end of tag
+line 512 column 88 - Warning: <b> is probably intended as </b>
+line 529 column 11 - Warning: <h3> missing '>' for end of tag
+line 546 column 66 - Warning: <b> is probably intended as </b>
+line 562 column 11 - Warning: <h3> missing '>' for end of tag
+line 573 column 1 - Warning: missing </em> before <p>
+line 574 column 1 - Warning: inserting implicit <em>
+line 574 column 1 - Warning: missing </em> before <p>
+line 575 column 1 - Warning: inserting implicit <em>
+line 575 column 1 - Warning: missing </em> before <p>
+line 576 column 8 - Warning: discarding unexpected </em>
+line 579 column 1 - Warning: inserting implicit <p>
+line 739 column 83 - Warning: <b> is probably intended as </b>
+line 755 column 11 - Warning: <h3> missing '>' for end of tag
+line 802 column 96 - Warning: <b> is probably intended as </b>
+line 818 column 11 - Warning: <h3> missing '>' for end of tag
+line 861 column 70 - Warning: <b> is probably intended as </b>
+line 878 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 849 column 1 - Warning: missing </ul> before </div>
+line 889 column 1 - Warning: missing </ul> before </div>
+line 917 column 86 - Warning: <b> is probably intended as </b>
+line 934 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
+line 1001 column 115 - Warning: <b> is probably intended as </b>
+line 1018 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
+line 1156 column 79 - Warning: <b> is probably intended as </b>
+line 1172 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
+line 1226 column 77 - Warning: <b> is probably intended as </b>
+line 1244 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
+line 1330 column 73 - Warning: <b> is probably intended as </b>
+line 1348 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
+line 1405 column 78 - Warning: <b> is probably intended as </b>
 line 203 column 17 - Warning: missing </div>
 line 200 column 9 - Warning: missing </div>
 line 41 column 1 - Warning: missing </div>
-line 487 column 128 - Warning: <a> escaping malformed URI reference
-line 669 column 1 - Warning: <table> lacks "summary" attribute
-line 691 column 1 - Warning: <table> lacks "summary" attribute
-line 1136 column 6 - Warning: <table> lacks "summary" attribute
-line 545 column 1 - Warning: trimming empty <em>
-line 546 column 1 - Warning: trimming empty <em>
-line 545 column 7 - Warning: trimming empty <p>
-line 548 column 1 - Warning: trimming empty <p>
-line 551 column 1 - Warning: trimming empty <p>
-line 670 column 1 - Warning: trimming empty <caption>
-line 692 column 1 - Warning: trimming empty <caption>
-line 1137 column 1 - Warning: trimming empty <caption>
+line 507 column 128 - Warning: <a> escaping malformed URI reference
+line 697 column 1 - Warning: <table> lacks "summary" attribute
+line 719 column 1 - Warning: <table> lacks "summary" attribute
+line 1188 column 6 - Warning: <table> lacks "summary" attribute
+line 573 column 1 - Warning: trimming empty <em>
+line 574 column 1 - Warning: trimming empty <em>
+line 573 column 7 - Warning: trimming empty <p>
+line 576 column 1 - Warning: trimming empty <p>
+line 579 column 1 - Warning: trimming empty <p>
+line 698 column 1 - Warning: trimming empty <caption>
+line 720 column 1 - Warning: trimming empty <caption>
+line 1189 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-30 warnings, 0 errors were found!
+60 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
