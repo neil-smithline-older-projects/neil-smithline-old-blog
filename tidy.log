@@ -1,14 +1,11 @@
 
 tidy validating /Volumes/HOME/neil/www-nb/atom.xml:
 
-line 347 column 8 - Error: unexpected </em> in <p>
-line 508 column 1 - Error: unexpected </content> in <div>
-line 510 column 1 - Error: unexpected </entry> in <div>
-Warning: adjacent hyphens within comment
-line 662 column 1 - Error: unexpected </div> in <li>
-line 663 column 1 - Error: unexpected </content> in <li>
-line 665 column 1 - Error: unexpected </entry> in <li>
-1 warning, 7 errors were found! Not all warnings/errors were shown.
+line 473 column 8 - Error: unexpected </em> in <p>
+line 634 column 1 - Error: unexpected </content> in <div>
+line 636 column 1 - Error: unexpected </entry> in <div>
+line 693 column 1 - Error: unexpected </feed> in <div>
+0 warnings, 4 errors were found!
 
 This document has errors that must be fixed before
 using HTML Tidy to generate a tidied up version.
@@ -54,7 +51,7 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
-tidy validating /Volumes/HOME/neil/www-nb/archives/newtag/index.html:
+tidy validating /Volumes/HOME/neil/www-nb/archives/tech/index.html:
 
 line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
@@ -68,6 +65,19 @@ HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/my-software/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/about-me/index.html:
 
 line 27 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
@@ -210,10 +220,20 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/index.html:
 
+line 217 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+1 warning, 0 errors were found!
 
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -222,26 +242,26 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/index.html:
 
+line 220 column 1 - Warning: missing </em> before <p>
+line 221 column 1 - Warning: inserting implicit <em>
 line 221 column 1 - Warning: missing </em> before <p>
 line 222 column 1 - Warning: inserting implicit <em>
 line 222 column 1 - Warning: missing </em> before <p>
-line 223 column 1 - Warning: inserting implicit <em>
-line 223 column 1 - Warning: missing </em> before <p>
-line 224 column 8 - Warning: discarding unexpected </em>
-line 227 column 1 - Warning: inserting implicit <p>
+line 223 column 8 - Warning: discarding unexpected </em>
+line 226 column 1 - Warning: inserting implicit <p>
 line 105 column 17 - Warning: missing </div>
 line 103 column 9 - Warning: missing </div>
 line 33 column 1 - Warning: missing </div>
 line 173 column 128 - Warning: <a> escaping malformed URI reference
-line 345 column 1 - Warning: <table> lacks "summary" attribute
-line 367 column 1 - Warning: <table> lacks "summary" attribute
+line 344 column 1 - Warning: <table> lacks "summary" attribute
+line 366 column 1 - Warning: <table> lacks "summary" attribute
+line 220 column 1 - Warning: trimming empty <em>
 line 221 column 1 - Warning: trimming empty <em>
-line 222 column 1 - Warning: trimming empty <em>
-line 221 column 7 - Warning: trimming empty <p>
-line 224 column 1 - Warning: trimming empty <p>
-line 227 column 1 - Warning: trimming empty <p>
-line 346 column 1 - Warning: trimming empty <caption>
-line 368 column 1 - Warning: trimming empty <caption>
+line 220 column 7 - Warning: trimming empty <p>
+line 223 column 1 - Warning: trimming empty <p>
+line 226 column 1 - Warning: trimming empty <p>
+line 345 column 1 - Warning: trimming empty <caption>
+line 367 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 20 warnings, 0 errors were found!
@@ -300,6 +320,42 @@ For further advice on how to make your pages accessible
 see http://www.w3.org/WAI/GL. You may also want to try
 "http://www.cast.org/bobby/" which is a free Web-based
 service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/22/smartphones_everywhere/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/21/my_patents/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 209 column 13 - Warning: <a> escaping malformed URI reference
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -581,68 +637,73 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/index.html:
 
 line 38 column 49 - Warning: <img> element not empty or not closed
-line 208 column 11 - Warning: <h3> missing '>' for end of tag
-line 303 column 80 - Warning: <b> is probably intended as </b>
-line 320 column 11 - Warning: <h3> missing '>' for end of tag
-line 362 column 111 - Warning: <b> is probably intended as </b>
-line 378 column 11 - Warning: <h3> missing '>' for end of tag
-line 425 column 84 - Warning: <b> is probably intended as </b>
-line 442 column 11 - Warning: <h3> missing '>' for end of tag
-line 461 column 64 - Warning: <b> is probably intended as </b>
-line 477 column 11 - Warning: <h3> missing '>' for end of tag
-line 512 column 88 - Warning: <b> is probably intended as </b>
-line 529 column 11 - Warning: <h3> missing '>' for end of tag
-line 546 column 66 - Warning: <b> is probably intended as </b>
-line 562 column 11 - Warning: <h3> missing '>' for end of tag
-line 573 column 1 - Warning: missing </em> before <p>
-line 574 column 1 - Warning: inserting implicit <em>
-line 574 column 1 - Warning: missing </em> before <p>
-line 575 column 1 - Warning: inserting implicit <em>
-line 575 column 1 - Warning: missing </em> before <p>
-line 576 column 8 - Warning: discarding unexpected </em>
-line 579 column 1 - Warning: inserting implicit <p>
-line 739 column 83 - Warning: <b> is probably intended as </b>
-line 755 column 11 - Warning: <h3> missing '>' for end of tag
-line 802 column 96 - Warning: <b> is probably intended as </b>
-line 818 column 11 - Warning: <h3> missing '>' for end of tag
-line 861 column 70 - Warning: <b> is probably intended as </b>
-line 878 column 11 - Warning: <h3> missing '>' for end of tag
+line 209 column 11 - Warning: <h3> missing '>' for end of tag
+line 282 column 74 - Warning: <b> is probably intended as </b>
+line 298 column 11 - Warning: <h3> missing '>' for end of tag
+line 336 column 62 - Warning: <b> is probably intended as </b>
+line 352 column 11 - Warning: <h3> missing '>' for end of tag
+line 447 column 80 - Warning: <b> is probably intended as </b>
+line 464 column 11 - Warning: <h3> missing '>' for end of tag
+line 506 column 111 - Warning: <b> is probably intended as </b>
+line 522 column 11 - Warning: <h3> missing '>' for end of tag
+line 569 column 84 - Warning: <b> is probably intended as </b>
+line 586 column 11 - Warning: <h3> missing '>' for end of tag
+line 605 column 64 - Warning: <b> is probably intended as </b>
+line 621 column 11 - Warning: <h3> missing '>' for end of tag
+line 656 column 88 - Warning: <b> is probably intended as </b>
+line 672 column 11 - Warning: <h3> missing '>' for end of tag
+line 689 column 66 - Warning: <b> is probably intended as </b>
+line 705 column 11 - Warning: <h3> missing '>' for end of tag
+line 716 column 1 - Warning: missing </em> before <p>
+line 717 column 1 - Warning: inserting implicit <em>
+line 717 column 1 - Warning: missing </em> before <p>
+line 718 column 1 - Warning: inserting implicit <em>
+line 718 column 1 - Warning: missing </em> before <p>
+line 719 column 8 - Warning: discarding unexpected </em>
+line 722 column 1 - Warning: inserting implicit <p>
+line 882 column 83 - Warning: <b> is probably intended as </b>
+line 898 column 11 - Warning: <h3> missing '>' for end of tag
+line 945 column 96 - Warning: <b> is probably intended as </b>
+line 961 column 11 - Warning: <h3> missing '>' for end of tag
+line 1004 column 70 - Warning: <b> is probably intended as </b>
+line 1021 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 889 column 1 - Warning: missing </ul> before </div>
-line 917 column 86 - Warning: <b> is probably intended as </b>
-line 934 column 11 - Warning: <h3> missing '>' for end of tag
+line 1032 column 1 - Warning: missing </ul> before </div>
+line 1060 column 86 - Warning: <b> is probably intended as </b>
+line 1077 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1001 column 115 - Warning: <b> is probably intended as </b>
-line 1018 column 11 - Warning: <h3> missing '>' for end of tag
+line 1144 column 115 - Warning: <b> is probably intended as </b>
+line 1161 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1156 column 79 - Warning: <b> is probably intended as </b>
-line 1172 column 11 - Warning: <h3> missing '>' for end of tag
+line 1299 column 79 - Warning: <b> is probably intended as </b>
+line 1315 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1226 column 77 - Warning: <b> is probably intended as </b>
-line 1244 column 11 - Warning: <h3> missing '>' for end of tag
+line 1369 column 77 - Warning: <b> is probably intended as </b>
+line 1387 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1330 column 73 - Warning: <b> is probably intended as </b>
-line 1348 column 11 - Warning: <h3> missing '>' for end of tag
+line 1473 column 73 - Warning: <b> is probably intended as </b>
+line 1491 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1405 column 78 - Warning: <b> is probably intended as </b>
-line 203 column 17 - Warning: missing </div>
-line 200 column 9 - Warning: missing </div>
+line 1548 column 78 - Warning: <b> is probably intended as </b>
+line 204 column 17 - Warning: missing </div>
+line 201 column 9 - Warning: missing </div>
 line 41 column 1 - Warning: missing </div>
-line 507 column 128 - Warning: <a> escaping malformed URI reference
-line 697 column 1 - Warning: <table> lacks "summary" attribute
-line 719 column 1 - Warning: <table> lacks "summary" attribute
-line 1188 column 6 - Warning: <table> lacks "summary" attribute
-line 573 column 1 - Warning: trimming empty <em>
-line 574 column 1 - Warning: trimming empty <em>
-line 573 column 7 - Warning: trimming empty <p>
-line 576 column 1 - Warning: trimming empty <p>
-line 579 column 1 - Warning: trimming empty <p>
-line 698 column 1 - Warning: trimming empty <caption>
-line 720 column 1 - Warning: trimming empty <caption>
-line 1189 column 1 - Warning: trimming empty <caption>
+line 321 column 13 - Warning: <a> escaping malformed URI reference
+line 651 column 128 - Warning: <a> escaping malformed URI reference
+line 840 column 1 - Warning: <table> lacks "summary" attribute
+line 862 column 1 - Warning: <table> lacks "summary" attribute
+line 1331 column 6 - Warning: <table> lacks "summary" attribute
+line 716 column 1 - Warning: trimming empty <em>
+line 717 column 1 - Warning: trimming empty <em>
+line 716 column 7 - Warning: trimming empty <p>
+line 719 column 1 - Warning: trimming empty <p>
+line 722 column 1 - Warning: trimming empty <p>
+line 841 column 1 - Warning: trimming empty <caption>
+line 863 column 1 - Warning: trimming empty <caption>
+line 1332 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-60 warnings, 0 errors were found!
+65 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
