@@ -15,6 +15,7 @@
   :Output-File:         ~/www-nb/data/2012-02-19T10_44_16.txt
   :Description:         My other description
   :Keywords:            other-keyword
+  :END:
 (org-nb-up-directory "/Volumes/HOME/neil/")
 (expand-file-name "/Volumes/HOME/neil//..")
 
