@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>College Selection Search+</title>
+<link rel="stylesheet" type="text/css" href="http://www.google.com/cse/style/look/shiny.css"/>
+<style>
+body {
+   background-color: #DAE0E5;
+}
+</style>
+</head>
+
+<body>
+<center>
+<h1>College Selection Search+</h1>
+</center>
+<p>
+This is a custom search box that tries to focus on colleges you are considering. Type in something about colleges that you are interested in and it should give you a reasonably apropos set of results. You can make the results more relevant by selecting one of the tags that will appear at the top of the search results.
+</p><p>
+If you want to see the search engine at work, try searching for "admission". You'll get information about admissions to many of the colleges you are looking at as well as information about college admissions in general. You can then limit the responses to pages on college sites by selecting the "school" tab that will appear. You can also limit the search to specific programs by selecting a major such as "engineering".
+</p>
+<div id="cse" style="width: 90%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'en', style : google.loader.themes.SHINY});
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+      '001278807752413535494:ygxxw1mywxm', customSearchOptions);
+    customSearchControl.setResultSetSize(google.search.Search.LARGE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+<p>
+Besides the search box, you can also see a <a href="http://www.diigo.com/list/neilsmithline/schools" target="_blank">list of links</a> related to colleges that you may find helpful.
+</p>
+</div>
+</body> </html>
