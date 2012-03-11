@@ -11,7 +11,7 @@ dict	http://www.google.com/dictionary?langpair=en%7Cen&q=%s&hl=en&aq=f	Google Di
 e       mailto:?subject=%t&body=%s%0A%0A%09%r%0A%0A							Email link
 f       http://flickr.com/search/?q=%s										Flickr Search
 fc      http://flickr.com/search/?q=%s&l=comm								Flickr Commercial use CC Search
-find		javascript:s='%s';if(s==''){void(s=prompt('Find%20text:',''));}s='('+s+')';x=new%20RegExp(s,'gi');rn=Math.floor(Math.random()*100);rid='z'%20+%20rn;b%20=%20document.body.innerHTML;b=b.replace(x,'<span%20name='%20+%20rid%20+%20'%20id='%20+%20rid%20+%20'%20style=\'color:#000;background-color:yellow;%20font-weight:bold;\'>$1</span>');void(document.body.innerHTML=b);alert('Found%20'%20+%20document.getElementsByName(rid).length%20+%20'%20matches.');window.scrollTo(0,document.getElementsByName(rid)[0].offsetTop); 	Find in current pagem, usage: 'find test' will highlight all occurrences of 'test' and will take you to the first occurrence. Just 'find' will open a prompt.
+find		javascript:s='%s';if(s==''){void(s=prompt('Find%20text:',''));}s='('+s+')';x=new%20RegExp(s,'gi');rn=Math.floor(Math.random()*100);rid='z'%20+%20rn;b%20=%20document.body.innerHTML;b=b.replace(x,'<span%20name='%20+%20rid%20+%20'%20id='%20+%20rid%20+%20'%20style=\'color:#000;background-color:yellow;%20font-weight:bold;\'>$1</span>');void(document.body.innerHTML=b);alert('Found%20'%20+%20document.getElementsByName(rid).length%20+%20'%20matches.');window.scrollTo(0,document.getElementsByName(rid)[0].offsetTop); 	Find in current page, usage: 'find test' will highlight all occurrences of 'test' and will take you to the first occurrence. Just 'find' will open a prompt.
 g       http://www.google.com/search?q=%s									Google Search
 gbs     http://blogsearch.google.com/blogsearch?q=%s						Google Blog Search
 imdb    http://www.imdb.com/find?s=all&q=%s									IMDB Search
@@ -43,17 +43,6 @@ tumblr	javascript:d=document;w=window;e=w.getSelection;k=d.getSelection;x=d.sele
 post	javascript:var%20b=document.body;POSTEROUS___bookmarklet_domain='http://posterous.com';if(b&&!document.xmlVersion){void(z=document.createElement('script'));void(z.type='text/javascript');void(z.src='http://posterous.com/javascripts/bookmarklet2.js');void(b.appendChild(z));}else{}				Share on Posterous
 su		http://www.stumbleupon.com/submit?url=%r&title=%t					Submit to StumbleUpon.
 buf		script:http://bufferapp.com/js/bookmarklet.v1.js					Buffer to tweet the current page with <a href="http://bufferapp.com">Buffer App</a>.
-
-@WordPress
-@Quix was of course created by <a href="http://yoast.com">Yoast</a>, a WordPress addict, and as such, some WordPress functions are of course needed!
-@codex		http://www.google.com/search?q=site:codex.wordpress.org%20%s	Search the WordPress codex
-@plugin		http://www.google.com/cse?cx=006835583451239722573%3A15duy8wtjos&ie=UTF-8&q=%s&sa=Search&siteurl=www.google.com%2Fcse%2Fhome%3Fcx%3D006835583451239722573%3A15duy8wtjos								WordPress plugin search
-@wp      	http://xref.yoast.com/fsearch.php?s=%s&version=trunk			WordPress function search
-@wpmu    	http://xref.yoast.com/fsearch.php?s=%s&version=mutrunk			WordPress MU function search
-@wpseek		http://wpseek.com/%s/											WordPress function lookup with wpseek.com
-@pluginsvn	javascript:r="%r";document.location=r.replace("http://wordpress.org/extend/plugins/","http://svn.wp-plugins.org/");	Take me to the current plugin's SVN
-wptool		script:http://wptoolbar.iamnotagoodartist.com/wptoolbar.js		Open a <a href="http://iamnotagoodartist.com/other/wordpress-admin-toolbar-bookmarklet/">WordPress Toolbar</a>.
-install javascript:l=window.location.toString();window.location='http://coveredwebservices.com/wp-plugin-install/?plugin='+l.replace(/.*?wordpress\.org\/extend\/plugins\/([^\/]+)\/.*/,%20'$1');  Type 'install' in Quix from a plugin page, and this command will help you quickly install the plugin on your own site!
 
 @SEO
 @As an SEO you have dozens of things you can check on a site, Quix aims to make those things simpler by adding a large set of easy to remember and use commands for SEO's.
@@ -105,6 +94,7 @@ w3c        	http://validator.w3.org/check?uri=%r&outline=1        					Validate 
 w3css      	http://jigsaw.w3.org/css-validator/validator?uri=%r   					Validate the CSS of the current page.
 whois   	http://quixapp.com/whois/%d/%s							                Whois info for the current domain.
 xray        script:http://westciv.com/xray/thexray.js 								<a href="http://www.westciv.com/xray/">XRAY</a> the current page.
+salayer      javascript:s=document.body.appendChild(document.createElement('script'));s.id='fs';s.language='javascript';void(s.src='http://slayeroffice.com/tools/suite/suite.js');             Slayeroffice.com Tools Suite
 
 @Quix
 @In a meta sort of way, Quix provides some commands that should help you to debug Quix.

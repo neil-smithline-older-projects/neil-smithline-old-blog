@@ -7,7 +7,7 @@
 #+HTML: <br/> 
 #+HTML: 831 Beacon St, Suite #255<br/>
 #+HTML: Newton Centre, MA 02459<br/>
-#+HTML: Voice: 781-754-7628&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: 206-666-5090
+#+HTML: Voice: 408-634-5764&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: 206-666-5090
 #+HTML: <br/>
 #+HTML: (Most current resume available at <a href="http://www.neilsmithline.com" title="My Homepage" target="_blank">www.NeilSmithline.com</a>.)<br/>
 #+HTML: <a href="mailto:jobs@neilsmithline.com" title="Contact me via email."><img style="border:0; margin:0; padding:0;" src="http://www.neilsmithline.com/uploads/images/jobs@neilsmithline.com.png" alt="jobs at my homepage domain (ie: 'NeilSmithline.com')"/></a>

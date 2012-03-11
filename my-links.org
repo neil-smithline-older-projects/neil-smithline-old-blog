@@ -18,6 +18,7 @@ A List Of My Frequently Used Abbreviations
  | emacs      | Emacs                | Emacs                | http://en.wikipedia.org/wiki/Emacs |     |
  | txt        | TXT Files            | .TXT files           | http://en.wikipedia.org/wiki/Text_file |     |
  | cloud      | Cloud Computing      | cloud computing      | http://en.wikipedia.org/wiki/Cloud_computing |     |
+ | gm         | Greasemonkey         | Greasemonkey         | http://bit.ly/ypj8z2           |     |
  |            | <20>                 | <20>                 | <30>                           |     |
  |------------+----------------------+----------------------+--------------------------------+-----|
 
@@ -40,19 +41,19 @@ A List Of My Frequently Used Abbreviations
 
 * Misc Links
   qll: Link for
-  |---------+----------------------+-------------+--------------------------------+-----|
-  | Keyword | Description          | Text        | URL                            | ARG |
-  |---------+----------------------+-------------+--------------------------------+-----|
-  | ghhome  | GitHub Home Page     | GitHub      | https://github.com             |     |
-  | ghrepo  | My GitHub Repository | repository  | https://github.com/Neil-Smithline |     |
-  | ghroot  | ReRunAsRoot Script   | rerunasroot | https://github.com/Neil-Smithline/rerunasroot |     |
-  | nb      | NanoBlogger Homepage | NanoBlogger | http://nanoblogger.sourceforge.net/ |     |
-  | blog    | My Blog              | my blog     | http://www.neilsmithline.com   |     |
-  | web     | My Homepage          | my homepage | http://www.neilsmithline.com   |     |
-  | org     | Org Mode             | Org Mode    | http://orgmode.org/            |     |
-  | emacs   | Emacs Homepage       | Emacs       | http://www.gnu.org/software/emacs/ |     |
-  |         |                      |             | <30>                           |     |
-  |---------+----------------------+-------------+--------------------------------+-----|
+    |           |                          |             | <30>                           |     |
+    | Keyword   | Description              | Text        | URL                            | ARG |
+    |-----------+--------------------------+-------------+--------------------------------+-----|
+    | ghhome    | GitHub Home Page         | GitHub      | https://github.com             |     |
+    | ghrepo    | My GitHub Repository     | repository  | https://github.com/Neil-Smithline |     |
+    | ghroot    | ReRunAsRoot Script       | rerunasroot | https://github.com/Neil-Smithline/rerunasroot |     |
+    | nb        | NanoBlogger Homepage     | NanoBlogger | http://nanoblogger.sourceforge.net/ |     |
+    | blog      | My Blog                  | my blog     | http://www.neilsmithline.com   |     |
+    | web       | My Homepage              | my homepage | http://www.neilsmithline.com   |     |
+    | org       | Org Mode                 | Org Mode    | http://orgmode.org/            |     |
+    | emacs     | Emacs Homepage           | Emacs       | http://www.gnu.org/software/emacs/ |     |
+    | scriptish | Mozilla Scriptish Add-On | Scriptish   | http://bit.ly/xYcpv7           |     |
+    |-----------+--------------------------+-------------+--------------------------------+-----|
 
 * Identity Quicktext
   qid: Identity Information -
