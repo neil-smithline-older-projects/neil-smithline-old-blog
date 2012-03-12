@@ -342,7 +342,7 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/21/my_patents/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
-line 204 column 13 - Warning: <a> escaping malformed URI reference
+line 206 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -417,7 +417,7 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
-line 211 column 128 - Warning: <a> escaping malformed URI reference
+line 213 column 128 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -455,15 +455,15 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/05/stop_ptsd_support_
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 40 column 49 - Warning: <img> element not empty or not closed
-line 192 column 1 - Warning: missing </em> before <p>
-line 193 column 1 - Warning: inserting implicit <em>
-line 193 column 1 - Warning: missing </em> before <p>
-line 194 column 1 - Warning: inserting implicit <em>
 line 194 column 1 - Warning: missing </em> before <p>
-line 195 column 8 - Warning: discarding unexpected </em>
-line 198 column 1 - Warning: inserting implicit <p>
-line 184 column 1 - Warning: missing </div>
-line 163 column 9 - Warning: missing </div>
+line 195 column 1 - Warning: inserting implicit <em>
+line 195 column 1 - Warning: missing </em> before <p>
+line 196 column 1 - Warning: inserting implicit <em>
+line 196 column 1 - Warning: missing </em> before <p>
+line 197 column 8 - Warning: discarding unexpected </em>
+line 200 column 1 - Warning: inserting implicit <p>
+line 186 column 1 - Warning: missing </div>
+line 165 column 9 - Warning: missing </div>
 line 43 column 1 - Warning: missing </div>
 line 6 column 1 - Warning: <meta> proprietary attribute "just"
 line 6 column 1 - Warning: <meta> proprietary attribute "campaign"
@@ -473,15 +473,15 @@ line 6 column 1 - Warning: <meta> proprietary attribute "people"
 line 6 column 1 - Warning: <meta> proprietary attribute "to"
 line 6 column 1 - Warning: <meta> proprietary attribute "sponsor"
 line 6 column 1 - Warning: <meta> proprietary attribute "the"
-line 316 column 1 - Warning: <table> lacks "summary" attribute
-line 338 column 1 - Warning: <table> lacks "summary" attribute
-line 192 column 1 - Warning: trimming empty <em>
-line 193 column 1 - Warning: trimming empty <em>
-line 192 column 7 - Warning: trimming empty <p>
-line 195 column 1 - Warning: trimming empty <p>
-line 198 column 1 - Warning: trimming empty <p>
-line 317 column 1 - Warning: trimming empty <caption>
-line 339 column 1 - Warning: trimming empty <caption>
+line 318 column 1 - Warning: <table> lacks "summary" attribute
+line 340 column 1 - Warning: <table> lacks "summary" attribute
+line 194 column 1 - Warning: trimming empty <em>
+line 195 column 1 - Warning: trimming empty <em>
+line 194 column 7 - Warning: trimming empty <p>
+line 197 column 1 - Warning: trimming empty <p>
+line 200 column 1 - Warning: trimming empty <p>
+line 319 column 1 - Warning: trimming empty <caption>
+line 341 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 30 warnings, 0 errors were found!
@@ -539,7 +539,7 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/20/unix_reference_add
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
-line 192 column 1 - Warning: missing </ul> before </div>
+line 194 column 1 - Warning: missing </ul> before </div>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 3 warnings, 0 errors were found!
@@ -582,8 +582,8 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/got_tags_working_m
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
-line 197 column 6 - Warning: <table> lacks "summary" attribute
-line 198 column 1 - Warning: trimming empty <caption>
+line 199 column 6 - Warning: <table> lacks "summary" attribute
+line 200 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 4 warnings, 0 errors were found!
@@ -637,70 +637,70 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/index.html:
 
 line 38 column 49 - Warning: <img> element not empty or not closed
-line 209 column 11 - Warning: <h3> missing '>' for end of tag
-line 282 column 74 - Warning: <b> is probably intended as </b>
-line 298 column 11 - Warning: <h3> missing '>' for end of tag
-line 336 column 62 - Warning: <b> is probably intended as </b>
-line 352 column 11 - Warning: <h3> missing '>' for end of tag
-line 447 column 80 - Warning: <b> is probably intended as </b>
-line 464 column 11 - Warning: <h3> missing '>' for end of tag
-line 506 column 111 - Warning: <b> is probably intended as </b>
-line 522 column 11 - Warning: <h3> missing '>' for end of tag
-line 569 column 84 - Warning: <b> is probably intended as </b>
-line 586 column 11 - Warning: <h3> missing '>' for end of tag
-line 605 column 64 - Warning: <b> is probably intended as </b>
-line 621 column 11 - Warning: <h3> missing '>' for end of tag
-line 656 column 88 - Warning: <b> is probably intended as </b>
-line 672 column 11 - Warning: <h3> missing '>' for end of tag
-line 689 column 66 - Warning: <b> is probably intended as </b>
-line 705 column 11 - Warning: <h3> missing '>' for end of tag
-line 716 column 1 - Warning: missing </em> before <p>
-line 717 column 1 - Warning: inserting implicit <em>
-line 717 column 1 - Warning: missing </em> before <p>
-line 718 column 1 - Warning: inserting implicit <em>
+line 211 column 11 - Warning: <h3> missing '>' for end of tag
+line 284 column 74 - Warning: <b> is probably intended as </b>
+line 300 column 11 - Warning: <h3> missing '>' for end of tag
+line 338 column 62 - Warning: <b> is probably intended as </b>
+line 354 column 11 - Warning: <h3> missing '>' for end of tag
+line 449 column 80 - Warning: <b> is probably intended as </b>
+line 466 column 11 - Warning: <h3> missing '>' for end of tag
+line 508 column 111 - Warning: <b> is probably intended as </b>
+line 524 column 11 - Warning: <h3> missing '>' for end of tag
+line 571 column 84 - Warning: <b> is probably intended as </b>
+line 588 column 11 - Warning: <h3> missing '>' for end of tag
+line 607 column 64 - Warning: <b> is probably intended as </b>
+line 623 column 11 - Warning: <h3> missing '>' for end of tag
+line 658 column 88 - Warning: <b> is probably intended as </b>
+line 674 column 11 - Warning: <h3> missing '>' for end of tag
+line 691 column 66 - Warning: <b> is probably intended as </b>
+line 707 column 11 - Warning: <h3> missing '>' for end of tag
 line 718 column 1 - Warning: missing </em> before <p>
-line 719 column 8 - Warning: discarding unexpected </em>
-line 722 column 1 - Warning: inserting implicit <p>
-line 882 column 83 - Warning: <b> is probably intended as </b>
-line 898 column 11 - Warning: <h3> missing '>' for end of tag
-line 945 column 96 - Warning: <b> is probably intended as </b>
-line 961 column 11 - Warning: <h3> missing '>' for end of tag
-line 1004 column 70 - Warning: <b> is probably intended as </b>
-line 1021 column 11 - Warning: <h3> missing '>' for end of tag
+line 719 column 1 - Warning: inserting implicit <em>
+line 719 column 1 - Warning: missing </em> before <p>
+line 720 column 1 - Warning: inserting implicit <em>
+line 720 column 1 - Warning: missing </em> before <p>
+line 721 column 8 - Warning: discarding unexpected </em>
+line 724 column 1 - Warning: inserting implicit <p>
+line 884 column 83 - Warning: <b> is probably intended as </b>
+line 900 column 11 - Warning: <h3> missing '>' for end of tag
+line 947 column 96 - Warning: <b> is probably intended as </b>
+line 963 column 11 - Warning: <h3> missing '>' for end of tag
+line 1006 column 70 - Warning: <b> is probably intended as </b>
+line 1023 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1032 column 1 - Warning: missing </ul> before </div>
-line 1060 column 86 - Warning: <b> is probably intended as </b>
-line 1077 column 11 - Warning: <h3> missing '>' for end of tag
+line 1034 column 1 - Warning: missing </ul> before </div>
+line 1062 column 86 - Warning: <b> is probably intended as </b>
+line 1079 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1144 column 115 - Warning: <b> is probably intended as </b>
-line 1161 column 11 - Warning: <h3> missing '>' for end of tag
+line 1146 column 115 - Warning: <b> is probably intended as </b>
+line 1163 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1299 column 79 - Warning: <b> is probably intended as </b>
-line 1315 column 11 - Warning: <h3> missing '>' for end of tag
+line 1301 column 79 - Warning: <b> is probably intended as </b>
+line 1317 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1369 column 77 - Warning: <b> is probably intended as </b>
-line 1387 column 11 - Warning: <h3> missing '>' for end of tag
+line 1371 column 77 - Warning: <b> is probably intended as </b>
+line 1389 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1473 column 73 - Warning: <b> is probably intended as </b>
-line 1491 column 11 - Warning: <h3> missing '>' for end of tag
+line 1475 column 73 - Warning: <b> is probably intended as </b>
+line 1493 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 1548 column 78 - Warning: <b> is probably intended as </b>
-line 204 column 17 - Warning: missing </div>
-line 201 column 9 - Warning: missing </div>
+line 1550 column 78 - Warning: <b> is probably intended as </b>
+line 206 column 17 - Warning: missing </div>
+line 203 column 9 - Warning: missing </div>
 line 41 column 1 - Warning: missing </div>
-line 321 column 13 - Warning: <a> escaping malformed URI reference
-line 651 column 128 - Warning: <a> escaping malformed URI reference
-line 840 column 1 - Warning: <table> lacks "summary" attribute
-line 862 column 1 - Warning: <table> lacks "summary" attribute
-line 1331 column 6 - Warning: <table> lacks "summary" attribute
-line 716 column 1 - Warning: trimming empty <em>
-line 717 column 1 - Warning: trimming empty <em>
-line 716 column 7 - Warning: trimming empty <p>
-line 719 column 1 - Warning: trimming empty <p>
-line 722 column 1 - Warning: trimming empty <p>
-line 841 column 1 - Warning: trimming empty <caption>
-line 863 column 1 - Warning: trimming empty <caption>
-line 1332 column 1 - Warning: trimming empty <caption>
+line 323 column 13 - Warning: <a> escaping malformed URI reference
+line 653 column 128 - Warning: <a> escaping malformed URI reference
+line 842 column 1 - Warning: <table> lacks "summary" attribute
+line 864 column 1 - Warning: <table> lacks "summary" attribute
+line 1333 column 6 - Warning: <table> lacks "summary" attribute
+line 718 column 1 - Warning: trimming empty <em>
+line 719 column 1 - Warning: trimming empty <em>
+line 718 column 7 - Warning: trimming empty <p>
+line 721 column 1 - Warning: trimming empty <p>
+line 724 column 1 - Warning: trimming empty <p>
+line 843 column 1 - Warning: trimming empty <caption>
+line 865 column 1 - Warning: trimming empty <caption>
+line 1334 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 65 warnings, 0 errors were found!
