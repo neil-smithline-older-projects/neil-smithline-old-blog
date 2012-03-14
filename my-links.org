@@ -82,55 +82,62 @@ A List Of My Frequently Used Abbreviations
  | ghhome     | GitHub Home Page     | GitHub               | https://github.com             |     |
  | imapfilter | IMAPFilter           | IMAPFilter           | https://github.com/lefcha/imapfilter |     |
  | gmailext   | Gmail's IMAP Extensions | Gmail's IMAP Extensions | https://developers.google.com/google-apps/gmail/imap_extensions |     |
- | ghrepo     | My GitHub Repository | repository           | https://github.com/Neil-Smithline |     |
- | ghroot     | ReRunAsRoot Script   | rerunasroot          | https://github.com/Neil-Smithline/rerunasroot |     |
+ | ghrepos    | My GitHub Repository | repository           | https://github.com/Neil-Smithline |     |
  | nb         | NanoBlogger Homepage | NanoBlogger          | http://nanoblogger.sourceforge.net/ |     |
  | blog       | My Blog              | my blog              | http://www.neilsmithline.com   |     |
+ | ghpages    | GitHub Pages         | GitHub Pages         | http://pages.github.com/       |     |
  | web        | My Homepage          | my homepage          | http://www.neilsmithline.com   |     |
  | org        | Org Mode             | Org Mode             | http://orgmode.org/            |     |
  | emacs      | Emacs Homepage       | Emacs                | http://www.gnu.org/software/emacs/ |     |
  | scriptish  | Mozilla Scriptish Add-On | Scriptish            | http://bit.ly/xYcpv7           |     |
- |------------+----------------------+----------------------+--------------------------------+-----|
+
   
+* GitHub Repos
+  qlr: My Github repository for
+ |            | <20>                 | <20>                 | <30>                           |     |
+ | Keyword    | Description          | Text                 | URL                            | ARG |
+ |------------+----------------------+----------------------+--------------------------------+-----|
+ | ghroot     | ReRunAsRoot Script   | rerunasroot          | https://github.com/Neil-Smithline/rerunasroot |     |
+
+
 * Identity Quicktext
   qid: Identity Information -
-  |---------+------------------------------+--------------------------------+-----+-----|
-  | Keyword | Description                  | Text                           | URL | ARG |
-  |---------+------------------------------+--------------------------------+-----+-----|
-  | b       | Name, Both                   | Neil Smithline                 |     |     |
-  | f       | Name, First                  | Neil                           |     |     |
-  | l       | Name, Last                   | Smithline                      |     |     |
-  | p       | Phone, Main                  | 1-781-754-7628                 |     |     |
-  | x       | Phone, Fax                   | 1-206-666-5090                 |     |     |
-  | hs      | Home Street Address          | 1600 Washington St.            |     |     |
-  | ha      | Home Apartment               | Apt #314                       |     |     |
-  | hb      | Home Street and Apartment    | 1600 Washington St., Apt #314  |     |     |
-  | hc      | Home City                    | West Newton                    |     |     |
-  | hz      | Home Zip                     | 02465                          |     |     |
-  | bs      | Billing Street Address       | 831 Beacon St.                 |     |     |
-  | ba      | Billing Apartment            | Apt #255                       |     |     |
-  | bb      | Billing Street and Apartment | 831 Beacon St., Apt #255       |     |     |
-  | bc      | Billing City                 | Newton Centre                  |     |     |
-  | bz      | Billing Zip                  | 02459                          |     |     |
-  | web     | Web Homepage                 | http://www.neilsmithline.com   |     |     |
-  |         |                              | <30>                           |     |     |
-  |---------+------------------------------+--------------------------------+-----+-----|
+|         | <20>                 | <20>                 | <30>                           |     |
+| Keyword | Description          | Text                 | URL                            | ARG |
+|---------+----------------------+----------------------+--------------------------------+-----|
+| b       | Name, Both           | Neil Smithline       |                                |     |
+| f       | Name, First          | Neil                 |                                |     |
+| l       | Name, Last           | Smithline            |                                |     |
+| p       | Phone, Main          | 1-781-754-7628       |                                |     |
+| x       | Phone, Fax           | 1-206-666-5090       |                                |     |
+| hs      | Home Street Address  | 1600 Washington St.  |                                |     |
+| ha      | Home Apartment       | Apt #314             |                                |     |
+| hb      | Home Street and Apartment | 1600 Washington St., Apt #314 |                                |     |
+| hc      | Home City            | West Newton          |                                |     |
+| hz      | Home Zip             | 02465                |                                |     |
+| bs      | Billing Street Address | 831 Beacon St.       |                                |     |
+| ba      | Billing Apartment    | Apt #255             |                                |     |
+| bb      | Billing Street and Apartment | 831 Beacon St., Apt #255 |                                |     |
+| bc      | Billing City         | Newton Centre        |                                |     |
+| bz      | Billing Zip          | 02459                |                                |     |
+| web     | Web Homepage         | http://www.neilsmithline.com |                                |     |
+
 
 * Quote Shortcuts
   qq: Coding Shortcut - 
-  |---------+--------------------------------+------+--------------------------------+-------|
-  | Keyword | Description                    | Text | URL                            | ARG   |
-  |---------+--------------------------------+------+--------------------------------+-------|
-  | e       | Elisp-style quote for previous s-expression. | `'   |                                | (3 2) |
-  | s       | Single-quote previous s-expression | ''   |                                | (3 2) |
-  | d       | Double-quote previous s-expression | ""   |                                | (1 2) |
-  | b       | Double-quote previous s-expression | ""   |                                | (1 2) |
-  |         | <30>                           |      | <30>                           |       |
-  |---------+--------------------------------+------+--------------------------------+-------|
+|         | <20>                           | <20> | <30>                           |       |
+| Keyword | Description                    | Text | URL                            | ARG   |
+|---------+--------------------------------+------+--------------------------------+-------|
+| e       | Elisp-style quote for previous s-expression. | `'   |                                | (3 2) |
+| s       | Single-quote previous s-expression | ''   |                                | (3 2) |
+| d       | Double-quote previous s-expression | ""   |                                | (1 2) |
+| b       | Double-quote previous s-expression | ""   |                                | (1 2) |
+  
 
   
 # LocalWords: qlw qlm qid hs ha hb hc hz bs ba bb bc bz wh macosx Quicktext usermod freepress
+# LocalWords: ghrepos
 
-# Lcoal Variables:
+# Local Variables:
 # exec: (org-abbrevs-parse)
 # End:

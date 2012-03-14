@@ -9,7 +9,7 @@
 #+HTML: Newton Centre, MA 02459<br/>
 #+HTML: Voice: 408-634-5764&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: 206-666-5090
 #+HTML: <br/>
-#+HTML: (Most current resume available at <a href="http://www.neilsmithline.com/myresume" title="My Homepage" target="_blank">www.NeilSmithline.com</a>.)<br/>
+#+HTML: (Most current resume available at <a href="http://www.neilsmithline.com/myresume" title="My Homepage" target="_blank">www.NeilSmithline.com/myresume</a>.)<br/>
 #+HTML: <a href="mailto:jobs@neilsmithline.com" title="Contact me via email."><img style="border:0; margin:0; padding:0;" src="http://www.neilsmithline.com/uploads/images/jobs@neilsmithline.com.png" alt="jobs at my homepage domain (ie: 'NeilSmithline.com')"/></a>
 #+END_CENTER
 
@@ -25,18 +25,17 @@ a fast-paced, cutting-edge technology company.
 - Comfortable working alone or as a member of a team, locally or remotely, as a technical lead or individual contributor.
 
 * Technical Experience 
-- Have written production-quality software using [[http://en.wikipedia.org/wiki/J2se][Java/J2SE]], [[http://en.wikipedia.org/wiki/J2ee][JEE/J2EE]], [[http://en.wikipedia.org/wiki/C_%28programming_language%29][C]], [[http://en.wikipedia.org/wiki/C%2B%2B][C++]], [[http://en.wikipedia.org/wiki/Java_Swing][Swing]], [[http://en.wikipedia.org/wiki/Java_applets][Java Applets]], [[http://en.wikipedia.org/wiki/Javascript][JavaScript]], [[http://en.wikipedia.org/wiki/Lisp_%28programming_language%29][Lisp]], an assortment [[http://en.wikipedia.org/wiki/Unix_shell][Unix/Linux shells]], [[http://en.wikipedia.org/wiki/Yacc][YACC]] and [[http://en.wikipedia.org/wiki/GNU_bison][GNU Bison]], [[http://en.wikipedia.org/wiki/Lex_%28software%29][Lex]]
+- Have written production-quality software using [[http://en.wikipedia.org/wiki/J2se][Java/J2SE]], [[http://en.wikipedia.org/wiki/J2ee][JEE/J2EE]], [[http://en.wikipedia.org/wiki/C_%28programming_language%29][C]], [[http://en.wikipedia.org/wiki/C%2B%2B][C++]], [[http://en.wikipedia.org/wiki/Java_Swing][Swing]], [[http://en.wikipedia.org/wiki/Java_applets][Java Applets]], [[http://en.wikipedia.org/wiki/Javascript][JavaScript]], [[http://en.wikipedia.org/wiki/Lisp_%28programming_language%29][Lisp]], an assortment of [[http://en.wikipedia.org/wiki/Unix_shell][Unix/Linux shells]], [[http://en.wikipedia.org/wiki/Yacc][YACC]] and [[http://en.wikipedia.org/wiki/GNU_bison][GNU Bison]], [[http://en.wikipedia.org/wiki/Lex_%28software%29][Lex]]
 - Have written personal applications or contributed to [[http://en.wikipedia.org/wiki/Free_and_Open_Source_Software][open-source]] projects using [[http://en.wikipedia.org/wiki/Python_%28programming_language%29][Python]], [[http://en.wikipedia.org/wiki/Lua_%28programming_language%29][Lua]], [[http://en.wikipedia.org/wiki/ELisp][Elisp]], [[http://en.wikipedia.org/wiki/Ruby_%28programming_language%29][Ruby]].
-- Enterprise architect: architected WLS security framework[1]
 - Object oriented design and analysis experience including use of [[http://en.wikipedia.org/wiki/Rational_rose][Rational Rose]] and [[http://en.wikipedia.org/wiki/Borland_Together][TogetherJ/Borland Together]].
 - Application security expert including knowledge of Java security ([[http://en.wikipedia.org/wiki/J2ee][JEE/J2EE]] and [[http://en.wikipedia.org/wiki/J2se][Java/J2SE]]), identity management ([[http://en.wikipedia.org/wiki/Idm][IDM]]), web services security, [[http://en.wikipedia.org/wiki/SAML][SAML]], [[http://en.wikipedia.org/wiki/XACML][XACML]], [[http://en.wikipedia.org/wiki/Kerberos_(protocol)][Kerberos]], Firewalls, [[http://en.wikipedia.org/wiki/DMZ_(computing)][DMZs]], and many other technologies. Familiar with many national and international security guidelines including [[http://en.wikipedia.org/wiki/Common_criteria][Common Criteria]], Swiss and German Banking laws, security practices of dozens of the world's most secure companies and government agencies.
 - Intimately familiar with the general concepts behind application servers; [[http://en.wikipedia.org/wiki/Oracle_WebLogic_Server][WebLogic Server]] expert, [[http://en.wikipedia.org/wiki/Websphere][WebSphere]], and [[http://en.wikipedia.org/wiki/Jrun][JRun]] experience.
 
 * Employment
-** Personal leave of absence, February 2011-January 2012
+** Personal Leave of Absence, February 2011-January 2012
 *** Family Emergency
 - Took a year off to manage a family medical emergency requiring 24x7 care.
-*** In My Spare Time...
+*** But In My Spare Time...
 - Implemented a Python tool that provides rule-based manipulation of [[http://en.wikipedia.org/wiki/Gmail][Gmail]] mail messages via [[http://en.wikipedia.org/wiki/Imap][IMAP]] and [[https://developers.google.com/google-apps/gmail/imap_extensions][Gmail's IMAP Extensions]].
 - Learned Lua and used as an extension language to [[https://github.com/lefcha/imapfilter][IMAPFilter]].
 - Contributed to open-source projects including
