@@ -1,4 +1,4 @@
-o#+OPTIONS:      toc:nil num:nil todo:nil
+#+OPTIONS:      toc:nil num:nil todo:nil
 #+TITLE:        
 #+OPTIONS:      post:nil 
 
@@ -9,7 +9,7 @@ o#+OPTIONS:      toc:nil num:nil todo:nil
 #+HTML: Newton Centre, MA 02459<br/>
 #+HTML: Voice: 408-634-5764&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: 206-666-5090
 #+HTML: <br/>
-#+HTML: (Most current resume available at <a href="http://www.neilsmithline.com" title="My Homepage" target="_blank">www.NeilSmithline.com</a>.)<br/>
+#+HTML: (Most current resume available at <a href="http://www.neilsmithline.com/myresume" title="My Homepage" target="_blank">www.NeilSmithline.com</a>.)<br/>
 #+HTML: <a href="mailto:jobs@neilsmithline.com" title="Contact me via email."><img style="border:0; margin:0; padding:0;" src="http://www.neilsmithline.com/uploads/images/jobs@neilsmithline.com.png" alt="jobs at my homepage domain (ie: 'NeilSmithline.com')"/></a>
 #+END_CENTER
 
@@ -25,32 +25,42 @@ a fast-paced, cutting-edge technology company.
 - Comfortable working alone or as a member of a team, locally or remotely, as a technical lead or individual contributor.
 
 * Technical Experience 
+- Have written production-quality software using [[http://en.wikipedia.org/wiki/J2se][Java/J2SE]], [[http://en.wikipedia.org/wiki/J2ee][JEE/J2EE]], [[http://en.wikipedia.org/wiki/C_%28programming_language%29][C]], [[http://en.wikipedia.org/wiki/C%2B%2B][C++]], [[http://en.wikipedia.org/wiki/Java_Swing][Swing]], [[http://en.wikipedia.org/wiki/Java_applets][Java Applets]], [[http://en.wikipedia.org/wiki/Javascript][JavaScript]], [[http://en.wikipedia.org/wiki/Lisp_%28programming_language%29][Lisp]], an assortment [[http://en.wikipedia.org/wiki/Unix_shell][Unix/Linux shells]], [[http://en.wikipedia.org/wiki/Yacc][YACC]] and [[http://en.wikipedia.org/wiki/GNU_bison][GNU Bison]], [[http://en.wikipedia.org/wiki/Lex_%28software%29][Lex]]
+- Have written personal applications or contributed to [[http://en.wikipedia.org/wiki/Free_and_Open_Source_Software][open-source]] projects using [[http://en.wikipedia.org/wiki/Python_%28programming_language%29][Python]], [[http://en.wikipedia.org/wiki/Lua_%28programming_language%29][Lua]], [[http://en.wikipedia.org/wiki/ELisp][Elisp]], [[http://en.wikipedia.org/wiki/Ruby_%28programming_language%29][Ruby]].
 - Enterprise architect: architected WLS security framework[1]
 - Object oriented design and analysis experience including use of [[http://en.wikipedia.org/wiki/Rational_rose][Rational Rose]] and [[http://en.wikipedia.org/wiki/Borland_Together][TogetherJ/Borland Together]].
-- Application security expert including knowledge of Java security ([[http://en.wikipedia.org/wiki/J2ee][JEE/J2EE]] and [[http://en.wikipedia.org/wiki/J2ee][JSE/J2SE]]), identity management ([[http://en.wikipedia.org/wiki/Idm][IDM]]), web services security, [[http://en.wikipedia.org/wiki/SAML][SAML]], [[http://en.wikipedia.org/wiki/XACML][XACML]], [[http://en.wikipedia.org/wiki/Kerberos_(protocol)][Kerberos]], Firewalls, [[http://en.wikipedia.org/wiki/DMZ_(computing)][DMZs]], and many other technologies. Familiar with many national and international security guidelines including [[http://en.wikipedia.org/wiki/Common_criteria][Common Criteria]], Swiss and German Banking laws, security practices of dozens of the world's most secure companies and government agencies.
+- Application security expert including knowledge of Java security ([[http://en.wikipedia.org/wiki/J2ee][JEE/J2EE]] and [[http://en.wikipedia.org/wiki/J2se][Java/J2SE]]), identity management ([[http://en.wikipedia.org/wiki/Idm][IDM]]), web services security, [[http://en.wikipedia.org/wiki/SAML][SAML]], [[http://en.wikipedia.org/wiki/XACML][XACML]], [[http://en.wikipedia.org/wiki/Kerberos_(protocol)][Kerberos]], Firewalls, [[http://en.wikipedia.org/wiki/DMZ_(computing)][DMZs]], and many other technologies. Familiar with many national and international security guidelines including [[http://en.wikipedia.org/wiki/Common_criteria][Common Criteria]], Swiss and German Banking laws, security practices of dozens of the world's most secure companies and government agencies.
 - Intimately familiar with the general concepts behind application servers; [[http://en.wikipedia.org/wiki/Oracle_WebLogic_Server][WebLogic Server]] expert, [[http://en.wikipedia.org/wiki/Websphere][WebSphere]], and [[http://en.wikipedia.org/wiki/Jrun][JRun]] experience.
-- Extensive experience with many programming languages and operating systems. 
 
 * Employment
-** OneStopAppSecurity.com (Newton, MA), June 2008-Present 
-*** Founder and Senior Security Consultant
-- Founded and running a security consulting firm providing security expertise to companies. See OneStopAppSecurity.com for more details.
-- Author of an online application security skills assessment based on OWASP.org's 2007 Top-10 Web Vulnerabilities.
+** Personal leave of absence, February 2011-January 2012
+*** Family Emergency
+- Took a year off to manage a family medical emergency requiring 24x7 care.
+*** In My Spare Time...
+- Implemented a Python tool that provides rule-based manipulation of [[http://en.wikipedia.org/wiki/Gmail][Gmail]] mail messages via [[http://en.wikipedia.org/wiki/Imap][IMAP]] and [[https://developers.google.com/google-apps/gmail/imap_extensions][Gmail's IMAP Extensions]].
+- Learned Lua and used as an extension language to [[https://github.com/lefcha/imapfilter][IMAPFilter]].
+- Contributed to open-source projects including
+    - [[http://en.wikipedia.org/wiki/Emacs][Emacs]]' [[https://github.com/Neil-Smithline/bitly.el][inteface to Bit.ly]]
+    - [[https://github.com/Neil-Smithline/org-ruby][org-ruby]]: a [[http://en.wikipedia.org/wiki/Ruby_gems][Ruby Gem]] that is used by the [[https://github.com][GitHub]] site to publish [[http://pages.github.com/][GitHub Pages]]
+
+** Independent Contractor, June 2008-January 2011
+*** Contractor
+- Provided contracting services to multiple clients focusing on security related issues.
+- Responsible for implementing code and development tools.
+- Participated in code reviews and peer training.
 
 ** BEA Systems (Boston, MA), October 1999-May 2008 
-*** Chief Security Architect, November 2000-May 2008
-- Responsible for all aspects of security in all of BEA’s products including tracking of relevant standards, and long-term security direction.
-- Co-architected the BEA WebLogic Server security infrastructure which has been adopted by all BEA products and, following the BEA/Oracle buyout, is being adopted by Oracle products (eg: [[http://docs.oracle.com/cd/E21764_01/web.1111/b32511/intro_ws.htm#autoId0][Oracle Web Services Manager]]).
-- Implemented major portions of the security system including Java 2 Security integration.
+*** Principle Software Engineer/Technical Lead, November 2000-May 2008
+- Contributed to the design and implementation of the BEA WebLogic Server security: a highly scalable, robust, and flexible implementation that has been adopted by all BEA products and, following the BEA/Oracle buyout, is being adopted by Oracle products (eg: [[http://docs.oracle.com/cd/E21764_01/web.1111/b32511/intro_ws.htm#autoId0][Oracle Web Services Manager]]).
+- Responsible for the J2EE and J2SE security integration with BEA WebLogic Server which led to modifications of the J2EE specification and the creation of JSR-196 and JSR-115.
 - Developed security coding standards and processes used throughout BEA, created educational material and toured many of BEA's sites to educate (and learn from) the developers.
-- Created and managed BEA's vulnerability process and team. Growing it from two two people and two vulnerabilities a year to 50+ vulnerabilities a year with a company-wide team consisting of developers, management, project and product management, QA, technical publications, legal.
-- Worked hand-in-hand with key customers to help them design an effective security architecture using both BEA and non-BEA products.
-- Orchestrated all technical interactions with third party security vendors and helped them design their integration strategies with the WebLogic Server's security system.
+- Orchestrated all technical interactions with third party security vendors and helped them design and implement their integration strategies with the WebLogic Server's security system.
 - Helped key customers design and implement an effective security architecture.
 
-*** Architect/Technical Lead/Senior Engineer, WebLogic Commerce Server, October 1999-October 2000 
-- Architected, designed, helped implement, and led Commerce Server team.
-- Designed webflow and pipeline subsystem - a Model-View-Controller paradigm for controlling web applications. Received a patent on this technology.
+*** Senior Software Engineer/Technical Lead, WebLogic Commerce Server, October 1999-October 2000 
+- Co-designed and implemented Commerce Server project.
+- Technical lead for Commerce Server team.
+- Designed and implemented webflow and pipeline subsystem - a Model-View-Controller paradigm for controlling web applications. Received a patent on this technology.
 
 ** Bowne Internet Solutions (Cambridge, MA)
 *** Technical Architect, July 1999-October 1999
@@ -169,8 +179,3 @@ a fast-paced, cutting-edge technology company.
 - University of Buffalo's Dean's List (3.6/4.0 GPA), Fall 1986 and Fall 1987
 - New York State Regent's Scholarship Fall 1983
 - National Merit Letter of Commendation Spring 1982
-* Footnotes
-
-[1] Architected WebLogic Server security framework (http://bit.ly/AF3TMb). January 2012 marks the 11^th year that it will be the foundation of security for [[http://bit.ly/z23Zss ][BEA's WebLogic Server]] (now [[http://bit.ly/AF3TMb) ][Oracle's Fusion Middleware]]) and other [[http://en.wikipedia.org/wiki/Middleware][middleware]] products.
-
-

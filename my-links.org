@@ -5,8 +5,19 @@ A List Of My Frequently Used Abbreviations
  |------------+----------------------+----------------------+--------------------------------+-----|
  | Keyword    | Description          | Text                 | URL                            | ARG |
  |------------+----------------------+----------------------+--------------------------------+-----|
+ | imap       | IMAP                 | IMAP                 | http://en.wikipedia.org/wiki/Imap |     |
+ | gmail      | Gmail                | Gmail                | http://en.wikipedia.org/wiki/Gmail |     |
+ | applets    | Java Applets         | Java Applets         | http://en.wikipedia.org/wiki/Java_applets |     |
+ | java       | Java/J2SE            | Java/J2SE            | http://en.wikipedia.org/wiki/J2se |     |
+ | lisp       | Lisp                 | Lisp                 | http://en.wikipedia.org/wiki/Lisp_%28programming_language%29 |     |
+ | rose       | Rational Rose        | Rational Rose        | http://en.wikipedia.org/wiki/Rational_rose |     |
+ | javascript | JavaScript           | JavaScript           | http://en.wikipedia.org/wiki/Javascript |     |
+ | togetherj  | TogetherJ/Borland Together | TogetherJ/Borland Together | http://en.wikipedia.org/wiki/Borland_Together |     |
+ | swing      | Swing                | Swing                | http://en.wikipedia.org/wiki/Java_Swing |     |
+ | j2ee       | JEE/J2EE             | JEE/J2EE             | http://en.wikipedia.org/wiki/J2ee |     |
  | younglings | younglings           | younglings           | http://en.wikipedia.org/wiki/Younglings |     |
  | freepress  | Freedom Of The Press | freedom of the press | http://en.wikipedia.org/wiki/Freedom_of_the_press |     |
+ | gem        | Ruby Gem             | Ruby Gem             | http://en.wikipedia.org/wiki/Ruby_gems |     |
  | macosx     | Mac OS X             | Mac OS X             | http://en.wikipedia.org/wiki/MacOSX |     |
  | forum      | Forum                | forum                | http://en.wikipedia.org/wiki/Internet_forum |     |
  | linux      | Linux                | Linux                | http://en.wikipedia.org/wiki/Linux |     |
@@ -14,8 +25,32 @@ A List Of My Frequently Used Abbreviations
  | cygwin     | Cygwin               | Cygwin               | http://en.wikipedia.org/wiki/Cygwin |     |
  | cli        | Command-Line Interface | CLI                  | http://en.wikipedia.org/wiki/Command-line_interface |     |
  | bcompat    | Backwards Compatibility | backwards compatibility | http://en.wikipedia.org/wiki/Backwards_compatibility |     |
+ | foss       | open-source          | open-source          | http://en.wikipedia.org/wiki/Free_and_Open_Source_Software |     |
  | elisp      | Elisp                | elisp                | http://en.wikipedia.org/wiki/Elisp |     |
  | emacs      | Emacs                | Emacs                | http://en.wikipedia.org/wiki/Emacs |     |
+ | lua        | Lua                  | Lua                  | http://en.wikipedia.org/wiki/Lua_%28programming_language%29 |     |
+ | python     | Python               | Python               | http://en.wikipedia.org/wiki/Python_%28programming_language%29 |     |
+ | lex        | Lex                  | Lex                  | http://en.wikipedia.org/wiki/Lex_%28software%29 |     |
+ | bison      | GNU Bison            | GNU Bison            | http://en.wikipedia.org/wiki/GNU_bison |     |
+ | yacc       | YACC                 | YACC                 | http://en.wikipedia.org/wiki/Yacc |     |
+ | dbx        | dbx                  | dbx                  | http://en.wikipedia.org/wiki/Dbx_(debugger) |     |
+ | solaris    | Solaris              | Solaris              | http://en.wikipedia.org/wiki/Solaris_(operating_system) |     |
+ | elf        | ELF executables      | ELF executables      | http://en.wikipedia.org/wiki/Executable_and_Linkable_Format |     |
+ | spi        | SPI                  | SPI                  | http://en.wikipedia.org/wiki/Service_Provider_Interface |     |
+ | struts     | Apache Struts        | Apache Struts        | http://en.wikipedia.org/wiki/Apache_Struts |     |
+ | mvc        | model-view-controller | model-view-controller (MVC) | http://en.wikipedia.org/wiki/Model–view–controller |     |
+ | servlets   | Servlets             | Servlets             | http://en.wikipedia.org/wiki/Java_Servlet |     |
+ | sandbox    | sandboxing           | sandboxing           | http://en.wikipedia.org/wiki/Sandbox_(computer_security) |     |
+ | jrun       | JRun                 | JRun                 | http://en.wikipedia.org/wiki/Jrun |     |
+ | ws         | WebSphere            | WebSphere            | http://en.wikipedia.org/wiki/Websphere |     |
+ | wls        | WebLogic Server      | WebLogic Server      | http://en.wikipedia.org/wiki/Oracle_WebLogic_Server |     |
+ | ccriteria  | Common Criteria      | Common Criteria      | http://en.wikipedia.org/wiki/Common_criteria |     |
+ | dmz        | DMZs                 | DMZs                 | http://en.wikipedia.org/wiki/DMZ_(computing) |     |
+ | kerberos   | Kerberos             | Kerberos             | http://en.wikipedia.org/wiki/Kerberos_(protocol) |     |
+ | xacml      | XACML                | XACML                | http://en.wikipedia.org/wiki/XACML |     |
+ | saml       | SAML                 | SAML                 | http://en.wikipedia.org/wiki/SAML |     |
+ | idm        | IDM                  | IDM                  | http://en.wikipedia.org/wiki/Idm |     |
+ | shells     | Unix/Linux shells    | Unix/Linux shells    | http://en.wikipedia.org/wiki/Unix_shell |     |
  | txt        | TXT Files            | .TXT files           | http://en.wikipedia.org/wiki/Text_file |     |
  | cloud      | Cloud Computing      | cloud computing      | http://en.wikipedia.org/wiki/Cloud_computing |     |
  | gm         | Greasemonkey         | Greasemonkey         | http://bit.ly/ypj8z2           |     |
@@ -41,20 +76,22 @@ A List Of My Frequently Used Abbreviations
 
 * Misc Links
   qll: Link for
-    |           |                          |             | <30>                           |     |
-    | Keyword   | Description              | Text        | URL                            | ARG |
-    |-----------+--------------------------+-------------+--------------------------------+-----|
-    | ghhome    | GitHub Home Page         | GitHub      | https://github.com             |     |
-    | ghrepo    | My GitHub Repository     | repository  | https://github.com/Neil-Smithline |     |
-    | ghroot    | ReRunAsRoot Script       | rerunasroot | https://github.com/Neil-Smithline/rerunasroot |     |
-    | nb        | NanoBlogger Homepage     | NanoBlogger | http://nanoblogger.sourceforge.net/ |     |
-    | blog      | My Blog                  | my blog     | http://www.neilsmithline.com   |     |
-    | web       | My Homepage              | my homepage | http://www.neilsmithline.com   |     |
-    | org       | Org Mode                 | Org Mode    | http://orgmode.org/            |     |
-    | emacs     | Emacs Homepage           | Emacs       | http://www.gnu.org/software/emacs/ |     |
-    | scriptish | Mozilla Scriptish Add-On | Scriptish   | http://bit.ly/xYcpv7           |     |
-    |-----------+--------------------------+-------------+--------------------------------+-----|
-
+ |            | <20>                 | <20>                 | <30>                           |     |
+ | Keyword    | Description          | Text                 | URL                            | ARG |
+ |------------+----------------------+----------------------+--------------------------------+-----|
+ | ghhome     | GitHub Home Page     | GitHub               | https://github.com             |     |
+ | imapfilter | IMAPFilter           | IMAPFilter           | https://github.com/lefcha/imapfilter |     |
+ | gmailext   | Gmail's IMAP Extensions | Gmail's IMAP Extensions | https://developers.google.com/google-apps/gmail/imap_extensions |     |
+ | ghrepo     | My GitHub Repository | repository           | https://github.com/Neil-Smithline |     |
+ | ghroot     | ReRunAsRoot Script   | rerunasroot          | https://github.com/Neil-Smithline/rerunasroot |     |
+ | nb         | NanoBlogger Homepage | NanoBlogger          | http://nanoblogger.sourceforge.net/ |     |
+ | blog       | My Blog              | my blog              | http://www.neilsmithline.com   |     |
+ | web        | My Homepage          | my homepage          | http://www.neilsmithline.com   |     |
+ | org        | Org Mode             | Org Mode             | http://orgmode.org/            |     |
+ | emacs      | Emacs Homepage       | Emacs                | http://www.gnu.org/software/emacs/ |     |
+ | scriptish  | Mozilla Scriptish Add-On | Scriptish            | http://bit.ly/xYcpv7           |     |
+ |------------+----------------------+----------------------+--------------------------------+-----|
+  
 * Identity Quicktext
   qid: Identity Information -
   |---------+------------------------------+--------------------------------+-----+-----|
