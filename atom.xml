@@ -1,29 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <?xml-stylesheet type="text/css" href="http://www.neilsmithline.com/feed/styles/feed.css"?>
-
-
 <title type="html">My Geekdom</title>
 <subtitle type="html">Ramblings about my nerdy pursuits</subtitle>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed"/>
-<link rel="self" type="application/atom+xml" href="http://www.neilsmithline.com/feed/atom.xml"/>
-<updated>2012-03-12T12:01:22-05:00</updated>
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed" />
+<link rel="self" type="application/atom+xml" href="http://www.neilsmithline.com/feed/atom.xml" />
+<updated>2012-03-16T18:16:09-05:00</updated>
 <author>
 <name>Neil Smithline</name>
 <uri>http://www.neilsmithline.com/feed</uri>
 </author>
 <id>http://www.neilsmithline.com/feed/</id>
-<generator uri="http://nanoblogger.sourceforge.net" version="3.5-RC1">
-NanoBlogger
-</generator>
-
+<generator uri="http://nanoblogger.sourceforge.net" version="3.5-RC1">NanoBlogger</generator>
+<entry>
+<title type="html">My Title</title>
+<author>
+<name>Neil Smithline</name>
+</author>
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/03/16/my_title/" />
+<id>http://www.neilsmithline.com/feed/archives/2012/03/16/my_title/</id>
+<published>2012-03-16T18:09:50-05:00</published>
+<updated>2012-03-16T18:09:50-05:00</updated>
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>some text</p>
+<p>org-nb-handle-options</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="html">My Title</title>
+<author>
+<name>Neil Smithline</name>
+</author>
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/03/07/my_title/" />
+<id>http://www.neilsmithline.com/feed/archives/2012/03/07/my_title/</id>
+<published>2012-03-07T16:00:00-05:00</published>
+<updated>2012-03-07T16:00:00-05:00</updated>
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>some text</p>
+<p>org-nb-handle-options</p>
+</div>
+</content>
+</entry>
 <entry>
 <title type="html">Smartphones Everywhere</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/22/smartphones_everywhere/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/22/smartphones_everywhere/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/02/22/smartphones_everywhere/</id>
 <published>2012-02-22T18:38:14-05:00</published>
 <updated>2012-02-22T18:38:14-05:00</updated>
@@ -31,80 +57,83 @@ NanoBlogger
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-
-<p>
-Interpreting this chart from <a href="http://blog.nielsen.com/nielsenwire/online_mobile/survey-new-u-s-smartphone-growth-by-age-and-income/">Nielsen</a> (via <a href="http://www.wired.com/epicenter/2012/02/smartphone-buying-machine/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed:+wired/index+(Wired:+Index+3+(Top+Stories+2))">Wired</a>) does not require any great amount of effort.
-</p>
+<p>Interpreting this chart from 
+<a href="http://blog.nielsen.com/nielsenwire/online_mobile/survey-new-u-s-smartphone-growth-by-age-and-income/">Nielsen</a>(via 
+<a href="http://www.wired.com/epicenter/2012/02/smartphone-buying-machine/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed:+wired/index+(Wired:+Index+3+(Top+Stories+2))">Wired</a>) does not require any great amount of effort.</p>
 <div style="text-align: center">
-<p><img src="http://www.wired.com/images_blogs/epicenter/2012/02/Smartphone-Income-and-Age.jpg"  alt="http://www.wired.com/images_blogs/epicenter/2012/02/Smartphone-Income-and-Age.jpg" />
+<p>
+<img src="http://www.wired.com/images_blogs/epicenter/2012/02/Smartphone-Income-and-Age.jpg" alt="http://www.wired.com/images_blogs/epicenter/2012/02/Smartphone-Income-and-Age.jpg" />
 </p>
 </div>
-
-<p>
-It can be summarized by any of the following sentences:
-</p><ul>
-<li>The greater your income the more likely you are to have a smartphone.
-</li>
-<li>Young adults are more likely to have smartphones than older adults.
-</li>
-<li>Smartphones are only for the young and get outgrown by the old. (Nah! But it is a valid interpretation of th e chart.)
-</li>
+<p>It can be summarized by any of the following sentences:</p>
+<ul>
+<li>The greater your income the more likely you are to have a smartphone.</li>
+<li>Young adults are more likely to have smartphones than older adults.</li>
+<li>Smartphones are only for the young and get outgrown by the old. (Nah! But it is a valid interpretation of th e chart.)</li>
 </ul>
-
-
-<p>
-But I think the graph can best be summarized by:
-</p>
+<p>But I think the graph can best be summarized by:</p>
 <div style="text-align: center">
-<p><b>Smartphones are where it is at today; and tomorrow, even more so.</b>
+<p>
+<b>Smartphones are where it is at today; and tomorrow, even more so.</b>
 </p>
 </div>
-
-<p>
-Perhaps not the best grammar but I think it gets the point across. It becomes even more dramatic when you look at the number of people who have acquired smartphones in the past three months:
-</p>
+<p>Perhaps not the best grammar but I think it gets the point across. It becomes even more dramatic when you look at the number of people who have acquired smartphones in the past three months:</p>
 <div style="text-align: center">
-<p><img src="http://blog.nielsen.com/nielsenwire/wp-content/uploads/2012/02/SmartPhone_Recent-acquirers-age1.png"  alt="http://blog.nielsen.com/nielsenwire/wp-content/uploads/2012/02/SmartPhone_Recent-acquirers-age1.png" />
+<p>
+<img src="http://blog.nielsen.com/nielsenwire/wp-content/uploads/2012/02/SmartPhone_Recent-acquirers-age1.png" alt="http://blog.nielsen.com/nielsenwire/wp-content/uploads/2012/02/SmartPhone_Recent-acquirers-age1.png" />
 </p>
 </div>
-
-<p>
-As <a href="http://www.imdb.com/title/tt0059968/quotes">Robin</a> would <a href="http://en.wikipedia.org/wiki/Batman_(TV_series)#.22Holy_.......2C_Batman.21.22">say</a>: Holy <a href="http://dictionary.reference.com/browse/ubiquitous+computing?qsrc=2446">ubiquitous computing</a>, Batman!
-</p>
-<p>
-It seems clear that this is where the money is. This means that some subset of technologies such as <a href="http://en.wikipedia.org/wiki/Html5">HTML5</a>, <a href="http://en.wikipedia.org/wiki/Virtuality_(computing)">virtual computing</a>, <a href="http://en.wikipedia.org/wiki/Scala_(programming_language)">Scala</a>, <a href="http://en.wikipedia.org/wiki/Hadoop">Hadoop</a>, <a href="http://en.wikipedia.org/wiki/Amazon_Web_Services">AWS</a>, and <a href="http://en.wikipedia.org/wiki/Couchdb">CouchDB</a>, to name just a few, are going to be the technologies of tomorrow.
-</p>
-<p>
-In my lifetime, I have seen computers revolutionize society in several different ways.
-</p><dl>
-<dt><a href="#Http-en.wikipedia.org-wiki-Back_office">Back office</a></dt><dd>Back office computerization led to the popularization of <a href="http://en.wikipedia.org/wiki/Automated_teller_machine">ATMs</a>, <a href="http://en.wikipedia.org/wiki/Credit_card">credit cards</a>, <a href="http://en.wikipedia.org/wiki/Fed_Ex">Fed Ex</a> and its overnight delivery service, and set the stage for the online marketplace we are familiar with today.
-</dd>
-<dt><a href="http://en.wikipedia.org/wiki/Personal_computer">Personal computers</a></dt><dd>Personal computers introduced computing to the public. When I was in school, I would get bonus points for typing my homework assignments. Today, homework assignments must be printed from a <a href="http://en.wikipedia.org/wiki/Word_processor">word processor</a> if not submitted electronically.
-</dd>
-<dt><a href="http://en.wikipedia.org/wiki/World_wide_web">The web</a></dt><dd>The web, for the first time ever, connected the back office directly to consumers in the comfort of their own home. ATMs allowed you to get 24x7 access to your bank account, but you needed to be at an ATM. PCs gave you access to many digital technologies, but having multiple computers interact was difficult, slow, and frequently expensive. But throw in the web and suddenly: <b>BOOM!</b> You have the <a href="http://en.wikipedia.org/wiki/Online_shopping">online shopping</a>, <a href="http://en.wikipedia.org/wiki/Video_gaming">video gaming</a>, and <a href="http://en.wikipedia.org/wiki/Video_on_demand">video on demand</a> that we live in today.
-</dd>
+<p>As 
+<a href="http://www.imdb.com/title/tt0059968/quotes">Robin</a>would 
+<a href="http://en.wikipedia.org/wiki/Batman_(TV_series)#.22Holy_.......2C_Batman.21.22">say</a>: Holy 
+<a href="http://dictionary.reference.com/browse/ubiquitous+computing?qsrc=2446">ubiquitous computing</a>, Batman!</p>
+<p>It seems clear that this is where the money is. This means that some subset of technologies such as 
+<a href="http://en.wikipedia.org/wiki/Html5">HTML5</a>, 
+<a href="http://en.wikipedia.org/wiki/Virtuality_(computing)">virtual computing</a>, 
+<a href="http://en.wikipedia.org/wiki/Scala_(programming_language)">Scala</a>, 
+<a href="http://en.wikipedia.org/wiki/Hadoop">Hadoop</a>, 
+<a href="http://en.wikipedia.org/wiki/Amazon_Web_Services">AWS</a>, and 
+<a href="http://en.wikipedia.org/wiki/Couchdb">CouchDB</a>, to name just a few, are going to be the technologies of tomorrow.</p>
+<p>In my lifetime, I have seen computers revolutionize society in several different ways.</p>
+<dl>
+<dt>
+<a href="#Http-en.wikipedia.org-wiki-Back_office">Back office</a>
+</dt>
+<dd>Back office computerization led to the popularization of 
+<a href="http://en.wikipedia.org/wiki/Automated_teller_machine">ATMs</a>, 
+<a href="http://en.wikipedia.org/wiki/Credit_card">credit cards</a>, 
+<a href="http://en.wikipedia.org/wiki/Fed_Ex">Fed Ex</a>and its overnight delivery service, and set the stage for the online marketplace we are familiar with today.</dd>
+<dt>
+<a href="http://en.wikipedia.org/wiki/Personal_computer">Personal computers</a>
+</dt>
+<dd>Personal computers introduced computing to the public. When I was in school, I would get bonus points for typing my homework assignments. Today, homework assignments must be printed from a 
+<a href="http://en.wikipedia.org/wiki/Word_processor">word processor</a>if not submitted electronically.</dd>
+<dt>
+<a href="http://en.wikipedia.org/wiki/World_wide_web">The web</a>
+</dt>
+<dd>The web, for the first time ever, connected the back office directly to consumers in the comfort of their own home. ATMs allowed you to get 24x7 access to your bank account, but you needed to be at an ATM. PCs gave you access to many digital technologies, but having multiple computers interact was difficult, slow, and frequently expensive. But throw in the web and suddenly: 
+<b>BOOM!</b>You have the 
+<a href="http://en.wikipedia.org/wiki/Online_shopping">online shopping</a>, 
+<a href="http://en.wikipedia.org/wiki/Video_gaming">video gaming</a>, and 
+<a href="http://en.wikipedia.org/wiki/Video_on_demand">video on demand</a>that we live in today.</dd>
 </dl>
-
-
-<p>
-As a diehard nerd, I'm thrilled to have lived through these technical revolutions. Not only have I lived through them, but I've had the honor of having been an early consumer and even helped develop some of them. So, with great joy, and without trying to sound too greedy, I am joyous that the next revolutionary wave is coming to shore. And it is called <i>ubiquitous computing</i>.
-</p>
-<p>
-I don't claim to be the <a href="http://article.wn.com/view/2012/02/02/Did_the_Groundhog_see_his_shadow_2012_Punxsutawney_Phil_twee/">prognosticator of prognosticators</a>. <a href="http://www.wikipedia.com">Wikipedia</a>'s page on ubiquitous computing was created <a href="http://en.wikipedia.org/w/index.php?title=Ubiquitous_computing&amp;action=history">two years ago</a>. I'm just happy to be around to be part of it and hope that I get a chance to <a href="http://bit.ly/zN6qBU">surf the wave</a>.
-</p>
+<p>As a diehard nerd, I'm thrilled to have lived through these technical revolutions. Not only have I lived through them, but I've had the honor of having been an early consumer and even helped develop some of them. So, with great joy, and without trying to sound too greedy, I am joyous that the next revolutionary wave is coming to shore. And it is called 
+<i>ubiquitous computing</i>.</p>
+<p>I don't claim to be the 
+<a href="http://article.wn.com/view/2012/02/02/Did_the_Groundhog_see_his_shadow_2012_Punxsutawney_Phil_twee/">prognosticator of prognosticators</a>. 
+<a href="http://www.wikipedia.com">Wikipedia</a>'s page on ubiquitous computing was created 
+<a href="http://en.wikipedia.org/w/index.php?title=Ubiquitous_computing&amp;action=history">two years ago</a>. I'm just happy to be around to be part of it and hope that I get a chance to 
+<a href="http://bit.ly/zN6qBU">surf the wave</a>.</p>
 </div>
 </content>
-
 </entry>
 <entry>
 <title type="html">My Patents</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/21/my_patents/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/21/my_patents/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/02/21/my_patents/</id>
 <published>2012-02-21T17:20:18-05:00</published>
 <updated>2012-02-21T17:20:18-05:00</updated>
@@ -112,45 +141,45 @@ I don't claim to be the <a href="http://article.wn.com/view/2012/02/02/Did_the_G
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-
-<p>
-Just thought I'd add a list of my patents as of Tue Feb 21, 2012:
-</p><ul>
-<li>US Patent #7,979,891: <a href="http://1.usa.gov/7979891">Method and System for Securing Execution of Untrusted Applications</a>, July 2011
-   This patent, in combination with 7,814,556 defines a model for enforcing <a href="http://en.wikipedia.org/wiki/J2ee">J2EE</a> (a.k.a: JEE) application security via <a href="http://en.wikipedia.org/wiki/Sandbox_(computer_security)">sandboxing</a> within a single Java VM.
-</li>
-<li>US Patent #7,814,556: <a href="http://1.usa.gov/7814556">System and Method for Protecting APIs from Untrusted or Less Trusted Applications</a>, October 2010xo
-   See patent 7,979,891 immediately above.
-</li>
-<li>US Patent #7,610,813: <a href="http://1.usa.gov/7610613">Servlet Authentication Filters</a>, October 2009
-  An extension of the <a href="http://en.wikipedia.org/wiki/J2ee">J2EE</a> (a.k.a: JEE) <a href="http://en.wikipedia.org/wiki/Java_Servlet">Servlets</a> model that provides an integrated and pluggable model for authentication for Servlets. <a href="http://jcp.org/en/jsr/detail?id=196">JSR-196</a> extended the ideas introduced in this patent so that the concepts are now a standard part of J2EE.
-</li>
-<li>US Patent #7,487,207: <a href="http://1.usa.gov/7487207">System and method for determining the functionality of a software application based on nodes within the software application and transitions between the nodes</a>, February 2009
-  Defines a <a href="http://en.wikipedia.org/wiki/Model–view–controller">model-view-controller</a> (MVC) model for implementing web applications. <a href="http://en.wikipedia.org/wiki/Apache_Struts">Apache Struts</a> is based on the ideas defined in this patent.
-</li>
-<li>US Patent #7,051,069: <a href="http://1.usa.gov/7051069">System for managing logical process flow in an online environment</a>, May 2006
-  Earlier version of 7,487,207 immediately above.
-</li>
-<li>US Patent application pending #20,060,031,855: <a href="http://bit.ly/20060031855">System and Method for Runtime Interface Versioning</a>, February 2006
-  The concepts embodied in this patent application have been used to ensure backwards compatibility for WebLogic Server's Security <a href="http://en.wikipedia.org/wiki/Service_Provider_Interface">SPI</a>s. The implementation of this patent allows the server to continue to add new functionality to the SPIs while maintaining forwards compatibility for security. As of January 2012, all security providers written since 2002 are compatible with the newest server version. Any <a href="http://docs.oracle.com/cd/E24329_01/apirefs.1211/e24391/weblogic/security/spi/package-summary.html">current security SPI class</a> ending with "V2" is utilizing the design model in this patent.
-</li>
-<li>US Patent #5,787,447: <a href="http://1.usa.gov/5787447">Memory allocation maintaining ordering across multiple heaps</a>, July 1998
-  A memory allocation algorithm that supported incremental modification of <a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF executables</a>, while maintaining the ordering required by ELF as well as existing <a href="http://en.wikipedia.org/wiki/Solaris_(operating_system)">Solaris</a> tools (eg: <a href="http://en.wikipedia.org/wiki/Dbx_(debugger)">dbx</a>) without requiring restarting of the application or the tools.
-</li>
+<p>Just thought I'd add a list of my patents as of Tue Feb 21, 2012:</p>
+<ul>
+<li>US Patent #7,979,891: 
+<a href="http://1.usa.gov/7979891">Method and System for Securing Execution of Untrusted Applications</a>, July 2011 This patent, in combination with 7,814,556 defines a model for enforcing 
+<a href="http://en.wikipedia.org/wiki/J2ee">J2EE</a>(a.k.a: JEE) application security via 
+<a href="http://en.wikipedia.org/wiki/Sandbox_(computer_security)">sandboxing</a>within a single Java VM.</li>
+<li>US Patent #7,814,556: 
+<a href="http://1.usa.gov/7814556">System and Method for Protecting APIs from Untrusted or Less Trusted Applications</a>, October 2010xo See patent 7,979,891 immediately above.</li>
+<li>US Patent #7,610,813: 
+<a href="http://1.usa.gov/7610613">Servlet Authentication Filters</a>, October 2009 An extension of the 
+<a href="http://en.wikipedia.org/wiki/J2ee">J2EE</a>(a.k.a: JEE) 
+<a href="http://en.wikipedia.org/wiki/Java_Servlet">Servlets</a>model that provides an integrated and pluggable model for authentication for Servlets. 
+<a href="http://jcp.org/en/jsr/detail?id=196">JSR-196</a>extended the ideas introduced in this patent so that the concepts are now a standard part of J2EE.</li>
+<li>US Patent #7,487,207: 
+<a href="http://1.usa.gov/7487207">System and method for determining the functionality of a software application based on nodes within the software application and transitions between the nodes</a>, February 2009 Defines a 
+<a href="http://en.wikipedia.org/wiki/Model–view–controller">model-view-controller</a>(MVC) model for implementing web applications. 
+<a href="http://en.wikipedia.org/wiki/Apache_Struts">Apache Struts</a>is based on the ideas defined in this patent.</li>
+<li>US Patent #7,051,069: 
+<a href="http://1.usa.gov/7051069">System for managing logical process flow in an online environment</a>, May 2006 Earlier version of 7,487,207 immediately above.</li>
+<li>US Patent application pending #20,060,031,855: 
+<a href="http://bit.ly/20060031855">System and Method for Runtime Interface Versioning</a>, February 2006 The concepts embodied in this patent application have been used to ensure backwards compatibility for WebLogic Server's Security 
+<a href="http://en.wikipedia.org/wiki/Service_Provider_Interface">SPI</a>s. The implementation of this patent allows the server to continue to add new functionality to the SPIs while maintaining forwards compatibility for security. As of January 2012, all security providers written since 2002 are compatible with the newest server version. Any 
+<a href="http://docs.oracle.com/cd/E24329_01/apirefs.1211/e24391/weblogic/security/spi/package-summary.html">current security SPI class</a>ending with "V2" is utilizing the design model in this patent.</li>
+<li>US Patent #5,787,447: 
+<a href="http://1.usa.gov/5787447">Memory allocation maintaining ordering across multiple heaps</a>, July 1998 A memory allocation algorithm that supported incremental modification of 
+<a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF executables</a>, while maintaining the ordering required by ELF as well as existing 
+<a href="http://en.wikipedia.org/wiki/Solaris_(operating_system)">Solaris</a>tools (eg: 
+<a href="http://en.wikipedia.org/wiki/Dbx_(debugger)">dbx</a>) without requiring restarting of the application or the tools.</li>
 </ul>
 </div>
 </content>
-
 </entry>
 <entry>
 <title type="html">New NanoBlogger Command-Line</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/14/new_nanoblogger_command-line/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/14/new_nanoblogger_command-line/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/02/14/new_nanoblogger_command-line/</id>
 <published>2012-02-14T13:13:34-05:00</published>
 <updated>2012-02-14T13:13:34-05:00</updated>
@@ -159,102 +188,65 @@ Just thought I'd add a list of my patents as of Tue Feb 21, 2012:
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-
-<p>
-As I've discussed in previous <a href="http://www.neilsmithline.com/archives/blog">postings about this blog's technology</a>, this is a static blog written with NanoBlogger. NanoBlogger is a <a href="http://en.wikipedia.org/wiki/Command-line_interface">CLI</a> driven blogging system. Alas, I have found the <a href="http://nanoblogger.sourceforge.net/docs/nanoblogger.html">NanoBlogger manual</a> to be difficult to follow and the syntax of the CLI to be non-intuitive. (See the footnote <a href="https://github.com/Neil-Smithline/nbc">here</a> regarding the existing CLI.) On the upside, NanoBlogger is a CLI system which makes it easy to modify. 
-</p>
-<p>
-I started out with a few small helper scripts, eventually merging them into a single helper script. As I was using that script and learning more about NanoBlogger, I found myself writing smaller helper scripts for my big helper script. Eventually, I was never calling my original, large helper script directly.
-</p>
-<p>
-At this point it became clear that some refactoring was needed. So I refactored. I came up with a single shell script call <i>nbc.sh</i> that does all the work and a series of shell scripts that simply call nbc.sh.
-</p>
-<p>
-The key idea behind nbc.sh, or simply <i>nbc</i>, is that the scripts that call it are trivial. By "trivial" I mean that each script is only a few lines long, all the side scripts have identical content, and, if not for the semantics of <a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a>, would simply be multiple symbolic links to the same program.
-</p>
-<p>
-As you can see below, the code for the side scripts simply stores the command name, <i>$0</i>, of the side script that was called and then calls the <i>nbc.sh</i> script that is in the same directory as the side script. 
-</p>
-
-
-<pre class="example">#!/bin/sh
+<p>As I've discussed in previous 
+<a href="http://www.neilsmithline.com/archives/blog">postings about this blog's technology</a>, this is a static blog written with NanoBlogger. NanoBlogger is a 
+<a href="http://en.wikipedia.org/wiki/Command-line_interface">CLI</a>driven blogging system. Alas, I have found the 
+<a href="http://nanoblogger.sourceforge.net/docs/nanoblogger.html">NanoBlogger manual</a>to be difficult to follow and the syntax of the CLI to be non-intuitive. (See the footnote 
+<a href="https://github.com/Neil-Smithline/nbc">here</a>regarding the existing CLI.) On the upside, NanoBlogger is a CLI system which makes it easy to modify.</p>
+<p>I started out with a few small helper scripts, eventually merging them into a single helper script. As I was using that script and learning more about NanoBlogger, I found myself writing smaller helper scripts for my big helper script. Eventually, I was never calling my original, large helper script directly.</p>
+<p>At this point it became clear that some refactoring was needed. So I refactored. I came up with a single shell script call 
+<i>nbc.sh</i>that does all the work and a series of shell scripts that simply call nbc.sh.</p>
+<p>The key idea behind nbc.sh, or simply 
+<i>nbc</i>, is that the scripts that call it are trivial. By "trivial" I mean that each script is only a few lines long, all the side scripts have identical content, and, if not for the semantics of 
+<a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a>, would simply be multiple symbolic links to the same program.</p>
+<p>As you can see below, the code for the side scripts simply stores the command name, 
+<i>$0</i>, of the side script that was called and then calls the 
+<i>nbc.sh</i>script that is in the same directory as the side script.</p>
+<pre class="example">
+#!/bin/sh
 
 # Code to load include file.
 ORIG_ARG_0="$0"
 NBDIR=${0%/*}
 . ${NBDIR}/nbc.sh
 </pre>
-
-<p>
-This means that as I continue to add functionality to nbc, all I need to do is copy one of the side scripts to the filename of the new command I added. 
-</p>
-<p>
-While I won't discuss the exact naming scheme used for these side scripts in detail in this posting, I will say that I have tried to systematic in how the scripts are named. Once you learn a few abbreviations (eg: "e" for "Entry" or "Entries", "u" for "Update") and the rules for combining those abbreviations (standard <a href="http://en.wikipedia.org/wiki/Reverse_Polish_Notation">RPN</a>), you will know the names of all the commands, what each command does, and the type and order of arguments each command takes.
-</p>
-<p>
-I still need to write richer documentation for nbc and its side scripts, but I can finish this posting off with some concrete examples.
-</p>
-<p>
-NB supports an "update" command that essentially tells NB to rebuild the blog from scratch. The syntax of this command is:
-</p>
-
-
-<pre class="example">nb update
+<p>This means that as I continue to add functionality to nbc, all I need to do is copy one of the side scripts to the filename of the new command I added.</p>
+<p>While I won't discuss the exact naming scheme used for these side scripts in detail in this posting, I will say that I have tried to systematic in how the scripts are named. Once you learn a few abbreviations (eg: "e" for "Entry" or "Entries", "u" for "Update") and the rules for combining those abbreviations (standard 
+<a href="http://en.wikipedia.org/wiki/Reverse_Polish_Notation">RPN</a>), you will know the names of all the commands, what each command does, and the type and order of arguments each command takes.</p>
+<p>I still need to write richer documentation for nbc and its side scripts, but I can finish this posting off with some concrete examples.</p>
+<p>NB supports an "update" command that essentially tells NB to rebuild the blog from scratch. The syntax of this command is:</p>
+<pre class="example">
+nb update
 </pre>
-
-<p>
-My nbc version of this command is:
-</p>
-
-
-<pre class="example">nbu
+<p>My nbc version of this command is:</p>
+<pre class="example">
+nbu
 </pre>
-
-<p>
-All of the commands for nbc start with the letters "nb". The letter "U" is the abbreviation for "Update". So "nbu" tells nb to run the update command. As I said, the code for nbu and the other side scripts are trivial and given above. As far as examples go, nbu is not very exciting. But the nbc's CLI for creating tags is a bit more exciting.
-</p>
-<p>
-NB's syntax for creating tags, as documented in its manual, is:
-</p>
-
-
-<pre class="example">nb --title &lt;tag-name&gt; add tag
+<p>All of the commands for nbc start with the letters "nb". The letter "U" is the abbreviation for "Update". So "nbu" tells nb to run the update command. As I said, the code for nbu and the other side scripts are trivial and given above. As far as examples go, nbu is not very exciting. But the nbc's CLI for creating tags is a bit more exciting.</p>
+<p>NB's syntax for creating tags, as documented in its manual, is:</p>
+<pre class="example">
+nb --title &lt;tag-name&gt; add tag
 </pre>
-
-<p>
-Gosh! That's both tough to remember and tough to type. In nbc, the command for adding a tag is <i>nbga</i>. All commands start with "nb". After that, the "g" means that we are talking about "taGs". The "a" stands for "Add". The syntax for the command is 
-</p>
-
-
-<pre class="example">nbga &lt;tag list&gt;
+<p>Gosh! That's both tough to remember and tough to type. In nbc, the command for adding a tag is 
+<i>nbga</i>. All commands start with "nb". After that, the "g" means that we are talking about "taGs". The "a" stands for "Add". The syntax for the command is</p>
+<pre class="example">
+nbga &lt;tag list&gt;
 </pre>
-
-
-<p>
-Besides being much easier to type and remember, it allows a tag list as compared to a single tag name. That is, you can create multiple tags in a single command rather than needing to call nb once for each new tag.
-</p>
-<p>
-In NBC, a tag list is a comma-separated list of one or more tag names. So "tag1" is a tag list and "tag1,tag2,tag3" is also a tag list. If you prefer you can space-separate the tag list but you need to ensure that you pass the entire tag list as the first argument to nbga. 
-</p>
-<p>
-As the operations become more complex, NBC's simplifications become greater and more obvious. My next posting about NBC will discuss some of these simplifications.
-</p>
-<p>
-If you wish to use NBC, look at the source code, or tell me why NBC sucks, you can get the scripts at <a href="https://github.com/Neil-Smithline/nbc">https://github.com/Neil-Smithline/nbc</a>.
-</p>
+<p>Besides being much easier to type and remember, it allows a tag list as compared to a single tag name. That is, you can create multiple tags in a single command rather than needing to call nb once for each new tag.</p>
+<p>In NBC, a tag list is a comma-separated list of one or more tag names. So "tag1" is a tag list and "tag1,tag2,tag3" is also a tag list. If you prefer you can space-separate the tag list but you need to ensure that you pass the entire tag list as the first argument to nbga.</p>
+<p>As the operations become more complex, NBC's simplifications become greater and more obvious. My next posting about NBC will discuss some of these simplifications.</p>
+<p>If you wish to use NBC, look at the source code, or tell me why NBC sucks, you can get the scripts at 
+<a href="https://github.com/Neil-Smithline/nbc">https://github.com/Neil-Smithline/nbc</a>.</p>
 </div>
 </content>
-
 </entry>
 <entry>
 <title type="html">This Blog Is Now Hosted For Free (and it's slashdot proof too)</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/</id>
 <published>2012-02-03T21:49:09-05:00</published>
 <updated>2012-02-03T21:49:09-05:00</updated>
@@ -262,49 +254,48 @@ If you wish to use NBC, look at the source code, or tell me why NBC sucks, you c
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-
-<p>
-While there are many free or nearly free blog hosting sites available, most of them come with a long list of restrictions. Either they restrict you to using their blogging software, throw ads on your pages, give you the "unlimited bandwidth" plan that they'll cut off if your site gets too much traffic, limit you to only the ugly themes, etc&hellip; 
-</p>
-<p>
-But <a href="http://www.neilsmithline.com">www.neilsmithline.com</a> is now hosted on a site that charges me nothing, doesn't put ads on my pages, couldn't care less about the theme I use, and, should I ever be lucky enough, survive <a href="http://en.wikipedia.org/wiki/Slashdotting">slashdotting</a>. The only restriction is that my blog has to be static. Being that I already had a static blog (see <a href="#about-this-blogs-tech.org">previous posting</a>), this was no problem for me at all. I've used lots of dynamic blogs (<a href="http://en.wikipedia.org/wiki/Drupal">Drupal</a>, <a href="http://en.wikipedia.org/wiki/Wordpress">WordPress</a>, <a href="http://en.wikipedia.org/wiki/Joomla">Joomla</a>, <a href="http://en.wikipedia.org/wiki/Blogger_(service)">Blogger</a>, <a href="http://en.wikipedia.org/wiki/Movable_Type">Movable Type</a>, etc&hellip;) and just found that "dynamic" is a short way of saying that the blogging system is going to do what it wants and not what I want.
-</p>
-<p>
-Along with the free hosting I get automatic version control, well-managed collaboration (not that I have any collaborators), data redundancy, eternal archiving (I probably won't need it that long but it's nice to know that nothing will get lost), and the ability to get a copy of my data onto my local machine whenever I want it.
-</p>
-<p>
-My choice of blogging technology was largely influenced by these two blog postings, <a href="http://decafbad.com/blog/2011/06/08/further-jekyll-notes">1</a> and <a href="http://decafbad.com/blog/2011/06/08/moved-to-jekyll">2</a>, and email conversations I had with their author, <a href="https://plus.google.com/114487965928288927815/about">Les Orchard</a>. While Les went with <a href="https://github.com/mojombo/jekyll">Jekyll</a>, I preferred the simpler <a href="http://nanoblogger.sourceforge.net/">NanoBlogger</a>. Les uses <a href="http://github.com">Github.com</a> for versioning his blog but hosts his blog on his own site as he wants full control of what is published. I simply couldn't agree with him more. 
-</p>
-<p>
-When I moved to my new blogging framework, I quickly got my blog up and running using NanoBlogger for site generation and sftp to publish it to my VPS. Today I investigated replacing sftp with Github and its notification framework. This would essentially mirror Les's blog system except that I am running NanoBlogger locally while he runs Jekyll. 
-</p>
-<p>
-As I was investigating using Github for transportation and archiving of my blog, I decided to take another look at <a href="http://pages.github.com/">Github Pages</a>. And then, like a lightning bolt, it occurred to me. When I publish my blog by pushing it to Github, if the repository has the magic name of <i>neil-smithline.github.com</i>, then Github would publish my blog at <a href="http://neil-smithline.github.com/">http://neil-smithline.github.com/</a> automatically. There simply was no benefit to serve my blog from my VPS as Github would do it far better than I could on my VPS.
-</p>
-<p>
-The only problem I foresee is that I run more than just my blog on <a href="http://www.nelismithline.com">www.neilsmithline.com</a>. But the other applications I run are only for my private use so I can just map them to another sub-domain such as <i>whatever.neilsmithline.com</i>. For example, I've been playing with a cloud-based bookmarking system, <a href="http://www.phoboslab.org/projects/asaph">Asaph</a>, that allows you to run your own cloud bookmark server. But I can access it at and, if you have an interest, can view it at: <a href="http://www2.neilsmithline.com/asaph/">http://www2.neilsmithline.com/asaph/</a>.
-</p>
-<p>
-All-in-all, it's like a nerd's dream come true :-D
-</p>
+<p>While there are many free or nearly free blog hosting sites available, most of them come with a long list of restrictions. Either they restrict you to using their blogging software, throw ads on your pages, give you the "unlimited bandwidth" plan that they'll cut off if your site gets too much traffic, limit you to only the ugly themes, etc…</p>
+<p>But 
+<a href="http://www.neilsmithline.com">www.neilsmithline.com</a>is now hosted on a site that charges me nothing, doesn't put ads on my pages, couldn't care less about the theme I use, and, should I ever be lucky enough, survive 
+<a href="http://en.wikipedia.org/wiki/Slashdotting">slashdotting</a>. The only restriction is that my blog has to be static. Being that I already had a static blog (see 
+<a href="#about-this-blogs-tech.org">previous posting</a>), this was no problem for me at all. I've used lots of dynamic blogs (
+<a href="http://en.wikipedia.org/wiki/Drupal">Drupal</a>, 
+<a href="http://en.wikipedia.org/wiki/Wordpress">WordPress</a>, 
+<a href="http://en.wikipedia.org/wiki/Joomla">Joomla</a>, 
+<a href="http://en.wikipedia.org/wiki/Blogger_(service)">Blogger</a>, 
+<a href="http://en.wikipedia.org/wiki/Movable_Type">Movable Type</a>, etc…) and just found that "dynamic" is a short way of saying that the blogging system is going to do what it wants and not what I want.</p>
+<p>Along with the free hosting I get automatic version control, well-managed collaboration (not that I have any collaborators), data redundancy, eternal archiving (I probably won't need it that long but it's nice to know that nothing will get lost), and the ability to get a copy of my data onto my local machine whenever I want it.</p>
+<p>My choice of blogging technology was largely influenced by these two blog postings, 
+<a href="http://decafbad.com/blog/2011/06/08/further-jekyll-notes">1</a>and 
+<a href="http://decafbad.com/blog/2011/06/08/moved-to-jekyll">2</a>, and email conversations I had with their author, 
+<a href="https://plus.google.com/114487965928288927815/about">Les Orchard</a>. While Les went with 
+<a href="https://github.com/mojombo/jekyll">Jekyll</a>, I preferred the simpler 
+<a href="http://nanoblogger.sourceforge.net/">NanoBlogger</a>. Les uses 
+<a href="http://github.com">Github.com</a>for versioning his blog but hosts his blog on his own site as he wants full control of what is published. I simply couldn't agree with him more.</p>
+<p>When I moved to my new blogging framework, I quickly got my blog up and running using NanoBlogger for site generation and sftp to publish it to my VPS. Today I investigated replacing sftp with Github and its notification framework. This would essentially mirror Les's blog system except that I am running NanoBlogger locally while he runs Jekyll.</p>
+<p>As I was investigating using Github for transportation and archiving of my blog, I decided to take another look at 
+<a href="http://pages.github.com/">Github Pages</a>. And then, like a lightning bolt, it occurred to me. When I publish my blog by pushing it to Github, if the repository has the magic name of 
+<i>neil-smithline.github.com</i>, then Github would publish my blog at 
+<a href="http://neil-smithline.github.com/">http://neil-smithline.github.com/</a>automatically. There simply was no benefit to serve my blog from my VPS as Github would do it far better than I could on my VPS.</p>
+<p>The only problem I foresee is that I run more than just my blog on 
+<a href="http://www.nelismithline.com">www.neilsmithline.com</a>. But the other applications I run are only for my private use so I can just map them to another sub-domain such as 
+<i>whatever.neilsmithline.com</i>. For example, I've been playing with a cloud-based bookmarking system, 
+<a href="http://www.phoboslab.org/projects/asaph">Asaph</a>, that allows you to run your own cloud bookmark server. But I can access it at and, if you have an interest, can view it at: 
+<a href="http://www2.neilsmithline.com/asaph/">http://www2.neilsmithline.com/asaph/</a>.</p>
+<p>All-in-all, it's like a nerd's dream come true :-D</p>
 <p>
 <b>UPDATED: Sat Feb 11 13:12:02 EST 2012</b>
-<br/>
-There seems to be another problem with hosting my blog on Github. While practically all of Github requires SSL, there appears to be no way to get a Github hosted website to use SSL. Thinking about it, the task seems inherently difficult. Github makes all of its sources file public but you must protect your site's SSL private key. Currently, all site information is stored in the Github repository. A private SSL key could only be added if Github updated their configuration to allow the key to be stored out-of-band (ie: not in the repository).
-</p>
+<br />There seems to be another problem with hosting my blog on Github. While practically all of Github requires SSL, there appears to be no way to get a Github hosted website to use SSL. Thinking about it, the task seems inherently difficult. Github makes all of its sources file public but you must protect your site's SSL private key. Currently, all site information is stored in the Github repository. A private SSL key could only be added if Github updated their configuration to allow the key to be stored out-of-band (ie: not in the repository).</p>
 </div>
 </content>
-
 </entry>
 <entry>
 <title type="html">Nastiest Hack I've Seen In Awhile</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/</id>
 <published>2012-02-01T20:40:51-05:00</published>
 <updated>2012-02-01T20:40:51-05:00</updated>
@@ -313,81 +304,67 @@ There seems to be another problem with hosting my blog on Github. While practica
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-
-<p>
-I was reading about <a href="http://code.google.com/p/android-scripting">SL4A</a>, also known as <a href="http://android.com">Android</a> <a href="http://en.wikipedia.org/wiki/Scripting_language">Scripting Languages</a>. They are a set of <a href="http://en.wikipedia.org/wiki/Quick_and_dirty">quick-and-dirty</a> ports of programming languages to the Android that interact with the Android <a href="http://en.wikipedia.org/wiki/Operating_system">OS</a>. I just stumbled upon this "<a href="http://code.google.com/p/android-scripting/issues/detail?id=184">issue page</a>" (it's more like a <a href="http://en.wikipedia.org/wiki/Internet_forum">forum</a> than a bug report). 
-</p>
-<p>
-The developer is trying to run something on his Android, which is basically <a href="http://en.wikipedia.org/wiki/Linux">Linux</a>, that requires <a href="http://en.wikipedia.org/wiki/Superuser">superuser</a> permissions. As the responses started to build upon each other, one user suggested starting his shell script with the following lines (the actual posting was in Android's flavor of <a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> but I've converted it to <a href="http://linux.die.net/man/1/su">bash(1)</a> to make it more accessible):
-</p>
-
-
-
-<pre class="example">#!/bin/sh
+<p>I was reading about 
+<a href="http://code.google.com/p/android-scripting">SL4A</a>, also known as 
+<a href="http://android.com">Android</a>
+<a href="http://en.wikipedia.org/wiki/Scripting_language">Scripting Languages</a>. They are a set of 
+<a href="http://en.wikipedia.org/wiki/Quick_and_dirty">quick-and-dirty</a>ports of programming languages to the Android that interact with the Android 
+<a href="http://en.wikipedia.org/wiki/Operating_system">OS</a>. I just stumbled upon this "
+<a href="http://code.google.com/p/android-scripting/issues/detail?id=184">issue page</a>" (it's more like a 
+<a href="http://en.wikipedia.org/wiki/Internet_forum">forum</a>than a bug report).</p>
+<p>The developer is trying to run something on his Android, which is basically 
+<a href="http://en.wikipedia.org/wiki/Linux">Linux</a>, that requires 
+<a href="http://en.wikipedia.org/wiki/Superuser">superuser</a>permissions. As the responses started to build upon each other, one user suggested starting his shell script with the following lines (the actual posting was in Android's flavor of 
+<a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>but I've converted it to 
+<a href="http://linux.die.net/man/1/su">bash(1)</a>to make it more accessible):</p>
+<pre class="example">
+#!/bin/sh
 if [ "$USER" != "root" ]; then
     exec sudo $SHELL -c "`cat /proc/$$/cmdline | tr '\000' ' '`" root
 fi
 </pre>
-
-
-<p>
-I simply couldn't help being entertained at how revolting yet simply brilliant that code is. I hate when I run a command and it behaves stupidly because I didn't run it as the correct user. For example, this is the output of running <a href="http://linux.die.net/man/8/apt-get">apt-get(8)</a> without proper permission:
-</p>
-
-
-
-<pre class="example">$ apt-get install foobar
+<p>I simply couldn't help being entertained at how revolting yet simply brilliant that code is. I hate when I run a command and it behaves stupidly because I didn't run it as the correct user. For example, this is the output of running 
+<a href="http://linux.die.net/man/8/apt-get">apt-get(8)</a>without proper permission:</p>
+<pre class="example">
+$ apt-get install foobar
 E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
 E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
 </pre>
-
-
-<p>
-So I have to rerun the command with <a href="http://linux.die.net/man/8/sudo">sudo(8)</a>? I guess that makes sense in some situations but it grates on my nerves. Including the above lines in your shell scripts will automatically run commands as root when you need root privileges. It will also do this without bypassing the security of sudo. That is, if you don't have permission to run a command with sudo, then this won't help.
-</p>
-<p>
-Despite the plain hackery of the above code, I expanded upon it, making it a full shell script utility. You can look the code or grab a copy at my <a href="https://github.com">GitHub</a> <a href="https://github.com/Neil-Smithline">page</a> in the <a href="https://github.com/Neil-Smithline/rerunasroot">rerunasroot</a> repository.
-</p>
+<p>So I have to rerun the command with 
+<a href="http://linux.die.net/man/8/sudo">sudo(8)</a>? I guess that makes sense in some situations but it grates on my nerves. Including the above lines in your shell scripts will automatically run commands as root when you need root privileges. It will also do this without bypassing the security of sudo. That is, if you don't have permission to run a command with sudo, then this won't help.</p>
+<p>Despite the plain hackery of the above code, I expanded upon it, making it a full shell script utility. You can look the code or grab a copy at my 
+<a href="https://github.com">GitHub</a>
+<a href="https://github.com/Neil-Smithline">page</a>in the 
+<a href="https://github.com/Neil-Smithline/rerunasroot">rerunasroot</a>repository.</p>
 </div>
 </content>
-
 </entry>
 <entry>
 <title type="html">Man vs Beast</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/01/14/man_vs_beast/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/01/14/man_vs_beast/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/01/14/man_vs_beast/</id>
 <published>2012-01-14T23:31:19-05:00</published>
 <updated>2012-01-14T23:31:19-05:00</updated>
-
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-
-<p>
-I stumbled upon <a href="http://bit.ly/Ad2VZd">this article</a> in the Wikipedia about an annual 22-mile cross-country race where the participants are people running and people riding horses. After 25-years the first runner won the race. In the subsequent half-dozen years there have been several more human winners. 
-</p>
-<p>
-I feel bad for any runner that is drafting a horse when the horse's tail goes up&hellip;
-</p>
+<p>I stumbled upon 
+<a href="http://bit.ly/Ad2VZd">this article</a>in the Wikipedia about an annual 22-mile cross-country race where the participants are people running and people riding horses. After 25-years the first runner won the race. In the subsequent half-dozen years there have been several more human winners.</p>
+<p>I feel bad for any runner that is drafting a horse when the horse's tail goes up…</p>
 </div>
 </content>
-
 </entry>
 <entry>
 <title type="html">SOPA DOA? Not Quite But Getting There</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/</id>
 <published>2012-01-14T00:18:39-05:00</published>
 <updated>2012-01-14T00:18:39-05:00</updated>
@@ -395,42 +372,32 @@ I feel bad for any runner that is drafting a horse when the horse's tail goes up
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-<p>
-While not dead, SOPA is losing its teeth. Despite having had its major backer remove one of the more totalitarian portions from the bill (the ability to block non-US DNS addresses), SOPA appears unable to make progress in Congress. 
-</p>
-<p>
-In a <a href="http://cnet.co/ArcHPH">CNET</a> article (via <a href="http://bit.ly/zMTg3h">Slashdot</a>), the <a href="http://en.wikipedia.org/wiki/RIAA">RIAA</a> whines:
-</p><blockquote>
-
-<p>Instead of helping to come up with mechanisms to deny access to
-the U.S. market by foreign criminals," the RIAA wrote, "the
-opposition just keeps saying no. It is incumbent upon them to help
-develop language that will ensure that criminals can't access our
-market, while at the same time protecting our need for national
-cybersecurity.
-</p>
+<p>While not dead, SOPA is losing its teeth. Despite having had its major backer remove one of the more totalitarian portions from the bill (the ability to block non-US DNS addresses), SOPA appears unable to make progress in Congress.</p>
+<p>In a 
+<a href="http://cnet.co/ArcHPH">CNET</a>article (via 
+<a href="http://bit.ly/zMTg3h">Slashdot</a>), the 
+<a href="http://en.wikipedia.org/wiki/RIAA">RIAA</a>whines:</p>
+<blockquote>
+<p>Instead of helping to come up with mechanisms to deny access to the U.S. market by foreign criminals," the RIAA wrote, "the opposition just keeps saying no. It is incumbent upon them to help develop language that will ensure that criminals can't access our market, while at the same time protecting our need for national cybersecurity.</p>
 </blockquote>
-
-
-<p>
-As <a href="#SOPA-the-end-of-free-speech.org">discussed previously</a>, SOPA claims to support American businesses while it really supports the very large media companies and stifles smaller companies and individuals rights to publish.
-</p>
-<p>
-As I've stated in my previous <a href="#SOPA-the-end-of-free-speech.org">posting about SOPA</a>, I am strongly opposed to <a href="http://en.wikipedia.org/wiki/Piracy of software">piracy</a> as I am a software engineer (ie: software pays my rent). But I also believe that piracy can be dealt with without destroying <a href="http://en.wikipedia.org/wiki/Freedom_of_speech">free speech</a>. My viewpoints are similar to those of the <a href="http://en.wikipedia.org/wiki/Electronic_Frontier_Foundation">EFF</a> and differ from the <a href="http://en.wikipedia.org/wiki/Free_Software_Foundation">FSF</a>'s viewpoint which opposes proprietary software altogether.
-</p>
+<p>As 
+<a href="#SOPA-the-end-of-free-speech.org">discussed previously</a>, SOPA claims to support American businesses while it really supports the very large media companies and stifles smaller companies and individuals rights to publish.</p>
+<p>As I've stated in my previous 
+<a href="#SOPA-the-end-of-free-speech.org">posting about SOPA</a>, I am strongly opposed to 
+<a href="http://en.wikipedia.org/wiki/Piracy of software">piracy</a>as I am a software engineer (ie: software pays my rent). But I also believe that piracy can be dealt with without destroying 
+<a href="http://en.wikipedia.org/wiki/Freedom_of_speech">free speech</a>. My viewpoints are similar to those of the 
+<a href="http://en.wikipedia.org/wiki/Electronic_Frontier_Foundation">EFF</a>and differ from the 
+<a href="http://en.wikipedia.org/wiki/Free_Software_Foundation">FSF</a>'s viewpoint which opposes proprietary software altogether.</p>
 </div>
 </content>
-
 </entry>
 <entry>
 <title type="html">Cool Animation</title>
 <author>
 <name>Neil Smithline</name>
 </author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/01/09/cool_animation/"/>
-
+<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/01/09/cool_animation/" />
 <id>http://www.neilsmithline.com/feed/archives/2012/01/09/cool_animation/</id>
 <published>2012-01-09T12:33:50-05:00</published>
 <updated>2012-01-09T12:33:50-05:00</updated>
@@ -438,256 +405,11 @@ As I've stated in my previous <a href="#SOPA-the-end-of-free-speech.org">posting
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <!-- NANOBLOGGER METADATA - END -->
-
 <!-- The posting body follows this END_HTML directive -->
-
-<p>
-Google Plus Logo Animation by <a href="https://plus.google.com/115358085054420116311">ℑ. ℜ. Gellett</a>
-<img src="https://lh4.googleusercontent.com/-POK887siH3w/Twq0UoK7YgI/AAAAAAAAAOg/dWGOAZzgcWQ/w300/Google-Plus-Logo-Animation-Small-JRGellett.GIF"  alt="https://lh4.googleusercontent.com/-POK887siH3w/Twq0UoK7YgI/AAAAAAAAAOg/dWGOAZzgcWQ/w300/Google-Plus-Logo-Animation-Small-JRGellett.GIF" />
-</p>
+<p>Google Plus Logo Animation by 
+<a href="https://plus.google.com/115358085054420116311">ℑ. ℜ. Gellett</a>
+<img src="https://lh4.googleusercontent.com/-POK887siH3w/Twq0UoK7YgI/AAAAAAAAAOg/dWGOAZzgcWQ/w300/Google-Plus-Logo-Animation-Small-JRGellett.GIF" alt="https://lh4.googleusercontent.com/-POK887siH3w/Twq0UoK7YgI/AAAAAAAAAOg/dWGOAZzgcWQ/w300/Google-Plus-Logo-Animation-Small-JRGellett.GIF" /></p>
 </div>
 </content>
-
 </entry>
-<entry>
-<title type="html">Stop PTSD, Support The Wikipedia</title>
-<author>
-<name>Neil Smithline</name>
-</author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2012/01/05/stop_ptsd_support_the_wikipedia/"/>
-
-<id>http://www.neilsmithline.com/feed/archives/2012/01/05/stop_ptsd_support_the_wikipedia/</id>
-<published>2012-01-05T16:02:44-05:00</published>
-<updated>2012-01-05T16:02:44-05:00</updated>
-<category term="online-freedom" />
-<content type="xhtml">
-<div xmlns="http://www.w3.org/1999/xhtml">
-<!-- NANOBLOGGER METADATA - END -->
-
-<!-- The posting body follows this END_HTML directive -->
-
-
-<em><p>
-<p>
-This posting is an updated version of my <a href="http://wikipedia.org/">Wikipedia</a> <a href="http://en.wikipedia.org/wiki/User:Neil_Smithline">user page</a> originally posted on 6 Dec 2011.
-<p/></em>
-
-A few months ago I experienced what is known as a <a href="http://en.wikipedia.org/wiki/Traumatic_event_(psychological)">traumatic event</a>.
-</p>
-<p>
-It was a day like many other days. I was talking to my two sons and we had a disagreement about some fact. (I have no recollection what the fact being discussed was.) So, we did what we always do. We each reached for one of the nearby smartphones, tablets, netbooks, and laptops that populate our lives and went right to the <a href="http://wikipedia.org/">Wikipedia</a> to resolve the argument.
-</p>
-<p>
-Then it happened. The Wikipedia was down. For a second or two, none of us knew what to do. Then we <a href="http://en.wikipedia.org/wiki/Googled">Googled</a> to find the answer to our question (I still can't remember the subject but I'm sure I was right :-).
-</p>
-<p>
-But I started thinking, what would happen if the Wikipedia were to go away? It is not that I think the Wikipedia is perfect. In fact, I think it is chock full of problems. But, what makes the Wikipedia special is that the Wikipedia's problems are ours, the users', problems. They aren't owned by <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">big government</a>, <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">big business</a>, <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">lobbyists</a>, the <a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">PRC</a>, or anyone else.
-</p>
-<p>
-If there's a problem, you can edit the page and fix it. If you're uncertain what to do, you can add a comment about the problem on the discussion page with the hope that someone else will fix it or help you out.  Or you can simply ignore it. But, in all cases, <b>you</b> are making the decision.
-</p>
-<p>
-So I donated $5 to the Wikipedia. That's about the same amount I tip the driver who delivers my groceries. 
-</p>
-<p>
-Shortly after this traumatic event, the Wikipedia started posting these banner requests for donations. Personally, I find them increasingly annoying with every visit. But they are not nearly as annoying as the 10 minutes or so the Wikipedia was down. That downright spooked me.
-</p>
-<p>
-Being they've continued to post the banner requests, I'm assuming they continue to need more money. So I decided to start what I'm calling The Wikipedia: Just Give campaign.
-</p>
-<p>
-I'm not sure what the campaign will consist of, but I want to encourage everyone to give to the Wikipedia. I, who am totally untalented in the graphic arts, even made a few icons to help people join my campaign.
-</p>
-<p>
-So I ask each of you to just give. If you don't have a lot, don't give a lot. But more importantly, encourage everyone you know to just give.
-</p>
-<p>
-<b>Update 14 January 2012:</b> Just got this
-</p><blockquote>
-
-<p>  Sorry, the servers are overloaded at the moment.                            
-</p>
-<p>                                                                             
-  Too many users are trying to view this page. Please wait a while before you access this page again.
-</p>
-<ul>
-<li>Timeout waiting for the lock                                            
-</li>
-</ul>
-
-
-
-</blockquote>
-
-
-
-
-<p class="verse">
-Neil Smithline, 6 December 2011<br/>
-<i>A proud sponsor of the Wikipedia and its free information.</i><br/>
-</p>
-
-
-
-<div id="outline-container-1" class="outline-3">
-<h3 id="sec-1">Resources</h3>
-<div class="outline-text-3" id="text-1">
-
-<p><i>Any artistic help on the badges would be deeply appreciated.</i>
-</p>
-
-</div>
-
-<div id="outline-container-1-1" class="outline-4">
-<h4 id="sec-1-1">HTML Code For Your Website</h4>
-<div class="outline-text-4" id="text-1-1">
-
-<p>Assuming I've gotten all my angle brackets matched and tags closed, depending on the system you use, you can add a graphic to your website or email signature by copy-and-pasting this:
-</p>
-
-
-<center>
-<a 
-  href="http://wikimediafoundation.org/w/index.php?title=WMFJA085/en/US" 
-  target="_blank" title="Wikimedia donation page">
-  <img src="http://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia_Just_Give-_Blue_Gray_Antipixel.png"
-    alt="Blue and gray 'Just Give' icon"/>
-</a>
-<br/>
-<span style="font-size: 75%;">
-  (<a href="http://bit.ly/just-give" 
-      target="_blank" 
-      title="'Just Give' Campaign">what's this?</a>)
-</span>
-</center>
-
-<p>
-or this HTML:
-</p>
-
-
-<pre class="example">&lt;a 
-  href="http://wikimediafoundation.org/w/index.php?title=WMFJA085/en/US" 
-  target="_blank" title="Wikimedia donation page"&gt;
-  &lt;img src="http://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia_Just_Give-_Blue_Gray_Antipixel.png"
-    alt="Blue and gray 'Just Give' icon"/&gt;
-&lt;/a&gt;
-&lt;br/&gt;
-&lt;span style="font-size: 75%;"&gt;
-  (&lt;a href="http://bit.ly/just-give" 
-      target="_blank" 
-      title="'Just Give' Campaign"&gt;what's this?&lt;/a&gt;)
-&lt;/span&gt;
-</pre>
-
-
-</div>
-
-</div>
-
-<div id="outline-container-1-2" class="outline-4">
-<h4 id="sec-1-2">Standard Badges (<a href="http://www.antipixel.com/blog/archives/2002/10/22/steal_these_buttons.html#000526">antipixel</a> style, 80x15px)</h4>
-<div class="outline-text-4" id="text-1-2">
-
-
-<br/><br/>
-<table style='border: 2px solid black !important; border-collapse: separate;' cellspacing="0" cellpadding="6" rules="all" frame="2">
-<caption></caption>
-<colgroup><col class="left" /><col class="left" />
-</colgroup>
-<tbody>
-<tr><td class="left">Blue and gray "Just Give"</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-gray-antipixel.png"  alt="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-gray-antipixel.png" /></td></tr>
-<tr><td class="left">Blue and white "Just Give"</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-white-antipixel.png"  alt="http://neilsmithline.com/images/just-give/Wiki-just-give-blue-white-antipixel.png" /></td></tr>
-<tr><td class="left">Gray and blue "Just Give"</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wiki-just-give-gray-blue-antipixel.png"  alt="http://neilsmithline.com/images/just-give/Wiki-just-give-gray-blue-antipixel.png" /></td></tr>
-</tbody>
-</table>
-
-
-</div>
-
-</div>
-
-<div id="outline-container-1-3" class="outline-4">
-<h4 id="sec-1-3">Other Badges</h4>
-<div class="outline-text-4" id="text-1-3">
-
-
-<br/><br/>
-<table style='border: 2px solid black !important; border-collapse: separate;' cellspacing="0" cellpadding="6" rules="all" frame="2">
-<caption></caption>
-<colgroup><col class="left" /><col class="left" />
-</colgroup>
-<tbody>
-<tr><td class="left">Blue "Just Give", 172x66px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-172x66.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-172x66.png" /></td></tr>
-<tr><td class="left">Yellow "Vote", 203x78px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-203x78.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-203x78.png" /></td></tr>
-<tr><td class="left">Blue "Just Give, 229x88px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-229x88.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-229x88.png" /></td></tr>
-<tr><td class="left">Blue "Just Give", 305x117px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-305x117.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-305x117.png" /></td></tr>
-<tr><td class="left">Blue "Just Give, 406x156px</td><td class="left"><img src="http://neilsmithline.com/images/just-give/Wikipedia-just-give-406x156.png"  alt="http://neilsmithline.com/images/just-give/Wikipedia-just-give-406x156.png" /></td></tr>
-</tbody>
-</table>
-
-
-
-
-<br/>
-</div>
-</content>
-
-</entry>
-<entry>
-<title type="html">Florida Appeals Court More Liberal Than SOPA!</title>
-<author>
-<name>Neil Smithline</name>
-</author>
-<link rel="alternate" type="text/html" href="http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/"/>
-
-<id>http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/</id>
-<published>2011-12-30T12:26:33-05:00</published>
-<updated>2011-12-30T12:26:33-05:00</updated>
-<category term="online-freedom" />
-<content type="xhtml">
-<div xmlns="http://www.w3.org/1999/xhtml">
-<!-- NANOBLOGGER METADATA - END -->
-
-<!-- The posting body follows this END_HTML directive -->
-
-<p>
-Earlier this week, the Florida appeals court made a ruling that even the poster of a defamatory posting on a public website could not force a website to remove the posting. While most sites allow you to remove your own postings, <a href="http://www.ripoffreport.com/">RipoffReport.com</a>, the site involved in this ruling, states that as an advocate of free speech, it never removes reports. This is clearly stated at the top of their home page and documented extensively on their <a href="http://en.wikipedia.org/wiki/Ripoff_Report#Non-removal_Policy">Wikipedia page</a>. 
-</p>
-<p>
-While not allowing the poster to remove or have removed a posting seems extreme, the site claims that it wishes to remain unbiased. As such, it makes no judgment calls about its content. Everything that is appropriate for the site will stay on the site, forever. RipoffReport.com is afraid that posters may be pressured by 3<sup>rd</sup>-parties to remove articles. As such, They are simply not allowed to.
-</p>
-<p>
-While postings are never removed, the site allows anyone to post a <a href="http://en.wikipedia.org/wiki/Rebuttal">rebuttal</a> to any posting. A poster can use this mechanism to retract their initial statement. 
-</p>
-<p>
-The court ruled that RipoffReport.com could neither be held liable for the defamatory posting nor be forced to remove it. The bottom line of all of this is that
-</p>
-
-<div style="text-align: center">
-<p>The supreme court of Florida, a <a href="http://www.gallup.com/poll/125066/State-States.aspx">middle-of-the-road state</a>, was willing to make a controversial ruling favored many aspects of freedom of speech. If SOPA is passed, cases like this won't even make it to courts as SOPA make it clear that if a ruling is defamatory, it is illegal.
-</p>
-</div>
-
-<p>
-While Congress has delayed voting on SOPA for another month, it is still on the docket. It is unclear what the fate of SOPA will be. 
-</p>
-<p>
-One can hope that Congress pays attention to protests such as the statement]] consumers sent to <a href="http://www.godaddy.com">GoDaddy</a> after it announced its support of SOPA. GoDaddy announced that on a Saturday (see <a href="http://news.slashdot.org/story/11/12/29/2053252/wikipedia-to-dump-godaddy-over-sopa">more complete chronology</a>) and then lost <a href="http://tech.slashdot.org/story/11/12/25/1452251/go-daddy-loses-over-21000-domains-in-one-daylosing">21K domains</a> on the next day. More recently, the <a href="http://news.slashdot.org/story/11/12/29/2053252/wikipedia-to-dump-godaddy-over-sopa">Wikipedia announced it would discontinue all use of GoDaddy</a>. 
-</p>
-<p>
-Let's continue to hope that advocates of free speech, including you (see <a href="SOPA-the-end-of-free-speech.html#ID-06BB29E4-D6B3-430E-B5A3-FDC6716A0ED3">SOPA: The End Of Free Speech</a> for instructions as to how to help), continue to pressure our government into sane activit
-</p>
-<p>
-Copied directly from the <a href="http://www.slashdot.org">Slashdot</a> <a href="http://bit.ly/vVVDLC">article</a>:
-</p><blockquote>
-
-<p><a href="http://www.ripoffreport.com/">RipoffReport.com</a> contained an admittedly defamatory posting, by one of its users, about a person who operated a Florida corporation providing addiction treatment services. Although the site was asked by the poster herself to remove the post, it refused. A Florida appeals court has ruled that the site is absolutely immune from suit (<a href="http://recordingindustryvspeople.blogspot.com/2011/12/florida-appeals-court-rules.html">pdf</a>), and cannot even be directed to remove the offending post, since under the [[http://www.law.cornell.edu/uscode/html/uscode47/usc<sub>sec</sub><sub>47</sub><sub>00000230</sub>-&mdash;000-.html][Communications Decency Act (47 USC 230)] 'no cause of action may be brought' against a provider of an "interactive computer service" based upon information provided by a 3rd party.
-</p>
-</blockquote>
-</div>
-</content>
-
-</entry>
-
 </feed>

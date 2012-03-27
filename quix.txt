@@ -72,6 +72,7 @@ kwc			http://google.com/search?q=intitle:%22%s%22%20inanchor:%22%s%22&pws=0			Ke
 
 @Webmaster
 @Webmasters often have dozens of bookmarklets for all sorts of simple checks, Quix replaces a <em>lot</em> of those bookmarklets by giving you simple to remember commands to deal with them.
+cse             javascript:(function(){var%20a=window,b=document,c=encodeURIComponent,d=a.open('http://www.google.com/cse/manage/bookmarklet?url='+c(b.location)%20+%20'','coop_popup','left='+((a.screenX||a.screenLeft)+10)+',top='+((a.screenY||a.screenTop)+10)+',height=420px,width=700px,resizable=1,alwaysRaised=1,scrollbars=1');a.setTimeout(function(){d.focus()},300)})();        Google Marker for custom search engines.
 csstoggle	javascript:var%20Lt=document.getElementsByTagName('LINK');for(var%20x=0,ss=[];Lt[x];x++){var%20rel=Lt[x].rel;if(typeof(rel)=='string'&&rel.toLowerCase().indexOf('style')+1){ss[ss.length]=Lt[x];}}for(var%20x=0;ss[x];x++){ss[x].disabled=!ss[x].disabled;} 	Toggle css on and off
 fblint      http://developers.facebook.com/tools/lint/?url=%r						Gives feedback from Facebook about your markup.
 firebug		javascript:firebug=document.createElement('script');firebug.setAttribute('src','http://getfirebug.com/releases/lite/1.2/firebug-lite-compressed.js');document.body.appendChild(firebug);(function(){if(window.firebug.version){firebug.init();}else{setTimeout(arguments.callee);}})();void(firebug);  Loads <a href="http://getfirebug.com/lite.html">Firebug lite</a>.
