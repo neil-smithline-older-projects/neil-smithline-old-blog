@@ -305,6 +305,10 @@ img#bannerimage {
 	text-transform:lowercase;
 }
 
+.sideitem-syndicate {
+    display: none;
+}
+
 .syndicate {
 	font-family: verdana, arial, sans-serif;
 	font-size:x-small;

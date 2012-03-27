@@ -1,8 +1,14 @@
 
 tidy validating /Volumes/HOME/neil/www-nb/atom.xml:
 
-No warnings or errors were found.
+line 471 column 8 - Error: unexpected </em> in <p>
+line 632 column 1 - Error: unexpected </content> in <div>
+line 634 column 1 - Error: unexpected </entry> in <div>
+line 691 column 1 - Error: unexpected </feed> in <div>
+0 warnings, 4 errors were found!
 
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -32,6 +38,162 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
+tidy validating /Volumes/HOME/neil/www-nb/archives/sync-software/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/tech/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/my-software/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/about-me/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/software/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/nanoblogger/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/reference/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/unix-reference/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/online-freedom/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/blog/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/litigious-trio/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/coding/index.html:
+
+line 27 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/index.html:
 
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
@@ -44,7 +206,7 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
-tidy validating /Volumes/HOME/neil/www-nb/archives/2012/03/index.html:
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/index.html:
 
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
@@ -58,7 +220,7 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/index.html:
 
-line 217 column 13 - Warning: <a> escaping malformed URI reference
+line 215 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
 1 warning, 0 errors were found!
@@ -78,119 +240,31 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
-tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/22/smartphones_everywhere/index.html:
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 220 column 1 - Warning: missing </em> before <p>
+line 221 column 1 - Warning: inserting implicit <em>
+line 221 column 1 - Warning: missing </em> before <p>
+line 222 column 1 - Warning: inserting implicit <em>
+line 222 column 1 - Warning: missing </em> before <p>
+line 223 column 8 - Warning: discarding unexpected </em>
+line 226 column 1 - Warning: inserting implicit <p>
+line 105 column 17 - Warning: missing </div>
+line 103 column 9 - Warning: missing </div>
+line 33 column 1 - Warning: missing </div>
+line 173 column 128 - Warning: <a> escaping malformed URI reference
+line 344 column 1 - Warning: <table> lacks "summary" attribute
+line 366 column 1 - Warning: <table> lacks "summary" attribute
+line 220 column 1 - Warning: trimming empty <em>
+line 221 column 1 - Warning: trimming empty <em>
+line 220 column 7 - Warning: trimming empty <p>
+line 223 column 1 - Warning: trimming empty <p>
+line 226 column 1 - Warning: trimming empty <p>
+line 345 column 1 - Warning: trimming empty <caption>
+line 367 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
-
-
-To learn more about HTML Tidy see http://tidy.sourceforge.net
-Please send bug reports to html-tidy@w3.org
-HTML and CSS specifications are available from http://www.w3.org/
-Lobby your company to join W3C, see http://www.w3.org/Consortium
-
-tidy validating /Volumes/HOME/neil/www-nb/archives/2012/03/07/my_title/index.html:
-
-line 40 column 49 - Warning: <img> element not empty or not closed
-Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
-
-
-To learn more about HTML Tidy see http://tidy.sourceforge.net
-Please send bug reports to html-tidy@w3.org
-HTML and CSS specifications are available from http://www.w3.org/
-Lobby your company to join W3C, see http://www.w3.org/Consortium
-
-tidy validating /Volumes/HOME/neil/www-nb/archives/2012/03/16/my_title/index.html:
-
-line 40 column 49 - Warning: <img> element not empty or not closed
-Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
-
-
-To learn more about HTML Tidy see http://tidy.sourceforge.net
-Please send bug reports to html-tidy@w3.org
-HTML and CSS specifications are available from http://www.w3.org/
-Lobby your company to join W3C, see http://www.w3.org/Consortium
-
-tidy validating /Volumes/HOME/neil/www-nb/index.html:
-
-line 38 column 49 - Warning: <img> element not empty or not closed
-line 212 column 11 - Warning: <h3> missing '>' for end of tag
-line 228 column 60 - Warning: <b> is probably intended as </b>
-line 244 column 11 - Warning: <h3> missing '>' for end of tag
-line 260 column 60 - Warning: <b> is probably intended as </b>
-line 276 column 11 - Warning: <h3> missing '>' for end of tag
-line 349 column 74 - Warning: <b> is probably intended as </b>
-line 365 column 11 - Warning: <h3> missing '>' for end of tag
-line 403 column 62 - Warning: <b> is probably intended as </b>
-line 419 column 11 - Warning: <h3> missing '>' for end of tag
-line 514 column 80 - Warning: <b> is probably intended as </b>
-line 531 column 11 - Warning: <h3> missing '>' for end of tag
-line 573 column 111 - Warning: <b> is probably intended as </b>
-line 589 column 11 - Warning: <h3> missing '>' for end of tag
-line 636 column 84 - Warning: <b> is probably intended as </b>
-line 653 column 11 - Warning: <h3> missing '>' for end of tag
-line 672 column 64 - Warning: <b> is probably intended as </b>
-line 688 column 11 - Warning: <h3> missing '>' for end of tag
-line 723 column 88 - Warning: <b> is probably intended as </b>
-line 739 column 11 - Warning: <h3> missing '>' for end of tag
-line 756 column 66 - Warning: <b> is probably intended as </b>
-line 772 column 11 - Warning: <h3> missing '>' for end of tag
-line 783 column 1 - Warning: missing </em> before <p>
-line 784 column 1 - Warning: inserting implicit <em>
-line 784 column 1 - Warning: missing </em> before <p>
-line 785 column 1 - Warning: inserting implicit <em>
-line 785 column 1 - Warning: missing </em> before <p>
-line 786 column 8 - Warning: discarding unexpected </em>
-line 789 column 1 - Warning: inserting implicit <p>
-line 949 column 83 - Warning: <b> is probably intended as </b>
-line 965 column 11 - Warning: <h3> missing '>' for end of tag
-line 1012 column 96 - Warning: <b> is probably intended as </b>
-line 1028 column 11 - Warning: <h3> missing '>' for end of tag
-line 1071 column 70 - Warning: <b> is probably intended as </b>
-line 1088 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 1099 column 1 - Warning: missing </ul> before </div>
-line 1127 column 86 - Warning: <b> is probably intended as </b>
-line 1144 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 1211 column 115 - Warning: <b> is probably intended as </b>
-line 1228 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 1366 column 79 - Warning: <b> is probably intended as </b>
-line 1382 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 1436 column 77 - Warning: <b> is probably intended as </b>
-line 1454 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 1540 column 73 - Warning: <b> is probably intended as </b>
-line 1558 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 1615 column 78 - Warning: <b> is probably intended as </b>
-line 207 column 17 - Warning: missing </div>
-line 204 column 9 - Warning: missing </div>
-line 41 column 1 - Warning: missing </div>
-line 388 column 13 - Warning: <a> escaping malformed URI reference
-line 718 column 128 - Warning: <a> escaping malformed URI reference
-line 907 column 1 - Warning: <table> lacks "summary" attribute
-line 929 column 1 - Warning: <table> lacks "summary" attribute
-line 1398 column 6 - Warning: <table> lacks "summary" attribute
-line 783 column 1 - Warning: trimming empty <em>
-line 784 column 1 - Warning: trimming empty <em>
-line 783 column 7 - Warning: trimming empty <p>
-line 786 column 1 - Warning: trimming empty <p>
-line 789 column 1 - Warning: trimming empty <p>
-line 908 column 1 - Warning: trimming empty <caption>
-line 930 column 1 - Warning: trimming empty <caption>
-line 1399 column 1 - Warning: trimming empty <caption>
-Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.0 Transitional
-69 warnings, 0 errors were found!
+20 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -213,6 +287,531 @@ For further advice on how to make your pages accessible
 see http://www.w3.org/WAI/GL. You may also want to try
 "http://www.cast.org/bobby/" which is a free Web-based
 service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/index.html:
+
+Warning: adjacent hyphens within comment
+line 232 column 1 - Warning: missing </ul> before </div>
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+line 504 column 6 - Warning: <table> lacks "summary" attribute
+line 505 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Strict
+9 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/22/smartphones_everywhere/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/21/my_patents/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 218 column 13 - Warning: <a> escaping malformed URI reference
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/14/new_nanoblogger_command-line/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/man_vs_beast/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 225 column 128 - Warning: <a> escaping malformed URI reference
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/09/cool_animation/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/05/stop_ptsd_support_the_wikipedia/index.html:
+
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 206 column 1 - Warning: missing </em> before <p>
+line 207 column 1 - Warning: inserting implicit <em>
+line 207 column 1 - Warning: missing </em> before <p>
+line 208 column 1 - Warning: inserting implicit <em>
+line 208 column 1 - Warning: missing </em> before <p>
+line 209 column 8 - Warning: discarding unexpected </em>
+line 212 column 1 - Warning: inserting implicit <p>
+line 198 column 1 - Warning: missing </div>
+line 178 column 9 - Warning: missing </div>
+line 43 column 1 - Warning: missing </div>
+line 6 column 1 - Warning: <meta> proprietary attribute "just"
+line 6 column 1 - Warning: <meta> proprietary attribute "campaign"
+line 6 column 1 - Warning: <meta> proprietary attribute "to"
+line 6 column 1 - Warning: <meta> proprietary attribute "encourage"
+line 6 column 1 - Warning: <meta> proprietary attribute "people"
+line 6 column 1 - Warning: <meta> proprietary attribute "to"
+line 6 column 1 - Warning: <meta> proprietary attribute "sponsor"
+line 6 column 1 - Warning: <meta> proprietary attribute "the"
+line 330 column 1 - Warning: <table> lacks "summary" attribute
+line 352 column 1 - Warning: <table> lacks "summary" attribute
+line 206 column 1 - Warning: trimming empty <em>
+line 207 column 1 - Warning: trimming empty <em>
+line 206 column 7 - Warning: trimming empty <p>
+line 209 column 1 - Warning: trimming empty <p>
+line 212 column 1 - Warning: trimming empty <p>
+line 331 column 1 - Warning: trimming empty <caption>
+line 353 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+30 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+1 warning, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/28/the_litigious_trio/index.html:
+
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 6 column 1 - Warning: <meta> unexpected or duplicate quote mark
+line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 6 column 1 - Warning: <meta> proprietary attribute "rather"
+line 6 column 1 - Warning: <meta> proprietary attribute "than"
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+6 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/20/unix_reference_add_user_to_a_group/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Warning: adjacent hyphens within comment
+line 206 column 1 - Warning: missing </ul> before </div>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+3 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/15/sparkleshare_maybe_an_open_privately_hosted_dropbox_alternative/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/11/sopa_the_end_of_free_speech/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/got_tags_working_manually/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Warning: adjacent hyphens within comment
+line 211 column 6 - Warning: <table> lacks "summary" attribute
+line 212 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/seems_it_really_works/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/my_new_blogging_technology/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+Warning: adjacent hyphens within comment
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index.html:
+
+line 38 column 49 - Warning: <img> element not empty or not closed
+line 229 column 11 - Warning: <h3> missing '>' for end of tag
+line 300 column 74 - Warning: <b> is probably intended as </b>
+line 316 column 11 - Warning: <h3> missing '>' for end of tag
+line 354 column 62 - Warning: <b> is probably intended as </b>
+line 370 column 11 - Warning: <h3> missing '>' for end of tag
+line 465 column 80 - Warning: <b> is probably intended as </b>
+line 339 column 13 - Warning: <a> escaping malformed URI reference
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+8 warnings, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index-page2.html:
+
+line 38 column 49 - Warning: <img> element not empty or not closed
+line 229 column 11 - Warning: <h3> missing '>' for end of tag
+line 271 column 111 - Warning: <b> is probably intended as </b>
+line 287 column 11 - Warning: <h3> missing '>' for end of tag
+line 334 column 84 - Warning: <b> is probably intended as </b>
+line 351 column 11 - Warning: <h3> missing '>' for end of tag
+line 370 column 64 - Warning: <b> is probably intended as </b>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+7 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index-page3.html:
+
+line 38 column 49 - Warning: <img> element not empty or not closed
+line 229 column 11 - Warning: <h3> missing '>' for end of tag
+line 264 column 88 - Warning: <b> is probably intended as </b>
+line 280 column 11 - Warning: <h3> missing '>' for end of tag
+line 297 column 66 - Warning: <b> is probably intended as </b>
+line 313 column 11 - Warning: <h3> missing '>' for end of tag
+line 324 column 1 - Warning: missing </em> before <p>
+line 325 column 1 - Warning: inserting implicit <em>
+line 325 column 1 - Warning: missing </em> before <p>
+line 326 column 1 - Warning: inserting implicit <em>
+line 326 column 1 - Warning: missing </em> before <p>
+line 327 column 8 - Warning: discarding unexpected </em>
+line 330 column 1 - Warning: inserting implicit <p>
+line 490 column 83 - Warning: <b> is probably intended as </b>
+line 224 column 17 - Warning: missing </div>
+line 221 column 9 - Warning: missing </div>
+line 41 column 1 - Warning: missing </div>
+line 259 column 128 - Warning: <a> escaping malformed URI reference
+line 448 column 1 - Warning: <table> lacks "summary" attribute
+line 470 column 1 - Warning: <table> lacks "summary" attribute
+line 324 column 1 - Warning: trimming empty <em>
+line 325 column 1 - Warning: trimming empty <em>
+line 324 column 7 - Warning: trimming empty <p>
+line 327 column 1 - Warning: trimming empty <p>
+line 330 column 1 - Warning: trimming empty <p>
+line 449 column 1 - Warning: trimming empty <caption>
+line 471 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+27 warnings, 0 errors were found!
+
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index-page4.html:
+
+line 38 column 49 - Warning: <img> element not empty or not closed
+line 229 column 11 - Warning: <h3> missing '>' for end of tag
+line 276 column 96 - Warning: <b> is probably intended as </b>
+line 292 column 11 - Warning: <h3> missing '>' for end of tag
+line 335 column 70 - Warning: <b> is probably intended as </b>
+line 352 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 363 column 1 - Warning: missing </ul> before </div>
+line 391 column 86 - Warning: <b> is probably intended as </b>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+9 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index-page5.html:
+
+line 38 column 49 - Warning: <img> element not empty or not closed
+line 229 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 296 column 115 - Warning: <b> is probably intended as </b>
+line 313 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 451 column 79 - Warning: <b> is probably intended as </b>
+line 467 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 521 column 77 - Warning: <b> is probably intended as </b>
+line 483 column 6 - Warning: <table> lacks "summary" attribute
+line 484 column 1 - Warning: trimming empty <caption>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+12 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index-page6.html:
+
+line 38 column 49 - Warning: <img> element not empty or not closed
+line 229 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 315 column 73 - Warning: <b> is probably intended as </b>
+line 333 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 390 column 78 - Warning: <b> is probably intended as </b>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+7 warnings, 0 errors were found!
+
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org

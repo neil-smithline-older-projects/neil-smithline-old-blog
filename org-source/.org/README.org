@@ -1,0 +1,12 @@
+README
+
+* WTF Is This File?
+This is the README file for the /.txt/, /.org/, or /.html/ directory. Duh! :-)
+
+* WTF Is This Directory?
+Better question. Emacs' NanoBlogger Org Mode should export only /.txt/ files but, when I break it, can also export /.html/ and /.org/ files. If things go very wrong, sometimes the files are exported with the just as a suffix (eg: the filename is /.txt/). 
+
+Besides being non-functional, it is hard to notice as dot-files are typically hidden. But most OSes do not let you overwrite a directory with a file. For example, if there is a directory called /\/foo\/bar/ is a directory, an error will occur if you try to create a regular file called /\/foo\/bar/.
+
+As I find error messages much easier to track than dot-files, I have created these directories in several locations in the NB blog to help me catch things I have broken.
+

@@ -19,7 +19,7 @@
   |   | gbs             | http://blogsearch.google.com/blogsearch?q=%s |            | Google Blog Search                       |
   |   | imdb            | http://www.imdb.com/find?s=all&q=%s |            | IMDB Search                              |
   |   | img             | http://www.google.com/images?q=%s |            | Google Image Search                      |
-  |   | map             | http://www.google.com/maps?q=%s |            | Google Maps                              |
+  |   | gm              | http://www.google.com/maps?q=%s |            | Google Maps                              |
   |   | gs              | http://www.google.com/search?q=site:%d%20%s |            | Search the current site with Google      |
   |   | nf              | http://www.netflix.com/Search?v1=%s |            | Netflix Search                           |
   |   | php             | http://php.net/search.php?show=quickref&pattern=%s |            | PHP Function Search                      |
@@ -172,6 +172,7 @@
    |   | snap            | littlesnapper://snap/%r |            | Snap the current page in <a href="http://www.realmacsoftware.com/littlesnapper/">LittleSnapper</a> |
    |   | delibar         | Delibar://bpost&!p!&%r&!p!&%t&!p!&%s |            | Bookmark the current page using <a href="http://www.delibarapp.com/">Delibar</a> |
    |   | shove           | shovebox://url?url=%r&title=%t |            | Catch current page in <a href="http://www.wonderwarp.com/shovebox/">Shovebox</a> |
+   |   |                 |            |            |                                          |
 
 
 # LocalWords:  evernote tubesock cssedit nofollows yoast

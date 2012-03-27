@@ -1,27 +1,13 @@
 
-<p>This Title Is Ignored
-</p>
-<div id="outline-container-1" class="outline-2">
-<h2 id="sec-1">So is this heading.</h2>
-<div class="outline-text-2" id="text-1">
-
-
-
-
-
-<!-- NANOBLOGGER METADATA - BEGIN -->
-
-TITLE:  Smartphones Everywhere
-DESC:   Some discussion about the pervasiveness of smartphones.
-DATE:   2012-02-22 Wed 18:38:14
-AUTHOR: Neil Smithline
-FORMAT: raw
+TITLE:           Smartphones Everywhere
+AUTHOR:          Neil Smithline
+TIMESTAMP:       2012-02-22 Wed 18:38:14
+DESC:            Some discussion about the pervasiveness of smartphones.
+FORMAT:          raw
 -----
 BODY:
-<!-- NANOBLOGGER METADATA - END -->
-
-<!-- The posting body follows this END_HTML directive -->
-
+<!-- NB_TAGS:    tech -->
+<!-- NB_ID:      2012-02-22T18_38_14.txt -->
 <p>
 Interpreting this chart from <a href="http://blog.nielsen.com/nielsenwire/online_mobile/survey-new-u-s-smartphone-growth-by-age-and-income/">Nielsen</a> (via <a href="http://www.wired.com/epicenter/2012/02/smartphone-buying-machine/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed:+wired/index+(Wired:+Index+3+(Top+Stories+2))">Wired</a>) does not require any great amount of effort.
 </p>
@@ -82,30 +68,4 @@ As a diehard nerd, I'm thrilled to have lived through these technical revolution
 <p>
 I don't claim to be the <a href="http://article.wn.com/view/2012/02/02/Did_the_Groundhog_see_his_shadow_2012_Punxsutawney_Phil_twee/">prognosticator of prognosticators</a>. <a href="http://www.wikipedia.com">Wikipedia</a>'s page on ubiquitous computing was created <a href="http://en.wikipedia.org/w/index.php?title=Ubiquitous_computing&amp;action=history">two years ago</a>. I'm just happy to be around to be part of it and hope that I get a chance to <a href="http://bit.ly/zN6qBU">surf the wave</a>.
 </p>
-
-
-
 END-----
-<!-- The end of the NanoBlogger posting -->
-
-
-<p>
-&lt;!&ndash; GNU EMACS METADATA --
---
-&ndash; This must be near the end of the file for Emacs to find it.
---
-&ndash; Local Variables:
-&ndash; org-export-nb-id:     "2012-02-22T18<sub>38</sub><sub>14</sub>"
-&ndash; org-export-nb-tags:   "tech"
-&ndash; End: 
---
-
-</p>
-<hr/>
-<p>
---
-&ndash; LocalWords: nb
-&ndash;&gt;
-</p>
-</div>
-</div>

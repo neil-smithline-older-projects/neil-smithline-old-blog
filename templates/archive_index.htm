@@ -32,51 +32,69 @@ $NB_RSSAltLink
 </div><!-- /banner div -->
 
 <div id="container">
-	<div id="links">
-		<!-- calendar.sh -->
-		<div class="calendar">
-			$NB_Calendar
-		</div>
-		<!-- weblog_links.sh -->
-		<div class="sidetitle">
-			$template_links
-		</div>
-		<div class="side">
-			$NB_MainLinks
-		</div>
-		<div class="sidetitle">
-			$template_archives
-		</div>
-		<div class="side">
-			<a href="${BASE_URL}$ARCHIVES_DIR/$NB_INDEX">$template_archiveindex</a><br />
-		</div>
-		<div class="sidetitle">
-			$template_syndicate
-		</div>
-		<div class="syndicate">
-			$NB_BlogFeeds
-			$NB_CategoryFeeds
-		</div>
-		<div class="sidetitle">
-			$template_contact
-		</div>
-		<div class="side">
-			$BLOG_CONTACT
-		</div>
-		<!-- weblog_status.sh -->
-		<div class="sidetitle">
-			$template_status
-		</div>
-		<div class="side">
-			$NB_BlogStatus
-		</div>
-		<div class="sidetitle">
-		</div>
-		<div class="powered">
-			$template_powered
-			<a href="http://nanoblogger.sourceforge.net">nb $VERSION</a>
-		</div>
-	</div><!-- /links div -->
+
+  <div id="links">
+    <!-- calendar.sh -->
+    <div class="sideitem-calendar sideitem">
+      <div class="calendar">
+        $NB_Calendar
+      </div>
+    </div> <!-- sideitem-calendar -->
+    <!-- weblog_links.sh -->
+    <div class="sideitem-blog-links sideitem">
+      <div class="sidetitle">
+        $template_links
+      </div>
+      <div class="side">
+        $NB_MainLinks
+      </div>
+    </div> <!-- sideitem-blog-links -->
+    <!-- weblog_links.sh -->
+    <div class="sideitem-archives sideitem">
+      <div class="sidetitle">
+        $template_archives
+      </div>
+      <div class="side">
+        <a href="${BASE_URL}$ARCHIVES_DIR/$NB_INDEX">$template_archiveindex</a><br />
+        $NB_YearLinks
+      </div>
+    </div> <!-- sideitem-archives -->
+    <!-- $NB_MonthLinks -->
+    <div class="sideitem-syndicate sideitem">
+      <div class="sidetitle">
+        $template_syndicate
+      </div>
+      <div class="syndicate">
+        $NB_BlogFeeds
+        $NB_CategoryFeeds
+      </div>
+    </div> <!-- sideitem-syndicate -->
+    <div class="sideitem-contact sideitem">
+      <div class="sidetitle">
+        $template_contact
+      </div>
+      <div class="side">
+        $BLOG_CONTACT
+      </div>
+    </div> <!-- sideitem-contact -->
+    <!-- weblog_status.sh -->
+    <div class="sideitem-blog-status sideitem">
+      <div class="sidetitle">
+        $template_status
+      </div>
+      <div class="side">
+        $NB_BlogStatus
+      </div>
+    </div> <!-- sideitem-blog-status -->
+    <div class="sideitem-powered sideitem">
+      <div class="sidetitle">
+      </div>
+      <div class="powered">
+        $template_powered
+        <a href="http://nanoblogger.sourceforge.net">nb $VERSION</a>
+      </div>
+    </div> <!-- sideitem-powered -->
+  </div><!-- /links div -->
 
 	<div class="archives">
 
@@ -100,3 +118,6 @@ $GA_CODE
           
 </body>
 </html>
+
+<!--  LocalWords:  sideitem sidetitle
+ -->

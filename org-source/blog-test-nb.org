@@ -1,0 +1,70 @@
+
+
+* Real Shit 
+  :PROPERTIES:
+  :Description:         My other description
+  :Publish:             no
+  :Date:                2012-02-26 Sun 17:07:27
+  :Keywords:            tech, foo, bar
+  :Author:              Neil Smithline
+  :NB-ID_Dont_Touch-REALLY:   2012-02-19T10_44_16
+  :END: 
+
+Here is the real shit.
+(pp (org-entry-properties))
+
+Not much to it. Oh well.
+
+** Test :PRIVATE:
+(pp (org-infile-export-plist))
+
+(plist-get (org-infile-export-plist) :keywords)
+
+(org-nb-is-nb-entry-p)
+
+org-export-html-final-hook
+
+org-export-first-hook
+
+
+org-global-properties
+
+
+      "\n#+BEGIN_HTML"
+      "\n<!-- NANOBLOGGER METADATA - BEGIN -->"
+      "\nTITLE:  "
+      "\nDESC:   " 
+      "\nDATE:   " (format-time-string "%Y-%m-%d %a %H:%M:%S")
+      "\nAUTHOR: " (user-full-name)
+      "\nFORMAT: " "raw"
+      "\n-----"
+      "\nBODY:"
+      "\n<!-- NANOBLOGGER METADATA - END -->"
+      "\n#+END_HTML"
+
+      "\nEND-----"
+
+(substring (buffer-file-name) -7)
+org-tag-alist
+org-properties-postprocess-alist
+nil
+
+
+
+(pp org-export-opt-plist)
+(:latex-image-options nil :exclude-tags
+                      ("DRAFT")
+                      :select-tags
+                      ("export")
+                      :publishing-directory nil :timestamp nil :expand-quoted-html t :html-table-tag "<table style='border: 2px solid black !important; border-collapse: separate;' cellspacing=\"0\" cellpadding=\"6\" rules=\"all\" frame=\"2\">" :xml-declaration
+                      (("html" . "<?xml version=\"1.0\" encoding=\"%s\"?>")
+                       ("php" . "<?php echo \"<?xml version=\\\"1.0\\\" encoding=\\\"%s\\\" ?>\"; ?>"))
+                      :html-postamble nil :html-preamble t :html-extension "html" :inline-images t :convert-org-links t :agenda-style "" :style-extra "" :style "" :style-include-scripts t :style-include-default t :table-auto-headline t :tables t :time-stamp-file t :creator-info t :email-info nil :author-info t :email "neil@mac-is-back.smitty" :author "Neil Smithline" :timestamps t :fixed-width t :skip-before-1st-heading nil :latex-listings nil :LaTeX-fragments t :TeX-macros t :priority nil :tasks t :todo-keywords t :tags nil :drawers nil :footnotes t :special-strings t :sub-superscript {} :emphasize t :archived-trees headline :preserve-breaks nil :table-of-contents t :section-number-format
+                      ((("1" "."))
+                       . "")
+                      :section-numbers t :headline-levels 3 :customtime nil :description "" :keywords "" :language "en" :link-home "" :link-up "" :text "Some descriptive text to be inserted at the beginning." :macro-date "(eval (format-time-string \"$1\"))" :macro-time "(eval (format-time-string \"$1\"))" :macro-property "(eval (org-entry-get nil \"$1\" 'selective))" :macro-modification-time "(eval (format-time-string \"$1\" '(20298 49646)))" :macro-input-file "blog-test-nb.org" :title "blog-test-nb")
+
+# GNU EMACS SETTINGS
+# LocalWords: nb
+#
+

@@ -1,22 +1,13 @@
+#+NB_TITLE:        Smartphones Everywhere
+#+DESCRIPTION:     Some discussion about the pervasiveness of smartphones.
+#+AUTHOR:          Neil Smithline
+#+NB_DATE:         2012-02-22 Wed 18:38:14
+#+NB_TAGS:         tech
+#+KEYWORDS:        
+#+LINK_UP:         
+#+LINK_HOME:       
+#+NB_ID:           2012-02-22T18_38_14.txt
 
-This Title Is Ignored
-* So is this heading.
-
-#+BEGIN_HTML
-
-<!-- NANOBLOGGER METADATA - BEGIN -->
-
-TITLE:  Smartphones Everywhere
-DESC:   Some discussion about the pervasiveness of smartphones.
-DATE:   2012-02-22 Wed 18:38:14
-AUTHOR: Neil Smithline
-FORMAT: raw
------
-BODY:
-<!-- NANOBLOGGER METADATA - END -->
-
-<!-- The posting body follows this END_HTML directive -->
-#+END_HTML
 
 Interpreting this chart from [[http://blog.nielsen.com/nielsenwire/online_mobile/survey-new-u-s-smartphone-growth-by-age-and-income/][Nielsen]] (via [[http://www.wired.com/epicenter/2012/02/smartphone-buying-machine/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+wired%2Findex+%28Wired%3A+Index+3+%28Top+Stories+2%29%29][Wired]]) does not require any great amount of effort.
 #+BEGIN_CENTER
@@ -48,25 +39,4 @@ In my lifetime, I have seen computers revolutionize society in several different
 As a diehard nerd, I'm thrilled to have lived through these technical revolutions. Not only have I lived through them, but I've had the honor of having been an early consumer and even helped develop some of them. So, with great joy, and without trying to sound too greedy, I am joyous that the next revolutionary wave is coming to shore. And it is called /ubiquitous computing/.
 
 I don't claim to be the [[http://article.wn.com/view/2012/02/02/Did_the_Groundhog_see_his_shadow_2012_Punxsutawney_Phil_twee/][prognosticator of prognosticators]]. [[http://www.wikipedia.com][Wikipedia]]'s page on ubiquitous computing was created [[http://en.wikipedia.org/w/index.php?title=Ubiquitous_computing&action=history][two years ago]]. I'm just happy to be around to be part of it and hope that I get a chance to [[http://bit.ly/zN6qBU][surf the wave]].
-
-#+BEGIN_HTML
-
-END-----
-<!-- The end of the NanoBlogger posting -->
-
-#+END_HTML
-
-<!-- GNU EMACS METADATA --
---
--- This must be near the end of the file for Emacs to find it.
---
--- Local Variables:
--- org-export-nb-id:     "2012-02-22T18_38_14"
--- org-export-nb-tags:   "tech"
--- End: 
---
-------------------------------------------------
---
--- LocalWords: nb
--->
 
