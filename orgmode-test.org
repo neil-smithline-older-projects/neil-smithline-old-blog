@@ -1,0 +1,8 @@
+* My org-ruby gem testfile
+
+abc =code= *bold* +strikethrough+ /italic/ _underlined_ ~verbatim<b>bold</b>~
+
+* More test
+
+abc 
+#+HTML: <code>code</code> *bold* <del>strikethrough</del> /italic/ <span style="text-decoration:underline;">underlined</span> ~verbatim&lt;b&gt;bold&lt;/b&gt;~</p>
