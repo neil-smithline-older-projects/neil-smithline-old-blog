@@ -2,6 +2,10 @@
 
 abc =code= *bold* +strikethrough+ /italic/ _underlined_ ~verbatim<b>bold</b>~
 
+an <http://example.com> link in pointy brackets
+
+another http://example.com link but not in pointy brackets
+
 * More test
 
 abc 
