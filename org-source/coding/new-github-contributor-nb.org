@@ -1,0 +1,16 @@
+
+#+NB_TITLE:        I'm Now A Contributor To Github! Does That Make Me Cool?
+#+DESCRIPTION:     Github just accepted my code to improve the Github site.
+#+AUTHOR:          Neil Smithline
+#+NB_DATE:         2012-04-14 Sat 21:36
+#+NB_TAGS:         untagged
+#+KEYWORDS:        my-software, coding, open-software
+#+LINK_UP:         
+#+LINK_HOME:       
+#+NB_ID:           2012-02-22T18_38_14.txt
+
+[[http://github.com][Github]] is not just the home of many open source projects but is run on open [[https://github.com/github][source code]] and is encourages developers to improve the site.
+
+https://github.com/bdewey/org-ruby/pull/20/commits
+
+

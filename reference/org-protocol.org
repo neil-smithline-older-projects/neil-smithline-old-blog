@@ -1,0 +1,9 @@
+* Bookmarklets
+** Capture
+javascript:location.href='org://capture://'+encodeURIComponent(location.href)+'/'+encodeURIComponent(document.title)+'/'+encodeURIComponent(window.getSelection())
+
+** Store-Link
+javascript:location.href='org://store-link://'+encodeURIComponent(location.href)+'/'+encodeURIComponent(document.title)+'/'+encodeURIComponent(window.getSelection())
+ 
+** Remember
+javascript:location.href='org://remember://'+encodeURIComponent(location.href)+'/'+encodeURIComponent(document.title)+'/'+encodeURIComponent(window.getSelection())

@@ -1,0 +1,92 @@
+#+NB_TITLE:        Doomsday Date Algorithm
+#+DESCRIPTION:     A cool way to calculate the day of the week for any date.
+#+AUTHOR:          Neil Smithline
+#+NB_DATE:         2012-05-05 Sat 21:45
+#+NB_TAGS:         misc
+#+KEYWORDS:        
+#+NB_ID:           2012-03-23T09_48_28.txt
+
+Most of this information is from the [[http://bit.ly/IxCM9j][Wikipedia]] on the [[http://bit.ly/IxCKhH][Doomsday Rule]]. I first heard about it in a [[http://bit.ly/IxCRto][Car Talk]] [[http://bit.ly/IxCVcQ][puzzler]].
+
+The Doomsday Rule algorithm is based around a group of (relatively) easy to remember days scattered throughout the year known as Doomsday days. Each year, every Doomsday day is the same day of the week. So if you know what day of the week one Doomsday day is, you know what day all of them are. As there is at least one Doomsday date in every month, it is relatively easy to calculate the weekday for any date in that year.
+
+** TODO The Doomsday Days For A Year
+To employ the Doomsday Rule, you need two pieces of information. What day of the week the year's Doomsday days falls on and what are the year's Doomsday days. Being that calculating the day of the week for the Doomsdays for a year is a bit complex and 
+
+*** Grouping The Months
+The Doomsday Rule categorizes the months into three groups. The first group, January (1)[1] through March (3), is the hardest to remember. I discuss those Doomsday dates last. The second group is the even-numbered months from April (4) through December (12). The final group is the odd numbered months from May (5) through October (11).
+
+*** Even Rule
+The Doomsday dates for the even months from April (4) through December (12) are  the easiest to 
+remember. The even rule says that the following dates fall on the same day of the week in a given year:
+|----------------+-------|
+| April 4^th     | 4/4   |
+| June 6^th      | 6/6   |
+| August 8^th    | 8/8   |
+| October 10^th  | 10/10 |
+| December 12^th | 12/12 |
+|----------------+-------|
+Just remember that April (4) is the first month for the even rule.
+
+*** Odd Rule
+The Doomsday dates for the odd months from May (5) through November (11) rely on using a phrase as a memory aid. I apologize to people of other nations. The phrase is definitely best suited for Americans. You can blame [[http://bit.ly/KzNsUY][James Conway]], the algorithm's inventor if you are unhappy about this.
+
+Remember that the odd rule will give us the Doomsday days in the months May (5), July (7), September (9), and November (11) by using an easily remembered phrase. The phrase is:
+: I work from 9 to 5 at the 7-11.
+It contains four numbers, =9=, =5=, =7=, and =11=. The tricky part is that the numbers have to be reordered to correspond to the odd months. The correct ordering of the numbers is =9=, =11=, =5=, and =7=. 
+
+You can think of this as using the numbers from the outside in as you use the first number, then the last number, then the second number, and then the second to last number. You can also just remember that the last number becomes the second number. Whatever works best for you.
+
+Once you've done this, you get the following Doomsday days:
+|----------------+-----------------------------|
+| May 9^th       | I work *9* to 5 at the 7-11 |
+| July 11^th     | I work 9 to 5 at the 7-*11* |
+| September 5^th | I work 9 to *5* at the 7-11 |
+| November 7^th  | I work 9 to 5 at the 7-*11* |
+|----------------+-----------------------------|
+
+*** The First Three Months
+There are a few tricks for remembering the Doomsday days in these months but I'm not sure that the gimmicks are easier than just memorizing the days. 
+
+**** January (1)
+The Doomsday day for January (1) is the 3^rd on non-leap years and the 4^th on leap years. One of the tricks for memorizing this is using this sentence based on the fact that leap years come every four years:
+: The Doomsday day for January is the 3^rd 3 years in a row and the 4^th for the 4th year.
+
+Another trick is to remember that =For 1 out of four years 1/11 is a Doomsday day.=  The memory aid being that the ones. That is, one out of every four years the Doomsday day is =1/11= or one-one-one. The Doomsday day is the =1/10= on the non-leap years.
+|------------------------------+--------------------------------------------|
+| Jan 3^rd for non-leap years  | The third for *3* out of four years        |
+| Jan 4^th for leap years      | The fourth for the *4^th* of four years    |
+| Jan 11^th for leap years     | *1* out of four years it is *1-1-1* (1/11) |
+| Jan 10^th for non-leap years | The day before the 11^th                   |
+|------------------------------+--------------------------------------------|
+
+**** February (2)
+There really is no memory aid for February. You just have to memorize it. For non-leap years, February 0^th[2] and February 28^th are Doomsday days. For leap years, the Doomsday days are February 1^st, and 29^th.
+|---------------------------------------+----------------------------------------|
+| Feb 1^st and 29^th for leap years     | On leap year, it's leap day, the 29^th |
+| Feb 0^th and 28^th for non-leap years | Other years it is the day before       |
+|---------------------------------------+----------------------------------------|
+
+**** March (3)
+March, as February, has no good memory aid. You pretty much have to memorize one Doomsday day. The ones that are typically suggested are March 0^th[2], March 7^th, and March 21^st. The 21^st being considered easy to remember because it is frequently the first day of Spring. Another trick for the 21^st is to remember that =The Doomsday day is the end of the 3^rd week of the 3^rd month.= IMO, just pick one and memorize it.
+|-------------+-----------------------------------------------------------------|
+| March 0^th  | For non-leap years, Feb 0^th and March 0^th are Doomsday days   |
+| March 21^st | Frequently the first day of Spring.                             |
+| March 21^st | For the 3^rd month the Doomsday day is the end of the 3rd week. |
+|-------------+-----------------------------------------------------------------|
+
+** TODO Doomsday For A Given Year 
+
+
+
+
+
+# LocalWords:  th
+
+** Footnotes
+
+* Footnotes
+
+[1] As the Doomsday rule is based on the ordering of the months, I have included the number of the month in parenthesis after the month's name in most places in the text. For example: =June (6)= is just a reminder that June is the 6^th month of the year.
+
+[2] The 0^th day of a month is used to mean the last day of the month before it.

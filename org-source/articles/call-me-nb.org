@@ -1,0 +1,17 @@
+
+#+NB_TITLE:        Call Me
+#+DESCRIPTION:     
+#+AUTHOR:          Neil Smithline
+#+NB_DATE:         2012-03-31 Sat 11:26
+#+NB_TAGS:         about-me
+#+KEYWORDS:        
+#+LINK_UP:         
+#+LINK_HOME:       
+#+NB_ID:           2012-03-23T09_48_28.txt
+
+You can call me, courtesy of [[https://www.google.com/voice/][Google Voice]], using this widget.
+
+#+BEGIN_HTML
+<object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85"><param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" /><param name="wmode" value="transparent" /><param name="FlashVars" value="id=eea51078ff6725b038a69d0625bee1c11137b4b1&style=0" /></object>
+
+#+END_HTML

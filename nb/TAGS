@@ -1,0 +1,692 @@
+
+.@/nb.~1~,110
+VERSION="3.5-RC1"RSION="3.5-RC1"8,265
+				NewEdit_EntryTitle=435,15090
+		NB_QUERY=; UPDATE_LIST=455,15951
+
+ChangeLog,44
+	* ., plugins/shortcode/baseurl.sh,sh3,26
+
+COPYING,1347
+		       Version 2,33
+ Copyright (C) 1989, 1991 Free Software Foundation,4,64
+ 51 Franklin Street,5,122
+ 51 Franklin Street, Fifth Floor,5,122
+ 51 Franklin Street, Fifth Floor, Boston,5,122
+ of this license document,7,244
+  To protect your rights,28,1300
+running the Program is not restricted,74,3698
+notices that refer to this License and to the absence of any warranty;83,4217
+your rights to work written entirely by you; rather,125,6528
+In addition,129,6702
+with the Program 130,6773
+    1 and 2 above on a medium customarily used for software interchange; or,140,7291
+    b) Accompany it with a written offer,142,7369
+    customarily used for software interchange; or,147,7705
+integrity of the free software distribution system,218,11644
+system;222,11900
+    This program is free software;296,15792
+    the Free Software Foundation;298,15938
+    the Free Software Foundation; either version 2 of the License,298,15938
+    the Free Software Foundation; either version 2 of the License, or298,15938
+parts of the General Public License.  Of course,321,17042
+be called something other than `show w'w322,17116
+You should also get your employer 325,17247
+  Yoyodyne,329,17436
+  Ty Coon,333,17624
+proprietary programs.  If your program is a subroutine library,336,17730
+library.  If this is what you want to do,338,17878
+
+copyright,250
+Copyright 3,12
+    This program is free software;14,301
+    the Free Software Foundation;16,447
+    the Free Software Foundation; either version 2 of the License,16,447
+    the Free Software Foundation; either version 2 of the License, or16,447
+
+default/blog.conf,17
+NB_EDITOR=8,224
+
+default/images/feed-icon-14x14.png,144
+sYLKÇ²zd¦ŽR`‚TîÙä†ìõB½~~4,231
+sYLKÇ²zd¦ŽR`‚TîÙä†ìõB½~;»¯ýUbõý#ÜáºŸÇ4èb^)úuÀk)C2†ÏÌKhJ’lM‘lhÁiî±Êèm‚ñ~”&@eÅI¨¶@eÅI¨4,231
+
+default/styles/feed.css,2675
+/* RSS: */ rss,14,454
+/* RSS: */ rss, channel,14,454
+/* RSS: */ rss, channel, title,14,454
+/* RSS: */ rss, channel, title, link,14,454
+/* RSS: */ rss, channel, title, link, description,14,454
+/* RSS: */ rss, channel, title, link, description, language,14,454
+/* RSS: */ rss, channel, title, link, description, language, generator,14,454
+/* RSS: */ rss, channel, title, link, description, language, generator, lastBuildDate,14,454
+/* RSS: */ rss, channel, title, link, description, language, generator, lastBuildDate, item,14,454
+/* RSS: */ rss, channel, title, link, description, language, generator, lastBuildDate, item, pubDate,14,454
+/* RSS: */ rss, channel, title, link, description, language, generator, lastBuildDate, item, pubDate, author,14,454
+/* RSS: */ rss, channel, title, link, description, language, generator, lastBuildDate, item, pubDate, author, comments,14,454
+/* RSS: */ rss, channel, title, link, description, language, generator, lastBuildDate, item, pubDate, author, comments, creator,14,454
+/* Atom: */ feed,15,583
+/* Atom: */ feed, id,15,583
+/* Atom: */ feed, id, modified,15,583
+/* Atom: */ feed, id, modified, tagline,15,583
+/* Atom: */ feed, id, modified, tagline, entry,15,583
+/* Atom: */ feed, id, modified, tagline, entry, issued,15,583
+/* Atom: */ feed, id, modified, tagline, entry, issued, created,15,583
+/* Atom: */ feed, id, modified, tagline, entry, issued, created, updated,15,583
+/* Atom: */ feed, id, modified, tagline, entry, issued, created, updated, summary,15,583
+rss,19,696
+rss:before,before35,1122
+channel>title,title41,1204
+item>title,title42,1219
+feed>title,title43,1231
+channel>title,title49,1333
+item>title,title52,1383
+item,55,1430
+item>description,description60,1484
+author:before,before68,1650
+pubDate:before,before85,2244
+pubDate:before, link:before,before85,2244
+pubDate:before, link:before, author:before,before85,2244
+pubDate:before, link:before, author:before, description:before,before85,2244
+language:before,before86,2308
+language:before, generator:before,before86,2308
+language:before, generator:before, lastBuildDate:before,before86,2308
+language:before, generator:before, lastBuildDate:before, comments:before,before86,2308
+tagline:before,before87,2382
+tagline:before, issued:before,before87,2382
+tagline:before, issued:before, created:before,before87,2382
+tagline:before, issued:before, created:before, modified:before,before87,2382
+summary:before,before88,2446
+summary:before, comment:before,before88,2446
+summary:before, comment:before, creator:before,before88,2446
+summary:before, comment:before, creator:before, id:before,before88,2446
+
+default/styles/nb_clean.css,3082
+h4,45,792
+h4, h5,45,792
+	margin:margin72,1155
+	padding:padding73,1166
+	margin-top:top74,1178
+	font-family: palatino,75,1193
+	font-family: palatino, georgia,75,1193
+	font-family: palatino, georgia, verdana,75,1193
+	font-family: palatino, georgia, verdana, arial,75,1193
+	font-family: palatino, georgia, verdana, arial, sans-serif;serif75,1193
+	background-color: #FFF;FFF76,1254
+	color:color77,1279
+	font-size:large;large78,1293
+	font-weight:normal;normal79,1311
+	text-align:left;left80,1332
+	border-top:1px dotted 81,1350
+	border-bottom:1px dotted 82,1379
+	padding:15px;px83,1411
+	margin:margin87,1442
+	padding:0 0 0 10px;px88,1453
+	font-size:x-large;large89,1474
+	font-family: palatino,97,1579
+	font-family: palatino, georgia,97,1579
+	font-family: palatino, georgia, verdana,97,1579
+	font-family: palatino, georgia, verdana, arial,97,1579
+	font-family: palatino, georgia, verdana, arial, sans-serif;serif97,1579
+	font-size:x-large;large98,1640
+	color:color99,1660
+	text-decoration:none;none100,1674
+	margin:margin113,1889
+	padding:padding114,1900
+	margin-left:210px;px115,1912
+	background-color:#FFF;FFF116,1932
+	margin:margin120,1972
+	padding:padding121,1983
+	background-color:#FFF;FFF122,1995
+	margin:margin126,2031
+	padding:padding127,2042
+	float:left;left128,2054
+	width:204px;px129,2067
+	background-color:#FFF;FFF130,2081
+	border:1px solid #FFF;FFF131,2105
+	border-right: 1px dotted 132,2129
+	padding:15px 0 15px px133,2161
+	margin:margin137,2198
+	padding:padding138,2209
+	clear:both;both139,2221
+	background-color:color140,2234
+	border-top:1px dotted 141,2261
+	border-bottom:1px dotted 142,2290
+.blogbody a,168,2687
+.blogbody a:link,link169,2700
+.blogbody a:visited,visited170,2718
+.blogbody a:active,active171,2739
+	font-family: palatino,185,2973
+	font-family: palatino, georgia,185,2973
+	font-family: palatino, georgia, verdana,185,2973
+	font-family: palatino, georgia, verdana, arial,185,2973
+	font-family: palatino, georgia, verdana, arial, sans-serif;serif185,2973
+	font-size:small;small186,3034
+	margin-top:25px;px187,3052
+	margin-bottom:25px;px188,3070
+	text-align:center;center189,3091
+.calendar a,231,3794
+.calendar a:link,link232,3807
+.calendar a:active,active233,3825
+.calendarhead a,251,4162
+.calendarhead a:link,link252,4179
+	font-family: palatino,378,6606
+	font-family: palatino, georgia,378,6606
+	font-family: palatino, georgia, verdana,378,6606
+	font-family: palatino, georgia, verdana, arial,378,6606
+	font-family: palatino, georgia, verdana, arial, sans-serif;serif378,6606
+	color:#FFF;FFF379,6667
+	font-size:large;large380,6680
+	font-weight: bold;381,6698
+	border-left: 1px solid #FFF;FFF382,6718
+	border-right: 1px solid #FFF;FFF383,6748
+	border-top:1px solid #FFF;FFF384,6779
+	padding-left: 15px;px385,6807
+	padding-right: 15px;px386,6828
+	padding-top: 5px;px387,6850
+	padding-bottom: 5px;px388,6869
+.intro a,404,7170
+.intro a:link,link405,7180
+.intro a:visited,visited406,7195
+.intro a:active,active407,7213
+
+default/styles/nb_default.css,2534
+h4,47,833
+h4, h5,47,833
+	margin:margin69,1171
+	padding:padding70,1182
+	margin-top:top71,1194
+	font-family: verdana,72,1209
+	font-family: verdana, arial,72,1209
+	font-family: verdana, arial, sans-serif;serif72,1209
+	background-color:color73,1251
+	font-size:large;large74,1278
+	font-weight:normal;normal75,1296
+	text-align:left;left76,1317
+	border-top:1px dotted 77,1335
+	border-bottom:1px dotted 78,1364
+	padding:15px;px79,1396
+	margin:margin83,1427
+	padding:0 0 0 10px;px84,1438
+	font-size:x-large;large85,1459
+	font-family: verdana,93,1564
+	font-family: verdana, arial,93,1564
+	font-family: verdana, arial, sans-serif;serif93,1564
+	font-size:x-large;large94,1606
+	color:#FFF;FFF95,1626
+	text-decoration:none;none96,1639
+	margin:margin109,1829
+	padding:padding110,1840
+	margin-left:215px;px111,1852
+	background-color:#FFF;FFF112,1872
+	margin:margin116,1912
+	padding:padding117,1923
+	background-color:#FFF;FFF118,1935
+	margin:margin122,1971
+	padding:padding123,1982
+	float:left;left124,1994
+	width:199px;px125,2007
+	background-color:#FFF;FFF126,2021
+	border:1px solid #FFF;FFF127,2045
+	border-right: 1px dotted 128,2069
+	padding:15px 0 15px px129,2101
+	margin:margin133,2138
+	padding:padding134,2149
+	clear:both;both135,2161
+	background-color:color136,2174
+	border-top:1px dotted 137,2201
+	border-bottom:1px dotted 138,2230
+.blogbody a,164,2589
+.blogbody a:link,link165,2602
+.blogbody a:visited,visited166,2620
+.blogbody a:active,active167,2641
+	font-family: verdana,181,2857
+	font-family: verdana, arial,181,2857
+	font-family: verdana, arial, sans-serif;serif181,2857
+	font-size:small;small182,2899
+	margin-top:25px;px183,2917
+	margin-bottom:25px;px184,2935
+	text-align:center;center185,2956
+.calendar a,226,3619
+.calendar a:link,link227,3632
+.calendar a:active,active228,3650
+.calendarhead a,246,3986
+.calendarhead a:link,link247,4003
+	font-family: verdana,373,6315
+	font-family: verdana, arial,373,6315
+	font-family: verdana, arial, sans-serif;serif373,6315
+	color:#FFF;FFF374,6357
+	font-size:large;large375,6370
+	font-weight: bold;376,6388
+	border-left: 1px solid #FFF;FFF377,6408
+	border-right: 1px solid #FFF;FFF378,6438
+	border-top:1px solid #FFF;FFF379,6469
+	padding-left: 15px;px380,6497
+	padding-right: 15px;px381,6518
+	padding-top: 5px;px382,6540
+	padding-bottom: 5px;px383,6559
+.intro a,398,6821
+.intro a:link,link399,6831
+.intro a:visited,visited400,6846
+.intro a:active,active401,6864
+
+default/styles/print.css,328
+   display: none;29,410
+   display: none;32,442
+   width: auto;35,488
+   padding:padding37,521
+   border:border38,536
+   float: none !important;important39,550
+   color: black;40,577
+   background: transparent none;41,594
+   color: black;56,896
+div.blogbody,blogbody58,918
+blockquote,76,1271
+a:link,link80,1339
+
+default/templates/archive_index.htm,114
+$NB_MetaTitle | $BLOG_TITLE9,389
+$BLOG_TITLEbanner22,789
+$NB_MetaTitletop31,1006
+$template_mainmenu33,1049
+
+default/templates/category_archive.htm,162
+$template_catarchives $NB_ArchiveTitle | $BLOG_TITLE6,247
+$BLOG_TITLEbanner19,675
+$template_catarchives $NB_ArchiveTitletop28,890
+$template_mainmenu30,958
+
+default/templates/day_archive.htm,130
+$NB_ArchiveTitle $template_archives | $BLOG_TITLE9,389
+$BLOG_TITLEbanner22,809
+$NB_ArchiveTitle $template_archivestop30,1025
+
+default/templates/entry.htm,31
+$NB_EntryDate$NB_EntryID3,45
+
+default/templates/main_index.htm,97
+$BLOG_TITLE9,389
+$BLOG_TITLEbanner22,770
+$NB_Calendarlinks31,1009
+$NB_MetaBodytop101,2388
+
+default/templates/makepage.htm,114
+$NB_MetaTitle | $BLOG_TITLE9,389
+$BLOG_TITLEbanner22,784
+$NB_MetaTitletop31,1001
+$template_mainmenu33,1044
+
+default/templates/month_archive.htm,192
+$NB_ArchiveTitle $template_archives | $BLOG_TITLE9,389
+$BLOG_TITLEbanner23,812
+$NB_MonthlyCalendarlinks31,1028
+$NB_ArchiveTitle $template_archivestop39,1130
+$template_mainmenu41,1197
+
+default/templates/month_entry.htm,31
+$NB_EntryDate$NB_EntryID3,45
+
+default/templates/permalink.htm,90
+$NB_EntryTitle | $BLOG_TITLE10,448
+$BLOG_TITLEbanner24,846
+$template_mainmenu34,1081
+
+default/templates/permalink_entry.htm,32
+$NB_EntryTitle$NB_EntryID6,88
+
+default/templates/year_archive.htm,112
+$NB_MetaTitle | $BLOG_TITLE7,304
+$BLOG_TITLEbanner20,703
+$NB_MetaTitletop29,920
+$template_mainmenu31,963
+
+docs/examples/nanoblogger.bash_completion,313
+_nanoblogger(6,68
+		    special=20,788
+		@(27,949
+	    	@(30,998
+			COMPREPLY=52,1324
+			COMPREPLY=56,1419
+			COMPREPLY=60,1497
+			COMPREPLY=64,1583
+			COMPREPLY=68,1683
+			COMPREPLY=72,1771
+			COMPREPLY=76,1863
+			COMPREPLY=80,1954
+			COMPREPLY=84,2062
+	    	COMPREPLY=90,2189
+		COMPREPLY=94,2292
+
+docs/nanoblogger.html,1021
+NanoBlogger User Manual10,424
+NanoBlogger User Manualsummary104,2412
+by 106,2450
+Table of Contentstoc112,2639
+1. Introductions.1214,4364
+Synopsissynopsis218,4676
+2. Featuress.2225,4928
+3. Requirementss.3276,6433
+4. Getting Starteds.4282,6647
+5. Settings and Configurations.5303,7476
+6. Managing Entries and Tags (Categories)s.6529,19331
+Managing Entries531,19450
+Managing Tags660,22656
+Advanced Management696,23491
+7. Templatess.7716,24539
+8. Articles and the Articles Plugins.8896,29349
+Configuring Articles900,30072
+Adding New Articles924,30944
+9. About Pluginss.9948,31458
+Plugins Framework950,31516
+10. Configuring Pluginss.101336,42980
+Configuring Syndication Plugins1340,43127
+Syntax Checking &amp; Reformatting1441,46981
+11. Writing Pluginss.111462,48038
+Tools for Developing Plugins1464,48101
+12. Publishings.121834,58860
+13. Adding Support for Commentss.131869,59891
+14. Importing Entriess.141877,60194
+14. Tips and Trickss.151932,62089
+16. Creditss.162021,65852
+
+lang/en/.@/templates.lang.~1~,25
+template_permlink=6,115
+
+lang/en/help.txt,76
+Version $VERSION,2,42
+NanoBlogger comes with ABSOLUTELY NO WARRANTY;4,122
+
+lang/en/messages.lang,19
+main_badopts=6,86
+
+lang/en/plugins.lang,22
+plugins_action=6,106
+
+lang/en/templates.lang,25
+template_permlink=6,115
+
+lib/.@/archive.sh.~1~,465
+set_baseurl(5,110
+build_entryarchives(284,8810
+make_archive(319,9967
+	page_bynumber(371,11575
+total_items=379,11983
+	get_pages(381,12085
+	total_pages=383,12229
+	total_pages=`get_pages`; page_totals=383,12229
+	page_limit=391,12556
+	page_limit=0; page_offset=391,12556
+	page_limit=0; page_offset=1; page_num=391,12556
+		let page_totals=393,12643
+			let page_diff=397,12842
+			[ "$i" = 1 ] && page=420,13718
+			let i=427,13962
+		NB_PageLinks=432,14178
+
+lib/.@/config.sh.~1~,54
+tzd_hhmm=8,208
+tzd_hh=${tzd_hhmm:0:3}; tzd_mm=9,228
+
+lib/.@/database.sh.~1~,127
+index_catids(5,109
+print_cat(53,1651
+resort_catdb(84,2316
+update_maindb(105,2856
+update_catdb(118,3207
+query_db(167,4379
+
+lib/.@/error.sh.~1~,42
+die(5,116
+nb_msg(13,183
+nb_eval(21,308
+
+lib/.@/tools.sh.~1~,447
+nb_timestamp(6,205
+filter_timestamp(9,308
+nb_browser(85,2483
+nb_edit(105,3100
+nb_print(133,3891
+findba_entries(209,6132
+	cat_ids=245,7056
+		cat_var=248,7152
+	cat_id=; cat_ids=252,7228
+	cat_id=; cat_ids=; cat_var=252,7228
+	cat_id=; cat_ids=; cat_var=; cat_db=252,7228
+CAT_LIST=254,7272
+meta_timestamp(288,8355
+write_metadata(354,10518
+write_entry(421,12569
+preview_weblog(593,18480
+publish_weblog(613,18884
+update_cache(634,19321
+
+lib/archive.sh,476
+set_baseurl(5,110
+build_entryarchives(284,9217
+make_archive(319,10401
+    page_bynumber(371,12112
+    total_items=379,12536
+	get_pages(381,12646
+	total_pages=383,12793
+	total_pages=`get_pages`; page_totals=383,12793
+	page_limit=391,13129
+	page_limit=0; page_offset=391,13129
+	page_limit=0; page_offset=1; page_num=391,13129
+	    let page_totals=393,13216
+		let page_diff=397,13424
+		[ "$i" = 1 ] && page=420,14354
+		let i=427,14596
+	    NB_PageLinks=432,14821
+
+lib/config.sh,54
+tzd_hhmm=8,208
+tzd_hh=${tzd_hhmm:0:3}; tzd_mm=9,228
+
+lib/database.sh,127
+index_catids(5,109
+print_cat(53,1739
+resort_catdb(84,2458
+update_maindb(105,3038
+update_catdb(118,3408
+query_db(167,4648
+
+lib/error.sh,42
+die(5,116
+nb_msg(13,191
+nb_eval(21,320
+
+lib/tools.sh,276
+nb_timestamp(6,205
+filter_timestamp(9,308
+nb_browser(85,2587
+nb_edit(105,3235
+nb_print(133,4086
+findba_entries(209,6442
+meta_timestamp(288,8817
+write_metadata(354,11100
+write_entry(421,13259
+preview_weblog(593,19480
+publish_weblog(613,19915
+update_cache(634,20382
+
+moods/smilies/cry.gif,26
+e„e2,296
+e„e9,675
+
+nb,110
+VERSION="3.5-RC1"RSION="3.5-RC1"8,265
+				NewEdit_EntryTitle=435,15219
+		NB_QUERY=; UPDATE_LIST=455,16080
+
+nb.conf,15
+NB_LANG=7,131
+
+plugins/archive/day/day_archive.sh,23
+build_dayarchive(2,23
+
+plugins/archive/master_index.sh,116
+	YEAR_TEMPLATECOPY=16,651
+	build_catlinks(27,1081
+	NB_ArchiveYearLinks=63,2255
+		NB_BrowseCategoryLinks=68,2425
+
+plugins/archive/month/month_archive.sh,25
+build_montharchive(2,25
+
+plugins/archive/year/year_archive.sh,19
+YEARIMOD_VAR=4,95
+
+plugins/atom.sh,161
+FEEDMOD_VAR=5,110
+	BLOG_FEED_CSS=27,806
+	RESTORE_SORTARGS=52,1471
+				feed|feed[feed60,1642
+				esac;61,1687
+	esc_chars(67,1839
+	BLOG_FEED_TITLE=71,1913
+
+plugins/calendar.sh,22
+make_calendar(10,240
+
+plugins/entry/format/autotag-br.sh,19
+NB_MetaBody=5,178
+
+plugins/entry/format/markdown.sh,21
+	NB_MetaBody=14,475
+
+plugins/entry/format/raw.sh,18
+NB_MetaBody=4,97
+
+plugins/makepage/tidy.sh,47
+		tidylog_restarted=45,1029
+	NB_Tidy=72,1872
+
+plugins/page/feed_links.sh,167
+fdlinksprev_cat_arch=7,166
+	NB_AtomLink=11,243
+		NB_AtomCatFile=14,453
+	NB_RSS2Link=30,825
+		NB_RSS2CatFile=33,1033
+	NB_RSSLink=49,1401
+		NB_RSSCatFile=52,1607
+
+plugins/page/format/autotag-br.sh,22
+MKPAGE_CONTENT=5,170
+
+plugins/page/format/markdown.sh,24
+	MKPAGE_CONTENT=14,478
+
+plugins/page/format/raw.sh,21
+MKPAGE_CONTENT=3,49
+
+plugins/recent_entries.sh,29
+	RECENTLIST_SORTARGS=24,655
+
+plugins/rss2.sh,161
+FEEDMOD_VAR=5,113
+	BLOG_FEED_CSS=27,808
+	RESTORE_SORTARGS=49,1356
+				feed|feed[feed57,1527
+				esac;58,1572
+	esc_chars(64,1725
+	BLOG_FEED_TITLE=68,1799
+
+plugins/shortcode/baseurl.sh,34
+oldscode_baseurl_specified=7,153
+
+plugins/shortcode/moods.sh,22
+	create_moods(13,345
+
+plugins/weblog_links.sh,48
+	ALL_MONTHLINKS=47,894
+	ALL_YEARLINKS=57,1156
+
+plugins/weblog_status.sh,184
+OUTPUT_FILE=13,247
+TOTAL_CATEGORIES=27,874
+TOTAL_CATEGORIES=`for catdbs in "$NB_DATA_DIR"/cat_*."$NB_DBTYPE"; do echo $catdbs;27,874
+TOTAL_ENTRIES=28,977
+	LAST_ENTRY_TIME=32,1201
+
+plugins/z001_articles_meta.sh,84
+set_articleconf(18,560
+			ARTICLE_CONF=124,4167
+				NB_ArticleLinksHTML=132,4406
+
+welcome-to-nb.txt,548
+<p>Welcome to NanoBlogger,8,114
+<li>create new weblog (directory) ... <code>nb -b &lt;blog_dir&gt;gt11,239
+<li>list entries ... <code>nb list &lt;lt16,620
+<li>list entries ... <code>nb list &lt;query&gt;gt16,620
+<li>update weblog ... <code>nb update &lt;lt27,1441
+<li>update weblog ... <code>nb update &lt;all|DATE|main|max|articles|feeds&gt;gt27,1441
+<p><code>&lt;lt29,1538
+<p><code>&lt;query&gt;gt29,1538
+<p><code>&lt;query&gt;</code> may equal <code>all,all29,1538
+<p><code>&lt;query&gt;</code> may equal <code>all,tag,29,1538
+
+TODO,0
+
+README,0
+
+plugins/post/clean_parts.off,0
+
+plugins/entry/category_links.sh,0
+
+moods/smilies/wink.gif,0
+
+moods/smilies/tongue.gif,0
+
+moods/smilies/smiley.gif,0
+
+moods/smilies/shocked.gif,0
+
+moods/smilies/sad.gif,0
+
+moods/smilies/rolleyes.gif,0
+
+moods/smilies/lipsrsealed.gif,0
+
+moods/smilies/laugh.gif,0
+
+moods/smilies/kiss.gif,0
+
+moods/smilies/huh.gif,0
+
+moods/smilies/grin.gif,0
+
+moods/smilies/embarassed.gif,0
+
+moods/smilies/cool.gif,0
+
+moods/smilies/cheesy.gif,0
+
+moods/smilies/angry.gif,0
+
+moods/mymood.txt,0
+
+moods/moods.conf,0
+
+docs/examples/.DS_Store,0
+
+docs/.DS_Store,0
+
+default/templates/weblog_status.htm,0
+
+default/templates/main_links.htm,0
+
+default/templates/file.metadata,0
+
+default/templates/entry.metadata,0
+
+default/templates/category_entry.htm,0
+
+default/images/favicon.ico,0
+
+default/data/cat_1.db,0
+
+default/articles/example.txt,0
+
+default/.DS_Store,0
+
+.DS_Store,0

@@ -1,0 +1,96 @@
+Org Mode Cheat Sheet
+
+# Use this many levels of HTML headings
+#+OPTIONS: H:6
+
+# Table of contents?
+#+OPTIONS: TOC:2
+
+#+STARTUP: hidestars
+#+STARTUP: odd
+
+* Outline Mode
+*** [[info:org#Clean%20view][A Cleaner Outline View]]
+    : #+STARTUP: hidestars
+    : #+STARTUP: odd
+    You can also use
+    : #+STARTUP: indent
+
+* Key Bindings
+*** Completion
+    Complex. See [[info:org#Completion][completion]].
+*** Speed Keys
+    Not sure. See [[info:org#Speed%20keys][speed keys]].
+
+* HTML Export
+*** Quick Links
+***** Info Quick Reference
+      [[info:org#Export%20options][Export Options Info Page]]
+***** Info Reference
+      [[info:org#HTML%20export][HTML Export Info Page]]
+***** Relevant Variables and Options
+      [[info:org#Publishing%20options][Publishing options]]
+
+***** Related Variables
+      (describe-variable 'org-export-html-inline-images)
+
+*** Special Blocks
+   *** [[info:org#Text%20areas%20in%20HTML%20export][Text areas in HTML export]]
+   Can be specified on a single line by beginning line with a colon. Can have a block example with
+   : #+BEGIN_EXAMPLE
+   : example text goes here.
+   : and here too.
+   : #+END_EXAMPLE
+   
+*** [[info:org#Easy%20Templates][Easy Templates]]
+   
+|---+------------------+------+----------------+----------------------------|
+| s | #+BEGIN\_SRC     | ...  | #+END\_SRC     | [[info:org#Literal%20examples][Highlights code]]            |
+| e | #+BEGIN\_EXAMPLE | ...  | #+END\_EXAMPLE | [[info:org#Text%20areas%20in%20HTML%20export][Denoted text area]]          |
+| q | #+BEGIN\_QUOTE   | ...  | #+END\_QUOTE   | [[info:org#Paragraphs][Add left/right margins]]     |
+| v | #+BEGIN\_VERSE   | ...  | #+END\_VERSE   | [[info:org#Paragraphs][Maintains newlines]]         |
+| c | #+BEGIN\_CENTER  | ...  | #+END\_CENTER  | [[info:org#Paragraphs][Center text]]                |
+| l | #+BEGIN\_LATEX   | ...  | #+END\_LATEX   | [[info:org#Quoting%20LaTeX%20code][Insert LaTeX code]]          |
+| L | #+LATEX:'        |      |                | [[info:org#Quoting%20LaTeX%20code][Insert LaTeX code]]          |
+| h | #+BEGIN\_HTML    | ...  | #+END\_HTML    | [[info:org#Quoting%20HTML%20tags][Insert HTML code]]           |
+| H | #+HTML:'         |      |                | [[info:org#Quoting%20HTML%20tags][Insert HTML code]]           |
+| a | #+BEGIN\_ASCII   | ...  | #+END\_ASCII   | Dunno. Undocumented.       |
+| A | #+ASCII:         |      |                | Dunno. Undocumented.       |
+| i | #+INDEX:         | line |                | [[info:org#Index%20entries][Designate an index entry]]   |
+| I | #+INCLUDE:       | line |                | [[info:org#Include%20files][Include text or code files]] |
+|---+------------------+------+----------------+----------------------------|
+
+*** Images:
+   [[info:org#Images%20in%20HTML%20export][Images In HTML Export Info Page]]
+***** Related Variable
+      (describe-variable 'org-export-html-inline-images)
+*** Plain Link To Images
+    : [[file:myimg.jpg][my image]]
+
+*** Inlined Image
+    : [[file:myimg.jpg][my image]]
+
+*** Image Thumbnail
+    : [[file:highres.jpg][file:thumb.jpg]]
+
+*** Adding Extras
+***** Info Quick Reference
+      [[info:org#Export%20options][Export Options Info Page]]
+*** Attributes
+   If you need to add attributes to an inlined image, use a
+   `#+ATTR\_HTML'. In the example below we specify the `alt' and
+   `title' attributes to support text viewers and accessibility, and
+   align it to the right.
+
+
+   : #+CAPTION: A black cat stalking a spider
+   : #+ATTR_HTML: alt="cat/spider image" title="Action!" align="right"
+   : [[./img/a.jpg]]
+   : #+OPTIONS: toc:nil
+
+* In-Buffer Settings
+  You can set many options via /#+/ keywords. Some are on the [[info:org#Export%20options][Export Options Info Page]].
+
+* Properties
+
+
