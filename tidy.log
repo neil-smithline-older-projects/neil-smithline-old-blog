@@ -52,10 +52,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/index.html:
 
-line 170 column 38 - Warning: <img> lacks "alt" attribute
+line 38 column 5 - Warning: discarding unexpected </div>
+line 169 column 38 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
 
 The alt attribute should be used to give a short description
@@ -411,9 +412,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/index.html:
 
+line 33 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -423,9 +425,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/index.html:
 
+line 33 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -435,9 +438,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/05/index.html:
 
+line 35 column 49 - Warning: <img> element not empty or not closed
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
-No warnings or errors were found.
+1 warning, 0 errors were found!
 
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
@@ -447,10 +451,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/index.html:
 
-line 216 column 13 - Warning: <a> escaping malformed URI reference
+line 35 column 49 - Warning: <img> element not empty or not closed
+line 221 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -469,29 +474,30 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/index.html:
 
-line 220 column 1 - Warning: missing </em> before <p>
-line 221 column 1 - Warning: inserting implicit <em>
-line 221 column 1 - Warning: missing </em> before <p>
-line 222 column 1 - Warning: inserting implicit <em>
-line 222 column 1 - Warning: missing </em> before <p>
-line 223 column 8 - Warning: discarding unexpected </em>
-line 226 column 1 - Warning: inserting implicit <p>
-line 105 column 17 - Warning: missing </div>
-line 103 column 9 - Warning: missing </div>
-line 33 column 1 - Warning: missing </div>
-line 173 column 128 - Warning: <a> escaping malformed URI reference
-line 344 column 1 - Warning: <table> lacks "summary" attribute
-line 366 column 1 - Warning: <table> lacks "summary" attribute
-line 220 column 1 - Warning: trimming empty <em>
-line 221 column 1 - Warning: trimming empty <em>
-line 220 column 7 - Warning: trimming empty <p>
-line 223 column 1 - Warning: trimming empty <p>
-line 226 column 1 - Warning: trimming empty <p>
-line 345 column 1 - Warning: trimming empty <caption>
-line 367 column 1 - Warning: trimming empty <caption>
+line 35 column 49 - Warning: <img> element not empty or not closed
+line 225 column 1 - Warning: missing </em> before <p>
+line 226 column 1 - Warning: inserting implicit <em>
+line 226 column 1 - Warning: missing </em> before <p>
+line 227 column 1 - Warning: inserting implicit <em>
+line 227 column 1 - Warning: missing </em> before <p>
+line 228 column 8 - Warning: discarding unexpected </em>
+line 231 column 1 - Warning: inserting implicit <p>
+line 110 column 17 - Warning: missing </div>
+line 108 column 9 - Warning: missing </div>
+line 38 column 1 - Warning: missing </div>
+line 178 column 128 - Warning: <a> escaping malformed URI reference
+line 349 column 1 - Warning: <table> lacks "summary" attribute
+line 371 column 1 - Warning: <table> lacks "summary" attribute
+line 225 column 1 - Warning: trimming empty <em>
+line 226 column 1 - Warning: trimming empty <em>
+line 225 column 7 - Warning: trimming empty <p>
+line 228 column 1 - Warning: trimming empty <p>
+line 231 column 1 - Warning: trimming empty <p>
+line 350 column 1 - Warning: trimming empty <caption>
+line 372 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-20 warnings, 0 errors were found!
+21 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -522,18 +528,19 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/index.html:
 
+line 35 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
-line 232 column 1 - Warning: missing </ul> before </div>
-Warning: adjacent hyphens within comment
-Warning: adjacent hyphens within comment
-Warning: adjacent hyphens within comment
+line 237 column 1 - Warning: missing </ul> before </div>
 Warning: adjacent hyphens within comment
 Warning: adjacent hyphens within comment
-line 500 column 6 - Warning: <table> lacks "summary" attribute
-line 501 column 1 - Warning: trimming empty <caption>
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+Warning: adjacent hyphens within comment
+line 505 column 6 - Warning: <table> lacks "summary" attribute
+line 506 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Strict
-9 warnings, 0 errors were found!
+10 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
@@ -555,8 +562,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/05/09/blackberrys_manufacturer_rim_nearly_rip/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -579,8 +586,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/22/smartphones_everywhere/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -603,9 +610,9 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/21/my_patents/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
-line 221 column 13 - Warning: <a> escaping malformed URI reference
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
+line 222 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 3 warnings, 0 errors were found!
@@ -637,8 +644,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/14/new_nanoblogger_command-line/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -661,8 +668,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/03/this_blog_is_now_hosted_for_free/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -685,8 +692,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -709,8 +716,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/man_vs_beast/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -733,9 +740,9 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
-line 228 column 128 - Warning: <a> escaping malformed URI reference
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
+line 229 column 128 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 3 warnings, 0 errors were found!
@@ -767,8 +774,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/09/cool_animation/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -793,17 +800,17 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/05/stop_ptsd_support_
 
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 209 column 1 - Warning: missing </em> before <p>
-line 210 column 1 - Warning: inserting implicit <em>
+line 42 column 1 - Warning: discarding unexpected </div>
 line 210 column 1 - Warning: missing </em> before <p>
 line 211 column 1 - Warning: inserting implicit <em>
 line 211 column 1 - Warning: missing </em> before <p>
-line 212 column 8 - Warning: discarding unexpected </em>
-line 215 column 1 - Warning: inserting implicit <p>
-line 201 column 1 - Warning: missing </div>
-line 181 column 9 - Warning: missing </div>
-line 43 column 1 - Warning: missing </div>
+line 212 column 1 - Warning: inserting implicit <em>
+line 212 column 1 - Warning: missing </em> before <p>
+line 213 column 8 - Warning: discarding unexpected </em>
+line 216 column 1 - Warning: inserting implicit <p>
+line 202 column 1 - Warning: missing </div>
+line 182 column 9 - Warning: missing </div>
+line 44 column 1 - Warning: missing </div>
 line 6 column 1 - Warning: <meta> proprietary attribute "just"
 line 6 column 1 - Warning: <meta> proprietary attribute "campaign"
 line 6 column 1 - Warning: <meta> proprietary attribute "to"
@@ -812,16 +819,16 @@ line 6 column 1 - Warning: <meta> proprietary attribute "people"
 line 6 column 1 - Warning: <meta> proprietary attribute "to"
 line 6 column 1 - Warning: <meta> proprietary attribute "sponsor"
 line 6 column 1 - Warning: <meta> proprietary attribute "the"
-line 155 column 40 - Warning: <img> lacks "alt" attribute
-line 333 column 1 - Warning: <table> lacks "summary" attribute
-line 355 column 1 - Warning: <table> lacks "summary" attribute
-line 209 column 1 - Warning: trimming empty <em>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
+line 334 column 1 - Warning: <table> lacks "summary" attribute
+line 356 column 1 - Warning: <table> lacks "summary" attribute
 line 210 column 1 - Warning: trimming empty <em>
-line 209 column 7 - Warning: trimming empty <p>
-line 212 column 1 - Warning: trimming empty <p>
-line 215 column 1 - Warning: trimming empty <p>
-line 334 column 1 - Warning: trimming empty <caption>
-line 356 column 1 - Warning: trimming empty <caption>
+line 211 column 1 - Warning: trimming empty <em>
+line 210 column 7 - Warning: trimming empty <p>
+line 213 column 1 - Warning: trimming empty <p>
+line 216 column 1 - Warning: trimming empty <p>
+line 335 column 1 - Warning: trimming empty <caption>
+line 357 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 31 warnings, 0 errors were found!
@@ -851,8 +858,8 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 42 column 1 - Warning: discarding unexpected </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 2 warnings, 0 errors were found!
@@ -878,10 +885,10 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/28/the_litigious_trio
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 6 column 1 - Warning: <meta> unexpected or duplicate quote mark
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 42 column 1 - Warning: discarding unexpected </div>
 line 6 column 1 - Warning: <meta> proprietary attribute "rather"
 line 6 column 1 - Warning: <meta> proprietary attribute "than"
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 7 warnings, 0 errors were found!
@@ -904,10 +911,10 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/20/unix_reference_add_user_to_a_group/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 42 column 1 - Warning: discarding unexpected </div>
 Warning: adjacent hyphens within comment
-line 209 column 1 - Warning: missing </ul> before </div>
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 210 column 1 - Warning: missing </ul> before </div>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 4 warnings, 0 errors were found!
@@ -930,9 +937,9 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/15/sparkleshare_maybe_an_open_privately_hosted_dropbox_alternative/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 42 column 1 - Warning: discarding unexpected </div>
 Warning: adjacent hyphens within comment
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 3 warnings, 0 errors were found!
@@ -955,9 +962,9 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/11/sopa_the_end_of_free_speech/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 42 column 1 - Warning: discarding unexpected </div>
 Warning: adjacent hyphens within comment
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 3 warnings, 0 errors were found!
@@ -980,11 +987,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/got_tags_working_manually/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 42 column 1 - Warning: discarding unexpected </div>
 Warning: adjacent hyphens within comment
-line 155 column 40 - Warning: <img> lacks "alt" attribute
-line 214 column 6 - Warning: <table> lacks "summary" attribute
-line 215 column 1 - Warning: trimming empty <caption>
+line 156 column 40 - Warning: <img> lacks "alt" attribute
+line 215 column 6 - Warning: <table> lacks "summary" attribute
+line 216 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 5 warnings, 0 errors were found!
@@ -1014,9 +1021,9 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/seems_it_really_works/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 42 column 1 - Warning: discarding unexpected </div>
 Warning: adjacent hyphens within comment
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 3 warnings, 0 errors were found!
@@ -1039,9 +1046,9 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/my_new_blogging_technology/index.html:
 
-line 40 column 49 - Warning: <img> element not empty or not closed
+line 42 column 1 - Warning: discarding unexpected </div>
 Warning: adjacent hyphens within comment
-line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 156 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 3 warnings, 0 errors were found!
@@ -1064,17 +1071,18 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index.html:
 
-line 244 column 11 - Warning: <h3> missing '>' for end of tag
-line 312 column 91 - Warning: <b> is probably intended as </b>
-line 328 column 11 - Warning: <h3> missing '>' for end of tag
-line 399 column 74 - Warning: <b> is probably intended as </b>
-line 416 column 11 - Warning: <h3> missing '>' for end of tag
-line 454 column 62 - Warning: <b> is probably intended as </b>
-line 211 column 38 - Warning: <img> lacks "alt" attribute
-line 439 column 13 - Warning: <a> escaping malformed URI reference
+line 41 column 5 - Warning: discarding unexpected </div>
+line 245 column 11 - Warning: <h3> missing '>' for end of tag
+line 313 column 91 - Warning: <b> is probably intended as </b>
+line 329 column 11 - Warning: <h3> missing '>' for end of tag
+line 400 column 74 - Warning: <b> is probably intended as </b>
+line 417 column 11 - Warning: <h3> missing '>' for end of tag
+line 455 column 62 - Warning: <b> is probably intended as </b>
+line 212 column 38 - Warning: <img> lacks "alt" attribute
+line 440 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-8 warnings, 0 errors were found!
+9 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -1103,16 +1111,17 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page2.html:
 
-line 244 column 11 - Warning: <h3> missing '>' for end of tag
-line 339 column 80 - Warning: <b> is probably intended as </b>
-line 356 column 11 - Warning: <h3> missing '>' for end of tag
-line 398 column 84 - Warning: <b> is probably intended as </b>
-line 414 column 11 - Warning: <h3> missing '>' for end of tag
-line 461 column 84 - Warning: <b> is probably intended as </b>
-line 211 column 38 - Warning: <img> lacks "alt" attribute
+line 41 column 5 - Warning: discarding unexpected </div>
+line 245 column 11 - Warning: <h3> missing '>' for end of tag
+line 340 column 80 - Warning: <b> is probably intended as </b>
+line 357 column 11 - Warning: <h3> missing '>' for end of tag
+line 399 column 84 - Warning: <b> is probably intended as </b>
+line 415 column 11 - Warning: <h3> missing '>' for end of tag
+line 462 column 84 - Warning: <b> is probably intended as </b>
+line 212 column 38 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-7 warnings, 0 errors were found!
+8 warnings, 0 errors were found!
 
 
 The alt attribute should be used to give a short description
@@ -1132,17 +1141,18 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page3.html:
 
-line 244 column 11 - Warning: <h3> missing '>' for end of tag
-line 263 column 64 - Warning: <b> is probably intended as </b>
-line 279 column 11 - Warning: <h3> missing '>' for end of tag
-line 314 column 88 - Warning: <b> is probably intended as </b>
-line 330 column 11 - Warning: <h3> missing '>' for end of tag
-line 347 column 66 - Warning: <b> is probably intended as </b>
-line 211 column 38 - Warning: <img> lacks "alt" attribute
-line 309 column 128 - Warning: <a> escaping malformed URI reference
+line 41 column 5 - Warning: discarding unexpected </div>
+line 245 column 11 - Warning: <h3> missing '>' for end of tag
+line 264 column 64 - Warning: <b> is probably intended as </b>
+line 280 column 11 - Warning: <h3> missing '>' for end of tag
+line 315 column 88 - Warning: <b> is probably intended as </b>
+line 331 column 11 - Warning: <h3> missing '>' for end of tag
+line 348 column 66 - Warning: <b> is probably intended as </b>
+line 212 column 38 - Warning: <img> lacks "alt" attribute
+line 310 column 128 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-8 warnings, 0 errors were found!
+9 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -1171,35 +1181,36 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page4.html:
 
-line 244 column 11 - Warning: <h3> missing '>' for end of tag
-line 255 column 1 - Warning: missing </em> before <p>
-line 256 column 1 - Warning: inserting implicit <em>
+line 41 column 5 - Warning: discarding unexpected </div>
+line 245 column 11 - Warning: <h3> missing '>' for end of tag
 line 256 column 1 - Warning: missing </em> before <p>
 line 257 column 1 - Warning: inserting implicit <em>
 line 257 column 1 - Warning: missing </em> before <p>
-line 258 column 8 - Warning: discarding unexpected </em>
-line 261 column 1 - Warning: inserting implicit <p>
-line 421 column 83 - Warning: <b> is probably intended as </b>
-line 437 column 11 - Warning: <h3> missing '>' for end of tag
-line 484 column 96 - Warning: <b> is probably intended as </b>
-line 500 column 11 - Warning: <h3> missing '>' for end of tag
-line 543 column 70 - Warning: <b> is probably intended as </b>
-line 239 column 9 - Warning: missing </div>
-line 237 column 7 - Warning: missing </div>
-line 42 column 5 - Warning: missing </div>
-line 211 column 38 - Warning: <img> lacks "alt" attribute
-line 379 column 1 - Warning: <table> lacks "summary" attribute
-line 401 column 1 - Warning: <table> lacks "summary" attribute
-line 255 column 1 - Warning: trimming empty <em>
+line 258 column 1 - Warning: inserting implicit <em>
+line 258 column 1 - Warning: missing </em> before <p>
+line 259 column 8 - Warning: discarding unexpected </em>
+line 262 column 1 - Warning: inserting implicit <p>
+line 422 column 83 - Warning: <b> is probably intended as </b>
+line 438 column 11 - Warning: <h3> missing '>' for end of tag
+line 485 column 96 - Warning: <b> is probably intended as </b>
+line 501 column 11 - Warning: <h3> missing '>' for end of tag
+line 544 column 70 - Warning: <b> is probably intended as </b>
+line 240 column 9 - Warning: missing </div>
+line 238 column 7 - Warning: missing </div>
+line 43 column 5 - Warning: missing </div>
+line 212 column 38 - Warning: <img> lacks "alt" attribute
+line 380 column 1 - Warning: <table> lacks "summary" attribute
+line 402 column 1 - Warning: <table> lacks "summary" attribute
 line 256 column 1 - Warning: trimming empty <em>
-line 255 column 7 - Warning: trimming empty <p>
-line 258 column 1 - Warning: trimming empty <p>
-line 261 column 1 - Warning: trimming empty <p>
-line 380 column 1 - Warning: trimming empty <caption>
-line 402 column 1 - Warning: trimming empty <caption>
+line 257 column 1 - Warning: trimming empty <em>
+line 256 column 7 - Warning: trimming empty <p>
+line 259 column 1 - Warning: trimming empty <p>
+line 262 column 1 - Warning: trimming empty <p>
+line 381 column 1 - Warning: trimming empty <caption>
+line 403 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-26 warnings, 0 errors were found!
+27 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
@@ -1226,20 +1237,21 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page5.html:
 
-line 244 column 11 - Warning: <h3> missing '>' for end of tag
+line 41 column 5 - Warning: discarding unexpected </div>
+line 245 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 255 column 1 - Warning: missing </ul> before </div>
-line 279 column 86 - Warning: <b> is probably intended as </b>
-line 296 column 11 - Warning: <h3> missing '>' for end of tag
+line 256 column 1 - Warning: missing </ul> before </div>
+line 280 column 86 - Warning: <b> is probably intended as </b>
+line 297 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 363 column 115 - Warning: <b> is probably intended as </b>
-line 380 column 11 - Warning: <h3> missing '>' for end of tag
+line 364 column 115 - Warning: <b> is probably intended as </b>
+line 381 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 518 column 79 - Warning: <b> is probably intended as </b>
-line 211 column 38 - Warning: <img> lacks "alt" attribute
+line 519 column 79 - Warning: <b> is probably intended as </b>
+line 212 column 38 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-11 warnings, 0 errors were found!
+12 warnings, 0 errors were found!
 
 
 The alt attribute should be used to give a short description
@@ -1259,21 +1271,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page6.html:
 
-line 244 column 11 - Warning: <h3> missing '>' for end of tag
+line 41 column 5 - Warning: discarding unexpected </div>
+line 245 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 298 column 77 - Warning: <b> is probably intended as </b>
-line 316 column 11 - Warning: <h3> missing '>' for end of tag
+line 299 column 77 - Warning: <b> is probably intended as </b>
+line 317 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 402 column 73 - Warning: <b> is probably intended as </b>
-line 420 column 11 - Warning: <h3> missing '>' for end of tag
+line 403 column 73 - Warning: <b> is probably intended as </b>
+line 421 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 477 column 78 - Warning: <b> is probably intended as </b>
-line 211 column 38 - Warning: <img> lacks "alt" attribute
-line 260 column 6 - Warning: <table> lacks "summary" attribute
-line 261 column 1 - Warning: trimming empty <caption>
+line 478 column 78 - Warning: <b> is probably intended as </b>
+line 212 column 38 - Warning: <img> lacks "alt" attribute
+line 261 column 6 - Warning: <table> lacks "summary" attribute
+line 262 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-12 warnings, 0 errors were found!
+13 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
