@@ -1,123 +1,121 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta http-equiv="Content-Type" content="$BLOG_MIMETYPE; charset=$BLOG_CHARSET" />
-<meta name="generator" content="NanoBlogger $VERSION" />
-<meta name="robots" content="all" />
-<meta name="revisit-after" content="31 days" />
+  <head>
+    <meta http-equiv="Content-Type" content="$BLOG_MIMETYPE; charset=$BLOG_CHARSET" />
+    <meta name="generator" content="NanoBlogger $VERSION" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="31 days" />
 
-<title>$NB_MetaTitle | $BLOG_TITLE</title>
+    <title>$NB_MetaTitle | $BLOG_TITLE</title>
 
-<link rel="stylesheet" href="${BASE_URL}$BLOG_CSS" type="text/css" media="all" />
-<link rel="stylesheet" href="${BASE_URL}styles/print.css" type="text/css" media="print" />
-<link rel="shortcut icon" href="${BASE_URL}$BLOG_ICON" />
-$NB_AtomAltLink
-$NB_RSS2AltLink
-$NB_RSSAltLink
-</head>
+    <link rel="stylesheet" href="${BASE_URL}$BLOG_CSS" type="text/css" media="all" />
+    <link rel="stylesheet" href="${BASE_URL}styles/print.css" type="text/css" media="print" />
+    <link rel="shortcut icon" href="${BASE_URL}$BLOG_ICON" />
+    $NB_AtomAltLink
+    $NB_RSS2AltLink
+    $NB_RSSAltLink
+  </head>
 
-<body> <!-- FILE: templates/archive_index.htm -->
-<div id="banner">
-  <a href="${BASE_URL}$NB_INDEX" accesskey="1">
-    <!-- <img id="bannerimage" src="images/Transparent-1x1.png" alt=""/> -->
-    <img id="bannerimage" src="images/NS-Keycaps.png" alt=""/>
-  </a>
-  <div id="bannername">
-    <h1>
-      <a href="${BASE_URL}$NB_INDEX" accesskey="1">$BLOG_TITLE</a>
-    </h1>
-    <span class="description">$BLOG_DESCRIPTION</span>
-  </div> <!-- /bannername div -->
-  <a href="http://github.com/neil-smithline"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
-</div><!-- /banner div -->
+  <body> <!-- FILE: templates/archive_index.htm -->
+    <div id="banner">
+      <a href="${BASE_URL}$NB_INDEX" accesskey="1">
+        <img id="bannerimage" src="${BASE_URL}images/NS-Keycaps.png" alt=""/>
+      </a>
+      <div id="bannername">
+        <h1>
+          <a href="${BASE_URL}$NB_INDEX" accesskey="1">$BLOG_TITLE</a>
+        </h1>
+        <span class="description">$BLOG_DESCRIPTION</span>
+      </div> <!-- /bannername div -->
+      <a id="github" href="https://github.com/$GITHUB_USER"> <span>Fork me on GitHub!</span> <span>Enjoy my code!</span> </a>
+    </div><!-- /banner div -->
+    <div id="container">
+      <div id="links">
+        <!-- calendar.sh -->
+        <div class="sideitem-calendar sideitem">
+          <div class="calendar">
+            $NB_Calendar
+          </div>
+        </div> <!-- sideitem-calendar -->
+        <!-- weblog_links.sh -->
+        <div class="sideitem-blog-links sideitem">
+          <div class="sidetitle">
+            $template_links
+          </div>
+          <div class="side">
+            $NB_MainLinks
+          </div>
+        </div> <!-- sideitem-blog-links -->
+        $SIDEBAR_GITHUB
+        <!-- weblog_links.sh -->
+        <div class="sideitem-archives sideitem">
+          <div class="sidetitle">
+            $template_archives
+          </div>
+          <div class="side">
+            <a href="${BASE_URL}$ARCHIVES_DIR/$NB_INDEX">$template_archiveindex</a><br />
+            $NB_YearLinks
+          </div>
+        </div> <!-- sideitem-archives -->
+        <!-- $NB_MonthLinks -->
+        <div class="sideitem-syndicate sideitem">
+          <div class="sidetitle">
+            $template_syndicate
+          </div>
+          <div class="syndicate">
+            $NB_BlogFeeds
+            $NB_CategoryFeeds
+          </div>
+        </div> <!-- sideitem-syndicate -->
+        <div class="sideitem-contact sideitem">
+          <div class="sidetitle">
+            $template_contact
+          </div>
+          <div class="side">
+            $BLOG_CONTACT
+          </div>
+        </div> <!-- sideitem-contact -->
+        <!-- weblog_status.sh -->
+        <div class="sideitem-blog-status sideitem">
+          <div class="sidetitle">
+            $template_status
+          </div>
+          <div class="side">
+            $NB_BlogStatus
+          </div>
+        </div> <!-- sideitem-blog-status -->
+        <div class="sideitem-powered sideitem">
+          <div class="sidetitle">
+          </div>
+          <div class="powered">
+            $template_powered
+            <a href="http://nanoblogger.sourceforge.net">nb $VERSION</a>
+          </div>
+        </div> <!-- sideitem-powered -->
+      </div><!-- /links div -->
 
-<div id="container">
+      <div class="archives">
 
-  <div id="links">
-    <!-- calendar.sh -->
-    <div class="sideitem-calendar sideitem">
-      <div class="calendar">
-        $NB_Calendar
-      </div>
-    </div> <!-- sideitem-calendar -->
-    <!-- weblog_links.sh -->
-    <div class="sideitem-blog-links sideitem">
-      <div class="sidetitle">
-        $template_links
-      </div>
-      <div class="side">
-        $NB_MainLinks
-      </div>
-    </div> <!-- sideitem-blog-links -->
-    <!-- weblog_links.sh -->
-    <div class="sideitem-archives sideitem">
-      <div class="sidetitle">
-        $template_archives
-      </div>
-      <div class="side">
-        <a href="${BASE_URL}$ARCHIVES_DIR/$NB_INDEX">$template_archiveindex</a><br />
-        $NB_YearLinks
-      </div>
-    </div> <!-- sideitem-archives -->
-    <!-- $NB_MonthLinks -->
-    <div class="sideitem-syndicate sideitem">
-      <div class="sidetitle">
-        $template_syndicate
-      </div>
-      <div class="syndicate">
-        $NB_BlogFeeds
-        $NB_CategoryFeeds
-      </div>
-    </div> <!-- sideitem-syndicate -->
-    <div class="sideitem-contact sideitem">
-      <div class="sidetitle">
-        $template_contact
-      </div>
-      <div class="side">
-        $BLOG_CONTACT
-      </div>
-    </div> <!-- sideitem-contact -->
-    <!-- weblog_status.sh -->
-    <div class="sideitem-blog-status sideitem">
-      <div class="sidetitle">
-        $template_status
-      </div>
-      <div class="side">
-        $NB_BlogStatus
-      </div>
-    </div> <!-- sideitem-blog-status -->
-    <div class="sideitem-powered sideitem">
-      <div class="sidetitle">
-      </div>
-      <div class="powered">
-        $template_powered
-        <a href="http://nanoblogger.sourceforge.net">nb $VERSION</a>
-      </div>
-    </div> <!-- sideitem-powered -->
-  </div><!-- /links div -->
+        <a id="top"></a>
+        <h2>$NB_MetaTitle</h2>
+        <div id="menu">
+          <a href="${BASE_URL}$NB_INDEX">$template_main</a>
+        </div>
+        <div class="blogbody">
+          $NB_MetaBody
+        </div>
+        <div class="menu">
+          <a href="#top">$NB_TopPage</a>
+        </div>
 
-	<div class="archives">
+      </div><!-- /archives -->
 
-		<a id="top"></a>
-		<h2>$NB_MetaTitle</h2>
-		<div id="menu">
-			<a href="${BASE_URL}$NB_INDEX">$template_main</a>
-		</div>
-		<div class="blogbody">
-			$NB_MetaBody
-		</div>
-		<div class="menu">
-			<a href="#top">$NB_TopPage</a>
-		</div>
+    </div><!-- /container -->
 
-	</div><!-- /archives -->
-
-</div><!-- /container -->
-
-$GA_CODE
-          
-</body>
+    $GA_CODE
+    
+  </body>
 </html>
 
 <!--  LocalWords:  sideitem sidetitle
- -->
+-->

@@ -6,11 +6,9 @@
 @Basic commands
 @These are the most basic commands Quix offers, but possibly also the most powerful ones.
 a       http://www.amazon.com/s/?field-keywords=%s							Amazon Search
-d       http://www.google.com/search?q=define:%s							Google Define a word
+def    http://www.google.com/search?q=define:%s							Google Define a word
 dict	http://www.google.com/dictionary?langpair=en%7Cen&q=%s&hl=en&aq=f	Google Dictionary for a word
 e       mailto:?subject=%t&body=%s%0A%0A%09%r%0A%0A							Email link
-f       http://flickr.com/search/?q=%s										Flickr Search
-fc      http://flickr.com/search/?q=%s&l=comm								Flickr Commercial use CC Search
 find		javascript:s='%s';if(s==''){void(s=prompt('Find%20text:',''));}s='('+s+')';x=new%20RegExp(s,'gi');rn=Math.floor(Math.random()*100);rid='z'%20+%20rn;b%20=%20document.body.innerHTML;b=b.replace(x,'<span%20name='%20+%20rid%20+%20'%20id='%20+%20rid%20+%20'%20style=\'color:#000;background-color:yellow;%20font-weight:bold;\'>$1</span>');void(document.body.innerHTML=b);alert('Found%20'%20+%20document.getElementsByName(rid).length%20+%20'%20matches.');window.scrollTo(0,document.getElementsByName(rid)[0].offsetTop); 	Find in current page, usage: 'find test' will highlight all occurrences of 'test' and will take you to the first occurrence. Just 'find' will open a prompt.
 g       http://www.google.com/search?q=%s									Google Search
 gbs     http://blogsearch.google.com/blogsearch?q=%s						Google Blog Search
@@ -27,18 +25,18 @@ wa		http://www.wolframalpha.com/input/?i=%s								Wolfram Alpha Search
 
 @Social commands
 @These commands are for dealing with social networks and social sites.
+h       javascript:if(!location.href.match('gethopper.com'))void((function()%7Bvar%20script%3Ddocument.createElement('script')%3Bscript.setAttribute('type'%2C'text%2Fjavascript')%3Bscript.setAttribute('charset'%2C'UTF-8')%3Bscript.setAttribute('src'%2C'https%3A%2F%2Fgethopper.com%2Fbookmarklet.js%3Fr%3D'%2BMath.random()*99999999)%3Bdocument.body.appendChild(script)%7D)())%3B Share with Hopper
 pb		http://pinboard.in/add?next=same&url=%re&description=%s&title=%t	Bookmark current page with PinBoard
 db	    http://delicious.com/save?url=%r&title=%t&v=5&jump=yes&notes=%s   	Bookmark the current page in Delicious
 bi          javascript:var%20e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','//bitly.com/bookmarklet/load.js');document.body.appendChild(e);void(0); Bit.ly the current page.
-di          javascript:(function(){s=document.createElement("script");s.type="text/javascript";s.src="http://www.diigo.com/javascripts/webtoolbar/diigolet_b_h_b.js";document.body.appendChild(s);})(); Diigolet Bookmarklet
+d           javascript:(function(){s=document.createElement("script");s.type="text/javascript";s.src="http://www.diigo.com/javascripts/webtoolbar/diigolet_b_h_b.js";document.body.appendChild(s);})(); Diigolet Bookmarklet
+drl         javascript:(function(){DIIGO_R_TEST=false;DIIGO_R_SCRIPT=document.createElement('SCRIPT');DIIGO_R_SCRIPT.type='text/javascript';DIIGO_R_SCRIPT.src='http://www.diigo.com/javascripts/readlater.js';document.getElementsByTagName('body')[0].appendChild(DIIGO_R_SCRIPT)})();  Diigo Read Later Bookmarklet
 fb		http://www.facebook.com/share.php?u=%r&t=%t							Share the current page on Facebook
 gb		http://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=%r&title=%t&annotation=%s	Bookmark with Google Bookmarks
 li		javascript:(function(){d=document,l=d.location,f='http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title='+encodeURIComponent(d.title)+'&url='+encodeURIComponent(l.href),a=function(){if(!window.open(f,'News','width=520,height=570,toolbar=0,location=0,status=0,scrollbars=yes')){l.href=f;}};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0);}else{a();}})()				Share the current page on LinkedIn
-tn	    http://twitter.com/home?status=%s%20%t%20%r							Tweet the current page
-s       http://search.twitter.com/search?q=%s								Twitter Search
+tu	    http://twitter.com/home?status=%s%20%t%20%r							Tweet the current page
+ts       http://search.twitter.com/search?q=%s								Twitter Search
 t       http://twitter.com/%s												Twitter User
-v       http://vimeo.com/videos/search:%s									Vimeo Search
-yt      http://www.youtube.com/results?search_query=%s						YouTube Search
 tumblr	javascript:d=document;w=window;e=w.getSelection;k=d.getSelection;x=d.selection;s=(e?e():(k)?k():(x?x.createRange().text:0));f='http://www.tumblr.com/share';l=d.location,e=encodeURIComponent;p='?v=3&u='+e(l.href)%20+'&t='+e(d.title)%20+'&s='+e(s);u=f+p;try{if(!/^(.*\.)?tumblr[^.]*$/.test(l.host))throw(0);tstbklt();}catch(z){a%20=function(){if(!w.open(u,'t','toolbar=0,resizable=0,status=1,width=450,height=430'))l.href=u;};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();}void(0)						Share on Tumblr
 post	javascript:var%20b=document.body;POSTEROUS___bookmarklet_domain='http://posterous.com';if(b&&!document.xmlVersion){void(z=document.createElement('script'));void(z.type='text/javascript');void(z.src='http://posterous.com/javascripts/bookmarklet2.js');void(b.appendChild(z));}else{}				Share on Posterous
 su		http://www.stumbleupon.com/submit?url=%r&title=%t					Submit to StumbleUpon.

@@ -1,7 +1,7 @@
 
 TITLE:           Smartphones Everywhere
 AUTHOR:          Neil Smithline
-TIMESTAMP:       2012-02-22 Wed 18:38:14
+TIMESTAMP:       2012-02-22 Wed 18:38
 DESC:            Some discussion about the pervasiveness of smartphones.
 FORMAT:          raw
 -----

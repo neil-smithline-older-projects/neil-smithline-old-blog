@@ -1,13 +1,13 @@
+
 #+NB_TITLE:        Smartphones Everywhere
 #+DESCRIPTION:     Some discussion about the pervasiveness of smartphones.
 #+AUTHOR:          Neil Smithline
-#+NB_DATE:         2012-02-22 Wed 18:38:14
+#+NB_DATE:         2012-02-22 18:38:14
 #+NB_TAGS:         tech
 #+KEYWORDS:        
 #+LINK_UP:         
 #+LINK_HOME:       
 #+NB_ID:           2012-02-22T18_38_14.txt
-
 
 Interpreting this chart from [[http://blog.nielsen.com/nielsenwire/online_mobile/survey-new-u-s-smartphone-growth-by-age-and-income/][Nielsen]] (via [[http://www.wired.com/epicenter/2012/02/smartphone-buying-machine/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+wired%2Findex+%28Wired%3A+Index+3+%28Top+Stories+2%29%29][Wired]]) does not require any great amount of effort.
 #+BEGIN_CENTER

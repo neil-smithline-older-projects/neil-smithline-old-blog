@@ -1,10 +1,10 @@
 
 tidy validating /Volumes/HOME/neil/www-nb/atom.xml:
 
-line 471 column 8 - Error: unexpected </em> in <p>
-line 632 column 1 - Error: unexpected </content> in <div>
-line 634 column 1 - Error: unexpected </entry> in <div>
-line 691 column 1 - Error: unexpected </feed> in <div>
+line 548 column 8 - Error: unexpected </em> in <p>
+line 709 column 1 - Error: unexpected </content> in <div>
+line 711 column 1 - Error: unexpected </entry> in <div>
+line 713 column 1 - Error: unexpected </feed> in <div>
 0 warnings, 4 errors were found!
 
 This document has errors that must be fixed before
@@ -25,13 +25,48 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
+tidy validating /Volumes/HOME/neil/www-nb/articles/contact-me/index.html:
+
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 234 column 350 - Warning: unescaped & or unknown entity "&style"
+line 193 column 34 - Warning: <img> lacks "alt" attribute
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+3 warnings, 0 errors were found!
+
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
 tidy validating /Volumes/HOME/neil/www-nb/archives/index.html:
 
-line 37 column 49 - Warning: <img> element not empty or not closed
+line 170 column 38 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 1 warning, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -40,11 +75,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/sync-software/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -53,11 +99,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/tech/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -66,11 +123,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/my-software/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -79,11 +147,70 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/about-me/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/cloud-computing/index.html:
+
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/archives/cloud/index.html:
+
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -92,11 +219,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/software/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -105,11 +243,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/nanoblogger/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -118,11 +267,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/reference/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -131,11 +291,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/unix-reference/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -144,11 +315,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/online-freedom/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -157,11 +339,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/blog/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -170,11 +363,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/litigious-trio/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -183,11 +387,22 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/archives/coding/index.html:
 
-line 27 column 49 - Warning: <img> element not empty or not closed
+line 30 column 49 - Warning: <img> element not empty or not closed
+line 136 column 50 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -218,9 +433,21 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/05/index.html:
+
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/index.html:
 
-line 215 column 13 - Warning: <a> escaping malformed URI reference
+line 216 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.1
 1 warning, 0 errors were found!
@@ -302,8 +529,8 @@ Warning: adjacent hyphens within comment
 Warning: adjacent hyphens within comment
 Warning: adjacent hyphens within comment
 Warning: adjacent hyphens within comment
-line 504 column 6 - Warning: <table> lacks "summary" attribute
-line 505 column 1 - Warning: trimming empty <caption>
+line 500 column 6 - Warning: <table> lacks "summary" attribute
+line 501 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Strict
 9 warnings, 0 errors were found!
@@ -326,13 +553,48 @@ Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/05/09/blackberrys_manufacturer_rim_nearly_rip/index.html:
+
+line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+2 warnings, 0 errors were found!
+
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/22/smartphones_everywhere/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -342,10 +604,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/21/my_patents/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
-line 218 column 13 - Warning: <a> escaping malformed URI reference
+line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 221 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-2 warnings, 0 errors were found!
+3 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -356,6 +619,16 @@ use another algorithm to escape such URIs and some server-sided
 scripts depend on that. If you want to depend on that, you must
 escape the URI by your own. For more information please refer to
 http://www.w3.org/International/O-URL-and-ident.html
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -365,23 +638,45 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/14/new_nanoblogger_command-line/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
 Lobby your company to join W3C, see http://www.w3.org/Consortium
 
-tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/index.html:
+tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/03/this_blog_is_now_hosted_for_free/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -391,10 +686,21 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/02/01/nastiest_hack_ive_seen_in_awhile/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -404,10 +710,21 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/man_vs_beast/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -417,10 +734,11 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/14/sopa_doa_not_quite_but_getting_there/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
-line 225 column 128 - Warning: <a> escaping malformed URI reference
+line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 228 column 128 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-2 warnings, 0 errors were found!
+3 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -432,6 +750,16 @@ scripts depend on that. If you want to depend on that, you must
 escape the URI by your own. For more information please refer to
 http://www.w3.org/International/O-URL-and-ident.html
 
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
@@ -440,10 +768,21 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/09/cool_animation/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -455,15 +794,15 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2012/01/05/stop_ptsd_support_
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 40 column 49 - Warning: <img> element not empty or not closed
-line 206 column 1 - Warning: missing </em> before <p>
-line 207 column 1 - Warning: inserting implicit <em>
-line 207 column 1 - Warning: missing </em> before <p>
-line 208 column 1 - Warning: inserting implicit <em>
-line 208 column 1 - Warning: missing </em> before <p>
-line 209 column 8 - Warning: discarding unexpected </em>
-line 212 column 1 - Warning: inserting implicit <p>
-line 198 column 1 - Warning: missing </div>
-line 178 column 9 - Warning: missing </div>
+line 209 column 1 - Warning: missing </em> before <p>
+line 210 column 1 - Warning: inserting implicit <em>
+line 210 column 1 - Warning: missing </em> before <p>
+line 211 column 1 - Warning: inserting implicit <em>
+line 211 column 1 - Warning: missing </em> before <p>
+line 212 column 8 - Warning: discarding unexpected </em>
+line 215 column 1 - Warning: inserting implicit <p>
+line 201 column 1 - Warning: missing </div>
+line 181 column 9 - Warning: missing </div>
 line 43 column 1 - Warning: missing </div>
 line 6 column 1 - Warning: <meta> proprietary attribute "just"
 line 6 column 1 - Warning: <meta> proprietary attribute "campaign"
@@ -473,18 +812,19 @@ line 6 column 1 - Warning: <meta> proprietary attribute "people"
 line 6 column 1 - Warning: <meta> proprietary attribute "to"
 line 6 column 1 - Warning: <meta> proprietary attribute "sponsor"
 line 6 column 1 - Warning: <meta> proprietary attribute "the"
-line 330 column 1 - Warning: <table> lacks "summary" attribute
-line 352 column 1 - Warning: <table> lacks "summary" attribute
-line 206 column 1 - Warning: trimming empty <em>
-line 207 column 1 - Warning: trimming empty <em>
-line 206 column 7 - Warning: trimming empty <p>
-line 209 column 1 - Warning: trimming empty <p>
+line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 333 column 1 - Warning: <table> lacks "summary" attribute
+line 355 column 1 - Warning: <table> lacks "summary" attribute
+line 209 column 1 - Warning: trimming empty <em>
+line 210 column 1 - Warning: trimming empty <em>
+line 209 column 7 - Warning: trimming empty <p>
 line 212 column 1 - Warning: trimming empty <p>
-line 331 column 1 - Warning: trimming empty <caption>
-line 353 column 1 - Warning: trimming empty <caption>
+line 215 column 1 - Warning: trimming empty <p>
+line 334 column 1 - Warning: trimming empty <caption>
+line 356 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-30 warnings, 0 errors were found!
+31 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
@@ -493,6 +833,11 @@ non-visual browsers. The scope and headers attributes for
 table cells are useful for specifying which headers apply
 to each table cell, enabling non-visual browsers to provide
 a meaningful context for each cell.
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
 
 For further advice on how to make your pages accessible
 see http://www.w3.org/WAI/GL. You may also want to try
@@ -507,10 +852,21 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/index.html:
 
 line 40 column 49 - Warning: <img> element not empty or not closed
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-1 warning, 0 errors were found!
+2 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -525,10 +881,21 @@ line 6 column 1 - Warning: <meta> attribute with missing trailing quote mark
 line 40 column 49 - Warning: <img> element not empty or not closed
 line 6 column 1 - Warning: <meta> proprietary attribute "rather"
 line 6 column 1 - Warning: <meta> proprietary attribute "than"
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-6 warnings, 0 errors were found!
+7 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -539,11 +906,22 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/20/unix_reference_add
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
-line 206 column 1 - Warning: missing </ul> before </div>
+line 209 column 1 - Warning: missing </ul> before </div>
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-3 warnings, 0 errors were found!
+4 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -554,10 +932,21 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/15/sparkleshare_maybe
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-2 warnings, 0 errors were found!
+3 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -568,10 +957,21 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/11/sopa_the_end_of_fr
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-2 warnings, 0 errors were found!
+3 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -582,11 +982,12 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/got_tags_working_m
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
-line 211 column 6 - Warning: <table> lacks "summary" attribute
-line 212 column 1 - Warning: trimming empty <caption>
+line 155 column 40 - Warning: <img> lacks "alt" attribute
+line 214 column 6 - Warning: <table> lacks "summary" attribute
+line 215 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-4 warnings, 0 errors were found!
+5 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
@@ -595,6 +996,11 @@ non-visual browsers. The scope and headers attributes for
 table cells are useful for specifying which headers apply
 to each table cell, enabling non-visual browsers to provide
 a meaningful context for each cell.
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
 
 For further advice on how to make your pages accessible
 see http://www.w3.org/WAI/GL. You may also want to try
@@ -610,10 +1016,21 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/seems_it_really_wo
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-2 warnings, 0 errors were found!
+3 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -624,10 +1041,21 @@ tidy validating /Volumes/HOME/neil/www-nb/archives/2011/12/10/my_new_blogging_te
 
 line 40 column 49 - Warning: <img> element not empty or not closed
 Warning: adjacent hyphens within comment
+line 155 column 40 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-2 warnings, 0 errors were found!
+3 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -636,14 +1064,14 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index.html:
 
-line 38 column 49 - Warning: <img> element not empty or not closed
-line 229 column 11 - Warning: <h3> missing '>' for end of tag
-line 300 column 74 - Warning: <b> is probably intended as </b>
-line 316 column 11 - Warning: <h3> missing '>' for end of tag
-line 354 column 62 - Warning: <b> is probably intended as </b>
-line 370 column 11 - Warning: <h3> missing '>' for end of tag
-line 465 column 80 - Warning: <b> is probably intended as </b>
-line 339 column 13 - Warning: <a> escaping malformed URI reference
+line 244 column 11 - Warning: <h3> missing '>' for end of tag
+line 312 column 91 - Warning: <b> is probably intended as </b>
+line 328 column 11 - Warning: <h3> missing '>' for end of tag
+line 399 column 74 - Warning: <b> is probably intended as </b>
+line 416 column 11 - Warning: <h3> missing '>' for end of tag
+line 454 column 62 - Warning: <b> is probably intended as </b>
+line 211 column 38 - Warning: <img> lacks "alt" attribute
+line 439 column 13 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 8 warnings, 0 errors were found!
@@ -658,6 +1086,16 @@ scripts depend on that. If you want to depend on that, you must
 escape the URI by your own. For more information please refer to
 http://www.w3.org/International/O-URL-and-ident.html
 
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
 HTML and CSS specifications are available from http://www.w3.org/
@@ -665,17 +1103,27 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page2.html:
 
-line 38 column 49 - Warning: <img> element not empty or not closed
-line 229 column 11 - Warning: <h3> missing '>' for end of tag
-line 271 column 111 - Warning: <b> is probably intended as </b>
-line 287 column 11 - Warning: <h3> missing '>' for end of tag
-line 334 column 84 - Warning: <b> is probably intended as </b>
-line 351 column 11 - Warning: <h3> missing '>' for end of tag
-line 370 column 64 - Warning: <b> is probably intended as </b>
+line 244 column 11 - Warning: <h3> missing '>' for end of tag
+line 339 column 80 - Warning: <b> is probably intended as </b>
+line 356 column 11 - Warning: <h3> missing '>' for end of tag
+line 398 column 84 - Warning: <b> is probably intended as </b>
+line 414 column 11 - Warning: <h3> missing '>' for end of tag
+line 461 column 84 - Warning: <b> is probably intended as </b>
+line 211 column 38 - Warning: <img> lacks "alt" attribute
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
 7 warnings, 0 errors were found!
 
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org
@@ -684,36 +1132,17 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page3.html:
 
-line 38 column 49 - Warning: <img> element not empty or not closed
-line 229 column 11 - Warning: <h3> missing '>' for end of tag
-line 264 column 88 - Warning: <b> is probably intended as </b>
-line 280 column 11 - Warning: <h3> missing '>' for end of tag
-line 297 column 66 - Warning: <b> is probably intended as </b>
-line 313 column 11 - Warning: <h3> missing '>' for end of tag
-line 324 column 1 - Warning: missing </em> before <p>
-line 325 column 1 - Warning: inserting implicit <em>
-line 325 column 1 - Warning: missing </em> before <p>
-line 326 column 1 - Warning: inserting implicit <em>
-line 326 column 1 - Warning: missing </em> before <p>
-line 327 column 8 - Warning: discarding unexpected </em>
-line 330 column 1 - Warning: inserting implicit <p>
-line 490 column 83 - Warning: <b> is probably intended as </b>
-line 224 column 17 - Warning: missing </div>
-line 221 column 9 - Warning: missing </div>
-line 41 column 1 - Warning: missing </div>
-line 259 column 128 - Warning: <a> escaping malformed URI reference
-line 448 column 1 - Warning: <table> lacks "summary" attribute
-line 470 column 1 - Warning: <table> lacks "summary" attribute
-line 324 column 1 - Warning: trimming empty <em>
-line 325 column 1 - Warning: trimming empty <em>
-line 324 column 7 - Warning: trimming empty <p>
-line 327 column 1 - Warning: trimming empty <p>
-line 330 column 1 - Warning: trimming empty <p>
-line 449 column 1 - Warning: trimming empty <caption>
-line 471 column 1 - Warning: trimming empty <caption>
+line 244 column 11 - Warning: <h3> missing '>' for end of tag
+line 263 column 64 - Warning: <b> is probably intended as </b>
+line 279 column 11 - Warning: <h3> missing '>' for end of tag
+line 314 column 88 - Warning: <b> is probably intended as </b>
+line 330 column 11 - Warning: <h3> missing '>' for end of tag
+line 347 column 66 - Warning: <b> is probably intended as </b>
+line 211 column 38 - Warning: <img> lacks "alt" attribute
+line 309 column 128 - Warning: <a> escaping malformed URI reference
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-27 warnings, 0 errors were found!
+8 warnings, 0 errors were found!
 
 
 URIs must be properly escaped, they must not contain unescaped
@@ -725,12 +1154,10 @@ scripts depend on that. If you want to depend on that, you must
 escape the URI by your own. For more information please refer to
 http://www.w3.org/International/O-URL-and-ident.html
 
-The table summary attribute should be used to describe
-the table structure. It is very helpful for people using
-non-visual browsers. The scope and headers attributes for
-table cells are useful for specifying which headers apply
-to each table cell, enabling non-visual browsers to provide
-a meaningful context for each cell.
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
 
 For further advice on how to make your pages accessible
 see http://www.w3.org/WAI/GL. You may also want to try
@@ -744,42 +1171,35 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page4.html:
 
-line 38 column 49 - Warning: <img> element not empty or not closed
-line 229 column 11 - Warning: <h3> missing '>' for end of tag
-line 276 column 96 - Warning: <b> is probably intended as </b>
-line 292 column 11 - Warning: <h3> missing '>' for end of tag
-line 335 column 70 - Warning: <b> is probably intended as </b>
-line 352 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 363 column 1 - Warning: missing </ul> before </div>
-line 391 column 86 - Warning: <b> is probably intended as </b>
+line 244 column 11 - Warning: <h3> missing '>' for end of tag
+line 255 column 1 - Warning: missing </em> before <p>
+line 256 column 1 - Warning: inserting implicit <em>
+line 256 column 1 - Warning: missing </em> before <p>
+line 257 column 1 - Warning: inserting implicit <em>
+line 257 column 1 - Warning: missing </em> before <p>
+line 258 column 8 - Warning: discarding unexpected </em>
+line 261 column 1 - Warning: inserting implicit <p>
+line 421 column 83 - Warning: <b> is probably intended as </b>
+line 437 column 11 - Warning: <h3> missing '>' for end of tag
+line 484 column 96 - Warning: <b> is probably intended as </b>
+line 500 column 11 - Warning: <h3> missing '>' for end of tag
+line 543 column 70 - Warning: <b> is probably intended as </b>
+line 239 column 9 - Warning: missing </div>
+line 237 column 7 - Warning: missing </div>
+line 42 column 5 - Warning: missing </div>
+line 211 column 38 - Warning: <img> lacks "alt" attribute
+line 379 column 1 - Warning: <table> lacks "summary" attribute
+line 401 column 1 - Warning: <table> lacks "summary" attribute
+line 255 column 1 - Warning: trimming empty <em>
+line 256 column 1 - Warning: trimming empty <em>
+line 255 column 7 - Warning: trimming empty <p>
+line 258 column 1 - Warning: trimming empty <p>
+line 261 column 1 - Warning: trimming empty <p>
+line 380 column 1 - Warning: trimming empty <caption>
+line 402 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-9 warnings, 0 errors were found!
-
-
-To learn more about HTML Tidy see http://tidy.sourceforge.net
-Please send bug reports to html-tidy@w3.org
-HTML and CSS specifications are available from http://www.w3.org/
-Lobby your company to join W3C, see http://www.w3.org/Consortium
-
-tidy validating /Volumes/HOME/neil/www-nb/index-page5.html:
-
-line 38 column 49 - Warning: <img> element not empty or not closed
-line 229 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 296 column 115 - Warning: <b> is probably intended as </b>
-line 313 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 451 column 79 - Warning: <b> is probably intended as </b>
-line 467 column 11 - Warning: <h3> missing '>' for end of tag
-Warning: adjacent hyphens within comment
-line 521 column 77 - Warning: <b> is probably intended as </b>
-line 483 column 6 - Warning: <table> lacks "summary" attribute
-line 484 column 1 - Warning: trimming empty <caption>
-Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
-Info: Document content looks like XHTML 1.0 Transitional
-12 warnings, 0 errors were found!
+26 warnings, 0 errors were found!
 
 
 The table summary attribute should be used to describe
@@ -788,6 +1208,44 @@ non-visual browsers. The scope and headers attributes for
 table cells are useful for specifying which headers apply
 to each table cell, enabling non-visual browsers to provide
 a meaningful context for each cell.
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /Volumes/HOME/neil/www-nb/index-page5.html:
+
+line 244 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 255 column 1 - Warning: missing </ul> before </div>
+line 279 column 86 - Warning: <b> is probably intended as </b>
+line 296 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 363 column 115 - Warning: <b> is probably intended as </b>
+line 380 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 518 column 79 - Warning: <b> is probably intended as </b>
+line 211 column 38 - Warning: <img> lacks "alt" attribute
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+11 warnings, 0 errors were found!
+
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
 
 For further advice on how to make your pages accessible
 see http://www.w3.org/WAI/GL. You may also want to try
@@ -801,17 +1259,39 @@ Lobby your company to join W3C, see http://www.w3.org/Consortium
 
 tidy validating /Volumes/HOME/neil/www-nb/index-page6.html:
 
-line 38 column 49 - Warning: <img> element not empty or not closed
-line 229 column 11 - Warning: <h3> missing '>' for end of tag
+line 244 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 315 column 73 - Warning: <b> is probably intended as </b>
-line 333 column 11 - Warning: <h3> missing '>' for end of tag
+line 298 column 77 - Warning: <b> is probably intended as </b>
+line 316 column 11 - Warning: <h3> missing '>' for end of tag
 Warning: adjacent hyphens within comment
-line 390 column 78 - Warning: <b> is probably intended as </b>
+line 402 column 73 - Warning: <b> is probably intended as </b>
+line 420 column 11 - Warning: <h3> missing '>' for end of tag
+Warning: adjacent hyphens within comment
+line 477 column 78 - Warning: <b> is probably intended as </b>
+line 211 column 38 - Warning: <img> lacks "alt" attribute
+line 260 column 6 - Warning: <table> lacks "summary" attribute
+line 261 column 1 - Warning: trimming empty <caption>
 Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
 Info: Document content looks like XHTML 1.0 Transitional
-7 warnings, 0 errors were found!
+12 warnings, 0 errors were found!
 
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
 
 To learn more about HTML Tidy see http://tidy.sourceforge.net
 Please send bug reports to html-tidy@w3.org

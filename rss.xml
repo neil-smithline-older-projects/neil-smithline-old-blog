@@ -8,14 +8,83 @@
 <description>Ramblings about my nerdy pursuits</description>
 <dc:language>en-us</dc:language>
 <dc:creator>Neil Smithline</dc:creator>
-<dc:date>2012-03-27T17:17:37-05:00</dc:date>
+<dc:date>2012-05-10T18:08:11-05:00</dc:date>
 <admin:generatorAgent rdf:resource="http://nanoblogger.sourceforge.net" />
+<item>
+<link>http://www.neilsmithline.com/feed/archives/2012/05/09/blackberrys_manufacturer_rim_nearly_rip/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/05/09/blackberrys_manufacturer_rim_nearly_rip/</guid>
+<title>Blackberry's Manufacturer RIM Nearly RIP</title>
+<dc:date>2012-05-09T23:00:47-05:00</dc:date>
+<dc:creator>Neil Smithline</dc:creator>
+<description>
+<![CDATA[<!-- NB_TAGS:    tech, litigious-trio -->
+<!-- NB_ID:      2012-03-31T16_14_12.txt -->
+<p>
+<b>RIM No Longer A Viable Company</b>
+</p>
+<p>
+<a href="http://bit.ly/HAtKtt">RIM</a>, arguably the manufacturer of the first successful smartphone, the <a href="http://bit.ly/HAub73">Blackberry</a>, has not only lost its market lead, but is facing a rather unpredictable future. RIM's new CEO, <a href="http://bit.ly/HAuOO6">Thorsten Heins</a>, <a href="http://www.washingtonpost.com/business/rim-charts-risky-survival-plan-while-opening-door-to-sale/2012/03/31/gIQAJYZRnS_story.html?tid=pm_business_pop">has stated</a> that RIM is open to acquisition. At least for the short-term, his statements have led to a one-day, 5% bounce back of the stock price which was down 70% in the 12 months.
+</p>
+<p>
+<b>RIM's History</b>
+</p>
+<p>
+For those of you that are unaware of RIM's history, it got its start in <a href="http://en.wikipedia.org/wiki/Canada">Canada</a> as a <a href="http://bit.ly/H9vfx5">2-way pager</a> provider. In 1999, RIM moved into the smartphone market with its first Blackberry and immediately achieved market dominance. 
+</p>
+<p>
+Factors that led to their dominance included:
+</p><ul>
+<li>Intelligent Marketing::One example was a giving away pre-1.0 Blackberries to attendees of the 1999 <a href="http://en.wikipedia.org/wiki/JavaOne">JavaOne</a> conference. I imagine that there wasn't a better set of <a href="http://en.wikipedia.org/wiki/Software_release_life_cycle#Beta">beta testers</a> than the gadget geeks that attended JavaOne (myself include). 
+</li>
+<li>Sales Channels::RIM was selling its 2-way pagers to professionals who had a need to be in constant communication such as doctors, attorneys, business executives, and law enforcement. With the introduction of the Blackberry, RIM just added a better product to offer those same professionals. Sure it was more expensive, but 2-way pagers were already fairly costly. They were the perfect audience to market smartphones to.
+</li>
+<li>First To Market::In 1999, most mobile providers were focused on upgrading their networks from analog to digital. Once the digital networks were in place, new functionality such as internet access would be easy to providing. But upgrading networks takes time. It involves men climbing towers, FCC regulations, local zoning laws, etc. But RIM didn't have to do this.
+</li>
+</ul>
+
+
+<p>
+<b>RIM's Brilliance</b>
+</p>
+<p>
+In what I consider a spectacular marketing and technological move, RIM started providing internet service over their existing 2-way pager network. While only a short-term solution as the 2-way pager network was designed for low-bandwidth usage, it was instantaneous. The first Blackberry was basically a 2-way pager with a good sized screen and full QWERTY keyboard. 
+</p>
+<p>
+<b>What Went Wrong</b>
+</p>
+<p>
+RIM's mistake was that they didn't learn from prior boom-to-bust technology companies. RIM seems to have perfectly followed the (mis)steps of Digital Electronics. While IBM has survived, it lost its market dominance in a sector, twice. The first time as a manufacture of mainframes in the 1970's and then again as a PC manufacturer in the 1980's. Apollo Computers, SGI, Xerox, all leaders at one time, are either gone or no longer of interest. 
+</p>
+<p>
+All of these companies suffered from a similar set of mistakes including:
+</p><ul>
+<li>Overconfidence::Each company thought that they were invulnerable. IBM is perhaps the best example. In the 1970's, when an IT manager had to make a decision about what gigantic computer to buy, they often said "Nobody ever got fired for choosing IBM.". 
+</li>
+<li>Lack of Foresight::Technology and markets change and so too must your company. Clearly RIM, along with its arch-rival Palm, both missed the boat. Phones went from being personal communication devices to be tiny, fit-in-your-pocket, computers. 
+</li>
+<li>Unwillingness to Self-Cannibalize::In order to stay ahead of the technology market, you must be willing to come out with products that are better and cheaper than your existing products. HP and Goodyear are two companies that get this. Within a product line, HP routinely comes out with a better and cheaper printer than the one they currently have on the market. They know that it is going to kill sales of their existing printer. But HP also knows that when their customers need a new printer, it will be an HP printer. I know that Goodyear isn't considered a technology company, but their product, tires, involve high-tech materials and manufacturing processes. The CEO of Goodyear once asked how do you keep a company in business when you know that your next product is going to be cheaper, better, and last longer than your current product? While I think that HP and Goodyear would both prefer to keep selling their old products, they know better. It seems RIM didn't.
+</li>
+</ul>
+
+
+<p>
+<b>The Final Outcome</b>
+</p>
+<p>
+In the end, RIM, the makers of the Blackberry that was a status symbol for business executives in the 1990's, has all but been put out of business by Apple, a waning computer company in 1990, and Google, a non-existent company in 1990. 
+</p>
+<p>
+The trick to surviving in the high-tech marketplace is simple. All you need to do is realize that your market share is never safe, that there is always another company working on something that is better than what you have, and that you must act if you are fighting for your life, all-day, everyday. 
+</p>]]>
+</description>
+</item>
 <item>
 <link>http://www.neilsmithline.com/feed/archives/2012/02/22/smartphones_everywhere/</link>
 <guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/22/smartphones_everywhere/</guid>
 <title>Smartphones Everywhere</title>
 <dc:date>2012-02-22T18:38:14-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
+<dc:subject>tech, cloud</dc:subject>
 <description>
 <![CDATA[<!-- NB_TAGS:    tech -->
 <!-- NB_ID:      2012-02-22T18_38_14.txt -->
@@ -217,9 +286,9 @@ If you wish to use NBC, look at the source code, or tell me why NBC sucks, you c
 </description>
 </item>
 <item>
-<link>http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free_and_its_slashdot_proof_too/</guid>
-<title>This Blog Is Now Hosted For Free (and it's slashdot proof too)</title>
+<link>http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free/</link>
+<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2012/02/03/this_blog_is_now_hosted_for_free/</guid>
+<title>This Blog Is Now Hosted For Free</title>
 <dc:date>2012-02-03T21:49:09-05:00</dc:date>
 <dc:creator>Neil Smithline</dc:creator>
 <dc:subject>blog</dc:subject>
@@ -229,10 +298,10 @@ If you wish to use NBC, look at the source code, or tell me why NBC sucks, you c
 <!-- The posting body follows this END_HTML directive -->
 
 <p>
-While there are many free or nearly free blog hosting sites available, most of them come with a long list of restrictions. Either they restrict you to using their blogging software, throw ads on your pages, give you the "unlimited bandwidth" plan that they'll cut off if your site gets too much traffic, limit you to only the ugly themes, etc&hellip; 
+While there are many free or nearly free blog hosting sites available, most of them come with a long list of restrictions. Either they restrict you to using their blogging software, throw ads on your pages, give you the "unlimited bandwidth" plan that they'll cut off if your site gets too much traffic, limit you to only the ugly themes, etc.
 </p>
 <p>
-But <a href="http://www.neilsmithline.com">www.neilsmithline.com</a> is now hosted on a site that charges me nothing, doesn't put ads on my pages, couldn't care less about the theme I use, and, should I ever be lucky enough, survive <a href="http://en.wikipedia.org/wiki/Slashdotting">slashdotting</a>. The only restriction is that my blog has to be static. Being that I already had a static blog (see <a href="#about-this-blogs-tech.org">previous posting</a>), this was no problem for me at all. I've used lots of dynamic blogs (<a href="http://en.wikipedia.org/wiki/Drupal">Drupal</a>, <a href="http://en.wikipedia.org/wiki/Wordpress">WordPress</a>, <a href="http://en.wikipedia.org/wiki/Joomla">Joomla</a>, <a href="http://en.wikipedia.org/wiki/Blogger_(service)">Blogger</a>, <a href="http://en.wikipedia.org/wiki/Movable_Type">Movable Type</a>, etc&hellip;) and just found that "dynamic" is a short way of saying that the blogging system is going to do what it wants and not what I want.
+But <a href="http://www.neilsmithline.com">www.neilsmithline.com</a> is now hosted on a site that charges me nothing, doesn't put ads on my pages, couldn't care less about the theme I use, and, should I ever be lucky enough, survive <a href="http://en.wikipedia.org/wiki/Slashdotting">slashdotting</a>. The only restriction is that my blog has to be static. Being that I already had a static blog (see <a href="#about-this-blogs-tech.org">previous posting</a>), this was no problem for me at all. I've used lots of dynamic blogs (<a href="http://en.wikipedia.org/wiki/Drupal">Drupal</a>, <a href="http://en.wikipedia.org/wiki/Wordpress">WordPress</a>, <a href="http://en.wikipedia.org/wiki/Joomla">Joomla</a>, <a href="http://en.wikipedia.org/wiki/Blogger_(service)">Blogger</a>, <a href="http://en.wikipedia.org/wiki/Movable_Type">Movable Type</a>, etc.) and just found that "dynamic" is a short way of saying that the blogging system is going to do what it wants and not what I want.
 </p>
 <p>
 Along with the free hosting I get automatic version control, well-managed collaboration (not that I have any collaborators), data redundancy, eternal archiving (I probably won't need it that long but it's nice to know that nothing will get lost), and the ability to get a copy of my data onto my local machine whenever I want it.
@@ -322,7 +391,7 @@ Despite the plain hackery of the above code, I expanded upon it, making it a ful
 I stumbled upon <a href="http://bit.ly/Ad2VZd">this article</a> in the Wikipedia about an annual 22-mile cross-country race where the participants are people running and people riding horses. After 25-years the first runner won the race. In the subsequent half-dozen years there have been several more human winners. 
 </p>
 <p>
-I feel bad for any runner that is drafting a horse when the horse's tail goes up&hellip;
+I feel bad for any runner that is drafting a horse when the horse's tail goes up :-)
 </p>]]>
 </description>
 </item>
@@ -556,54 +625,6 @@ or this HTML:
 
 
 <br/>]]>
-</description>
-</item>
-<item>
-<link>http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/</link>
-<guid isPermaLink="true">http://www.neilsmithline.com/feed/archives/2011/12/30/florida_appeals_court_more_liberal_than_sopa/</guid>
-<title>Florida Appeals Court More Liberal Than SOPA!</title>
-<dc:date>2011-12-30T12:26:33-05:00</dc:date>
-<dc:creator>Neil Smithline</dc:creator>
-<dc:subject>online-freedom</dc:subject>
-<description>
-<![CDATA[<!-- NANOBLOGGER METADATA - END -->
-
-<!-- The posting body follows this END_HTML directive -->
-
-<p>
-Earlier this week, the Florida appeals court made a ruling that even the poster of a defamatory posting on a public website could not force a website to remove the posting. While most sites allow you to remove your own postings, <a href="http://www.ripoffreport.com/">RipoffReport.com</a>, the site involved in this ruling, states that as an advocate of free speech, it never removes reports. This is clearly stated at the top of their home page and documented extensively on their <a href="http://en.wikipedia.org/wiki/Ripoff_Report#Non-removal_Policy">Wikipedia page</a>. 
-</p>
-<p>
-While not allowing the poster to remove or have removed a posting seems extreme, the site claims that it wishes to remain unbiased. As such, it makes no judgment calls about its content. Everything that is appropriate for the site will stay on the site, forever. RipoffReport.com is afraid that posters may be pressured by 3<sup>rd</sup>-parties to remove articles. As such, They are simply not allowed to.
-</p>
-<p>
-While postings are never removed, the site allows anyone to post a <a href="http://en.wikipedia.org/wiki/Rebuttal">rebuttal</a> to any posting. A poster can use this mechanism to retract their initial statement. 
-</p>
-<p>
-The court ruled that RipoffReport.com could neither be held liable for the defamatory posting nor be forced to remove it. The bottom line of all of this is that
-</p>
-
-<div style="text-align: center">
-<p>The supreme court of Florida, a <a href="http://www.gallup.com/poll/125066/State-States.aspx">middle-of-the-road state</a>, was willing to make a controversial ruling favored many aspects of freedom of speech. If SOPA is passed, cases like this won't even make it to courts as SOPA make it clear that if a ruling is defamatory, it is illegal.
-</p>
-</div>
-
-<p>
-While Congress has delayed voting on SOPA for another month, it is still on the docket. It is unclear what the fate of SOPA will be. 
-</p>
-<p>
-One can hope that Congress pays attention to protests such as the statement]] consumers sent to <a href="http://www.godaddy.com">GoDaddy</a> after it announced its support of SOPA. GoDaddy announced that on a Saturday (see <a href="http://news.slashdot.org/story/11/12/29/2053252/wikipedia-to-dump-godaddy-over-sopa">more complete chronology</a>) and then lost <a href="http://tech.slashdot.org/story/11/12/25/1452251/go-daddy-loses-over-21000-domains-in-one-daylosing">21K domains</a> on the next day. More recently, the <a href="http://news.slashdot.org/story/11/12/29/2053252/wikipedia-to-dump-godaddy-over-sopa">Wikipedia announced it would discontinue all use of GoDaddy</a>. 
-</p>
-<p>
-Let's continue to hope that advocates of free speech, including you (see <a href="SOPA-the-end-of-free-speech.html#ID-06BB29E4-D6B3-430E-B5A3-FDC6716A0ED3">SOPA: The End Of Free Speech</a> for instructions as to how to help), continue to pressure our government into sane activit
-</p>
-<p>
-Copied directly from the <a href="http://www.slashdot.org">Slashdot</a> <a href="http://bit.ly/vVVDLC">article</a>:
-</p><blockquote>
-
-<p><a href="http://www.ripoffreport.com/">RipoffReport.com</a> contained an admittedly defamatory posting, by one of its users, about a person who operated a Florida corporation providing addiction treatment services. Although the site was asked by the poster herself to remove the post, it refused. A Florida appeals court has ruled that the site is absolutely immune from suit (<a href="http://recordingindustryvspeople.blogspot.com/2011/12/florida-appeals-court-rules.html">pdf</a>), and cannot even be directed to remove the offending post, since under the [[http://www.law.cornell.edu/uscode/html/uscode47/usc<sub>sec</sub><sub>47</sub><sub>00000230</sub>-&mdash;000-.html][Communications Decency Act (47 USC 230)] 'no cause of action may be brought' against a provider of an "interactive computer service" based upon information provided by a 3rd party.
-</p>
-</blockquote>]]>
 </description>
 </item>
 </channel>

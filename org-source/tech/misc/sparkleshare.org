@@ -24,7 +24,7 @@ pre-release version so I this was to be expected.
 I gave it another try earlier this week and seem to be pretty happy
 with it. Some of the things I like about it include:
   1) I get to host it on my own server. This means the data is
-     private. I own it. Nobody else has a copy of it. Etc...
+     private. I own it. Nobody else has a copy of it. Etc.
   1) I have been renting a Linux [[http://en.wikipedia.org/wiki/Virtual_private_server][VPS]] from [[http://rosehosting.com][RoseHosting.com]] ($20/month)
      for many years so they provide me with a convenient, managed, and
      relatively secure place to host Sparkleshare.

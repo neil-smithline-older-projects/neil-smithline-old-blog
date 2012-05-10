@@ -29,7 +29,7 @@ I gave it another try earlier this week and seem to be pretty happy
 with it. Some of the things I like about it include:
 </p><ol>
 <li>I get to host it on my own server. This means the data is
-     private. I own it. Nobody else has a copy of it. Etc&hellip;
+     private. I own it. Nobody else has a copy of it. Etc.
 </li>
 <li>I have been renting a Linux <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a> from <a href="http://rosehosting.com">RoseHosting.com</a> ($20/month)
      for many years so they provide me with a convenient, managed, and

@@ -10,7 +10,7 @@
 
 <!-- NANOBLOGGER METADATA - BEGIN -->
 
-TITLE:  This Blog Is Now Hosted For Free (and it's slashdot proof too)
+TITLE:  This Blog Is Now Hosted For Free
 DESC:   How I managed to both have my cake and eat it too.
 DATE:   2012-02-03 Fri 21:49:09
 AUTHOR: Neil Smithline
@@ -22,10 +22,10 @@ BODY:
 <!-- The posting body follows this END_HTML directive -->
 
 <p>
-While there are many free or nearly free blog hosting sites available, most of them come with a long list of restrictions. Either they restrict you to using their blogging software, throw ads on your pages, give you the "unlimited bandwidth" plan that they'll cut off if your site gets too much traffic, limit you to only the ugly themes, etc&hellip; 
+While there are many free or nearly free blog hosting sites available, most of them come with a long list of restrictions. Either they restrict you to using their blogging software, throw ads on your pages, give you the "unlimited bandwidth" plan that they'll cut off if your site gets too much traffic, limit you to only the ugly themes, etc.
 </p>
 <p>
-But <a href="http://www.neilsmithline.com">www.neilsmithline.com</a> is now hosted on a site that charges me nothing, doesn't put ads on my pages, couldn't care less about the theme I use, and, should I ever be lucky enough, survive <a href="http://en.wikipedia.org/wiki/Slashdotting">slashdotting</a>. The only restriction is that my blog has to be static. Being that I already had a static blog (see <a href="#about-this-blogs-tech.org">previous posting</a>), this was no problem for me at all. I've used lots of dynamic blogs (<a href="http://en.wikipedia.org/wiki/Drupal">Drupal</a>, <a href="http://en.wikipedia.org/wiki/Wordpress">WordPress</a>, <a href="http://en.wikipedia.org/wiki/Joomla">Joomla</a>, <a href="http://en.wikipedia.org/wiki/Blogger_(service)">Blogger</a>, <a href="http://en.wikipedia.org/wiki/Movable_Type">Movable Type</a>, etc&hellip;) and just found that "dynamic" is a short way of saying that the blogging system is going to do what it wants and not what I want.
+But <a href="http://www.neilsmithline.com">www.neilsmithline.com</a> is now hosted on a site that charges me nothing, doesn't put ads on my pages, couldn't care less about the theme I use, and, should I ever be lucky enough, survive <a href="http://en.wikipedia.org/wiki/Slashdotting">slashdotting</a>. The only restriction is that my blog has to be static. Being that I already had a static blog (see <a href="#about-this-blogs-tech.org">previous posting</a>), this was no problem for me at all. I've used lots of dynamic blogs (<a href="http://en.wikipedia.org/wiki/Drupal">Drupal</a>, <a href="http://en.wikipedia.org/wiki/Wordpress">WordPress</a>, <a href="http://en.wikipedia.org/wiki/Joomla">Joomla</a>, <a href="http://en.wikipedia.org/wiki/Blogger_(service)">Blogger</a>, <a href="http://en.wikipedia.org/wiki/Movable_Type">Movable Type</a>, etc.) and just found that "dynamic" is a short way of saying that the blogging system is going to do what it wants and not what I want.
 </p>
 <p>
 Along with the free hosting I get automatic version control, well-managed collaboration (not that I have any collaborators), data redundancy, eternal archiving (I probably won't need it that long but it's nice to know that nothing will get lost), and the ability to get a copy of my data onto my local machine whenever I want it.

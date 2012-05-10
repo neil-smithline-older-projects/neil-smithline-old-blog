@@ -1,49 +1,10 @@
-* org-protocol [2012-04-07 Sat 19:02]
-  Been spending lots of time with Emacs Org Mode. Lots to learn but life keeps getting easier with it. Today been looking at using the Org Mode for note taking and logging. This file is written use Org Mode and its Remember functionality.
-* Learning Ruby And Org Mode And Improving Github.com, Oh My! [2012-04-07 Sat 19:08]
-** Github And Org Mode
-I've fallen in love with [[http://github.com][Github.com]]. It does a great job integrating with Emacs Org Mode. I've cobbled together my own [[http://www.neilsmithline.com/archives/blog/][blog technology]], largely based on Org Mode and Github. Github has the ability to process raw Org Mode files (very cool), but its processing is incomplete. 
 
-Github uses the Ruby gem [[https://github.com/bdewey/=org-ruby=][=org-ruby=]] to process Org Mode files. So I've been adding Org Mode features that the =org-ruby= gem doesn't support but I like to use. I've had [[http://bit.ly/HnFptZ][my first]] [[http://bit.ly/HnFvBP][pull request]] accepted and merged into the =org-ruby= gem. 
-
-So I'm learning Ruby and improving Github at the same time. Cool beans!
-
-** My Next Feature
-The feature I'm working on now is [[http://bit.ly/I5uF4o][inline embedding]] of HTML tags in Org Mode files using =@<...>=. I came up with an simple and tidy strategy to add the functionality to the code in a very natural manner but I was concerned about its performance. 
-
-The implementation will involve inserting array entries into the middle of an array of length =N= where =N= is the number of lines in the Org Mode file. Having been around the block more than once, I know enough about predicting performance to know that I don't know enough about predicting performance without testing it first.
-
-** Performance Testing Before Implementing
-I created a file that was 11K lines of Org Mode data. That is rather big for an Org Mode file. The file was actual Org Mode that I created by duplicating the contents of a file a few tens-of-thousands of times. I then modified the Ruby gem to check the performance. I thought that I would get more predictive results by testing in the actual code that would be used rather than by writing a simpler, but likely more convenient, test program.
-
-So I added the lines between [[(start)]] and [[(end)]] to the gem's line-buffer initialization.[1]
-
-#+BEGIN_SRC ruby -n 
-  def initialize(line, parser = nil)
-    @parser = parser
-    @line = line
-    @indent = 0
-    @line =~ /\s*/
-    @assigned_paragraph_type = nil
-    @indent = $&.length unless blank?
-    IO.write("/tmp/time-start", Time.now)         (ref:start)
-    for i in 1..100000
-      @line.insert(i*2,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-    end
-    IO.write("/tmp/time-end", Time.now)           (ref:end)
-  end
-#+END_SRC
-
-I'm not sure that all 100K inserts take place as the initial =@line= array is only 11K lines long. But I don't get an error and I'm comfortable assuming that I tested only 5.5K array insertions. If I tested all 100K insertions then the actual timings would be two [[http://bit.ly/IjvVzP][orders of magnitude]] better. When I ran the test on my MacBook Pro, the difference between the times in the =time-start= file and =time-end= file is only 42 seconds. 
-
-Doing some quick math, 5.5K divided by 42 seconds is roughly 0.0076363636363636364 seconds. That is less that 8 milliseconds per insertion. The verdict: I think that Github can spare an extra 8 milliseconds per inline HTML annotation. Especially considering how large the file was (approximately 1M bytes) and the fact that it took seconds to just write the output to disk.
-
-** And...
-
-All that's left now is to implement the functionality. That's the easy (hopefully) and fun (almost certainly) part. Especially being that I'm enjoying learning Ruby.
-
-* Footnotes
-
-[1] This led to me finding another bug in =org-ruby= gem. The =(start)= and =(end)= links are supposed to be replaced by the line numbers in the code sample with the matching tags. I'll save that one for another day :-)
-
-
+* 2012
+*** 2012-04 April
+***** 2012-04-15 Sunday
+*** 2012-05 May
+***** 2012-05-02 Wednesday
+******* test2 [2012-05-02 Wed 18:42]
+some notes
+ 
+ [[file:~/.emacs.d/user-init-subdirs/org/org-protocol-user-init.el::(add-to-list%20'org-capture-templates][foo]]

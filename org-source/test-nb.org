@@ -1,5 +1,5 @@
-
-#+TITLE:           my title
+     
+#+NB_TITLE:        my title
 #+DESCRIPTION:     my description
 #+AUTHOR:          Neil Smithline
 #+NB_DATE:         2012-03-23 Fri 10:03:01
@@ -22,6 +22,14 @@ and some test code
   (org-trim (file-name-nondirectory (shell-command-to-string 
                                      (format "ls -1rt %s/data/2* | tail -1"
                                              (org-nb-blog-root))))).txt"
+(org-publish-get-project-from-filename buffer-file-name)
+ 
+
+
+
+(org-nb-configure-project)
+
+
 * And a top-level header
 with text
 ** and a 2nd level header
@@ -29,3 +37,10 @@ with its own text
 
 
                                     
+
+(org-publish-expand-projects org-publish-project-alist)
+(("www-nb" :base-directory "/Volumes/HOME/neil/www-nb/org-source" :recursive t :publishing-directory "/Volumes/HOME/neil/www-nb/data" :base-extension "org" :body-only t :html-extension "txt" :exclude ".*private.*" :link-home "/Volumes/HOME/neil/www-nb/index.html" :creator-info nil :time-stamp-file nil :tags nil :table-of-contents nil :html-postamble org-nb-insert-postamble :html-preamble org-nb-insert-preamble :html-expand t :convert-org-links t :auto-sitemap t))
+
+(org-publish-get-project-from-filename buffer-file-name)
+
+("www-nb" :base-directory "/Volumes/HOME/neil/www-nb/org-source" :recursive t :publishing-directory "/Volumes/HOME/neil/www-nb/data" :base-extension "org" :body-only t :html-extension "txt" :exclude ".*private.*" :link-home "/Volumes/HOME/neil/www-nb/index.html" :creator-info nil :time-stamp-file nil :tags nil :table-of-contents nil :html-postamble org-nb-insert-postamble :html-preamble org-nb-insert-preamble :html-expand t :convert-org-links t :auto-sitemap t)
